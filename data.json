@@ -767,6 +767,73 @@
           "nombre": "Punto Fijo",
           "centros": [
             {
+              "nombre": "GoldStars Gym — Sede Sambil",
+              "direccion": "GoldStars Gym, Sambil Paraguaná, Punto Fijo",
+              "coords": [
+                11.7068,
+                -70.2086
+              ],
+              "maps": "https://maps.google.com/?q=Sambil+Paragu%C3%A1na+Punto+Fijo",
+              "recibe": [
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de limpieza",
+                "materiales para refugio"
+              ],
+              "fuente": "Flyer oficial de GoldStars Gym (GSG)"
+            },
+            {
+              "nombre": "GoldStars Gym — Sede CC Las Virtudes",
+              "direccion": "GoldStars Gym, Centro Comercial Las Virtudes, Punto Fijo",
+              "coords": [
+                11.6850,
+                -70.2106
+              ],
+              "maps": "https://maps.google.com/?q=Centro+Comercial+Las+Virtudes+Punto+Fijo",
+              "recibe": [
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de limpieza",
+                "materiales para refugio"
+              ],
+              "fuente": "Flyer oficial de GoldStars Gym (GSG)"
+            },
+            {
+              "nombre": "Alas Viajeras",
+              "direccion": "Oficina Alas Viajeras, Hotel Puerto Plata, Punto Fijo",
+              "coords": [
+                11.6960,
+                -70.2153
+              ],
+              "maps": "https://maps.google.com/?q=Hotel+Puerto+Plata+Punto+Fijo",
+              "whatsapp": "+584146522514",
+              "contacto": "WhatsApp: +58 414-6522514 · +58 412-0824196 · +58 424-6585459",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de limpieza",
+                "materiales para refugio"
+              ],
+              "fuente": "Flyer de Alas Viajeras · @ysnaidarosaspdvsa",
+              "nota": "Los insumos son entregados a Cáritas Diócesis de Punto Fijo y a aeropuertos como grandes centros de acopio y distribución nacional."
+            },
+            {
               "nombre": "Cáritas Diócesis de Punto Fijo",
               "direccion": "Sector Centro, calle Páez entre Brasil y Perú, frente a la primera casa de Punto Fijo",
               "coords": [
