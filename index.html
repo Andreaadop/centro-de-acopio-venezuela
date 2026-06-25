@@ -431,15 +431,15 @@
 
         <!-- Primary action: big dropdown -->
         <form id="estado-form" class="mt-10 sm:mt-12 reveal" style="animation-delay:.2s" onsubmit="event.preventDefault()">
-          <label for="estado-select" class="eyebrow text-muted block mb-3">Paso 1 · Selecciona tu estado</label>
+          <label for="estado-select" class="eyebrow text-muted block mb-3">Paso 1 · Selecciona tu estado <span class="text-coral">(o país si estás fuera de Venezuela)</span></label>
           <div class="relative max-w-2xl">
             <!-- left icon -->
             <svg class="absolute left-4 top-1/2 -translate-y-1/2 text-navy" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M12 21s-7-7.5-7-12a7 7 0 1 1 14 0c0 4.5-7 12-7 12Z"/>
               <circle cx="12" cy="9" r="2.5"/>
             </svg>
-            <select id="estado-select" class="estado-select" aria-label="Selecciona un estado">
-              <option value="">— Todos los estados —</option>
+            <select id="estado-select" class="estado-select" aria-label="Selecciona un estado o país">
+              <option value="">— Todos los estados / países —</option>
             </select>
             <!-- right chevron -->
             <svg class="pointer-events-none absolute right-5 top-1/2 -translate-y-1/2 text-ink" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
@@ -723,7 +723,7 @@
         return q.toLowerCase().split(/\s+/).every((t) => hay.includes(t));
       }
 
-      const EXTERIOR = new Set(['Colombia','Estados Unidos','Panamá','Ecuador','España']);
+      const EXTERIOR = new Set(['Colombia','Estados Unidos','Panamá','Ecuador','España','Chile']);
 
       function populateSelect() {
         const sel = $('#estado-select');
@@ -736,7 +736,7 @@
 
         const fmt = (e) => `<option value="${e.nombre}">${e.count > 0 ? `${e.nombre} — ${e.count} centro${e.count === 1 ? '' : 's'}` : e.nombre}</option>`;
 
-        let html = `<option value="">— Todos los estados —</option>`;
+        let html = `<option value="">— Todos los estados / países —</option>`;
         html += ve.map(fmt).join('');
         if (ex.length) {
           html += `<option value="" disabled>──────────  Exterior  ──────────</option>`;

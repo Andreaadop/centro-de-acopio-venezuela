@@ -956,6 +956,29 @@
               "fuente": "Tomado del Instagram de CevMedios"
             },
             {
+              "nombre": "Toneladas de Alegría",
+              "direccion": "Edificio VVZ, Av. Sorocaima, Caracas",
+              "coords": [
+                10.4920,
+                -66.8580
+              ],
+              "maps": "https://maps.google.com/?q=Edificio+VVZ+Av+Sorocaima+Caracas",
+              "instagram": "toneladasdealegria",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Reciben también bebidas hidratantes y leche infantil. ONG con red logística para distribución humanitaria — son la organización receptora de la iniciativa Una Vzlana en Madrid (Sambil Madrid) en España.",
+              "fuente": "Flyer @toneladasdealegria · Centro de Acopio Activo"
+            },
+            {
               "nombre": "Sociedad civil",
               "direccion": "Quinta El Bejucal, cuarta Avenida transversal de Altamira, entre novena y décima transversal",
               "coords": [
@@ -2067,6 +2090,24 @@
               "fuente": "Flyer comunitario centros de acopio Maracaibo"
             },
             {
+              "nombre": "Pin Zulia",
+              "direccion": "Pin Zulia, Maracaibo",
+              "maps": "https://maps.app.goo.gl/CV9v9ysfYsr1KLJ37",
+              "instagram": "pinzulia",
+              "horario": "9:00am - 9:00pm, hasta el domingo 28/06",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "cascos de protección"
+              ],
+              "nota": "Las medicinas deben estar vigentes.",
+              "fuente": "Flyer @pinzulia · Somos punto de apoyo"
+            },
+            {
               "nombre": "Pitts Bowling",
               "direccion": "CC Costa Verde, Av. Bella Vista, Maracaibo 4002",
               "coords": [
@@ -2649,11 +2690,39 @@
       ]
     },
     {
+      "nombre": "Chile",
+      "ciudades": []
+    },
+    {
       "nombre": "España",
       "ciudades": [
         {
           "nombre": "Madrid",
           "centros": [
+            {
+              "nombre": "Una Vzlana en Madrid — Sambil Madrid",
+              "direccion": "Sambil Madrid, Planta 0, Madrid",
+              "coords": [
+                40.4837,
+                -3.6680
+              ],
+              "maps": "https://maps.google.com/?q=Sambil+Madrid",
+              "instagram": "unavzlanaenmadrid",
+              "horario": "Sábado y domingo, 10:00 a 18:30",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "nota": "Reciben también leche infantil, productos para bebés y cajas de plástico para envíos. La ONG @toneladasdealegria recibe el material en Venezuela y la Fundación @bandazul se encarga de la distribución para garantizar que llegue a las personas que más lo necesitan.",
+              "fuente": "Flyer @unavzlanaenmadrid · @sambilmadrid"
+            },
             {
               "nombre": "Refugiados sin fronteras",
               "direccion": "Calle Matilde Landa 26",
