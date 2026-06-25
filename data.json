@@ -1641,25 +1641,35 @@
               "fuente": "Flyer oficial @ludusbox"
             },
             {
-              "nombre": "IMAGOLAB",
-              "direccion": "Calle 76 entre Avenidas 3Y y 3H",
+              "nombre": "Imagolab C.A. (Centro de Imágenes)",
+              "direccion": "Calle 76 entre Av. 3H y 3Y, Edificio Villa Ota II, tercer piso",
               "coords": [
                 10.6695,
                 -71.6170
               ],
-              "maps": "https://maps.google.com/?q=IMAGOLAB+Maracaibo",
-              "horario": "8:30am - 4:00pm",
+              "maps": "https://maps.app.goo.gl/FRq8wyRKg1a7ikiYA",
+              "instagram": "imagolab.ve",
+              "horario": "Lunes a viernes, 8:30am - 6:00pm",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos",
-                "ropa en buen estado",
+                "kits de primeros auxilios",
                 "mantas y cobijas",
+                "ropa en buen estado",
                 "artículos de higiene personal",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "artículos de limpieza",
+                "materiales para refugio",
                 "linternas, pilas y cargadores portátiles",
-                "colchones, almohadas y colchones inflables"
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
               ],
-              "fuente": "Flyer comunitario centros de acopio Maracaibo"
+              "fuente": "Flyer comunitario centros de acopio Maracaibo · Reportes verificados de @imagolab.ve por Juliani Cano y Yonali Segovia"
             },
             {
               "nombre": "Protección Civil Maracaibo",
