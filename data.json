@@ -424,6 +424,31 @@
       "nombre": "Barinas",
       "ciudades": [
         {
+          "nombre": "Santa Bárbara de Barinas",
+          "centros": [
+            {
+              "nombre": "Restaurant O'Maria",
+              "direccion": "Carrera 5 con calles 18 y 19, Municipio Ezequiel Zamora, Santa Bárbara de Barinas",
+              "coords": [
+                8.6213,
+                -70.2051
+              ],
+              "maps": "https://maps.google.com/?q=Restaurant+O'Maria+Santa+B%C3%A1rbara+de+Barinas",
+              "whatsapp": "+584247141072",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
+            }
+          ]
+        },
+        {
           "nombre": "Barinas",
           "centros": [
             {
@@ -718,6 +743,25 @@
           "nombre": "Valencia",
           "centros": [
             {
+              "nombre": "Cuerpo de Bomberos Universidad de Carabobo",
+              "direccion": "Sede del Cuerpo de Bomberos, Universidad de Carabobo, Valencia",
+              "coords": [
+                10.1640,
+                -68.0080
+              ],
+              "maps": "https://maps.google.com/?q=Cuerpo+de+Bomberos+Universidad+de+Carabobo+Valencia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
+            },
+            {
               "nombre": "G3 Logística — Valencia",
               "direccion": "Calle La Pedrera, Fundo Los Marines, Zona Industrial San Diego",
               "coords": [
@@ -843,6 +887,44 @@
               ],
               "maps": "https://maps.google.com/?q=10.461193,-66.939636",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "FCU-UCV — Plaza Rectorado",
+              "direccion": "Plaza Rectorado, Universidad Central de Venezuela (UCV), Caracas",
+              "coords": [
+                10.4900,
+                -66.8900
+              ],
+              "maps": "https://maps.google.com/?q=Plaza+Rectorado+UCV+Caracas",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
+            },
+            {
+              "nombre": "Sede de Desarrollo Social — Sambil Chacao",
+              "direccion": "Calle Los Ángeles, lateral al CC Sambil Chacao, Caracas",
+              "coords": [
+                10.4960,
+                -66.8540
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Los+%C3%81ngeles+Sambil+Chacao+Caracas",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
             },
             {
               "nombre": "Edificio Rita Palace — Los Caobos",
@@ -1284,13 +1366,13 @@
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
             },
             {
-              "nombre": "Sociedad civil",
-              "direccion": "Colegio de Médicos",
+              "nombre": "Colegio de Médicos de Mérida",
+              "direccion": "Sede del Colegio de Médicos de Mérida",
               "coords": [
                 8.5916,
                 -71.1448
               ],
-              "maps": "https://maps.google.com/?q=8.5916,-71.1448",
+              "maps": "https://maps.google.com/?q=Colegio+de+M%C3%A9dicos+M%C3%A9rida",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
@@ -1298,7 +1380,7 @@
                 "mantas y cobijas",
                 "ropa en buen estado"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "fuente": "El Nacional · elnacional.com · Lista colaborativa de @marielozadab y @nathaliesayago"
             }
           ]
         }
@@ -1307,6 +1389,49 @@
     {
       "nombre": "Miranda",
       "ciudades": [
+        {
+          "nombre": "San Antonio de Los Altos",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio San Antonio — Bulevar de Las Minas",
+              "direccion": "Bulevar de Las Minas, frente al Farmatodo, San Antonio de Los Altos",
+              "coords": [
+                10.3700,
+                -66.9450
+              ],
+              "maps": "https://maps.google.com/?q=Bulevar+de+Las+Minas+San+Antonio+de+Los+Altos",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
+            },
+            {
+              "nombre": "Complejo Cultural Los Salias",
+              "direccion": "Complejo Cultural Los Salias, San Antonio de Los Altos",
+              "coords": [
+                10.3720,
+                -66.9460
+              ],
+              "maps": "https://maps.google.com/?q=Complejo+Cultural+Los+Salias+San+Antonio+de+Los+Altos",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
+            }
+          ]
+        },
         {
           "nombre": "Caracas",
           "centros": [
