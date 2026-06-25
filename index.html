@@ -13,29 +13,38 @@
     <meta name="robots" content="index, follow" />
     <meta name="language" content="es-VE" />
     <meta name="theme-color" content="#0A1F44" />
-    <link rel="canonical" href="https://centrosdeacopio.ve/" />
+    <link rel="canonical" href="https://www.centrosdeacopiovzla.com/" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJ55ZNSHMM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZJ55ZNSHMM');
+    </script>
 
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_VE" />
     <meta property="og:site_name" content="Centros de Acopio Venezuela" />
-    <meta property="og:url" content="https://centrosdeacopio.ve/" />
+    <meta property="og:url" content="https://www.centrosdeacopiovzla.com/" />
     <meta property="og:title" content="Centros de Acopio Venezuela" />
     <meta property="og:description" content="Encuentra dónde donar cerca de ti. Directorio comunitario abierto tras el sismo de magnitud 7.5. Busca por estado, ciudad o cercanía." />
-    <meta property="og:image" content="https://centrosdeacopio.ve/og-image.png" />
+    <meta property="og:image" content="https://www.centrosdeacopiovzla.com/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Centros de Acopio Venezuela — Encuentra dónde donar cerca de ti" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://centrosdeacopio.ve/" />
+    <meta name="twitter:url" content="https://www.centrosdeacopiovzla.com/" />
     <meta name="twitter:title" content="Centros de Acopio Venezuela" />
     <meta name="twitter:description" content="Encuentra dónde donar cerca de ti. Directorio comunitario abierto tras el sismo." />
-    <meta name="twitter:image" content="https://centrosdeacopio.ve/og-image.png" />
+    <meta name="twitter:image" content="https://www.centrosdeacopiovzla.com/og-image.png" />
     <meta name="twitter:image:alt" content="Centros de Acopio Venezuela" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -987,9 +996,9 @@
         fEst.innerHTML = `<option value="">Selecciona…</option>` +
           sorted.map((n) => `<option value="${n}">${n}</option>`).join('');
 
-        // populate recibe checkboxes from recibe_default
+        // populate recibe checkboxes from recibe_options (fallback to recibe_default)
         const list = $('#recibe-list');
-        const items = state.data.recibe_default || [];
+        const items = state.data.recibe_options || state.data.recibe_default || [];
         list.innerHTML = items.map((it, i) => `
           <label class="check-row">
             <input type="checkbox" name="recibe" value="${it}" />
