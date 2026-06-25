@@ -28,7 +28,9 @@
     "pañales de adulto",
     "artículos para niños",
     "artículos de limpieza",
-    "materiales para refugio"
+    "materiales para refugio",
+    "linternas, pilas y cargadores portátiles",
+    "colchones, almohadas y colchones inflables"
   ],
   "estados": [
     {
@@ -1304,24 +1306,27 @@
               "fuente": "Fui personalmente"
             },
             {
-              "nombre": "Un Nuevo Tiempo",
-              "direccion": "Sede regional Un Nuevo Tiempo",
+              "nombre": "Sede Regional de Un Nuevo Tiempo (UNT Zulia)",
+              "direccion": "Avenida 3F con Avenida Universidad",
               "coords": [
                 10.6545,
                 -71.6402
               ],
-              "maps": "https://maps.google.com/?q=10.6545,-71.6402",
+              "maps": "https://maps.google.com/?q=Avenida+3F+con+Universidad+Maracaibo",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos",
                 "ropa en buen estado",
-                "abrigos y otros implementos de protección"
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
             },
             {
-              "nombre": "Vente Zulia",
+              "nombre": "Sede de Vente Zulia",
               "direccion": "Calle 70 con Av. 15A y 15B, N° 15A-39, calle paralela a Nebabrica",
               "coords": [
                 10.652693,
@@ -1333,9 +1338,117 @@
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos",
                 "ropa en buen estado",
-                "abrigos y otros implementos de protección"
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "Parroquia San Antonio María Claret",
+              "direccion": "Calle 78 Dr. Portillo con Av. 3E",
+              "coords": [
+                10.6727,
+                -71.6160
+              ],
+              "maps": "https://maps.google.com/?q=Calle+78+Dr+Portillo+Av+3E+Maracaibo",
+              "horario": "8:00am - 4:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "Hogar Clínica San Rafael",
+              "direccion": "Calle 64 con Av. 3F, Sector Las Mercedes",
+              "coords": [
+                10.6660,
+                -71.6190
+              ],
+              "maps": "https://maps.google.com/?q=Hogar+Cl%C3%ADnica+San+Rafael+Maracaibo",
+              "horario": "8:00am - 4:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "IMAGOLAB",
+              "direccion": "Calle 76 entre Avenidas 3Y y 3H",
+              "coords": [
+                10.6695,
+                -71.6170
+              ],
+              "maps": "https://maps.google.com/?q=IMAGOLAB+Maracaibo",
+              "horario": "8:30am - 4:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "Protección Civil Maracaibo",
+              "direccion": "Av. 15 Delicias con Av. 16 Los Haticos, al lado de Terminal Terrestre Maracaibo",
+              "coords": [
+                10.6300,
+                -71.6500
+              ],
+              "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+Maracaibo+Terminal+Terrestre",
+              "whatsapp": "+584141479763",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "CAFI",
+              "direccion": "Galpón 1, Residencias Santa Lucía, Av. El Milagro",
+              "coords": [
+                10.6900,
+                -71.6280
+              ],
+              "maps": "https://maps.google.com/?q=Residencias+Santa+Luc%C3%ADa+Av+El+Milagro+Maracaibo",
+              "horario": "A partir del 26/06, 10:00am",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
             }
           ]
         }
