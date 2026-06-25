@@ -2913,7 +2913,35 @@
     },
     {
       "nombre": "Chile",
-      "ciudades": []
+      "ciudades": [
+        {
+          "nombre": "Santiago",
+          "centros": [
+            {
+              "nombre": "Papelón Sabroso — Centro de Acopio",
+              "direccion": "Av. Providencia 1669, Providencia, Santiago de Chile",
+              "coords": [
+                -33.4255,
+                -70.6235
+              ],
+              "maps": "https://maps.google.com/?q=Av+Providencia+1669+Santiago+Chile",
+              "instagram": "visualizaudios",
+              "horario": "Lunes a sábado, 9:00 - 21:00 · Domingo, 9:00 - 18:00",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "alimentos para mascotas"
+              ],
+              "nota": "Reciben también leche (líquida o en polvo), fórmulas infantiles, toallas sanitarias, toallas húmedas, jabón, shampoo, pasta dental, papel higiénico y enlatados. En beneficio de los afectados del terremoto del 24 de junio en Venezuela.",
+              "fuente": "Flyer @visualizaudios · Papelón Sabroso es Centro de Acopio"
+            }
+          ]
+        }
+      ]
     },
     {
       "nombre": "España",
