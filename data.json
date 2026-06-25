@@ -107,9 +107,29 @@
     {
       "nombre": "Cruz Roja Venezolana",
       "alcance": "nacional",
-      "descripcion": "La Cruz Roja Venezolana se encuentra brindando asistencia a las personas afectadas por el terremoto. Puedes realizar tu donación a través de sus cuentas oficiales.",
+      "descripcion": "La Sociedad Venezolana de la Cruz Roja se encuentra brindando asistencia humanitaria a las personas afectadas por el terremoto. Puedes realizar tu donación a través de sus cuentas oficiales en bolívares o dólares.",
       "tipo_ayuda": "Respuesta humanitaria",
-      "web": "https://www.cruzrojavenezolana.org/"
+      "web": "https://www.cruzrojavenezolana.org/",
+      "metodos": [
+        {
+          "tipo": "Transferencia bolívares (VES)",
+          "banco": "Banco Banesco",
+          "campos": [
+            { "etiqueta": "Titular", "valor": "Sociedad Venezolana de la Cruz Roja" },
+            { "etiqueta": "RIF", "valor": "J-00235031-8" },
+            { "etiqueta": "Cuenta", "valor": "0134-0224-82-2243028658" }
+          ]
+        },
+        {
+          "tipo": "Transferencia dólares (USD) en Venezuela",
+          "banco": "Banco Banesco",
+          "campos": [
+            { "etiqueta": "Titular", "valor": "Sociedad Venezolana de la Cruz Roja" },
+            { "etiqueta": "RIF", "valor": "J-00235031-8" },
+            { "etiqueta": "Cuenta", "valor": "0134-1736-99-0001006051" }
+          ]
+        }
+      ]
     },
     {
       "nombre": "Save the Children",
@@ -604,6 +624,45 @@
       "nombre": "Carabobo",
       "ciudades": [
         {
+          "nombre": "San Diego",
+          "centros": [
+            {
+              "nombre": "Iglesia La Esmeralda",
+              "direccion": "Iglesia La Esmeralda, San Diego",
+              "coords": [
+                10.2400,
+                -67.9700
+              ],
+              "maps": "https://maps.google.com/?q=Iglesia+La+Esmeralda+San+Diego+Carabobo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Carabobo"
+            },
+            {
+              "nombre": "Iglesia Pueblo de San Diego",
+              "direccion": "Iglesia Pueblo de San Diego, San Diego",
+              "coords": [
+                10.2420,
+                -67.9720
+              ],
+              "maps": "https://maps.google.com/?q=Iglesia+Pueblo+de+San+Diego+Carabobo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Carabobo"
+            }
+          ]
+        },
+        {
           "nombre": "Guacara",
           "centros": [
             {
@@ -800,6 +859,23 @@
                 "medicamentos e insumos médicos"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Iglesia San Bernardino de Siena",
+              "direccion": "Parroquia San Bernardino, Caracas",
+              "coords": [
+                10.5060,
+                -66.8980
+              ],
+              "maps": "https://maps.google.com/?q=Iglesia+San+Bernardino+de+Siena+Caracas",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Venezuela"
             },
             {
               "nombre": "Iglesia La Paz Montalbán I",
@@ -1440,36 +1516,247 @@
           "nombre": "San Cristóbal",
           "centros": [
             {
-              "nombre": "Rotaract Táchira",
-              "direccion": "Brave Community Fitness, al lado del hotel Manuel",
+              "nombre": "Universidad de Los Andes — Núcleo Táchira",
+              "direccion": "Núcleo Táchira de la ULA, San Cristóbal",
               "coords": [
-                7.8146,
-                -72.443
+                7.7660,
+                -72.2300
               ],
-              "maps": "https://maps.google.com/?q=7.8146,-72.443",
-              "whatsapp": "573508741816",
+              "maps": "https://maps.google.com/?q=ULA+N%C3%BAcleo+T%C3%A1chira+San+Crist%C3%B3bal",
+              "fuente": "Lista colaborativa @lorenadavilaaaaa"
+            },
+            {
+              "nombre": "Ven Únete — Sede Civil",
+              "direccion": "Sede de Civil, Edificio A, Cochineras, San Cristóbal",
+              "coords": [
+                7.7670,
+                -72.2160
+              ],
+              "maps": "https://maps.google.com/?q=UNET+Cochineras+San+Crist%C3%B3bal",
+              "horario": "A partir del jueves 25 de junio",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
-                "medicamentos e insumos médicos"
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "fuente": "Flyer Ven Únete · La fuerza estudiantil que transforma"
             },
             {
-              "nombre": "Sociedad civil",
-              "direccion": "Madeco, Av. Cuatricentenaria",
+              "nombre": "Rotaract Zona Táchira — Revista Rotaria",
+              "direccion": "Revista Rotaria, frente a la Cruz Roja, San Cristóbal",
               "coords": [
-                7.7669,
-                -72.225
+                7.765093,
+                -72.222636
               ],
-              "maps": "https://maps.google.com/?q=7.7669,-72.225",
+              "maps": "https://maps.google.com/?q=Revista+Rotaria+San+Crist%C3%B3bal",
+              "whatsapp": "+584147121207",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos",
-                "ropa en buen estado"
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "cascos de protección",
+                "abrigos y otros implementos de protección"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "nota": "Alimentos no perecederos que no necesiten cocción. Reciben también toallas sanitarias, perrarina, gatarina, powerbanks (baterías recargables), y guantes de protección para trabajar con escombros.",
+              "fuente": "Flyer Rotaract Zona Táchira"
+            },
+            {
+              "nombre": "Rotaract Zona Táchira — Edificio Rotario Dr. Augusto Peña Sosa",
+              "direccion": "Edificio Rotario Dr. Augusto Peña Sosa, Piso 2, Avenida 19 de Abril, San Cristóbal",
+              "coords": [
+                7.767114,
+                -72.228487
+              ],
+              "maps": "https://maps.google.com/?q=Edificio+Rotario+Augusto+Pe%C3%B1a+Sosa+San+Crist%C3%B3bal",
+              "horario": "8:00am - 4:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "cascos de protección",
+                "abrigos y otros implementos de protección"
+              ],
+              "nota": "Alimentos no perecederos que no necesiten cocción. Reciben también toallas sanitarias, perrarina, gatarina, powerbanks (baterías recargables), y guantes de protección para trabajar con escombros.",
+              "fuente": "Flyer Rotaract Zona Táchira"
+            },
+            {
+              "nombre": "MUN UCAT — Boulevard de la UCAT",
+              "direccion": "Boulevard de la UCAT, sede vieja, Barrio Obrero, San Cristóbal",
+              "coords": [
+                7.7607,
+                -72.2350
+              ],
+              "maps": "https://maps.google.com/?q=UCAT+sede+vieja+Barrio+Obrero+San+Crist%C3%B3bal",
+              "horario": "25 y 26 de junio",
+              "recibe": [
+                "agua potable",
+                "ropa en buen estado",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "alimentos para mascotas"
+              ],
+              "nota": "Reciben ropa para todas las edades.",
+              "fuente": "Flyer MUN UCAT · Recolección de donaciones"
+            },
+            {
+              "nombre": "Hotel Eurobuilding El Tama — Idea Market local 5",
+              "direccion": "Hotel Eurobuilding El Tama, Idea Market, local 5, San Cristóbal",
+              "coords": [
+                7.7750,
+                -72.2050
+              ],
+              "maps": "https://maps.google.com/?q=Hotel+Eurobuilding+El+Tama+San+Crist%C3%B3bal",
+              "fuente": "Lista colaborativa @lorenadavilaaaaa"
+            },
+            {
+              "nombre": "Supermarket SC",
+              "direccion": "Centro de Acopio Supermarket SC, San Cristóbal",
+              "coords": [
+                7.7669,
+                -72.2250
+              ],
+              "maps": "https://maps.google.com/?q=Supermarket+SC+San+Crist%C3%B3bal",
+              "instagram": "supermarket_sc",
+              "fuente": "Lista colaborativa @lorenadavilaaaaa"
+            },
+            {
+              "nombre": "Madeco — Centro de Acopio",
+              "direccion": "Madeco, Av. Cuatricentenaria, San Cristóbal",
+              "coords": [
+                7.7669,
+                -72.2250
+              ],
+              "maps": "https://maps.google.com/?q=Madeco+Av+Cuatricentenaria+San+Crist%C3%B3bal",
+              "instagram": "madeco_contigo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "alimentos para mascotas"
+              ],
+              "nota": "Reciben también sábanas. Iniciativa por el 51° aniversario de Madeco. Donaciones destinadas a Caracas y La Guaira.",
+              "fuente": "Flyer @madeco_contigo · 51 Aniversario"
+            },
+            {
+              "nombre": "Centro de Acopio UNET — FUNDEUNET",
+              "direccion": "Centro de Acopio UNET (Universidad Nacional Experimental del Táchira), San Cristóbal",
+              "coords": [
+                7.7680,
+                -72.2270
+              ],
+              "maps": "https://maps.google.com/?q=UNET+San+Crist%C3%B3bal",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "alimentos para mascotas"
+              ],
+              "nota": "Reciben ropa nueva o usada en buen estado y limpia (camisas, pantalones, zapatos, sacos); alimentos no perecederos (arroz, pasta, latas, aceite, granos); medicamentos no vencidos (analgésicos, antibióticos, vendajes, desinfectantes); y alimentos para mascotas (croquetas y latas para perros y gatos). Si no puedes llevar la donación, contacta al Ing. Manuel Altuve (Representante al Consejo Universitario de Egresados UNET) y la pasarán a buscar.",
+              "fuente": "Flyer FUNDEUNET (Fundación de Egresados UNET) · Ing. Manuel Altuve"
+            },
+            {
+              "nombre": "Centro de Acopio Universitario — FCCU, Cogobierno y Alpha",
+              "direccion": "Sede Industrial, Edificio A, al lado de Proveeduría (pasando la peluquería), San Cristóbal",
+              "coords": [
+                7.7680,
+                -72.2270
+              ],
+              "maps": "https://maps.google.com/?q=UNET+Sede+Industrial+San+Crist%C3%B3bal",
+              "instagram": "alphauniversidad",
+              "horario": "Recepción a partir del viernes 26 de junio, desde las 8:00am",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "pañales de bebé",
+                "artículos para niños"
+              ],
+              "nota": "Necesitan mucha agua, leche en polvo de bebé y ropa de bebé. Todo debe entregarse limpio y en buen estado. Iniciativa universitaria de FCCU (Federación de Centros Universitarios), Cogobierno Estudiantil y Alpha.",
+              "fuente": "Flyer @alphauniversidad · Solidaridad con Venezuela"
+            }
+          ]
+        },
+        {
+          "nombre": "San Antonio del Táchira",
+          "centros": [
+            {
+              "nombre": "Rotaract Zona Táchira — Brave Community Fitness",
+              "direccion": "Brave Community Fitness, al lado del Hotel Manuel, San Antonio del Táchira",
+              "coords": [
+                7.8146,
+                -72.4430
+              ],
+              "maps": "https://maps.google.com/?q=Brave+Community+Fitness+San+Antonio+T%C3%A1chira",
+              "whatsapp": "+573508741816",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "cascos de protección",
+                "abrigos y otros implementos de protección"
+              ],
+              "nota": "Alimentos no perecederos que no necesiten cocción. Reciben también toallas sanitarias, perrarina, gatarina, powerbanks (baterías recargables), y guantes de protección para trabajar con escombros.",
+              "fuente": "Flyer Rotaract Zona Táchira"
+            }
+          ]
+        },
+        {
+          "nombre": "Táriba",
+          "centros": [
+            {
+              "nombre": "Rotaract Zona Táchira — Centro Médico Rotario César Darío González",
+              "direccion": "Centro Médico Rotario César Darío González, Táriba",
+              "coords": [
+                7.8186,
+                -72.2236
+              ],
+              "maps": "https://maps.google.com/?q=Centro+M%C3%A9dico+Rotario+C%C3%A9sar+Dar%C3%ADo+Gonz%C3%A1lez+T%C3%A1riba",
+              "whatsapp": "+582763949051",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "cascos de protección",
+                "abrigos y otros implementos de protección"
+              ],
+              "nota": "Alimentos no perecederos que no necesiten cocción. Reciben también toallas sanitarias, perrarina, gatarina, powerbanks (baterías recargables), y guantes de protección para trabajar con escombros.",
+              "fuente": "Flyer Rotaract Zona Táchira"
             }
           ]
         }
@@ -1605,6 +1892,40 @@
                 "kits de primeros auxilios"
               ],
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
+              "nombre": "\"Korea Japón Motor\"",
+              "direccion": "Av. 15 Delicias con Calle 69, pasando la Clínica de Izot, Maracaibo",
+              "coords": [
+                10.6480,
+                -71.6230
+              ],
+              "maps": "https://maps.google.com/?q=Av+15+Delicias+Calle+69+Maracaibo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "\"Pandaventura\" CC Galerías",
+              "direccion": "CC Galerías Mall, planta baja, frente al Restaurante Oasis, Maracaibo",
+              "coords": [
+                10.6740,
+                -71.6080
+              ],
+              "maps": "https://maps.google.com/?q=CC+Galer%C3%ADas+Mall+Maracaibo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer comunitario centros de acopio Maracaibo"
             },
             {
               "nombre": "Basílica de Chiquinquirá",
