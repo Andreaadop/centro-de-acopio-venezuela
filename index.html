@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Centros de Acopio · Venezuela</title>
+    <meta name="description" content="Directorio actualizado de centros de acopio en Venezuela tras el sismo de magnitud 7.5. Selecciona tu estado y encuentra el centro más cercano." />
+    <meta name="theme-color" content="#0A1F44" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Funnel Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            },
+            colors: {
+              bg: '#FFFFFF',
+              surface: '#F6F7FB',
+              ink: '#0B1220',
+              navy: '#0A1F44',
+              navy2: '#152A55',
+              muted: '#5B6478',
+              line: '#E5E7EE',
+              line2: '#D6DAE6',
+              coral: '#E0432A',
+              coral2: '#B5311C',
+              sun: '#F1B500',
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      :root { color-scheme: light; }
+      html, body { background: #FFFFFF; }
+      body {
+        font-family: 'Funnel Sans', system-ui, sans-serif;
+        color: #0B1220;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      .display { font-weight: 800; letter-spacing: -0.04em; line-height: 0.92; }
+      .display-md { font-weight: 700; letter-spacing: -0.028em; line-height: 1.0; }
+      .eyebrow { font-weight: 600; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; }
+      .body-relaxed { line-height: 1.65; }
+      .num { font-variant-numeric: tabular-nums; font-feature-settings: "tnum" 1; }
+
+      /* Buttons */
+      .btn {
+        display: inline-flex; align-items: center; gap: 0.5rem;
+        padding: 0.6rem 0.95rem; border-radius: 999px;
+        font-weight: 600; font-size: 0.85rem; letter-spacing: -0.005em;
+        transition: transform .15s cubic-bezier(.2,.9,.2,1.2), background-color .15s ease, color .15s ease, box-shadow .15s ease;
+      }
+      .btn:active { transform: translateY(1px) scale(0.99); }
+      .btn-navy { background: #0A1F44; color: #FFFFFF; }
+      .btn-navy:hover { background: #152A55; }
+      .btn-navy:focus-visible { outline: 2px solid #E0432A; outline-offset: 2px; }
+      .btn-line {
+        background: #FFFFFF; color: #0B1220;
+        box-shadow: inset 0 0 0 1.5px #0B1220;
+      }
+      .btn-line:hover { background: #0B1220; color: #FFFFFF; }
+      .btn-line:focus-visible { outline: 2px solid #E0432A; outline-offset: 2px; }
+      .btn-coral { background: #E0432A; color: #FFFFFF; }
+      .btn-coral:hover { background: #B5311C; }
+      .btn-ghost { color: #5B6478; }
+      .btn-ghost:hover { color: #0B1220; }
+
+      .tag {
+        display: inline-flex; align-items: center;
+        padding: 0.22rem 0.6rem; border-radius: 6px;
+        font-size: 0.74rem; font-weight: 500;
+        background: #F6F7FB; color: #0A1F44;
+        box-shadow: inset 0 0 0 1px #E5E7EE;
+        text-transform: lowercase;
+      }
+
+      /* Map thumbnail */
+      .map-thumb {
+        position: relative; display: block;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        background:
+          radial-gradient(120% 80% at 0% 0%, #1B3370 0%, transparent 60%),
+          linear-gradient(135deg, #0A1F44 0%, #152A55 100%);
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #D6DAE6;
+        transition: transform .15s cubic-bezier(.2,.9,.2,1.2), box-shadow .15s ease, border-color .15s ease;
+      }
+      .map-thumb:hover {
+        transform: translateY(-1px);
+        border-color: #A9B1C7;
+        box-shadow: 0 14px 26px -18px rgba(10,31,68,0.55);
+      }
+      .map-thumb:focus-visible { outline: 2px solid #E0432A; outline-offset: 2px; }
+      .map-thumb .pin {
+        position: absolute; left: 50%; top: 50%;
+        transform: translate(-50%, -100%);
+        filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35));
+      }
+      .map-thumb .openin {
+        position: absolute; right: 0.55rem; top: 0.55rem;
+        background: rgba(255,255,255,0.92); color: #0A1F44;
+        font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+        padding: 0.22rem 0.45rem; border-radius: 4px;
+        display: inline-flex; align-items: center; gap: 0.3rem;
+      }
+
+      /* Card */
+      .card {
+        background: #FFFFFF;
+        border: 1px solid #E5E7EE;
+        border-radius: 16px;
+        box-shadow:
+          0 1px 0 #EEF0F6,
+          0 14px 30px -22px rgba(10, 31, 68, 0.30);
+        transition: transform .18s cubic-bezier(.2,.9,.2,1.2), box-shadow .18s ease, border-color .18s ease;
+      }
+      .card:hover {
+        transform: translateY(-2px);
+        border-color: #C7CEE0;
+        box-shadow:
+          0 1px 0 #EEF0F6,
+          0 26px 48px -28px rgba(10, 31, 68, 0.42);
+      }
+
+      /* Sticky toolbar (visible only when results in view, optional) */
+      .glass {
+        background: rgba(255,255,255,0.86);
+        backdrop-filter: blur(14px) saturate(150%);
+        -webkit-backdrop-filter: blur(14px) saturate(150%);
+        border-bottom: 1px solid #E5E7EE;
+      }
+
+      /* Inputs */
+      .input {
+        width: 100%;
+        background: #FFFFFF;
+        border: 1.5px solid #E5E7EE;
+        border-radius: 12px;
+        padding: 0.85rem 1rem 0.85rem 2.7rem;
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: #0B1220;
+        transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
+      }
+      .input:focus {
+        outline: none;
+        border-color: #0A1F44;
+        box-shadow: 0 0 0 4px rgba(10,31,68,0.10);
+      }
+      .input::placeholder { color: #8A93A6; font-weight: 400; }
+
+      /* Form inputs (compact) */
+      .form-input {
+        width: 100%;
+        background: #FFFFFF;
+        border: 1.5px solid #E5E7EE;
+        border-radius: 10px;
+        padding: 0.7rem 0.85rem;
+        font-family: 'Funnel Sans', sans-serif;
+        font-size: 0.93rem;
+        font-weight: 500;
+        color: #0B1220;
+        transition: border-color .15s ease, box-shadow .15s ease;
+      }
+      .form-input:focus {
+        outline: none;
+        border-color: #0A1F44;
+        box-shadow: 0 0 0 4px rgba(10,31,68,0.10);
+      }
+      .form-input::placeholder { color: #9AA2B4; font-weight: 400; }
+
+      /* Custom checkbox */
+      .check-row {
+        display: flex; align-items: flex-start; gap: 0.6rem;
+        padding: 0.5rem 0.6rem; border-radius: 8px;
+        cursor: pointer; user-select: none;
+        transition: background-color .12s ease;
+      }
+      .check-row:hover { background: #F6F7FB; }
+      .check-row input[type="checkbox"] {
+        appearance: none; -webkit-appearance: none;
+        flex-shrink: 0; margin-top: 0.15rem;
+        width: 18px; height: 18px; border-radius: 5px;
+        border: 1.5px solid #C2C8D7; background: #FFFFFF;
+        cursor: pointer; position: relative;
+        transition: border-color .12s ease, background-color .12s ease;
+      }
+      .check-row input[type="checkbox"]:hover { border-color: #0A1F44; }
+      .check-row input[type="checkbox"]:checked {
+        background: #0A1F44; border-color: #0A1F44;
+      }
+      .check-row input[type="checkbox"]:checked::after {
+        content: ''; position: absolute; left: 4px; top: 1px;
+        width: 6px; height: 10px; border: solid #FFFFFF;
+        border-width: 0 2px 2px 0; transform: rotate(45deg);
+      }
+      .check-row input[type="checkbox"]:focus-visible {
+        outline: 2px solid #E0432A; outline-offset: 2px;
+      }
+      .check-row .check-label {
+        font-size: 0.9rem; color: #0B1220; line-height: 1.4;
+      }
+
+      /* Big select (hero dropdown) */
+      .estado-select {
+        appearance: none; -webkit-appearance: none; -moz-appearance: none;
+        width: 100%;
+        background: #FFFFFF;
+        border: 1.5px solid #0B1220;
+        border-radius: 16px;
+        padding: 1.15rem 3.2rem 1.15rem 3.2rem;
+        font-family: 'Funnel Sans', sans-serif;
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: #0B1220;
+        letter-spacing: -0.01em;
+        cursor: pointer;
+        transition: box-shadow .15s ease, border-color .15s ease, transform .15s ease;
+      }
+      .estado-select:hover { box-shadow: 0 10px 24px -16px rgba(10,31,68,0.35); }
+      .estado-select:focus { outline: none; box-shadow: 0 0 0 4px rgba(224,67,42,0.20); }
+
+      /* Pulse dot */
+      .pulse-dot {
+        width: 8px; height: 8px; border-radius: 999px; background: #E0432A;
+        box-shadow: 0 0 0 0 rgba(224,67,42,0.55);
+        animation: pulse 1.6s infinite;
+      }
+      @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(224,67,42,0.55); }
+        70% { box-shadow: 0 0 0 10px rgba(224,67,42,0); }
+        100% { box-shadow: 0 0 0 0 rgba(224,67,42,0); }
+      }
+
+      /* Reveal on load */
+      .reveal { opacity: 0; transform: translateY(8px); animation: reveal .6s cubic-bezier(.2,.7,.2,1) forwards; }
+      @keyframes reveal { to { opacity: 1; transform: none; } }
+
+      details > summary { list-style: none; cursor: pointer; }
+      details > summary::-webkit-details-marker { display: none; }
+      details[open] > summary .chev { transform: rotate(90deg); }
+      .chev { transition: transform .2s ease; }
+
+      /* Centro list rows (compact) */
+      .centro-row { border-bottom: 1px solid #E5E7EE; }
+      .centro-row:last-child { border-bottom: none; }
+      .centro-row > summary {
+        display: block;
+        padding: 0.9rem 0.75rem 0.9rem 0.5rem;
+        border-radius: 10px;
+        transition: background-color .12s ease;
+      }
+      .centro-row > summary:hover { background: #F6F7FB; }
+      .centro-row > summary:focus-visible {
+        outline: 2px solid #E0432A; outline-offset: -2px;
+      }
+      .centro-row[open] > summary { background: #F6F7FB; }
+      .centro-row .row-grid {
+        display: grid;
+        grid-template-columns: 18px 1fr auto;
+        gap: 0.85rem; align-items: center;
+      }
+      .centro-row .row-name {
+        font-weight: 700; font-size: 1.02rem; color: #0B1220;
+        letter-spacing: -0.012em; line-height: 1.25;
+      }
+      .centro-row .row-addr {
+        font-size: 0.84rem; color: #5B6478; margin-top: 0.15rem; line-height: 1.4;
+      }
+      .centro-row .row-loc {
+        font-size: 0.7rem; font-weight: 600; color: #5B6478;
+        letter-spacing: 0.12em; text-transform: uppercase; margin-top: 0.35rem;
+      }
+      .centro-detail { padding: 0.25rem 0.5rem 1.25rem 1.95rem; }
+      @media (max-width: 640px) {
+        .centro-detail { padding: 0.25rem 0.25rem 1rem 0.25rem; }
+      }
+
+      .skip-link {
+        position: absolute; left: -9999px; top: 0;
+        background: #0A1F44; color: #FFFFFF; padding: 0.5rem 0.75rem; border-radius: 6px;
+      }
+      .skip-link:focus { left: 1rem; top: 1rem; z-index: 60; }
+
+      .section-rule { height: 1px; background: linear-gradient(90deg, #0B1220, transparent 75%); }
+
+      .underline-coral { text-decoration: underline; text-decoration-color: #E0432A; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .reveal, .pulse-dot { animation: none !important; }
+        .card { transition: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#contenido" class="skip-link">Saltar al contenido</a>
+
+    <!-- Top bar -->
+    <div class="border-b border-line">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 h-12 flex items-center justify-between gap-4">
+        <button id="share-btn" class="flex items-center gap-2 group" aria-label="Compartir directorio">
+          <svg class="text-navy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v14"/></svg>
+          <span class="eyebrow text-navy group-hover:text-coral transition-colors">Compartir este directorio</span>
+          <span id="share-status" class="eyebrow text-coral hidden">¡Copiado!</span>
+        </button>
+        <a href="#aportar" class="eyebrow text-muted hover:text-coral transition-colors hidden sm:inline">
+          ¿Conoces un centro? Agrégalo ↓
+        </a>
+        <span class="eyebrow text-muted">Act. <span id="updated-date">—</span></span>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <header class="relative">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 pt-12 sm:pt-20 pb-10">
+        <p class="eyebrow text-coral reveal" style="animation-delay:.05s">Centros de acopio · Venezuela</p>
+
+        <h1 class="display text-[44px] sm:text-[78px] md:text-[104px] mt-4 sm:mt-5 text-ink reveal" style="animation-delay:.08s">
+          Encuentra dónde<br />
+          <span class="text-navy">donar cerca de ti.</span>
+        </h1>
+
+        <p class="mt-6 max-w-2xl text-base sm:text-lg text-muted body-relaxed reveal" style="animation-delay:.14s">
+          Directorio abierto tras el sismo de magnitud <strong class="text-ink font-semibold num">7.5</strong>.
+          Elige tu estado para ver los centros activos, qué reciben y cómo llegar.
+        </p>
+
+        <!-- Primary action: big dropdown -->
+        <form id="estado-form" class="mt-10 sm:mt-12 reveal" style="animation-delay:.2s" onsubmit="event.preventDefault()">
+          <label for="estado-select" class="eyebrow text-muted block mb-3">Paso 1 · Selecciona tu estado</label>
+          <div class="relative max-w-2xl">
+            <!-- left icon -->
+            <svg class="absolute left-4 top-1/2 -translate-y-1/2 text-navy" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 21s-7-7.5-7-12a7 7 0 1 1 14 0c0 4.5-7 12-7 12Z"/>
+              <circle cx="12" cy="9" r="2.5"/>
+            </svg>
+            <select id="estado-select" class="estado-select" aria-label="Selecciona un estado">
+              <option value="">— Todos los estados —</option>
+            </select>
+            <!-- right chevron -->
+            <svg class="pointer-events-none absolute right-5 top-1/2 -translate-y-1/2 text-ink" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </div>
+
+          <div class="mt-4 flex flex-wrap items-center gap-3 text-sm text-muted">
+            <span>O bien</span>
+            <button id="geo-btn" type="button" class="btn btn-line">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+              Usar mi ubicación
+            </button>
+            <span class="hidden sm:inline">·</span>
+            <a href="#aportar" class="btn btn-ghost px-0">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+              Reportar un centro
+            </a>
+          </div>
+        </form>
+
+        <!-- Stats strip -->
+        <dl class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-px bg-line border border-line rounded-2xl overflow-hidden reveal" style="animation-delay:.26s">
+          <div class="bg-white px-5 py-5">
+            <dt class="eyebrow text-muted">Centros</dt>
+            <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-centers">—</dd>
+          </div>
+          <div class="bg-white px-5 py-5">
+            <dt class="eyebrow text-muted">Estados activos</dt>
+            <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-estados">—</dd>
+          </div>
+          <div class="bg-white px-5 py-5">
+            <dt class="eyebrow text-muted">Ciudades</dt>
+            <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-cities">—</dd>
+          </div>
+          <div class="bg-white px-5 py-5">
+            <dt class="eyebrow text-muted">Última revisión</dt>
+            <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-rev">—</dd>
+          </div>
+        </dl>
+      </div>
+    </header>
+
+    <!-- Secondary filters -->
+    <div id="toolbar" class="border-y border-line bg-surface/60">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-4 flex flex-col sm:flex-row sm:items-center gap-3">
+        <div class="relative flex-1">
+          <svg class="absolute left-3 top-1/2 -translate-y-1/2 text-muted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="search" type="search" class="input" placeholder="Filtrar por nombre, ciudad o insumo (agua, medicinas…)" aria-label="Buscar dentro de los resultados" />
+        </div>
+        <div class="flex items-center gap-2">
+          <span id="active-estado" class="eyebrow text-muted hidden"></span>
+          <button id="clear-btn" class="btn btn-line" title="Limpiar filtros">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18M6 6l12 12"/></svg>
+            <span>Limpiar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <main id="contenido" class="mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-14">
+      <div class="flex items-baseline justify-between mb-6">
+        <p class="eyebrow text-muted">
+          <span id="result-count" class="text-ink num">0</span> centros · <span id="result-states" class="text-ink num">0</span> estados
+        </p>
+        <p id="sort-mode" class="eyebrow text-muted">Orden · alfabético</p>
+      </div>
+
+      <div id="results"></div>
+
+      <div id="empty" class="hidden text-center py-24">
+        <p class="display-md text-3xl">Aún no hay centros registrados en este estado.</p>
+        <p class="mt-3 text-muted body-relaxed max-w-md mx-auto">Si conoces uno, ayúdanos a registrarlo. Tu reporte se publica una vez verificado.</p>
+        <a href="#aportar" class="btn btn-coral mt-6">Reportar un centro</a>
+      </div>
+    </main>
+
+    <!-- Contribute -->
+    <section id="aportar" class="border-t border-line bg-surface/50">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-20">
+        <div class="grid md:grid-cols-[1fr,1.2fr] gap-12 items-start">
+          <div class="md:sticky md:top-24">
+            <p class="eyebrow text-coral">Contribuye</p>
+            <h2 class="display text-4xl sm:text-5xl mt-3 text-ink">
+              ¿Conoces un centro<br />que <span class="text-navy">no está aquí</span>?
+            </h2>
+            <p class="mt-5 text-muted body-relaxed">
+              Llena los datos y nos llega por correo. Verificamos antes de publicar para mantener el directorio confiable.
+            </p>
+            <div class="mt-6 text-sm text-muted space-y-1.5">
+              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span>Tus datos no se publican</p>
+              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span>Verificamos en menos de 24 horas</p>
+              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span>Una vez confirmado, aparece en la lista</p>
+            </div>
+          </div>
+
+          <form id="report-form" class="bg-white border border-line rounded-2xl p-6 sm:p-8 space-y-6">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="sm:col-span-2">
+                <label class="eyebrow text-ink block mb-2" for="f-nombre">Nombre del centro *</label>
+                <input id="f-nombre" name="nombre" required class="form-input" placeholder="Ej: Iglesia La Paz" />
+              </div>
+
+              <div>
+                <label class="eyebrow text-ink block mb-2" for="f-estado">Estado *</label>
+                <div class="relative">
+                  <select id="f-estado" name="estado" required class="form-input pr-10 appearance-none">
+                    <option value="">Selecciona…</option>
+                  </select>
+                  <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-ink" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m6 9 6 6 6-6"/></svg>
+                </div>
+              </div>
+
+              <div>
+                <label class="eyebrow text-ink block mb-2" for="f-ciudad">Ciudad *</label>
+                <input id="f-ciudad" name="ciudad" required class="form-input" placeholder="Ej: Caracas" />
+              </div>
+
+              <div class="sm:col-span-2">
+                <label class="eyebrow text-ink block mb-2" for="f-direccion">Dirección *</label>
+                <input id="f-direccion" name="direccion" required class="form-input" placeholder="Av., calle, edificio, referencia" />
+              </div>
+
+              <div class="sm:col-span-2">
+                <label class="eyebrow text-ink block mb-2" for="f-maps">Enlace de Google Maps</label>
+                <input id="f-maps" name="maps" class="form-input" placeholder="https://maps.app.goo.gl/..." />
+              </div>
+
+              <div>
+                <label class="eyebrow text-ink block mb-2" for="f-ig">Instagram del centro</label>
+                <input id="f-ig" name="instagram" class="form-input" placeholder="@cuenta" />
+              </div>
+
+              <div>
+                <label class="eyebrow text-ink block mb-2" for="f-wa">WhatsApp del centro</label>
+                <input id="f-wa" name="whatsapp" class="form-input" placeholder="+58 412 …" />
+              </div>
+
+              <div class="sm:col-span-2">
+                <label class="eyebrow text-ink block mb-2" for="f-horario">Horario (si lo conoces)</label>
+                <input id="f-horario" name="horario" class="form-input" placeholder="Ej: Lun a Sáb, 8 am a 6 pm" />
+              </div>
+            </div>
+
+            <div>
+              <p class="eyebrow text-ink mb-3">¿Qué reciben? *</p>
+              <div id="recibe-list" class="grid sm:grid-cols-2 gap-x-4 gap-y-2"></div>
+              <div class="mt-3">
+                <label class="text-xs text-muted block mb-1" for="f-otro">Otros insumos (separar con comas)</label>
+                <input id="f-otro" name="otro" class="form-input" placeholder="Ej: pañales, fórmula infantil" />
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-line">
+              <p class="eyebrow text-ink mb-3">Tus datos (para verificar)</p>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="text-xs text-muted block mb-1" for="f-tu-nombre">Tu nombre *</label>
+                  <input id="f-tu-nombre" name="tu_nombre" required class="form-input" />
+                </div>
+                <div>
+                  <label class="text-xs text-muted block mb-1" for="f-tu-contacto">Tu correo o WhatsApp *</label>
+                  <input id="f-tu-contacto" name="tu_contacto" required class="form-input" placeholder="correo@…  o  +58 …" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:items-center gap-3 pt-2">
+              <button type="submit" class="btn btn-coral w-full sm:w-auto justify-center">
+                Enviar reporte
+              </button>
+              <p id="form-status" class="text-sm text-muted"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-t border-line">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-8 space-y-4">
+        <div class="flex flex-col sm:flex-row gap-3 justify-between items-start sm:items-center">
+          <p class="eyebrow text-muted">Hecho por la comunidad · Verifica siempre antes de donar</p>
+          <p class="eyebrow text-muted">Datos en <code class="text-ink">data.json</code></p>
+        </div>
+        <p class="text-xs text-muted body-relaxed border-t border-line pt-4 max-w-3xl">
+          Parte de los datos provienen de
+          <a href="https://acopios-refugios.vercel.app/" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">acopios-refugios.vercel.app</a>
+          y la lista colaborativa de
+          <a href="https://instagram.com/marielozadab" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">@marielozadab</a>
+          y
+          <a href="https://instagram.com/nathaliesayago" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">@nathaliesayago</a>.
+          Gracias a todas las personas que reportan y mantienen actualizada esta información.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module">
+      const $ = (s, r = document) => r.querySelector(s);
+      const fmtDate = (iso) => {
+        if (!iso) return '—';
+        try { return new Date(iso).toLocaleDateString('es-VE', { day: '2-digit', month: 'short', year: 'numeric' }); }
+        catch { return iso; }
+      };
+      const fmtShort = (iso) => {
+        if (!iso) return '—';
+        try { return new Date(iso).toLocaleDateString('es-VE', { day: '2-digit', month: 'short' }); }
+        catch { return iso; }
+      };
+
+      const state = {
+        data: null,
+        flat: [],
+        filtered: [],
+        estado: '',
+        query: '',
+        userCoords: null,
+        sortMode: 'alfabético',
+      };
+
+      const haversine = (a, b) => {
+        if (!a || !b) return Infinity;
+        const R = 6371;
+        const toRad = (d) => (d * Math.PI) / 180;
+        const dLat = toRad(b[0] - a[0]);
+        const dLon = toRad(b[1] - a[1]);
+        const lat1 = toRad(a[0]); const lat2 = toRad(b[0]);
+        const x = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
+        return 2 * R * Math.asin(Math.sqrt(x));
+      };
+
+      function flatten(data) {
+        const out = [];
+        const def = data.recibe_default || [];
+        for (const estado of data.estados) {
+          for (const ciudad of estado.ciudades || []) {
+            for (const c of ciudad.centros || []) {
+              out.push({
+                ...c,
+                recibe: c.recibe && c.recibe.length ? c.recibe : def,
+                ciudad: ciudad.nombre,
+                estado: estado.nombre,
+              });
+            }
+          }
+        }
+        return out;
+      }
+
+      function matches(c, q) {
+        if (!q) return true;
+        const hay = `${c.nombre} ${c.direccion || ''} ${c.ciudad} ${c.estado} ${(c.recibe || []).join(' ')}`.toLowerCase();
+        return q.toLowerCase().split(/\s+/).every((t) => hay.includes(t));
+      }
+
+      const EXTERIOR = new Set(['Colombia','Estados Unidos','Panamá','Ecuador','España']);
+
+      function populateSelect() {
+        const sel = $('#estado-select');
+        const counts = new Map();
+        for (const c of state.flat) counts.set(c.estado, (counts.get(c.estado) || 0) + 1);
+
+        const all = state.data.estados.map((e) => ({ nombre: e.nombre, count: counts.get(e.nombre) || 0 }));
+        const ve = all.filter((e) => !EXTERIOR.has(e.nombre)).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+        const ex = all.filter((e) => EXTERIOR.has(e.nombre)).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+
+        const fmt = (e) => `<option value="${e.nombre}">${e.count > 0 ? `${e.nombre} — ${e.count} centro${e.count === 1 ? '' : 's'}` : e.nombre}</option>`;
+
+        let html = `<option value="">— Todos los estados —</option>`;
+        html += ve.map(fmt).join('');
+        if (ex.length) {
+          html += `<option value="" disabled>──────────  Exterior  ──────────</option>`;
+          html += ex.map(fmt).join('');
+        }
+        sel.innerHTML = html;
+        sel.value = state.estado;
+      }
+
+      function renderStats() {
+        $('#stat-centers').textContent = state.flat.length;
+        $('#stat-estados').textContent = new Set(state.flat.map((c) => c.estado)).size;
+        $('#stat-cities').textContent = new Set(state.flat.map((c) => `${c.estado}|${c.ciudad}`)).size;
+        $('#stat-rev').textContent = fmtShort(state.data.actualizado);
+        $('#updated-date').textContent = fmtDate(state.data.actualizado);
+        $('#result-count').textContent = state.filtered.length;
+        $('#result-states').textContent = new Set(state.filtered.map((c) => c.estado)).size;
+        $('#sort-mode').textContent = `Orden · ${state.sortMode}`;
+
+        const active = $('#active-estado');
+        if (state.estado) {
+          active.textContent = `Estado: ${state.estado}`;
+          active.classList.remove('hidden');
+        } else {
+          active.classList.add('hidden');
+        }
+      }
+
+      const icon = {
+        maps: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-7.5-7-12a7 7 0 1 1 14 0c0 4.5-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>',
+        ig: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>',
+        wa: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.5L3 21z"/></svg>',
+        clock: '<svg class="mt-0.5 shrink-0 text-muted" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+      };
+      const igUrl = (h) => (h ? `https://instagram.com/${h.replace(/^@/, '')}` : null);
+      const waUrl = (p) => (p ? `https://wa.me/${p.replace(/[^0-9]/g, '')}` : null);
+
+      const mapThumbSvg = `
+        <svg viewBox="0 0 200 150" preserveAspectRatio="xMidYMid slice" class="absolute inset-0 w-full h-full" aria-hidden="true">
+          <defs>
+            <pattern id="mapdots" width="14" height="14" patternUnits="userSpaceOnUse">
+              <circle cx="1" cy="1" r="0.7" fill="rgba(255,255,255,0.18)"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#mapdots)"/>
+          <path d="M-10 55 Q60 40 110 70 T220 60" stroke="rgba(255,255,255,0.22)" stroke-width="1.6" fill="none"/>
+          <path d="M-10 110 Q70 100 130 118 T220 105" stroke="rgba(255,255,255,0.15)" stroke-width="1.2" fill="none"/>
+          <path d="M40 -10 L48 160" stroke="rgba(255,255,255,0.13)" stroke-width="1.2" fill="none"/>
+          <path d="M150 -10 L142 160" stroke="rgba(255,255,255,0.12)" stroke-width="1.1" fill="none"/>
+          <path d="M70 0 L80 150" stroke="rgba(224,67,42,0.18)" stroke-width="1.2" fill="none"/>
+        </svg>`;
+      const pinSvg = `
+        <svg class="pin" width="26" height="32" viewBox="0 0 26 32" fill="none" aria-hidden="true">
+          <path d="M13 0a13 13 0 0 0-13 13c0 9.5 13 19 13 19s13-9.5 13-19A13 13 0 0 0 13 0z" fill="#E0432A"/>
+          <circle cx="13" cy="13" r="5" fill="#FFFFFF"/>
+        </svg>`;
+
+      function centroDetail(c) {
+        const tags = (c.recibe || []).map((t) => `<span class="tag">${t}</span>`).join('');
+        const ig = igUrl(c.instagram);
+        const wa = waUrl(c.whatsapp || c.telefono);
+
+        const mapBlock = c.maps ? `
+          <div class="shrink-0 sm:w-[170px]">
+            <a class="map-thumb" href="${c.maps}" target="_blank" rel="noopener" aria-label="Abrir ubicación en Google Maps">
+              ${mapThumbSvg}
+              ${pinSvg}
+              <span class="openin">
+                <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                Maps
+              </span>
+            </a>
+            <a class="btn btn-navy mt-2 w-full justify-center" href="${c.maps}" target="_blank" rel="noopener">
+              ${icon.maps} Cómo llegar
+            </a>
+          </div>` : '';
+
+        const recibeBlock = tags ? `
+          <div class="flex-1 min-w-0">
+            <p class="eyebrow text-muted mb-2">Recibe</p>
+            <div class="flex flex-wrap gap-1.5">${tags}</div>
+          </div>` : '';
+
+        const horarioBlock = c.horario ? `
+          <div class="mt-1 mb-4 flex items-start gap-2">
+            ${icon.clock}
+            <p class="text-sm text-ink">${c.horario}</p>
+          </div>` : '';
+
+        const splitBlock = (mapBlock || recibeBlock) ? `
+          <div class="mt-2 flex flex-col sm:flex-row gap-5 sm:items-start">
+            ${mapBlock}
+            ${recibeBlock}
+          </div>` : '';
+
+        const igLink = ig || c.instagram_url || '';
+        const igLabel = c.instagram ? `@${c.instagram.replace(/^@/, '')}` : (c.instagram_url ? 'Instagram' : '');
+        const contactExtras = [];
+        if (c.contacto && !wa) contactExtras.push(`<p class="text-sm text-muted"><strong class="text-ink font-semibold">Contacto:</strong> ${c.contacto}</p>`);
+        if (c.web) contactExtras.push(`<a class="btn btn-line" href="${c.web}" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18"/></svg> Sitio web</a>`);
+
+        const hasContactBlock = igLink || wa || c.web || c.contacto;
+        const contactBtns = hasContactBlock ? `
+          <div class="mt-5 pt-5 border-t border-line">
+            ${c.contacto && !wa ? `<p class="text-sm text-muted mb-3"><strong class="text-ink font-semibold">Contacto:</strong> ${c.contacto}</p>` : ''}
+            <div class="flex flex-wrap gap-2">
+              ${igLink ? `<a class="btn btn-line" href="${igLink}" target="_blank" rel="noopener">${icon.ig} ${igLabel}</a>` : ''}
+              ${wa ? `<a class="btn btn-line" href="${wa}" target="_blank" rel="noopener">${icon.wa} WhatsApp</a>` : ''}
+              ${c.web ? `<a class="btn btn-line" href="${c.web}" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18"/></svg> Sitio web</a>` : ''}
+            </div>
+          </div>` : '';
+
+        const fuenteBlock = c.fuente ? `
+          <p class="mt-4 text-xs text-muted italic">Fuente: ${c.fuente}</p>` : '';
+
+        return `${horarioBlock}${splitBlock}${contactBtns}${fuenteBlock}`;
+      }
+
+      function centroRow(c, opts = {}) {
+        const dist = c._dist != null && isFinite(c._dist)
+          ? `<span class="eyebrow text-coral num shrink-0">${c._dist.toFixed(1)} km</span>` : '';
+        const ejemplo = c.ejemplo
+          ? `<span class="eyebrow text-coral2 bg-coral/10 px-1.5 py-0.5 rounded shrink-0">ejemplo</span>` : '';
+        const loc = opts.showLocation
+          ? `<p class="row-loc">${c.ciudad}, ${c.estado}</p>` : '';
+
+        return `
+          <details class="centro-row">
+            <summary>
+              <div class="row-grid">
+                <svg class="chev text-muted" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6 6 6-6 6"/></svg>
+                <div class="min-w-0">
+                  <div class="flex items-center gap-2 flex-wrap">
+                    <h3 class="row-name">${c.nombre}</h3>
+                    ${ejemplo}
+                  </div>
+                  ${c.direccion ? `<p class="row-addr">${c.direccion}</p>` : ''}
+                  ${loc}
+                </div>
+                ${dist}
+              </div>
+            </summary>
+            <div class="centro-detail">${centroDetail(c)}</div>
+          </details>
+        `;
+      }
+
+      function render() {
+        const q = state.query.trim();
+        let filtered = state.flat.filter((c) =>
+          (!state.estado || c.estado === state.estado) && matches(c, q)
+        );
+
+        if (state.userCoords) {
+          filtered = filtered
+            .map((c) => ({ ...c, _dist: c.coords ? haversine(state.userCoords, c.coords) : Infinity }))
+            .sort((a, b) => a._dist - b._dist);
+          state.sortMode = 'cercanía';
+        } else {
+          filtered.sort((a, b) => {
+            const ax = EXTERIOR.has(a.estado) ? 1 : 0;
+            const bx = EXTERIOR.has(b.estado) ? 1 : 0;
+            return (ax - bx)
+              || a.estado.localeCompare(b.estado, 'es')
+              || a.ciudad.localeCompare(b.ciudad, 'es')
+              || a.nombre.localeCompare(b.nombre, 'es');
+          });
+          state.sortMode = 'alfabético';
+        }
+        state.filtered = filtered;
+        renderStats();
+
+        const results = $('#results');
+        const empty = $('#empty');
+        if (filtered.length === 0) { results.innerHTML = ''; empty.classList.remove('hidden'); return; }
+        empty.classList.add('hidden');
+
+        if (state.userCoords) {
+          results.innerHTML = `
+            <div class="card overflow-hidden">
+              ${filtered.map((c) => centroRow(c, { showLocation: true })).join('')}
+            </div>`;
+          return;
+        }
+
+        const byEstado = new Map();
+        for (const c of filtered) {
+          if (!byEstado.has(c.estado)) byEstado.set(c.estado, new Map());
+          const cmap = byEstado.get(c.estado);
+          if (!cmap.has(c.ciudad)) cmap.set(c.ciudad, []);
+          cmap.get(c.ciudad).push(c);
+        }
+
+        // Auto-open when filtered (search or estado selected)
+        const isFiltered = q !== '' || state.estado !== '';
+
+        const sections = [];
+        let exteriorHeaderInserted = false;
+        for (const [estado, cmap] of byEstado) {
+          if (EXTERIOR.has(estado) && !exteriorHeaderInserted) {
+            sections.push(`
+              <div class="mt-16 mb-2 flex items-center gap-4">
+                <span class="eyebrow text-coral">Exterior</span>
+                <span class="flex-1 h-px bg-line"></span>
+                <span class="eyebrow text-muted">Centros internacionales para venezolanos en el exterior</span>
+              </div>
+            `);
+            exteriorHeaderInserted = true;
+          }
+          const count = Array.from(cmap.values()).reduce((n, arr) => n + arr.length, 0);
+          const ciudades = Array.from(cmap.entries()).map(([ciudad, centros]) => `
+            <div class="mt-7">
+              <div class="flex items-baseline gap-3 mb-2 px-1">
+                <h4 class="eyebrow text-ink">${ciudad}</h4>
+                <span class="eyebrow text-muted num">${centros.length} centro${centros.length === 1 ? '' : 's'}</span>
+              </div>
+              <div class="card overflow-hidden">
+                ${centros.map((c) => centroRow(c)).join('')}
+              </div>
+            </div>
+          `).join('');
+
+          sections.push(`
+            <details ${isFiltered ? 'open' : ''} class="estado-section mt-10 first:mt-0">
+              <summary class="flex items-center gap-4 py-3 group">
+                <svg class="chev text-ink shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6 6 6-6 6"/></svg>
+                <h3 class="display-md text-3xl sm:text-4xl text-ink group-hover:text-navy transition-colors">${estado}</h3>
+                <span class="eyebrow text-muted num">${count} centro${count === 1 ? '' : 's'}</span>
+              </summary>
+              <div class="section-rule mt-1 mb-2"></div>
+              ${ciudades}
+            </details>
+          `);
+        }
+
+        results.innerHTML = sections.join('');
+      }
+
+      async function init() {
+        try {
+          const res = await fetch('./data.json', { cache: 'no-store' });
+          if (!res.ok) throw new Error('No se pudo cargar data.json');
+          state.data = await res.json();
+        } catch (e) {
+          $('#results').innerHTML = `<p class="text-coral2">Error al cargar los datos: ${e.message}</p>`;
+          return;
+        }
+
+        state.flat = flatten(state.data);
+        populateSelect();
+        render();
+
+        $('#estado-select').addEventListener('change', (e) => {
+          state.estado = e.target.value;
+          state.userCoords = null; // override geo if estado picked
+          render();
+          if (state.estado) {
+            document.getElementById('contenido').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+
+        $('#search').addEventListener('input', (e) => {
+          state.query = e.target.value;
+          render();
+        });
+
+        const resetGeoBtn = () => {
+          $('#geo-btn').innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg> Usar mi ubicación`;
+        };
+
+        $('#geo-btn').addEventListener('click', () => {
+          if (!navigator.geolocation) return alert('Tu navegador no soporta geolocalización.');
+          const btn = $('#geo-btn');
+          btn.disabled = true;
+          btn.innerHTML = 'Buscando…';
+          navigator.geolocation.getCurrentPosition(
+            (pos) => {
+              state.userCoords = [pos.coords.latitude, pos.coords.longitude];
+              state.estado = '';
+              $('#estado-select').value = '';
+              btn.disabled = false;
+              btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg> Ubicación activa';
+              render();
+              document.getElementById('contenido').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            },
+            () => {
+              btn.disabled = false;
+              resetGeoBtn();
+              alert('No pudimos obtener tu ubicación.');
+            }
+          );
+        });
+
+        $('#share-btn').addEventListener('click', async () => {
+          const url = window.location.href;
+          const title = 'Centros de Acopio · Venezuela';
+          const text = 'Directorio de centros de acopio en Venezuela. Encuentra dónde donar cerca de ti.';
+          try {
+            if (navigator.share) {
+              await navigator.share({ title, text, url });
+            } else {
+              await navigator.clipboard.writeText(url);
+              const s = $('#share-status');
+              s.classList.remove('hidden');
+              setTimeout(() => s.classList.add('hidden'), 2000);
+            }
+          } catch {}
+        });
+
+        $('#clear-btn').addEventListener('click', () => {
+          state.query = '';
+          state.estado = '';
+          state.userCoords = null;
+          $('#search').value = '';
+          $('#estado-select').value = '';
+          resetGeoBtn();
+          render();
+        });
+
+        setupForm();
+      }
+
+      function setupForm() {
+        // populate estado select inside the form
+        const fEst = $('#f-estado');
+        const sorted = state.data.estados
+          .map((e) => e.nombre)
+          .sort((a, b) => a.localeCompare(b, 'es'));
+        fEst.innerHTML = `<option value="">Selecciona…</option>` +
+          sorted.map((n) => `<option value="${n}">${n}</option>`).join('');
+
+        // populate recibe checkboxes from recibe_default
+        const list = $('#recibe-list');
+        const items = state.data.recibe_default || [];
+        list.innerHTML = items.map((it, i) => `
+          <label class="check-row">
+            <input type="checkbox" name="recibe" value="${it}" />
+            <span class="check-label">${it}</span>
+          </label>
+        `).join('');
+
+        const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbwbkuyXkAo318EwjHkE0NNUNNCoJGAhN7emFhyuLqNTFfKtCMA1Povd74e1MchFcoXs9w/exec';
+
+        $('#report-form').addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const f = e.target;
+          const data = new FormData(f);
+          const status = $('#form-status');
+          const submitBtn = f.querySelector('button[type="submit"]');
+
+          const recibeSelected = Array.from(f.querySelectorAll('input[name="recibe"]:checked')).map((c) => c.value);
+          const otros = (data.get('otro') || '').toString().split(',').map((s) => s.trim()).filter(Boolean);
+          const recibeAll = [...recibeSelected, ...otros];
+
+          if (recibeAll.length === 0) {
+            status.innerHTML = '<span class="text-coral2">Selecciona al menos un insumo que reciben.</span>';
+            return;
+          }
+
+          const payload = {
+            nombre: data.get('nombre') || '',
+            estado: data.get('estado') || '',
+            ciudad: data.get('ciudad') || '',
+            direccion: data.get('direccion') || '',
+            maps: data.get('maps') || '',
+            instagram: data.get('instagram') || '',
+            whatsapp: data.get('whatsapp') || '',
+            horario: data.get('horario') || '',
+            recibe: recibeAll,
+            tu_nombre: data.get('tu_nombre') || '',
+            tu_contacto: data.get('tu_contacto') || '',
+          };
+
+          submitBtn.disabled = true;
+          submitBtn.style.opacity = '0.6';
+          submitBtn.textContent = 'Enviando…';
+          status.innerHTML = '';
+
+          try {
+            await fetch(WEBHOOK_URL, {
+              method: 'POST',
+              headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+              body: JSON.stringify(payload),
+              mode: 'no-cors',
+            });
+            // no-cors → opaque response; assume success if no network error
+            status.innerHTML = '<span class="text-navy font-semibold">¡Reporte enviado! Gracias. Verificaremos en menos de 24 horas.</span>';
+            f.reset();
+          } catch (err) {
+            status.innerHTML = '<span class="text-coral2">No pudimos enviar. Revisa tu conexión o escribe a <strong>andrea@mainpups.com</strong>.</span>';
+          } finally {
+            submitBtn.disabled = false;
+            submitBtn.style.opacity = '';
+            submitBtn.textContent = 'Enviar reporte';
+          }
+        });
+      }
+
+      init();
+    </script>
+  </body>
+</html>

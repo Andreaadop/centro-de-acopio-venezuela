@@ -1,0 +1,1666 @@
+{
+  "actualizado": "2026-06-25",
+  "nota": "Datos importados desde la lista colaborativa de @marielozadab y @nathaliesayago vía acopios-refugios.vercel.app",
+  "recibe_default": [
+    "agua potable",
+    "alimentos no perecederos",
+    "medicamentos e insumos médicos",
+    "kits de primeros auxilios",
+    "mantas y cobijas",
+    "ropa en buen estado",
+    "artículos de higiene personal",
+    "abrigos y otros implementos de protección",
+    "cascos de protección",
+    "pañales de bebé",
+    "pañales de adulto"
+  ],
+  "estados": [
+    {
+      "nombre": "Amazonas",
+      "ciudades": []
+    },
+    {
+      "nombre": "Anzoátegui",
+      "ciudades": [
+        {
+          "nombre": "Lechería",
+          "centros": [
+            {
+              "nombre": "CC Forum Plaza - Lechería",
+              "direccion": "Centro Comercial Forum Plaza, Lechería",
+              "coords": [
+                10.188,
+                -64.68
+              ],
+              "maps": "https://maps.google.com/?q=10.188,-64.68",
+              "fuente": "El Pitazo (elpitazo.net), centros de acopio"
+            },
+            {
+              "nombre": "Plaza de Puerto Príncipe (ubicación por confirmar)",
+              "direccion": "Plaza de Puerto Príncipe, Anzoátegui",
+              "coords": [
+                10.13,
+                -64.69
+              ],
+              "maps": "https://maps.google.com/?q=10.13,-64.69",
+              "fuente": "El Pitazo (elpitazo.net), centros de acopio (ubicación aproximada, confirmar)"
+            },
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Playa Mansa",
+              "coords": [
+                10.187,
+                -64.696
+              ],
+              "maps": "https://maps.google.com/?q=10.187,-64.696",
+              "contacto": "desde las 10 am hasta las 6 pm aprox.",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Apure",
+      "ciudades": []
+    },
+    {
+      "nombre": "Aragua",
+      "ciudades": [
+        {
+          "nombre": "Cagua",
+          "centros": [
+            {
+              "nombre": "Club Camarón",
+              "direccion": "Calle La Romana frente al Liceo Josefina Crespo, Cagua",
+              "coords": [
+                10.17092876,
+                -67.44659363
+              ],
+              "maps": "https://maps.google.com/?q=10.17092876,-67.44659363",
+              "whatsapp": "4143456992",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lo publicaron en redes"
+            }
+          ]
+        },
+        {
+          "nombre": "Maracay",
+          "centros": [
+            {
+              "nombre": "Comando Con Venezuela",
+              "direccion": "Avenida 19 de Abril, Centro Comercial La Capilla, Piso 1, Local 21",
+              "coords": [
+                10.2469,
+                -67.5958
+              ],
+              "maps": "https://maps.google.com/?q=10.2469,-67.5958",
+              "instagram_url": "https://www.instagram.com/p/DZ_kBlyIVRI/?hl=es",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Redoma Gran Mariscal",
+              "direccion": "Corinsa",
+              "coords": [
+                10.17102388,
+                -67.45307849
+              ],
+              "maps": "https://maps.google.com/?q=10.17102388,-67.45307849",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Familiares y amigos que viven en la zona"
+            },
+            {
+              "nombre": "Sociedad anticancerosa",
+              "direccion": "Calle Bolívar frente a la Plaza Sucre",
+              "coords": [
+                10.17451394,
+                -67.43814467
+              ],
+              "maps": "https://maps.google.com/?q=10.17451394,-67.43814467",
+              "whatsapp": "4143456992",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lo publicaron en redes"
+            },
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Burger Latin, centro comercial Palma Center",
+              "coords": [
+                10.2272,
+                -67.332
+              ],
+              "maps": "https://maps.google.com/?q=10.2272,-67.332",
+              "instagram_url": "https://www.instagram.com/p/DaAk8GWOLGH/?igsh=MXB2NDFyNzlheG54Nw%3D%3D",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Teatro de la Ópera (Maracay)",
+              "direccion": "Teatro de la Ópera, Maracay",
+              "coords": [
+                10.248,
+                -67.595
+              ],
+              "maps": "https://maps.google.com/?q=10.248,-67.595",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Voluntad Popular",
+              "direccion": "Paseo de la Libertad, Avenida Las Delicias, frente al Centro Médico Maracay",
+              "coords": [
+                10.245093,
+                -67.593436
+              ],
+              "maps": "https://maps.google.com/?q=10.245093,-67.593436",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Turmero",
+          "centros": [
+            {
+              "nombre": "Iglesia Jesús de la Misericordia",
+              "direccion": "Turmero",
+              "coords": [
+                10.21479566,
+                -67.48666085
+              ],
+              "maps": "https://maps.google.com/?q=10.21479566,-67.48666085",
+              "whatsapp": "4260635514",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Familiares y amigos que viven en la zona"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Barinas",
+      "ciudades": [
+        {
+          "nombre": "Barinas",
+          "centros": [
+            {
+              "nombre": "Comando Con Venezuela",
+              "direccion": "Av. Marqués del Pumar diagonal al Hotel Comercio, Casa Azul",
+              "coords": [
+                8.6231,
+                -70.2075
+              ],
+              "maps": "https://maps.google.com/?q=8.6231,-70.2075",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Fe y Alegría \"Padre Felipe Salvador Gilij\"",
+              "direccion": "Fe y Alegría Padre Felipe Salvador Gilij, Barinas",
+              "coords": [
+                8.6050614,
+                -70.1956269
+              ],
+              "maps": "https://maps.google.com/?q=8.6050614,-70.1956269",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Barrancas",
+          "centros": [
+            {
+              "nombre": "Comando Con Venezuela",
+              "direccion": "Municipio Cruz Paredes, Av. Bolívar diagonal al Hotel del Búfalo, Casa Azul, Barrancas",
+              "coords": [
+                8.623314,
+                -70.210987
+              ],
+              "maps": "https://maps.google.com/?q=8.623314,-70.210987",
+              "whatsapp": "4145298154",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Bolívar",
+      "ciudades": [
+        {
+          "nombre": "Caroní",
+          "centros": [
+            {
+              "nombre": "Comando Con Venezuela",
+              "direccion": "Municipio Caroní: Centro Comercial Biblos, primer piso, Local 71 C (antes Todo Limpio, frente a los tráileres de Bauxilum y al lado de la Bomba Biblos), Unare II",
+              "coords": [
+                8.120393,
+                -63.547336
+              ],
+              "maps": "https://maps.google.com/?q=8.120393,-63.547336",
+              "instagram_url": "https://www.instagram.com/p/DZ_0rjlljwk/?igsh=MWJwbTk1MXhhYWtkcg%3D%3D",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Ciudad Bolívar",
+          "centros": [
+            {
+              "nombre": "Cámara de Comercio de Bolívar",
+              "direccion": "Sede de la Cámara de Comercio e Industrias del estado Bolívar, Av. Táchira",
+              "coords": [
+                8.1222,
+                -63.5497
+              ],
+              "maps": "https://maps.google.com/?q=8.1222,-63.5497",
+              "instagram": "camaradecomerciobolivar",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Gobierno de Venezuela",
+              "direccion": "Fundación Social Bolívar (Sede 911)",
+              "coords": [
+                8.297,
+                -62.717
+              ],
+              "maps": "https://maps.google.com/?q=8.297,-62.717",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Rotaract Santo Ángel",
+              "direccion": "Croquínea a un lado de la Clínica Razzeti, Altavista",
+              "coords": [
+                8.353,
+                -62.651
+              ],
+              "maps": "https://maps.google.com/?q=8.353,-62.651",
+              "contacto": "Victoria Castillo 04121937746/Desireé Lugo 04249050118",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Voluntad Popular - Angostura del Orinoco",
+              "direccion": "Esquina de Banesco, Avenida República, Municipio Angostura del Orinoco (Ciudad Bolívar)",
+              "coords": [
+                8.128,
+                -63.543
+              ],
+              "maps": "https://maps.google.com/?q=8.128,-63.543",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "El Pitazo (elpitazo.net), centros de acopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Heres",
+          "centros": [
+            {
+              "nombre": "Comando Con Venezuela",
+              "direccion": "Municipio Heres: Av. Pichincha, Edificio Tequendama, Local N° 4",
+              "coords": [
+                8.122414,
+                -63.553187
+              ],
+              "maps": "https://maps.google.com/?q=8.122414,-63.553187",
+              "instagram_url": "https://www.instagram.com/p/DZ_0rjlljwk/?igsh=MWJwbTk1MXhhYWtkcg%3D%3D",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Puerto Ordaz",
+          "centros": [
+            {
+              "nombre": "UCAB Guayana - Casa del Estudiante",
+              "direccion": "Planta alta, Casa del Estudiante, Dirección de Desarrollo Estudiantil, UCAB Guayana, Puerto Ordaz",
+              "coords": [
+                8.2965,
+                -62.7185
+              ],
+              "maps": "https://maps.google.com/?q=8.2965,-62.7185",
+              "whatsapp": "4249147305",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "abrigos y otros implementos de protección",
+                "cascos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "San Félix",
+          "centros": [
+            {
+              "nombre": "Rotaract Santo Ángel",
+              "direccion": "Laboratorio Roraima, Clínica Humana San Félix",
+              "coords": [
+                8.351193,
+                -62.648636
+              ],
+              "maps": "https://maps.google.com/?q=8.351193,-62.648636",
+              "contacto": "Victoria Castillo 04121937746/Desireé Lugo 04249050118",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Carabobo",
+      "ciudades": [
+        {
+          "nombre": "Guacara",
+          "centros": [
+            {
+              "nombre": "Cuerpo de Bomberos de Guacara",
+              "direccion": "Sede del Cuerpo de Bomberos, Carretera Nacional, Guacara",
+              "coords": [
+                10.231,
+                -67.877
+              ],
+              "maps": "https://maps.google.com/?q=10.231,-67.877",
+              "fuente": "El Pitazo (elpitazo.net), centros de acopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Valencia",
+          "centros": [
+            {
+              "nombre": "Comando Con Venezuela",
+              "direccion": "Avenida Monseñor Adams, El Viñedo. Edificio Talislandia, mezzanina.",
+              "coords": [
+                10.160193,
+                -68.005336
+              ],
+              "maps": "https://maps.google.com/?q=10.160193,-68.005336",
+              "instagram_url": "https://www.instagram.com/p/DZ_kBlyIVRI/?hl=es",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Jóvenes por el clima",
+              "direccion": "Av. Bolívar frente al Multicentro",
+              "coords": [
+                10.162,
+                -68.0077
+              ],
+              "maps": "https://maps.google.com/?q=10.162,-68.0077",
+              "instagram_url": "https://www.instagram.com/p/DaAB8S-CAiB/?igsh=Njl4YXk4N3drM2tm",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Plaza de las Panelas",
+              "direccion": "Indiana Norte",
+              "coords": [
+                10.25665613,
+                -67.80182411
+              ],
+              "maps": "https://maps.google.com/?q=10.25665613,-67.80182411",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Por una persona de confianza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Cojedes",
+      "ciudades": [
+        {
+          "nombre": "Manaure",
+          "centros": [
+            {
+              "nombre": "Escuela Manaure",
+              "direccion": "Escuela Manaure",
+              "coords": [
+                9.823081108,
+                -68.43389031
+              ],
+              "maps": "https://maps.google.com/?q=9.823081108,-68.43389031",
+              "contacto": "Berlín Ramírez 0426/0353282",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Por WhatsApp"
+            }
+          ]
+        },
+        {
+          "nombre": "San Carlos",
+          "centros": [
+            {
+              "nombre": "Cáritas San Carlos",
+              "direccion": "Sede Cáritas Diocesana, calle Carabobo con calle Madariaga, San Carlos",
+              "coords": [
+                9.664781388,
+                -68.58874388
+              ],
+              "maps": "https://maps.google.com/?q=9.664781388,-68.58874388",
+              "instagram": "caritasdiocesanasancarlos",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Por WhatsApp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Delta Amacuro",
+      "ciudades": []
+    },
+    {
+      "nombre": "Distrito Capital",
+      "ciudades": [
+        {
+          "nombre": "Caracas",
+          "centros": [
+            {
+              "nombre": "Cáritas Venezuela",
+              "direccion": "Sede de la Conferencia Episcopal Venezolana, Avenida Teherán, a 200 metros de la Universidad Católica Andrés Bello (UCAB), frente a la Urbanización Juan Pablo II, sector Montalbán",
+              "coords": [
+                10.461193,
+                -66.939636
+              ],
+              "maps": "https://maps.google.com/?q=10.461193,-66.939636",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Colegio Cristo Rey Altamira",
+              "direccion": "Colegio Cristo Rey Altamira, 7ma Avenida entre 6ta y 7ma Transversal",
+              "coords": [
+                10.496491,
+                -66.844222
+              ],
+              "maps": "https://maps.google.com/?q=10.496491,-66.844222",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Comando Con Venezuela",
+              "direccion": "Cuarta Avenida de Altamira, entre novena y décima transversal, Quinta El Bejucal",
+              "coords": [
+                10.493193,
+                -66.844636
+              ],
+              "maps": "https://maps.google.com/?q=10.493193,-66.844636",
+              "instagram_url": "https://www.instagram.com/p/DZ_kBlyIVRI/?hl=es",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Fundación Cruz Azul",
+              "direccion": "Fitness Factory VE, 4ta Avenida de Los Palos Grandes entre 1ra y 2da transversal",
+              "coords": [
+                10.496193,
+                -66.839636
+              ],
+              "maps": "https://maps.google.com/?q=10.496193,-66.839636",
+              "instagram": "cruzazulusm",
+              "recibe": [
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Iglesia La Paz Montalbán I",
+              "direccion": "Iglesia La Paz Montalbán I",
+              "coords": [
+                10.47599064,
+                -66.95098002
+              ],
+              "maps": "https://maps.google.com/?q=10.47599064,-66.95098002",
+              "instagram": "comandoconvzla",
+              "fuente": "Compartido por el comando Con Venezuela"
+            },
+            {
+              "nombre": "Instituto de Diseño de Caracas",
+              "direccion": "Av. Ávila, Caracas 1060, Miranda",
+              "coords": [
+                10.4806,
+                -66.9036
+              ],
+              "maps": "https://maps.google.com/?q=10.4806,-66.9036",
+              "whatsapp": "4123212782",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "abrigos y otros implementos de protección",
+                "cascos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Rescatistas y vecinos",
+              "direccion": "Edificio Petunia, Av. Francisco de Miranda entre Los Palos Grandes y Altamira",
+              "coords": [
+                10.498,
+                -66.842
+              ],
+              "maps": "https://maps.google.com/?q=10.498,-66.842",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Rotaract Caracas - Terrazas del Club Hípico",
+              "direccion": "Terrazas del Club Hípico, Caracas",
+              "coords": [
+                10.452,
+                -66.843
+              ],
+              "maps": "https://maps.google.com/?q=10.452,-66.843",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "mantas y cobijas"
+              ],
+              "fuente": "El Pitazo (elpitazo.net), centros de acopio"
+            },
+            {
+              "nombre": "Sede de la Conferencia Episcopal de Venezuela",
+              "direccion": "Avenida Teherán, Urbanización Montalbán / Juan Pablo II.",
+              "coords": [
+                10.47020196,
+                -66.96065049
+              ],
+              "maps": "https://maps.google.com/?q=10.47020196,-66.96065049",
+              "instagram": "cevmedios",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Tomado del Instagram de CevMedios"
+            },
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Quinta El Bejucal, cuarta Avenida transversal de Altamira, entre novena y décima transversal",
+              "coords": [
+                10.495214,
+                -66.850487
+              ],
+              "maps": "https://maps.google.com/?q=10.495214,-66.850487",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Falcón",
+      "ciudades": [
+        {
+          "nombre": "Paraguaná",
+          "centros": [
+            {
+              "nombre": "Colegio Nacional de Periodistas (CNP) - Paraguaná",
+              "direccion": "Sede del Colegio Nacional de Periodistas (CNP), Paraguaná",
+              "coords": [
+                11.69,
+                -70.21
+              ],
+              "maps": "https://maps.google.com/?q=11.69,-70.21",
+              "fuente": "El Pitazo (elpitazo.net), centros de acopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Punto Fijo",
+          "centros": [
+            {
+              "nombre": "Cáritas Diócesis de Punto Fijo",
+              "direccion": "Sector Centro, calle Páez entre Brasil y Perú, frente a la primera casa de Punto Fijo",
+              "coords": [
+                11.708,
+                -70.199
+              ],
+              "maps": "https://maps.google.com/?q=11.708,-70.199",
+              "horario": "Lunes a viernes, 8:30am - 2:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "fuente": "Flyer oficial de Cáritas Diócesis de Punto Fijo · Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Guárico",
+      "ciudades": []
+    },
+    {
+      "nombre": "La Guaira",
+      "ciudades": []
+    },
+    {
+      "nombre": "Lara",
+      "ciudades": [
+        {
+          "nombre": "Barquisimeto",
+          "centros": [
+            {
+              "nombre": "Cáritas Barquisimeto",
+              "direccion": "Cáritas, Carrera 18 entre calles 34 y 35, Barquisimeto",
+              "coords": [
+                10.068,
+                -69.323
+              ],
+              "maps": "https://maps.google.com/?q=10.068,-69.323",
+              "contacto": "0251-4468402 / caritasbarquisimeto@gmail.com",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "El Pitazo (elpitazo.net), centros de acopio"
+            },
+            {
+              "nombre": "Colegio Las Colinas",
+              "direccion": "Colegio Las Colinas, entrada El Pedregal",
+              "coords": [
+                10.064914,
+                -69.350487
+              ],
+              "maps": "https://maps.google.com/?q=10.064914,-69.350487",
+              "instagram": "colegiolascolinas1969",
+              "recibe": [
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Fitness Factory Cabudare",
+              "direccion": "CC Hipermercado Multimall, Avenida El Placer con Av. Libertador",
+              "coords": [
+                10.0286,
+                -69.2611
+              ],
+              "maps": "https://maps.google.com/?q=10.0286,-69.2611",
+              "instagram_url": "https://www.instagram.com/p/DaApx5TAAkN/?img_index=1&igsh=MWprOWNwODh2eHowdA==",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Tatas Food, carrera 15 entre calles 13A y 13B",
+              "coords": [
+                10.0647,
+                -69.347
+              ],
+              "maps": "https://maps.google.com/?q=10.0647,-69.347",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Voluntariado Higea",
+              "direccion": "Fundación Higea y Biotel Suites",
+              "coords": [
+                10.062893,
+                -69.344636
+              ],
+              "maps": "https://maps.google.com/?q=10.062893,-69.344636",
+              "instagram": "voluntariadohigea",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Mérida",
+      "ciudades": [
+        {
+          "nombre": "Mérida",
+          "centros": [
+            {
+              "nombre": "Animales Sin Nombre",
+              "direccion": "CC El Rodeo (contactar a través de Instagram)",
+              "coords": [
+                8.589793,
+                -71.142436
+              ],
+              "maps": "https://maps.google.com/?q=8.589793,-71.142436",
+              "instagram": "_asn",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Colegio de Médicos",
+              "coords": [
+                8.5916,
+                -71.1448
+              ],
+              "maps": "https://maps.google.com/?q=8.5916,-71.1448",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Miranda",
+      "ciudades": [
+        {
+          "nombre": "Caracas",
+          "centros": [
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Frente a la iglesia Rumana, en la entrada a la vía de La Unión",
+              "coords": [
+                10.4233,
+                -66.823
+              ],
+              "maps": "https://maps.google.com/?q=10.4233,-66.823",
+              "whatsapp": "0414/2384085",
+              "recibe": [
+                "alimentos no perecederos",
+                "pañales de bebé"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Monagas",
+      "ciudades": [
+        {
+          "nombre": "Maturín",
+          "centros": [
+            {
+              "nombre": "Tecnosegura",
+              "direccion": "Av. Bolívar, frente al Banco de Venezuela, puerta azul al lado del Potente, arriba de Farmapaz, Maturín, Monagas",
+              "coords": [
+                9.74706558,
+                -63.18507021
+              ],
+              "maps": "https://maps.google.com/?q=9.74706558,-63.18507021",
+              "contacto": "04129425487, 04128757063, @tecnosegura",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "fuente": "Soy uno de los representantes del centro."
+            },
+            {
+              "nombre": "Voluntad Popular",
+              "direccion": "Calle 6, antigua Bermúdez, casa N° 11, antiguo restaurante El Oeste",
+              "coords": [
+                9.7457,
+                -63.1832
+              ],
+              "maps": "https://maps.google.com/?q=9.7457,-63.1832",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Nueva Esparta",
+      "ciudades": []
+    },
+    {
+      "nombre": "Portuguesa",
+      "ciudades": []
+    },
+    {
+      "nombre": "Sucre",
+      "ciudades": []
+    },
+    {
+      "nombre": "Táchira",
+      "ciudades": [
+        {
+          "nombre": "San Cristóbal",
+          "centros": [
+            {
+              "nombre": "Rotaract Táchira",
+              "direccion": "Brave Community Fitness, al lado del hotel Manuel",
+              "coords": [
+                7.8146,
+                -72.443
+              ],
+              "maps": "https://maps.google.com/?q=7.8146,-72.443",
+              "whatsapp": "573508741816",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Madeco, Av. Cuatricentenaria",
+              "coords": [
+                7.7669,
+                -72.225
+              ],
+              "maps": "https://maps.google.com/?q=7.7669,-72.225",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Trujillo",
+      "ciudades": [
+        {
+          "nombre": "Pampanito",
+          "centros": [
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Municipio Pampanito: Pampanito I, Urb. Villa Hermosa, 4ta calle, Casa N° 377",
+              "coords": [
+                9.366914,
+                -70.436787
+              ],
+              "maps": "https://maps.google.com/?q=9.366914,-70.436787",
+              "contacto": "Laudelino Vásquez (04129843407)",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Trujillo",
+          "centros": [
+            {
+              "nombre": "Sociedad civil",
+              "direccion": "Municipio Trujillo Capital. Centro Comercial Plaza Marina. Local 30",
+              "coords": [
+                9.3667,
+                -70.4333
+              ],
+              "maps": "https://maps.google.com/?q=9.3667,-70.4333",
+              "contacto": "Luis Pulgar (04126840791)",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Yaracuy",
+      "ciudades": []
+    },
+    {
+      "nombre": "Zulia",
+      "ciudades": [
+        {
+          "nombre": "Cabimas",
+          "centros": [
+            {
+              "nombre": "Acopio Cabimas - Punto 1 (frente Hotel Costa Sol)",
+              "direccion": "Carretera H, frente al Hotel Costa Sol (antiguo El Remanso), Cabimas",
+              "coords": [
+                10.395,
+                -71.445
+              ],
+              "maps": "https://maps.google.com/?q=10.395,-71.445",
+              "instagram": "alcaldiabcabimas_",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer Alcaldía Bolivariana de Cabimas"
+            },
+            {
+              "nombre": "Acopio Cabimas - Punto 2 (frente Corpoelec)",
+              "direccion": "Avenida 32 con Carretera H, frente a las oficinas de Corpoelec, Cabimas",
+              "coords": [
+                10.39,
+                -71.447
+              ],
+              "maps": "https://maps.google.com/?q=10.39,-71.447",
+              "instagram": "alcaldiabcabimas_",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer Alcaldía Bolivariana de Cabimas"
+            },
+            {
+              "nombre": "Acopio Cabimas - Punto 3 (CC Borjas, Xtrema 98.9FM)",
+              "direccion": "Carretera H, Centro Comercial Borjas, estación radial Xtrema 98.9FM, Cabimas",
+              "coords": [
+                10.385,
+                -71.449
+              ],
+              "maps": "https://maps.google.com/?q=10.385,-71.449",
+              "instagram": "alcaldiabcabimas_",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer Alcaldía Bolivariana de Cabimas"
+            }
+          ]
+        },
+        {
+          "nombre": "Maracaibo",
+          "centros": [
+            {
+              "nombre": "Colegio de Médicos (Maracaibo)",
+              "direccion": "Sede del Colegio de Médicos, Maracaibo",
+              "coords": [
+                10.668,
+                -71.612
+              ],
+              "maps": "https://maps.google.com/?q=10.668,-71.612",
+              "instagram": "comezu_2021",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Facultad de Medicina LUZ (El Tacón)",
+              "direccion": "El Tacón, Avenida Delicias, Facultad de Medicina, Universidad del Zulia, Maracaibo",
+              "coords": [
+                10.661,
+                -71.63
+              ],
+              "maps": "https://maps.google.com/?q=10.661,-71.63",
+              "recibe": [
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Reporte de la usuaria"
+            },
+            {
+              "nombre": "RELEVECA",
+              "direccion": "Av. Intercomunal, sector Tropicana, frente a la bomba Tropicana",
+              "coords": [
+                10.18866539,
+                -71.31085608
+              ],
+              "maps": "https://maps.google.com/?q=10.18866539,-71.31085608",
+              "contacto": "releveca_ca",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Fui personalmente"
+            },
+            {
+              "nombre": "Un Nuevo Tiempo",
+              "direccion": "Sede regional Un Nuevo Tiempo",
+              "coords": [
+                10.6545,
+                -71.6402
+              ],
+              "maps": "https://maps.google.com/?q=10.6545,-71.6402",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Vente Zulia",
+              "direccion": "Calle 70 con Av. 15A y 15B, N° 15A-39, calle paralela a Nebabrica",
+              "coords": [
+                10.652693,
+                -71.637836
+              ],
+              "maps": "https://maps.google.com/?q=10.652693,-71.637836",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Colombia",
+      "ciudades": [
+        {
+          "nombre": "Barranquilla",
+          "centros": [
+            {
+              "nombre": "Calidex - Barranquilla",
+              "direccion": "Calle 79 #42F-93, Local 102, Garden Plaza, Barranquilla",
+              "coords": [
+                11.003,
+                -74.805
+              ],
+              "maps": "https://maps.google.com/?q=11.003,-74.805",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            }
+          ]
+        },
+        {
+          "nombre": "Bello",
+          "centros": [
+            {
+              "nombre": "Calidex - Bello (Niquía)",
+              "direccion": "Diagonal 55 #37-41, CC Estación Niquía, Local 147, Bello",
+              "coords": [
+                6.338,
+                -75.555
+              ],
+              "maps": "https://maps.google.com/?q=6.338,-75.555",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            }
+          ]
+        },
+        {
+          "nombre": "Bogotá",
+          "centros": [
+            {
+              "nombre": "Calidex - Bogotá Cedritos",
+              "direccion": "Cra 19 #147-30, Local 09, CC La Juguetería, Cedritos, Bogotá",
+              "coords": [
+                4.729,
+                -74.033
+              ],
+              "maps": "https://maps.google.com/?q=4.729,-74.033",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Calidex - Bogotá Engativá",
+              "direccion": "Calle 72 #82-60, Local 13 (Piso 1), Centro Empresarial Punto 72, Engativá, Bogotá",
+              "coords": [
+                4.69,
+                -74.115
+              ],
+              "maps": "https://maps.google.com/?q=4.69,-74.115",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Calidex - Bogotá San Victorino",
+              "direccion": "Calle 12B #9-40, CC Neos, Nivel 0, Local 010, San Victorino, Bogotá",
+              "coords": [
+                4.603,
+                -74.084
+              ],
+              "maps": "https://maps.google.com/?q=4.603,-74.084",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Fundación Juntos Se Puede",
+              "direccion": "Calle 104 #54 -31 Barrio Pasadena localidad Suba",
+              "coords": [
+                4.74,
+                -74.083
+              ],
+              "maps": "https://maps.google.com/?q=4.74,-74.083",
+              "instagram": "funjuntossepuede",
+              "recibe": [
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Bucaramanga",
+          "centros": [
+            {
+              "nombre": "Todos con VZLA - Bucaramanga",
+              "direccion": "Calle 18 #21-52, Barrio San Francisco, diagonal a la Iglesia San Francisco, Bucaramanga, Santander · Horario: 7am-7pm",
+              "coords": [
+                7.121,
+                -73.119
+              ],
+              "maps": "https://maps.google.com/?q=7.121,-73.119",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer Operación Todos con VZLA"
+            }
+          ]
+        },
+        {
+          "nombre": "Cali",
+          "centros": [
+            {
+              "nombre": "Calidex - Cali Norte",
+              "direccion": "Carrera 5 #60-30, Cali Norte",
+              "coords": [
+                3.472,
+                -76.505
+              ],
+              "maps": "https://maps.google.com/?q=3.472,-76.505",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Calidex - Cali Sur",
+              "direccion": "Carrera 1 #61A-30, Local 10, CC Colón Plaza, Cali Sur",
+              "coords": [
+                3.43,
+                -76.535
+              ],
+              "maps": "https://maps.google.com/?q=3.43,-76.535",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Todos con VZLA - Cali",
+              "direccion": "Carrera 28 B3 #72S-32, Comuneros II (cerca Troncal Unida), Cali · Horario: 8am-12pm y 5pm-7pm",
+              "coords": [
+                3.4,
+                -76.515
+              ],
+              "maps": "https://maps.google.com/?q=3.4,-76.515",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer Operación Todos con VZLA"
+            }
+          ]
+        },
+        {
+          "nombre": "Cartagena",
+          "centros": [
+            {
+              "nombre": "Centro Intégrate (Cartagena)",
+              "direccion": "Centro Intégrate, Barrio Líbano, Cra. 49 #31B-125, detrás de Unitecnar, Cartagena",
+              "coords": [
+                10.409,
+                -75.4985
+              ],
+              "maps": "https://maps.google.com/?q=10.409,-75.4985",
+              "fuente": "Anuncio del alcalde de Cartagena"
+            }
+          ]
+        },
+        {
+          "nombre": "Cúcuta",
+          "centros": [
+            {
+              "nombre": "Calidex - Cúcuta",
+              "direccion": "Avenida 6 #7N-109, Zona Industrial, Edificio Red Rubicam S.A.S., Cúcuta",
+              "coords": [
+                7.91,
+                -72.49
+              ],
+              "maps": "https://maps.google.com/?q=7.91,-72.49",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            }
+          ]
+        },
+        {
+          "nombre": "Medellín",
+          "centros": [
+            {
+              "nombre": "Calidex - Medellín Centro",
+              "direccion": "Carrera 51 #51-47, Estación Parque Berrío, CC Veracruz, Piso 3, Locales 3197-3199, Medellín",
+              "coords": [
+                6.2518,
+                -75.568
+              ],
+              "maps": "https://maps.google.com/?q=6.2518,-75.568",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Calidex - Medellín Poblado",
+              "direccion": "Cra 35A #15B-35, Las Palmas, Centro de Negocios Prisma, Oficina 101, El Poblado, Medellín",
+              "coords": [
+                6.209,
+                -75.566
+              ],
+              "maps": "https://maps.google.com/?q=6.209,-75.566",
+              "web": "https://calidex.co/",
+              "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "ENVIAR Courier - Medellín (Belén)",
+              "direccion": "Diagonal 74B calle 32-10, sobre la Av. Bolivariana, a una cuadra del Parque de Belén, Medellín · Horario: L-V 8am-5pm, Sáb 8am-1pm",
+              "coords": [
+                6.233,
+                -75.598
+              ],
+              "maps": "https://maps.google.com/?q=6.233,-75.598",
+              "fuente": "Flyer ENVIAR Courier"
+            }
+          ]
+        },
+        {
+          "nombre": "Montería",
+          "centros": [
+            {
+              "nombre": "Todos con VZLA - Montería",
+              "direccion": "Calle 28A #4W-79, Barrio San Miguel, Margen Izquierda, Montería, Córdoba · Horario: 7am-7pm",
+              "coords": [
+                8.746,
+                -75.895
+              ],
+              "maps": "https://maps.google.com/?q=8.746,-75.895",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer Operación Todos con VZLA"
+            }
+          ]
+        },
+        {
+          "nombre": "Santa Marta",
+          "centros": [
+            {
+              "nombre": "Todos con VZLA - Santa Marta",
+              "direccion": "Parque La Tenería, Carrera 2 con 1D-36, cerca de Playa Los Cocos, Santa Marta · Horario: 7am-6pm",
+              "coords": [
+                11.241,
+                -74.205
+              ],
+              "maps": "https://maps.google.com/?q=11.241,-74.205",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Flyer Operación Todos con VZLA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Estados Unidos",
+      "ciudades": [
+        {
+          "nombre": "Doral",
+          "centros": [
+            {
+              "nombre": "Caracas Bakery",
+              "direccion": "7884 NW 52nd St",
+              "coords": [
+                25.8195,
+                -80.3553
+              ],
+              "maps": "https://maps.google.com/?q=25.8195,-80.3553",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Global Empowerment Mission",
+              "direccion": "1850 NW 84th Ave #100, Doral, FL 33126",
+              "coords": [
+                25.817693,
+                -80.352936
+              ],
+              "maps": "https://maps.google.com/?q=25.817693,-80.352936",
+              "whatsapp": "(800) 995-7604",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Florida",
+          "centros": [
+            {
+              "nombre": "All for Vzla",
+              "direccion": "1391 NW 187 Ave, Pembroke Pines",
+              "coords": [
+                26.0123,
+                -80.3382
+              ],
+              "maps": "https://maps.google.com/?q=26.0123,-80.3382",
+              "contacto": "Mayra Marchán — 305-588-0338",
+              "instagram_url": "https://www.instagram.com/p/DZ_cLtxuR0O/?igsh=MWdkcHdqZXVvYW96Zg==",
+              "recibe": [
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Miami",
+          "centros": [
+            {
+              "nombre": "Caracas Bakery",
+              "direccion": "7283 Biscayne Blvd",
+              "coords": [
+                25.823,
+                -80.186
+              ],
+              "maps": "https://maps.google.com/?q=25.823,-80.186",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Panamá",
+      "ciudades": [
+        {
+          "nombre": "Ciudad de Panamá",
+          "centros": [
+            {
+              "nombre": "Alcaldía de Panamá",
+              "direccion": "Teatro Gladys Vidal, planta baja del Edificio Hatillo.",
+              "coords": [
+                8.9824,
+                -79.5199
+              ],
+              "maps": "https://maps.google.com/?q=8.9824,-79.5199",
+              "instagram_url": "https://www.instagram.com/p/DaApTBKkTd7/?igsh=MWVub3c3aWR1MXhkMA%3D%3D",
+              "recibe": [
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ecuador",
+      "ciudades": [
+        {
+          "nombre": "Guayaquil",
+          "centros": [
+            {
+              "nombre": "Sociedad Civil",
+              "direccion": "Alborada 4ta etapa manzana FF Villa 6. Avenida José María Roura llegando al comisariato, atrás de ferrisariato",
+              "coords": [
+                -2.148,
+                -79.887
+              ],
+              "maps": "https://maps.google.com/?q=-2.148,-79.887",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "España",
+      "ciudades": [
+        {
+          "nombre": "Madrid",
+          "centros": [
+            {
+              "nombre": "Refugiados sin fronteras",
+              "direccion": "Calle Matilde Landa 26",
+              "coords": [
+                40.425,
+                -3.7
+              ],
+              "maps": "https://maps.google.com/?q=40.425,-3.7",
+              "instagram_url": "https://www.instagram.com/p/DaAU3uXoUdw/",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
