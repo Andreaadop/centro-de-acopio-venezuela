@@ -2918,6 +2918,19 @@
           "nombre": "Santiago",
           "centros": [
             {
+              "nombre": "Rumbo Sur — Centro de Acopio",
+              "direccion": "Zenteno 183, Santiago Centro, Santiago de Chile",
+              "coords": [
+                -33.4450,
+                -70.6510
+              ],
+              "maps": "https://maps.google.com/?q=Zenteno+183+Santiago+Centro+Chile",
+              "instagram": "rumbosur.cl",
+              "web": "https://www.instagram.com/rumbosur.cl/",
+              "nota": "Ya están recibiendo todas las ayudas (insumos). Para coordinar y confirmar qué insumos están priorizando, escribe al IG @rumbosur.cl.",
+              "fuente": "Flyer @josmarlarrealeventos · @rumbosur.cl"
+            },
+            {
               "nombre": "Papelón Sabroso — Centro de Acopio",
               "direccion": "Av. Providencia 1669, Providencia, Santiago de Chile",
               "coords": [
