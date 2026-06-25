@@ -33,6 +33,120 @@
     "colchones, almohadas y colchones inflables",
     "alimentos para mascotas"
   ],
+  "donaciones_monetarias_fuente": {
+    "nombre": "AJE Venezuela",
+    "url": "https://ajevenezuela.org/ayuda-venezuela/donaciones",
+    "descripcion": "Todas las organizaciones aquí publicadas han sido revisadas y confirmadas por el equipo de AJE Venezuela. Antes de donar, verifica siempre que estés usando los canales oficiales de cada organización."
+  },
+  "donaciones_monetarias": [
+    {
+      "nombre": "Alimenta La Solidaridad, Inc.",
+      "alcance": "internacional",
+      "descripcion": "Organización sin fines de lucro 501(c)3 dedicada a alimentar a niños venezolanos. Las donaciones son deducibles de impuestos en EE.UU.",
+      "tipo_ayuda": "Donación monetaria",
+      "web": "https://donate.alimentalasolidaridad.org/campaign/815565/donate"
+    },
+    {
+      "nombre": "Dividendo Voluntario para la Comunidad (DVC)",
+      "alcance": "nacional",
+      "descripcion": "Asociación civil venezolana canalizando aportes para la respuesta humanitaria. Donaciones en bolívares (Pago Móvil y transferencia) y en divisas vía Mercantil Banco Panamá.",
+      "tipo_ayuda": "Ayuda humanitaria",
+      "metodos": [
+        {
+          "tipo": "Pago Móvil",
+          "banco": "Banco Mercantil",
+          "campos": [
+            { "etiqueta": "RIF", "valor": "J-000579105" },
+            { "etiqueta": "Teléfono", "valor": "0412-332-1367" }
+          ]
+        },
+        {
+          "tipo": "Transferencia",
+          "banco": "Banco Mercantil",
+          "campos": [
+            { "etiqueta": "Titular", "valor": "Dividendo Voluntario para la Comunidad, A.C." },
+            { "etiqueta": "Cuenta Corriente", "valor": "0105-0026-5410-2642-4518" },
+            { "etiqueta": "RIF", "valor": "J-000579105" }
+          ]
+        },
+        {
+          "tipo": "Transferencia",
+          "banco": "Banco Nacional de Crédito (BNC)",
+          "campos": [
+            { "etiqueta": "Titular", "valor": "Dividendo Voluntario para la Comunidad, A.C." },
+            { "etiqueta": "Cuenta Corriente", "valor": "0191-0154-1321-0019-6480" },
+            { "etiqueta": "RIF", "valor": "J-000579105" }
+          ]
+        },
+        {
+          "tipo": "Cuenta en divisas",
+          "banco": "Mercantil Banco, S.A. (Panamá)",
+          "campos": [
+            { "etiqueta": "Titular", "valor": "Dividendo Voluntario para la Comunidad, A.C." },
+            { "etiqueta": "SWIFT", "valor": "MPANPAPA" },
+            { "etiqueta": "N° de cuenta", "valor": "300016658" },
+            { "etiqueta": "Dirección del banco", "valor": "Torre de las Américas, Punta Pacífica, Ciudad de Panamá, Panamá" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "GoFundMe — Emergency Relief for Venezuela Earthquake",
+      "alcance": "internacional",
+      "descripcion": "Campaña internacional de recaudación para víctimas del terremoto en Venezuela.",
+      "tipo_ayuda": "Recaudación de fondos",
+      "web": "https://www.gofundme.com/f/emergency-relief-for-venezuela-earthquake-victims"
+    },
+    {
+      "nombre": "UNICEF España — Emergencia Terremoto Venezuela",
+      "alcance": "internacional",
+      "descripcion": "Donaciones para la respuesta de UNICEF ante el terremoto en Venezuela.",
+      "tipo_ayuda": "Ayuda humanitaria a la niñez",
+      "web": "https://www.unicef.es/colabora/dona/emergencia-terremoto-en-venezuela"
+    },
+    {
+      "nombre": "Cruz Roja Venezolana",
+      "alcance": "nacional",
+      "descripcion": "La Cruz Roja Venezolana se encuentra brindando asistencia a las personas afectadas por el terremoto. Puedes realizar tu donación a través de sus cuentas oficiales.",
+      "tipo_ayuda": "Respuesta humanitaria",
+      "web": "https://www.cruzrojavenezolana.org/"
+    },
+    {
+      "nombre": "Save the Children",
+      "alcance": "internacional",
+      "descripcion": "Organización internacional que protege a la niñez en emergencias humanitarias.",
+      "tipo_ayuda": "Ayuda humanitaria a la niñez",
+      "web": "https://www.savethechildren.net/"
+    },
+    {
+      "nombre": "International Medical Corps",
+      "alcance": "internacional",
+      "descripcion": "Respuesta médica de emergencia ante los terremotos en Venezuela.",
+      "tipo_ayuda": "Asistencia médica de emergencia",
+      "web": "https://internationalmedicalcorps.org/emergency-response/venezuela-earthquakes/?form=Ven2606"
+    },
+    {
+      "nombre": "Fundana",
+      "alcance": "nacional",
+      "descripcion": "Fundación venezolana dedicada a la protección de niños en situación de vulnerabilidad.",
+      "tipo_ayuda": "Donación económica",
+      "web": "https://www.fundana.org/donaci%C3%B3n-econ%C3%B3mica"
+    },
+    {
+      "nombre": "I Love Venezuela Foundation",
+      "alcance": "internacional",
+      "descripcion": "Organización dedicada a apoyar causas humanitarias y sociales en Venezuela.",
+      "tipo_ayuda": "Ayuda humanitaria",
+      "web": "https://ilovevenezuelafoundation.org/"
+    },
+    {
+      "nombre": "VACC Foundation — Dona Venezuela Se VACC",
+      "alcance": "internacional",
+      "descripcion": "Fundación internacional canalizando donaciones para la emergencia en Venezuela.",
+      "tipo_ayuda": "Recaudación de fondos",
+      "web": "https://vaccfoundation.org/donate-now/"
+    }
+  ],
   "estados": [
     {
       "nombre": "Amazonas",
