@@ -30,7 +30,8 @@
     "artículos de limpieza",
     "materiales para refugio",
     "linternas, pilas y cargadores portátiles",
-    "colchones, almohadas y colchones inflables"
+    "colchones, almohadas y colchones inflables",
+    "alimentos para mascotas"
   ],
   "estados": [
     {
@@ -1100,7 +1101,129 @@
     },
     {
       "nombre": "Sucre",
-      "ciudades": []
+      "ciudades": [
+        {
+          "nombre": "Cumaná",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio 5ta Transversal",
+              "direccion": "5ta transversal, Av. Gran Mariscal y Av. Santa Rosa, entre Zen y Los Hermanos Wasi",
+              "coords": [
+                10.4610,
+                -64.1760
+              ],
+              "maps": "https://maps.google.com/?q=5ta+transversal+Av+Gran+Mariscal+Santa+Rosa+Cuman%C3%A1",
+              "horario": "9:00am - 6:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "nota": "Insumos médicos: gasas, alcohol, algodón y jeringas.",
+              "fuente": "Flyer Centro de Acopio Sucre"
+            },
+            {
+              "nombre": "Cruz Roja Venezolana — Sucre",
+              "direccion": "Sede de la Cruz Roja Venezolana, Municipio Sucre, Cumaná",
+              "coords": [
+                10.4560,
+                -64.1720
+              ],
+              "maps": "https://maps.google.com/?q=Cruz+Roja+Venezolana+Cuman%C3%A1",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal"
+              ],
+              "nota": "Reconocido oficialmente por la Alcaldía de Cumaná como uno de los únicos centros de acopio oficiales del Municipio Sucre.",
+              "fuente": "Comunicado oficial Alcaldía de Cumaná · Protección Civil y Administración de Desastres Estado Sucre"
+            },
+            {
+              "nombre": "E/S Virgen del Valle 2",
+              "direccion": "Estación de Servicio Virgen del Valle 2, Cumaná",
+              "maps": "https://maps.google.com/?q=Estaci%C3%B3n+de+Servicio+Virgen+del+Valle+2+Cuman%C3%A1",
+              "horario": "Lunes a viernes, 7:30am - 5:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Recolecta destinada a las víctimas del sismo en Caracas. Alimentos: enlatados, arroz, pasta, granos, harina, leche en polvo. Ropa y sábanas deben entregarse limpias y clasificadas.",
+              "fuente": "Flyer ¡Manos a la obra por Caracas!"
+            },
+            {
+              "nombre": "Protección Civil Sucre — Sedes oficiales",
+              "direccion": "Sedes de Protección Civil y Administración de Desastres, Municipio Sucre, Cumaná",
+              "coords": [
+                10.4548,
+                -64.1710
+              ],
+              "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+Cuman%C3%A1+Sucre",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal"
+              ],
+              "nota": "Reconocido oficialmente por la Alcaldía de Cumaná como uno de los únicos centros de acopio oficiales del Municipio Sucre.",
+              "fuente": "Comunicado oficial Alcaldía de Cumaná · Protección Civil y Administración de Desastres Estado Sucre"
+            },
+            {
+              "nombre": "UNESR — Núcleo Mariscal Antonio José de Sucre",
+              "direccion": "Universidad Nacional Experimental Simón Rodríguez, Núcleo Mariscal Antonio José de Sucre, Cumaná",
+              "coords": [
+                10.4600,
+                -64.1730
+              ],
+              "maps": "https://maps.google.com/?q=UNESR+N%C3%BAcleo+Cuman%C3%A1",
+              "horario": "8:30am - 5:30pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "nota": "Insumos médicos: gasas, alcohol, algodón y jeringas. Campaña de Solidaridad Universitaria.",
+              "fuente": "Flyer UNESR · #SolidaridadUniversitaria"
+            }
+          ]
+        },
+        {
+          "nombre": "Mariguitar",
+          "centros": [
+            {
+              "nombre": "UNESR — Núcleo Mariscal Antonio José de Sucre",
+              "direccion": "Universidad Nacional Experimental Simón Rodríguez, Núcleo Mariscal Antonio José de Sucre, Mariguitar",
+              "coords": [
+                10.4340,
+                -63.9170
+              ],
+              "maps": "https://maps.google.com/?q=UNESR+Mariguitar+Sucre",
+              "horario": "8:30am - 5:30pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "nota": "Insumos médicos: gasas, alcohol, algodón y jeringas. Campaña de Solidaridad Universitaria.",
+              "fuente": "Flyer UNESR · #SolidaridadUniversitaria"
+            }
+          ]
+        }
+      ]
     },
     {
       "nombre": "Táchira",
@@ -1261,19 +1384,54 @@
           "nombre": "Maracaibo",
           "centros": [
             {
-              "nombre": "Colegio de Médicos (Maracaibo)",
-              "direccion": "Sede del Colegio de Médicos, Maracaibo",
+              "nombre": "Colegio de Médicos del Zulia",
+              "direccion": "Av. 16 con Calle 56, Maracaibo 4005",
               "coords": [
-                10.668,
-                -71.612
+                10.6650,
+                -71.6200
               ],
-              "maps": "https://maps.google.com/?q=10.668,-71.612",
+              "maps": "https://maps.google.com/?q=Colegio+de+M%C3%A9dicos+Maracaibo+Av+16+Calle+56",
               "instagram": "comezu_2021",
               "recibe": [
                 "medicamentos e insumos médicos",
                 "kits de primeros auxilios"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
+              "nombre": "Basílica de Chiquinquirá",
+              "direccion": "Av. 12 con Calle 96, final Paseo Las Ciencias, Maracaibo",
+              "coords": [
+                10.6380,
+                -71.6380
+              ],
+              "maps": "https://maps.google.com/?q=Bas%C3%ADlica+Chiquinquir%C3%A1+Maracaibo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
+              "nombre": "Cruz Roja Venezolana — Seccional Zulia",
+              "direccion": "Av. 11 con Calle 83, Sector Veritas, Maracaibo",
+              "coords": [
+                10.6650,
+                -71.6150
+              ],
+              "maps": "https://maps.google.com/?q=Cruz+Roja+Venezolana+Maracaibo+Av+11+Calle+83",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
             },
             {
               "nombre": "Facultad de Medicina LUZ (El Tacón)",
@@ -1304,6 +1462,40 @@
                 "ropa en buen estado"
               ],
               "fuente": "Fui personalmente"
+            },
+            {
+              "nombre": "Synergy — CC Doral Center Mall",
+              "direccion": "Synergy, CC Doral Center Mall, Maracaibo",
+              "coords": [
+                10.6920,
+                -71.6250
+              ],
+              "maps": "https://maps.google.com/?q=Synergy+Doral+Center+Mall+Maracaibo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
+              "nombre": "Synergy — Mall Paseo San Francisco",
+              "direccion": "Synergy, Mall Paseo San Francisco, San Francisco (zona metropolitana de Maracaibo)",
+              "coords": [
+                10.6100,
+                -71.6600
+              ],
+              "maps": "https://maps.google.com/?q=Synergy+Mall+Paseo+San+Francisco+Zulia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
             },
             {
               "nombre": "Sede Regional de Un Nuevo Tiempo (UNT Zulia)",
@@ -1346,6 +1538,23 @@
               "fuente": "Flyer comunitario centros de acopio Maracaibo"
             },
             {
+              "nombre": "Pitts Bowling",
+              "direccion": "CC Costa Verde, Av. Bella Vista, Maracaibo 4002",
+              "coords": [
+                10.6720,
+                -71.6200
+              ],
+              "maps": "https://maps.google.com/?q=Pitts+Bowling+CC+Costa+Verde+Maracaibo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
               "nombre": "Parroquia San Antonio María Claret",
               "direccion": "Calle 78 Dr. Portillo con Av. 3E",
               "coords": [
@@ -1367,6 +1576,28 @@
               "fuente": "Flyer comunitario centros de acopio Maracaibo"
             },
             {
+              "nombre": "Fresconi Fresh Market",
+              "direccion": "Av. 4 Bella Vista con calle 74 (antiguo Fresconi), Maracaibo",
+              "coords": [
+                10.6630,
+                -71.6190
+              ],
+              "maps": "https://maps.google.com/?q=Av+4+Bella+Vista+calle+74+Maracaibo",
+              "whatsapp": "+584246514415",
+              "horario": "Jueves, viernes y sábado, 8:00am - 7:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "medicamentos e insumos médicos",
+                "colchones, almohadas y colchones inflables",
+                "linternas, pilas y cargadores portátiles",
+                "cascos de protección"
+              ],
+              "nota": "Las medicinas deben estar vigentes (no vencidas). También reciben colchonetas.",
+              "fuente": "Flyer Fresconi Fresh Market"
+            },
+            {
               "nombre": "Hogar Clínica San Rafael",
               "direccion": "Calle 64 con Av. 3F, Sector Las Mercedes",
               "coords": [
@@ -1386,6 +1617,28 @@
                 "colchones, almohadas y colchones inflables"
               ],
               "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "Ludus Box",
+              "direccion": "Barrio Paraíso, Calle 80 entre Av. 19 y 19A, Maracaibo 4002",
+              "coords": [
+                10.6630,
+                -71.6090
+              ],
+              "maps": "https://maps.google.com/?q=Barrio+Para%C3%ADso+Calle+80+Av+19+Maracaibo",
+              "instagram": "ludusbox",
+              "horario": "Jueves hasta 8:00pm · Viernes 6:00am - 8:00pm · Sábado 6:00am - 12:00m",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "nota": "También reciben zapatos en buen estado.",
+              "fuente": "Flyer oficial @ludusbox"
             },
             {
               "nombre": "IMAGOLAB",
@@ -1460,6 +1713,25 @@
         {
           "nombre": "Barranquilla",
           "centros": [
+            {
+              "nombre": "Alcaldía de Barranquilla — Centro de Acopio",
+              "direccion": "Cra 43 #6-120, Barranquillita, Barranquilla",
+              "coords": [
+                10.9850,
+                -74.8050
+              ],
+              "maps": "https://maps.google.com/?q=Cra+43+6-120+Barranquillita+Barranquilla",
+              "horario": "Lunes a domingo, 8:00am - 4:00pm",
+              "recibe": [
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "artículos para niños",
+                "alimentos para mascotas"
+              ],
+              "nota": "Campaña \"Barranquilla Solidaridad con Venezuela\". También reciben ropa nueva y artículos para bebés.",
+              "fuente": "Flyer oficial Alcaldía de Barranquilla · @alejandrocharch"
+            },
             {
               "nombre": "Calidex - Barranquilla",
               "direccion": "Calle 79 #42F-93, Local 102, Garden Plaza, Barranquilla",
