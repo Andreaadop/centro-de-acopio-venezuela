@@ -508,6 +508,17 @@
           "nombre": "Valencia",
           "centros": [
             {
+              "nombre": "G3 Logística — Valencia",
+              "direccion": "Calle La Pedrera, Fundo Los Marines, Zona Industrial San Diego",
+              "coords": [
+                10.2430,
+                -68.0010
+              ],
+              "maps": "https://maps.google.com/?q=G3+Log%C3%ADstica+Zona+Industrial+San+Diego+Valencia",
+              "horario": "Lunes a viernes, 9:00am - 12:00pm y 2:00pm - 3:30pm",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
               "nombre": "Comando Con Venezuela",
               "direccion": "Avenida Monseñor Adams, El Viñedo. Edificio Talislandia, mezzanina.",
               "coords": [
@@ -622,6 +633,17 @@
               ],
               "maps": "https://maps.google.com/?q=10.461193,-66.939636",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Edificio Rita Palace — Los Caobos",
+              "direccion": "Edif. Rita Palace, Av. La Salle, Planta Baja, Los Caobos",
+              "coords": [
+                10.5010,
+                -66.9130
+              ],
+              "maps": "https://maps.google.com/?q=Edificio+Rita+Palace+Los+Caobos+Caracas",
+              "whatsapp": "+584145634459",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
             },
             {
               "nombre": "Colegio Cristo Rey Altamira",
@@ -890,6 +912,17 @@
           "nombre": "Barquisimeto",
           "centros": [
             {
+              "nombre": "G3 Logística — Barquisimeto",
+              "direccion": "Zona Industrial II, Av. Principal con Calle 6, locales 110-111-112",
+              "coords": [
+                10.0690,
+                -69.3140
+              ],
+              "maps": "https://maps.google.com/?q=G3+Log%C3%ADstica+Zona+Industrial+II+Barquisimeto",
+              "horario": "Lunes a viernes, 9:00am - 12:00pm y 2:00pm - 3:30pm",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
               "nombre": "Cáritas Barquisimeto",
               "direccion": "Cáritas, Carrera 18 entre calles 34 y 35, Barquisimeto",
               "coords": [
@@ -1027,6 +1060,67 @@
         {
           "nombre": "Caracas",
           "centros": [
+            {
+              "nombre": "Alcaldía de Baruta — Plaza Alfredo Sadel",
+              "direccion": "Plaza Alfredo Sadel, Las Mercedes, Municipio Baruta",
+              "coords": [
+                10.4736,
+                -66.8606
+              ],
+              "maps": "https://maps.google.com/?q=Plaza+Alfredo+Sadel+Las+Mercedes+Caracas",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
+              "nombre": "Alcaldía de Baruta — Sede de la Policía",
+              "direccion": "Sede de la Policía Municipal de Baruta, Municipio Baruta",
+              "coords": [
+                10.4350,
+                -66.8660
+              ],
+              "maps": "https://maps.google.com/?q=Polic%C3%ADa+de+Baruta+Caracas",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
+              "nombre": "Alcaldía de Baruta — Sede Protección Civil El Cafetal",
+              "direccion": "Sede de Protección Civil El Cafetal, Municipio Baruta",
+              "coords": [
+                10.4500,
+                -66.8350
+              ],
+              "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+El+Cafetal+Caracas",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
+              "nombre": "Base de Operaciones Tu Gruero — Los Dos Caminos",
+              "direccion": "Av. El Carmen de Los Dos Caminos, diagonal a Iglesia Claret",
+              "coords": [
+                10.4940,
+                -66.8420
+              ],
+              "maps": "https://maps.google.com/?q=Iglesia+Claret+Los+Dos+Caminos+Caracas",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
+              "nombre": "G3 Logística — Caracas",
+              "direccion": "Av. Principal de Los Cortijos de Lourdes, Edificio Maploca, Municipio Sucre",
+              "coords": [
+                10.4900,
+                -66.8350
+              ],
+              "maps": "https://maps.google.com/?q=Edificio+Maploca+Los+Cortijos+Caracas",
+              "horario": "Lunes a viernes, 9:00am - 12:00pm y 2:00pm - 3:30pm",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
+              "nombre": "Polideportivo Los Naranjos (Belisario Academy)",
+              "direccion": "Polideportivo Los Naranjos, Av. Este 3, Los Naranjos, Municipio El Hatillo",
+              "coords": [
+                10.4430,
+                -66.8350
+              ],
+              "maps": "https://maps.google.com/?q=Polideportivo+Los+Naranjos+Caracas",
+              "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
             {
               "nombre": "Sociedad civil",
               "direccion": "Frente a la iglesia Rumana, en la entrada a la vía de La Unión",
