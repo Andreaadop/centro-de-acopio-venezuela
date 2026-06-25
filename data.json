@@ -197,6 +197,16 @@
       "web": "https://ilovevenezuelafoundation.org/"
     },
     {
+      "nombre": "World Central Kitchen (WCK)",
+      "alcance": "internacional",
+      "aje_confirmed": false,
+      "fuente": "World Central Kitchen · wck.org/news/caracas-venezuela-earthquakes",
+      "descripcion": "ONG internacional que provee comidas calientes a comunidades afectadas por desastres. Se está movilizando para servir comidas a familias y rescatistas tras los terremotos de magnitud 7.2 y 7.5 en Venezuela. Acepta donaciones por tarjeta, PayPal, criptomonedas y donaciones recurrentes.",
+      "tipo_ayuda": "Comidas de emergencia · Asistencia humanitaria",
+      "web": "https://donate.wck.org/campaign/815521/donate?src=site-blog-rlf183",
+      "nota": "WCK es \"first to the frontlines\" en crisis humanitarias. Acepta múltiples métodos: donación única, mensual, PayPal, criptomonedas y donaciones corporativas."
+    },
+    {
       "nombre": "VACC Foundation — Dona Venezuela Se VACC",
       "alcance": "internacional",
       "descripcion": "Fundación internacional canalizando donaciones para la emergencia en Venezuela.",
