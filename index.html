@@ -994,8 +994,15 @@
 
         container.innerHTML = list.map((org, idx) => {
           const badge = `<span class="badge-scope ${org.alcance}">${org.alcance}</span>`;
-          const aje = `<span class="badge-aje">Confirmado por AJE</span>`;
+          const ajeConfirmed = org.aje_confirmed !== false;
+          const aje = ajeConfirmed ? `<span class="badge-aje">Confirmado por AJE</span>` : '';
           const tipoAyuda = org.tipo_ayuda ? `<p class="eyebrow text-muted mt-3">Tipo · ${org.tipo_ayuda}</p>` : '';
+          const notaBlock = org.nota ? `
+            <div class="mt-3 flex items-start gap-2 px-3 py-2.5 bg-surface border-l-2 border-coral rounded-r">
+              <svg class="mt-0.5 shrink-0 text-coral" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
+              <p class="text-sm text-ink">${org.nota}</p>
+            </div>` : '';
+          const fuenteBlock = org.fuente ? `<p class="mt-3 text-xs text-muted italic">Fuente: ${org.fuente}</p>` : '';
 
           let metodosBlock = '';
           if (org.metodos && org.metodos.length) {
@@ -1048,9 +1055,11 @@
               <h3 class="display-md text-xl sm:text-2xl text-ink">${org.nombre}</h3>
               ${tipoAyuda}
               <p class="mt-3 text-sm text-muted body-relaxed">${org.descripcion}</p>
+              ${notaBlock}
               ${metodosBlock}
               ${metodosBlock ? '' : webBtn}
               ${metodosBlock && org.web ? webBtn : ''}
+              ${fuenteBlock}
             </article>
           `;
         }).join('');
