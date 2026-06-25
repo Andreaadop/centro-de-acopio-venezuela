@@ -2478,6 +2478,23 @@
           "nombre": "Cúcuta",
           "centros": [
             {
+              "nombre": "Comando Con Vzla — Cúcuta",
+              "direccion": "Calle 11 A 7MA, Centro Comercial Gran Sam, segundo piso, local 243 GS",
+              "coords": [
+                7.8920,
+                -72.5040
+              ],
+              "maps": "https://maps.google.com/?q=Centro+Comercial+Gran+Sam+C%C3%BAcuta",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            },
+            {
               "nombre": "Calidex - Cúcuta",
               "direccion": "Avenida 6 #7N-109, Zona Industrial, Edificio Red Rubicam S.A.S., Cúcuta",
               "coords": [
@@ -2627,6 +2644,28 @@
           ]
         },
         {
+          "nombre": "San Antonio",
+          "centros": [
+            {
+              "nombre": "Comando Con Vzla — San Antonio Texas",
+              "direccion": "16111 San Pedro Ave, San Antonio, TX 78232",
+              "coords": [
+                29.5780,
+                -98.4970
+              ],
+              "maps": "https://maps.google.com/?q=16111+San+Pedro+Ave+San+Antonio+TX+78232",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            }
+          ]
+        },
+        {
           "nombre": "Miami",
           "centros": [
             {
@@ -2649,6 +2688,23 @@
         {
           "nombre": "Ciudad de Panamá",
           "centros": [
+            {
+              "nombre": "Comando Con Vzla — Casa Club Casa Omar",
+              "direccion": "Casa Club Casa Omar, Ciudad de Panamá",
+              "coords": [
+                8.9920,
+                -79.5180
+              ],
+              "maps": "https://maps.google.com/?q=Casa+Club+Casa+Omar+Ciudad+de+Panam%C3%A1",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            },
             {
               "nombre": "Alcaldía de Panamá",
               "direccion": "Teatro Gladys Vidal, planta baja del Edificio Hatillo.",
@@ -2673,8 +2729,137 @@
       "nombre": "Ecuador",
       "ciudades": [
         {
+          "nombre": "Ibarra",
+          "centros": [
+            {
+              "nombre": "Comando Con Vzla — Ibarra",
+              "direccion": "Calle García Moreno 2-58 y Maldonado, a media cuadra del Subcentro de Salud N° 1",
+              "coords": [
+                0.3490,
+                -78.1220
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Garc%C3%ADa+Moreno+2-58+Ibarra",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            }
+          ]
+        },
+        {
+          "nombre": "Quito",
+          "centros": [
+            {
+              "nombre": "Cachapas El Félix",
+              "direccion": "Av. Naciones Unidas y Av. 10 de Agosto, Quito Norte",
+              "coords": [
+                -0.1810,
+                -78.4870
+              ],
+              "maps": "https://maps.google.com/?q=Cachapas+El+F%C3%A9lix+Av+Naciones+Unidas+Quito",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal",
+                "abrigos y otros implementos de protección"
+              ],
+              "nota": "Operado en colaboración con Comando Con Vzla.",
+              "fuente": "Teleamazonas · teleamazonas.com · El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            },
+            {
+              "nombre": "Edificio Gaudí",
+              "direccion": "Calle Checoslovaquia, Quito",
+              "coords": [
+                -0.1830,
+                -78.4830
+              ],
+              "maps": "https://maps.google.com/?q=Edificio+Gaud%C3%AD+Calle+Checoslovaquia+Quito",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal"
+              ],
+              "nota": "Preguntar por Luis Magallanes al llegar.",
+              "fuente": "Teleamazonas · teleamazonas.com/actualidad/noticias/sociedad/terremoto-venezuela-puntos-acopio-donaciones-ecuador"
+            },
+            {
+              "nombre": "IMPAQTO La Carolina — Cámara de Comercio Ecuatoriano Venezolana",
+              "direccion": "Av. Shyris y Suecia, Edificio IQON, Quito",
+              "coords": [
+                -0.1790,
+                -78.4830
+              ],
+              "maps": "https://maps.google.com/?q=Edificio+IQON+Av+Shyris+Suecia+Quito",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal"
+              ],
+              "nota": "Operado por la Cámara de Comercio Ecuatoriano Venezolana, en el coworking IMPAQTO La Carolina.",
+              "fuente": "Teleamazonas · teleamazonas.com/actualidad/noticias/sociedad/terremoto-venezuela-puntos-acopio-donaciones-ecuador"
+            }
+          ]
+        },
+        {
+          "nombre": "Cuenca",
+          "centros": [
+            {
+              "nombre": "Edificio Portal del Sol",
+              "direccion": "Av. 12 de Octubre y calle Emilio Carrere, sector Yanuncay, Cuenca",
+              "coords": [
+                -2.9100,
+                -79.0190
+              ],
+              "maps": "https://maps.google.com/?q=Av+12+de+Octubre+Emilio+Carrere+Yanuncay+Cuenca",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Teleamazonas · teleamazonas.com/actualidad/noticias/sociedad/terremoto-venezuela-puntos-acopio-donaciones-ecuador"
+            }
+          ]
+        },
+        {
           "nombre": "Guayaquil",
           "centros": [
+            {
+              "nombre": "Comando Con Vzla — Chamos Burger",
+              "direccion": "Víctor Emilio Estrada y Jiguas, diagonal al Novagym Urdesa, local Chamos Burger, Guayaquil",
+              "coords": [
+                -2.1620,
+                -79.9080
+              ],
+              "maps": "https://maps.google.com/?q=Chamos+Burger+V%C3%ADctor+Emilio+Estrada+Guayaquil",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            },
             {
               "nombre": "Sociedad Civil",
               "direccion": "Alborada 4ta etapa manzana FF Villa 6. Avenida José María Roura llegando al comisariato, atrás de ferrisariato",
@@ -2696,6 +2881,28 @@
     {
       "nombre": "España",
       "ciudades": [
+        {
+          "nombre": "Tenerife",
+          "centros": [
+            {
+              "nombre": "AACV — Asociación de Ayuda Comunitaria Venezolana",
+              "direccion": "Calle Francisco García Talavera 2, Santa Cruz de Tenerife",
+              "coords": [
+                28.4720,
+                -16.2500
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Francisco+Garc%C3%ADa+Talavera+2+Santa+Cruz+Tenerife",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            }
+          ]
+        },
         {
           "nombre": "Madrid",
           "centros": [
