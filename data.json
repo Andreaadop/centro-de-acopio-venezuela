@@ -2759,6 +2759,55 @@
           "nombre": "Doral",
           "centros": [
             {
+              "nombre": "Community Center — Doral Legacy Park",
+              "direccion": "11400 NW 82nd Street, Doral, FL 33178",
+              "coords": [
+                25.8210,
+                -80.3280
+              ],
+              "maps": "https://maps.google.com/?q=11400+NW+82nd+Street+Doral+FL",
+              "horario": "Lunes a viernes 5:00pm - 9:00pm · Fines de semana 8:00am - 5:00pm",
+              "fuente": "Progreso Hispano News · progresohispanonews.com/2026/06/25/habilitan-centros-de-acopio-en-ee-uu-para-ayudar-a-venezuela"
+            },
+            {
+              "nombre": "Global Empowerment Mission (GEM) — Sede Calle 14",
+              "direccion": "10815 NW Calle 14, Doral, FL",
+              "coords": [
+                25.7890,
+                -80.3530
+              ],
+              "maps": "https://maps.google.com/?q=10815+NW+14th+Street+Doral+FL",
+              "horario": "Lunes a viernes, 9:00am - 4:00pm",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos"
+              ],
+              "nota": "Esta es una sede adicional de GEM además de su almacén principal en 1850 NW 84th Ave.",
+              "fuente": "Progreso Hispano News · progresohispanonews.com/2026/06/25/habilitan-centros-de-acopio-en-ee-uu-para-ayudar-a-venezuela"
+            },
+            {
+              "nombre": "Oficina de la Supervisora de Elecciones de Miami-Dade",
+              "direccion": "2700 NW 87th Ave, Doral, FL 33172",
+              "coords": [
+                25.7850,
+                -80.3360
+              ],
+              "maps": "https://maps.google.com/?q=2700+NW+87th+Ave+Doral+FL+33172",
+              "horario": "Lunes a viernes, 8:00am - 5:00pm",
+              "fuente": "Progreso Hispano News · progresohispanonews.com/2026/06/25/habilitan-centros-de-acopio-en-ee-uu-para-ayudar-a-venezuela"
+            },
+            {
+              "nombre": "Restaurante El Arepazo",
+              "direccion": "10191 NW 58th St, Doral, FL 33178",
+              "coords": [
+                25.8210,
+                -80.3530
+              ],
+              "maps": "https://maps.google.com/?q=10191+NW+58th+St+Doral+FL+33178",
+              "horario": "24 horas, lunes a domingo",
+              "fuente": "Progreso Hispano News · progresohispanonews.com/2026/06/25/habilitan-centros-de-acopio-en-ee-uu-para-ayudar-a-venezuela"
+            },
+            {
               "nombre": "Caracas Bakery",
               "direccion": "7884 NW 52nd St",
               "coords": [
@@ -2830,6 +2879,18 @@
         {
           "nombre": "Miami",
           "centros": [
+            {
+              "nombre": "Organización AFE",
+              "direccion": "6090 NW 84th Ave, Miami, FL 33166",
+              "coords": [
+                25.8120,
+                -80.3180
+              ],
+              "maps": "https://maps.google.com/?q=6090+NW+84th+Ave+Miami+FL+33166",
+              "whatsapp": "+13056024466",
+              "horario": "9:30am - 3:00pm",
+              "fuente": "Progreso Hispano News · progresohispanonews.com/2026/06/25/habilitan-centros-de-acopio-en-ee-uu-para-ayudar-a-venezuela"
+            },
             {
               "nombre": "Caracas Bakery",
               "direccion": "7283 Biscayne Blvd",
