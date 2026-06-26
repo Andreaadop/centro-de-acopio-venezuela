@@ -117,30 +117,6 @@
       .btn-coral:hover { background: #B5311C; }
       .btn-ghost { color: #5B6478; }
       .btn-ghost:hover { color: #0B1220; }
-      .btn-success { background: #1F7A1F; color: #FFFFFF; }
-      .btn-success:hover { background: #186118; }
-
-      #geo-status {
-        font-size: 0.9rem; line-height: 1.5;
-        padding: 0.8rem 1rem; border-radius: 10px;
-        margin-top: 0.75rem; max-width: 38rem;
-      }
-      #geo-status.error {
-        background: #FCE6E1; color: #8E1F0E;
-        border-left: 3px solid #C8341B;
-      }
-      #geo-status.success {
-        background: #D6F5D6; color: #1F5A1F;
-        border-left: 3px solid #1F7A1F;
-      }
-      /* En móvil hago el botón geo más prominente */
-      @media (max-width: 640px) {
-        #geo-btn {
-          width: 100%; justify-content: center;
-          padding: 0.8rem 1rem; font-size: 0.95rem;
-        }
-        #geo-status { font-size: 0.92rem; }
-      }
 
       .tag {
         display: inline-flex; align-items: center;
@@ -472,23 +448,15 @@
           </div>
 
           <div class="mt-4 flex flex-wrap items-center gap-3 text-sm text-muted">
-            <span>O bien</span>
-            <button id="geo-btn" type="button" class="btn btn-line">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
-              Usar mi ubicación
-            </button>
-            <span class="hidden sm:inline">·</span>
-            <a href="#donaciones" class="btn btn-ghost px-0">
+            <a href="#donaciones" class="btn btn-line">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 10h6M9 14h6"/></svg>
               Donar dinero
             </a>
-            <span class="hidden sm:inline">·</span>
             <a href="#aportar" class="btn btn-ghost px-0">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
               Reportar un centro
             </a>
           </div>
-          <div id="geo-status" class="hidden"></div>
         </form>
 
         <!-- Stats strip -->
@@ -709,7 +677,6 @@
         filtered: [],
         estado: '',
         query: '',
-        userCoords: null,
         sortMode: 'alfabético',
       };
 
@@ -920,22 +887,15 @@
           (!state.estado || c.estado === state.estado) && matches(c, q)
         );
 
-        if (state.userCoords) {
-          filtered = filtered
-            .map((c) => ({ ...c, _dist: c.coords ? haversine(state.userCoords, c.coords) : Infinity }))
-            .sort((a, b) => a._dist - b._dist);
-          state.sortMode = 'cercanía';
-        } else {
-          filtered.sort((a, b) => {
-            const ax = EXTERIOR.has(a.estado) ? 1 : 0;
-            const bx = EXTERIOR.has(b.estado) ? 1 : 0;
-            return (ax - bx)
-              || a.estado.localeCompare(b.estado, 'es')
-              || a.ciudad.localeCompare(b.ciudad, 'es')
-              || a.nombre.localeCompare(b.nombre, 'es');
-          });
-          state.sortMode = 'alfabético';
-        }
+        filtered.sort((a, b) => {
+          const ax = EXTERIOR.has(a.estado) ? 1 : 0;
+          const bx = EXTERIOR.has(b.estado) ? 1 : 0;
+          return (ax - bx)
+            || a.estado.localeCompare(b.estado, 'es')
+            || a.ciudad.localeCompare(b.ciudad, 'es')
+            || a.nombre.localeCompare(b.nombre, 'es');
+        });
+        state.sortMode = 'alfabético';
         state.filtered = filtered;
         renderStats();
 
@@ -943,14 +903,6 @@
         const empty = $('#empty');
         if (filtered.length === 0) { results.innerHTML = ''; empty.classList.remove('hidden'); return; }
         empty.classList.add('hidden');
-
-        if (state.userCoords) {
-          results.innerHTML = `
-            <div class="card overflow-hidden">
-              ${filtered.map((c) => centroRow(c, { showLocation: true })).join('')}
-            </div>`;
-          return;
-        }
 
         const byEstado = new Map();
         for (const c of filtered) {
@@ -1126,7 +1078,6 @@
 
         $('#estado-select').addEventListener('change', (e) => {
           state.estado = e.target.value;
-          state.userCoords = null; // override geo if estado picked
           render();
           if (state.estado) {
             document.getElementById('contenido').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1138,104 +1089,6 @@
           render();
         });
 
-        const geoIcon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>';
-        const checkIcon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 10-10"/></svg>';
-
-        const resetGeoBtn = () => {
-          const btn = $('#geo-btn');
-          btn.classList.remove('btn-success');
-          btn.classList.add('btn-line');
-          btn.disabled = false;
-          btn.innerHTML = `${geoIcon} Usar mi ubicación`;
-        };
-
-        const showGeoStatus = (msg, type) => {
-          const el = $('#geo-status');
-          if (!msg) { el.className = 'hidden'; el.innerHTML = ''; return; }
-          el.className = type;
-          el.innerHTML = msg;
-        };
-
-        $('#geo-btn').addEventListener('click', () => {
-          const btn = $('#geo-btn');
-
-          // Toggle: si ya está activa, desactivar
-          if (state.userCoords) {
-            state.userCoords = null;
-            resetGeoBtn();
-            showGeoStatus('', '');
-            render();
-            return;
-          }
-
-          if (!navigator.geolocation) {
-            showGeoStatus('Tu navegador no soporta geolocalización. Selecciona tu estado en el dropdown de arriba.', 'error');
-            return;
-          }
-
-          if (!window.isSecureContext) {
-            showGeoStatus('La geolocalización requiere HTTPS. Selecciona tu estado en el dropdown de arriba.', 'error');
-            return;
-          }
-
-          btn.disabled = true;
-          btn.innerHTML = 'Buscando ubicación…';
-          showGeoStatus('', '');
-
-          navigator.geolocation.getCurrentPosition(
-            (pos) => {
-              state.userCoords = [pos.coords.latitude, pos.coords.longitude];
-              state.estado = '';
-              $('#estado-select').value = '';
-
-              btn.disabled = false;
-              btn.classList.remove('btn-line');
-              btn.classList.add('btn-success');
-              btn.innerHTML = `${checkIcon} Ubicación activa · click para desactivar`;
-
-              render();
-
-              const cercanos = state.filtered.filter(c => c._dist != null && isFinite(c._dist)).slice(0, 3);
-              if (cercanos.length) {
-                const lista = cercanos.map(c => `<strong>${c.nombre}</strong> a ${c._dist.toFixed(1)} km`).join(' · ');
-                showGeoStatus(`✓ Ubicación detectada. Los 3 centros más cercanos: ${lista}`, 'success');
-              } else {
-                showGeoStatus('Ubicación detectada pero ningún centro tiene coordenadas válidas para calcular la distancia.', 'error');
-              }
-
-              document.getElementById('contenido').scrollIntoView({ behavior: 'smooth', block: 'start' });
-            },
-            (err) => {
-              resetGeoBtn();
-              let msg = 'No pudimos obtener tu ubicación.';
-              if (err.code === 1) {
-                msg = `🚫 <strong>Permiso de ubicación negado.</strong> Para activarlo:
-                  <details class="mt-2">
-                    <summary style="cursor:pointer;text-decoration:underline">Cómo activar la ubicación en tu navegador</summary>
-                    <div style="margin-top:0.6rem">
-                      <strong>Chrome en Android:</strong><br/>
-                      1. Toca los 3 puntos (⋮) arriba a la derecha<br/>
-                      2. <em>Configuración del sitio</em> → <em>Ubicación</em><br/>
-                      3. Cambia a <em>Permitir</em> y recarga<br/><br/>
-                      <strong>Chrome en iPhone:</strong><br/>
-                      1. Ajustes de iOS → Chrome → activa <em>Ubicación</em><br/>
-                      2. En Chrome: 3 puntos abajo → Configuración del sitio → Ubicación → activar<br/><br/>
-                      <strong>Safari en iPhone:</strong><br/>
-                      1. Ajustes de iOS → Safari → Ubicación → <em>Preguntar</em> o <em>Permitir</em><br/>
-                      2. Recarga la página
-                    </div>
-                  </details>
-                  Mientras tanto, puedes seleccionar tu estado en el dropdown.`;
-              } else if (err.code === 2) {
-                msg = '📡 <strong>No pudimos determinar tu ubicación</strong> (GPS apagado o sin señal). Activa el GPS y reintenta, o selecciona tu estado en el dropdown.';
-              } else if (err.code === 3) {
-                msg = '⏱️ <strong>La búsqueda tardó demasiado.</strong> Intenta de nuevo o selecciona tu estado en el dropdown.';
-              }
-              showGeoStatus(msg, 'error');
-            },
-            { enableHighAccuracy: false, timeout: 15000, maximumAge: 60000 }
-          );
-        });
 
         $('#share-btn').addEventListener('click', async () => {
           const url = window.location.href;
@@ -1256,10 +1109,8 @@
         $('#clear-btn').addEventListener('click', () => {
           state.query = '';
           state.estado = '';
-          state.userCoords = null;
           $('#search').value = '';
           $('#estado-select').value = '';
-          resetGeoBtn();
           render();
         });
 
