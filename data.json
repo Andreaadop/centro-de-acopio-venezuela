@@ -852,6 +852,31 @@
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
             },
             {
+              "nombre": "Casa Amira — Amira Studio & Mosaico",
+              "direccion": "Casa Amira, Calle Alejo Zuluaga, Av. Z, El Trigal Norte, Valencia",
+              "coords": [
+                10.1700,
+                -68.0150
+              ],
+              "maps": "https://maps.google.com/?q=Casa+Amira+Calle+Alejo+Zuluaga+El+Trigal+Norte+Valencia",
+              "instagram": "_amirastudio",
+              "horario": "Viernes 26 de junio, 10:00am - 3:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Donaciones destinadas a Morón y La Guaira. Específicamente reciben: leche en polvo y fórmulas; alimentos no perecederos (enlatados abre fácil, arroz, pasta); pañales (niños/adultos) y toallitas húmedas; gasas, alcohol, algodón, agua oxigenada; analgésicos y antialérgicos vigentes; jabón, crema dental, toallas sanitarias; agua mineral embotellada; ropa y sábanas limpias en buen estado.",
+              "fuente": "Flyer @_amirastudio · Mosaico"
+            },
+            {
               "nombre": "Comando Con Venezuela",
               "direccion": "Avenida Monseñor Adams, El Viñedo. Edificio Talislandia, mezzanina.",
               "coords": [
