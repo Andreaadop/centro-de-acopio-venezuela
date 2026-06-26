@@ -3532,8 +3532,8 @@
               "nombre": "Sambil Maracaibo — Lobby Goajira",
               "direccion": "Sambil Maracaibo, Lobby Goajira, Av. 17 Los Haticos, Maracaibo · Horario: desde las 6:00 a.m.",
               "coords": [
-                10.6280,
-                -71.6310
+                10.628,
+                -71.631
               ],
               "maps": "https://maps.google.com/?q=Sambil+Maracaibo",
               "instagram": "tusambilmcbo",
@@ -3880,6 +3880,25 @@
               "maps": "https://maps.google.com/?q=11.003,-74.805",
               "web": "https://calidex.co/",
               "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Tigresas de la Patria — Barranquilla",
+              "direccion": "Calle 75 #55-50, Barranquilla · Contactos: Ana Lucía Pineda, María Tulena",
+              "coords": [
+                10.99,
+                -74.8
+              ],
+              "maps": "https://maps.google.com/?q=10.99,-74.8",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
             }
           ]
         },
@@ -4047,6 +4066,25 @@
                 "abrigos y otros implementos de protección"
               ],
               "fuente": "Flyer Operación Todos con VZLA"
+            },
+            {
+              "nombre": "Tigresas de la Patria — Ferretería Tuercas y Tornillos (Cali)",
+              "direccion": "Carrera 1 #31-134, Barrio Santander, Cali, Valle del Cauca · Contacto: Alexandra Vásquez",
+              "coords": [
+                3.45,
+                -76.532
+              ],
+              "maps": "https://maps.google.com/?q=3.45,-76.532",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
             }
           ]
         },
@@ -4062,6 +4100,25 @@
               ],
               "maps": "https://maps.google.com/?q=10.409,-75.4985",
               "fuente": "Anuncio del alcalde de Cartagena"
+            },
+            {
+              "nombre": "Tigresas de la Patria — Taller de Arte Antonella Farah (Cartagena)",
+              "direccion": "Cra 6 #4-109, Bocagrande, frente al Campito, primer piso, Cartagena · Contactos: Antonella Farah, Carolina Ariza",
+              "coords": [
+                10.403,
+                -75.552
+              ],
+              "maps": "https://maps.google.com/?q=10.403,-75.552",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
             }
           ]
         },
@@ -4095,6 +4152,25 @@
               "maps": "https://maps.google.com/?q=7.91,-72.49",
               "web": "https://calidex.co/",
               "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Tigresas de la Patria — Ciudadela del Calzado (Cúcuta)",
+              "direccion": "Av 5 #16N-108, Zona Industrial Ciudadela del Calzado, Cúcuta · Contacto: Lorena Larrota",
+              "coords": [
+                7.91,
+                -72.5
+              ],
+              "maps": "https://maps.google.com/?q=7.91,-72.5",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
             }
           ]
         },
@@ -4198,6 +4274,25 @@
                 "kits de primeros auxilios"
               ],
               "fuente": "es un restaurante de comida venezolana en Medelli de confianza"
+            },
+            {
+              "nombre": "Tigresas de la Patria — Central Mayorista de Antioquia",
+              "direccion": "Central Mayorista de Antioquia, Bloque 21, Local 6, Medellín · Contacto: Eliana López",
+              "coords": [
+                6.228,
+                -75.566
+              ],
+              "maps": "https://maps.google.com/?q=6.228,-75.566",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
             }
           ]
         },
@@ -4220,6 +4315,25 @@
                 "abrigos y otros implementos de protección"
               ],
               "fuente": "Flyer Operación Todos con VZLA"
+            },
+            {
+              "nombre": "Tigresas de la Patria — Montería",
+              "direccion": "Calle 69 #3-86, Barrio El Recreo, Montería · Contacto: María Victoria Pineda",
+              "coords": [
+                8.747,
+                -75.881
+              ],
+              "maps": "https://maps.google.com/?q=8.747,-75.881",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
             }
           ]
         },
@@ -4301,6 +4415,54 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer Fundación Carks"
+            }
+          ]
+        },
+        {
+          "nombre": "Mocoa",
+          "centros": [
+            {
+              "nombre": "Tigresas de la Patria — Froylan Café (Putumayo)",
+              "direccion": "Calle 9 #6-14, Centro Comercial Río Plaza, Local 109, Froylan Café, Mocoa, Putumayo · Contacto: Carolina Ordóñez Imbachi",
+              "coords": [
+                1.15,
+                -76.65
+              ],
+              "maps": "https://maps.google.com/?q=1.15,-76.65",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
+            }
+          ]
+        },
+        {
+          "nombre": "Florencia",
+          "centros": [
+            {
+              "nombre": "Tigresas de la Patria — Florencia (Caquetá)",
+              "direccion": "Cra 10 A #7-08, Barrio Avenidas, Florencia, Caquetá · Contacto: Marisol Arciniegas",
+              "coords": [
+                1.614,
+                -75.606
+              ],
+              "maps": "https://maps.google.com/?q=1.614,-75.606",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
+              "fuente": "Flyer Tigresas de la Patria — Donatón"
             }
           ]
         }
@@ -5318,6 +5480,29 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Centro Médico Docente Siglo 21",
+              "direccion": "Autoservicio del Centro Médico Docente Siglo 21, Calle Luperón esq. Sánchez, Santo Domingo · Horario: lunes a viernes 8:00 a.m. a 6:00 p.m. · Sábados 8:00 a.m. a 12:00 p.m.",
+              "coords": [
+                18.472,
+                -69.905
+              ],
+              "maps": "https://maps.google.com/?q=Centro+M%C3%A9dico+Docente+Siglo+21+Santo+Domingo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "linternas, pilas y cargadores portátiles",
+                "ropa en buen estado"
+              ],
+              "nota": "Reciben pañales (niños y adultos), papel higiénico, servilletas, jabón, toallas húmedas y sanitarias, sanitizantes, enlatados, leche en polvo, fórmulas infantiles, botellas de agua, acetaminofén (niños y adultos), antipiréticos, antibióticos, antiinflamatorios, vitaminas, sueros de rehidratación, alcohol, material gastable, guantes, mascarillas, algodón, gasas, curitas, jeringas, gorros y batas desechables, antisépticos, primeros auxilios, linternas, toallas y sábanas en buen estado.",
+              "fuente": "Story @jasselinet · Centro Médico Docente Siglo 21"
             },
             {
               "nombre": "Katy Guillén Studio",
