@@ -852,6 +852,35 @@
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
             },
             {
+              "nombre": "Asociación de Ejecutivos del estado Carabobo (AEEC)",
+              "direccion": "Av. 119 Teodoro Gubaira, Edif. 122-145, Urbanización Valle de Camoruco (4ta Avenida de Prebo), Valencia",
+              "coords": [
+                10.1730,
+                -68.0090
+              ],
+              "maps": "https://maps.app.goo.gl/e9962zFSQRTUVaoC6",
+              "instagram": "aeecoficial",
+              "horario": "Lunes a viernes, 9:00am - 4:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "abrigos y otros implementos de protección",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte verificado · Elías Antonio Tovar Delgado"
+            },
+            {
               "nombre": "Casa Amira — Amira Studio & Mosaico",
               "direccion": "Casa Amira, Calle Alejo Zuluaga, Av. Z, El Trigal Norte, Valencia",
               "coords": [
@@ -2706,6 +2735,7 @@
               ],
               "maps": "https://maps.app.goo.gl/FRq8wyRKg1a7ikiYA",
               "instagram": "imagolab.ve",
+              "whatsapp": "+584146339894",
               "horario": "Lunes a viernes, 8:30am - 6:00pm",
               "recibe": [
                 "agua potable",
@@ -3319,6 +3349,32 @@
               "contacto": "sc@ayudahumanitariavenezuela.org — Coordinadora: Olga Duke",
               "nota": "💌 Centro de contacto regional. Escribe a sc@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
               "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Chelsea, Massachusetts",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio Olivera Rodríguez",
+              "direccion": "84 Hawthorns St, Chelsea, MA",
+              "coords": [
+                42.3920,
+                -71.0330
+              ],
+              "maps": "https://maps.google.com/?q=84+Hawthorns+St+Chelsea+MA",
+              "whatsapp": "+18572009393",
+              "horario": "Viernes, sábado y domingo · todo el día",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños"
+              ],
+              "nota": "También reciben fórmulas y productos para bebés.",
+              "fuente": "Reporte verificado · Grecia Pérez"
             }
           ]
         },
