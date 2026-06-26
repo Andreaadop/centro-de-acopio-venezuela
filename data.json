@@ -881,6 +881,27 @@
               "fuente": "Reporte verificado"
             },
             {
+              "nombre": "Grupo Nezco Venezuela — Valencia",
+              "direccion": "Calle Lisandro Ramírez #97-30, Parroquia San Blas, Valencia",
+              "coords": [
+                10.1660,
+                -68.0030
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Lisandro+Ram%C3%ADrez+San+Blas+Valencia",
+              "whatsapp": "+584246491600",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "nota": "También reciben calzado. Grupo Nezco coordina con empresas de transporte aliadas la distribución de ayudas a zonas afectadas, incluyendo Caracas y otras comunidades impactadas.",
+              "fuente": "Flyer Grupo Nezco Venezuela CA"
+            },
+            {
               "nombre": "Casa Amira — Amira Studio & Mosaico",
               "direccion": "Casa Amira, Calle Alejo Zuluaga, Av. Z, El Trigal Norte, Valencia",
               "coords": [
@@ -1041,23 +1062,21 @@
               "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
             },
             {
-              "nombre": "Sede de Desarrollo Social — Sambil Chacao",
-              "direccion": "Calle Los Ángeles, lateral al CC Sambil Chacao, Caracas",
+              "nombre": "Alcaldía de Chacao — Sede de Desarrollo Social",
+              "direccion": "Sede de Desarrollo Social, Calle Los Ángeles, lateral al CC Sambil Chacao, Municipio Chacao",
               "coords": [
                 10.4960,
                 -66.8540
               ],
               "maps": "https://maps.google.com/?q=Calle+Los+%C3%81ngeles+Sambil+Chacao+Caracas",
+              "instagram": "alcaldiachacao",
+              "telefono": "+584241285989",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "kits de primeros auxilios",
-                "mantas y cobijas",
-                "ropa en buen estado",
-                "artículos de higiene personal"
+                "sábanas"
               ],
-              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
+              "fuente": "Flyer oficial @alcaldiachacao · @gustavoduquesaez"
             },
             {
               "nombre": "Edificio Rita Palace — Los Caobos",
@@ -1428,6 +1447,27 @@
               "fuente": "Flyer @yelfraniriera · @eduardokoii"
             },
             {
+              "nombre": "Grupo Nezco Venezuela — Barquisimeto",
+              "direccion": "Carrera 18 con Calle 49, al lado de SEIPCA, Puerta Negra, Barquisimeto",
+              "coords": [
+                10.0700,
+                -69.3220
+              ],
+              "maps": "https://maps.google.com/?q=Carrera+18+Calle+49+SEIPCA+Barquisimeto",
+              "whatsapp": "+584126938188",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "nota": "También reciben calzado. Grupo Nezco coordina con empresas de transporte aliadas la distribución de ayudas a zonas afectadas, incluyendo Caracas y otras comunidades impactadas.",
+              "fuente": "Flyer Grupo Nezco Venezuela CA"
+            },
+            {
               "nombre": "Operación Todos con VZLA — Iribarren",
               "direccion": "Av. Venezuela al lado del Sambil, canal lento desde la Av. Morán hasta el Sambil, al lado de Seguros Altamira, Barquisimeto",
               "coords": [
@@ -1767,6 +1807,17 @@
               ],
               "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+El+Cafetal+Caracas",
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
+            },
+            {
+              "nombre": "Alcaldía de Baruta — Concha Acústica de Bello Monte",
+              "direccion": "Concha Acústica, Colinas de Bello Monte, Municipio Baruta · Horario: 24 horas",
+              "coords": [
+                10.4830,
+                -66.8650
+              ],
+              "maps": "https://maps.google.com/?q=Concha+Ac%C3%BAstica+Bello+Monte+Caracas",
+              "instagram": "alcaldiabaruta",
+              "fuente": "Story @alcaldiabaruta · @darwingonzalezp"
             },
             {
               "nombre": "Base de Operaciones Tu Gruero — Los Dos Caminos",
@@ -2501,6 +2552,162 @@
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
             },
             {
+              "nombre": "Alcaldía de Maracaibo — Plaza de la República",
+              "direccion": "Plaza de la República, Calle 77 (5 de Julio) con Av. 3Y, Maracaibo",
+              "coords": [
+                10.6710,
+                -71.6160
+              ],
+              "maps": "https://maps.google.com/?q=Plaza+de+la+Rep%C3%BAblica+Calle+77+Maracaibo",
+              "instagram": "alcaldiabmcbo",
+              "horario": "8:00am - 6:00pm",
+              "fuente": "Flyer oficial Alcaldía Bolivariana de Maracaibo · @alcaldiabmcbo"
+            },
+            {
+              "nombre": "Alcaldía de Maracaibo — Estación Central del Tranvía",
+              "direccion": "Av. 2 El Milagro, dentro del Parque Vereda del Lago, Maracaibo",
+              "coords": [
+                10.6850,
+                -71.6090
+              ],
+              "maps": "https://maps.google.com/?q=Parque+Vereda+del+Lago+Maracaibo",
+              "instagram": "alcaldiabmcbo",
+              "horario": "8:00am - 6:00pm",
+              "fuente": "Flyer oficial Alcaldía Bolivariana de Maracaibo · @alcaldiabmcbo"
+            },
+            {
+              "nombre": "Alcaldía de Maracaibo — Plaza Canta Claro",
+              "direccion": "Plaza Canta Claro, Urbanización Canta Claro, entre calles 51 y 52, Maracaibo",
+              "coords": [
+                10.6580,
+                -71.6020
+              ],
+              "maps": "https://maps.google.com/?q=Urbanizaci%C3%B3n+Canta+Claro+Maracaibo",
+              "instagram": "alcaldiabmcbo",
+              "horario": "8:00am - 6:00pm",
+              "fuente": "Flyer oficial Alcaldía Bolivariana de Maracaibo · @alcaldiabmcbo"
+            },
+            {
+              "nombre": "Alcaldía de Maracaibo — Centro Deportivo y Cultura Patria Joven",
+              "direccion": "Av. 92 y 94, entre calles 79G y 79H, Maracaibo",
+              "coords": [
+                10.6430,
+                -71.6440
+              ],
+              "maps": "https://maps.google.com/?q=Centro+Deportivo+Patria+Joven+Maracaibo",
+              "instagram": "alcaldiabmcbo",
+              "horario": "8:00am - 6:00pm",
+              "fuente": "Flyer oficial Alcaldía Bolivariana de Maracaibo · @alcaldiabmcbo"
+            },
+            {
+              "nombre": "Alcaldía de Maracaibo — Plaza Para Todos (Antigua Plaza de Toros)",
+              "direccion": "Plaza Para Todos (Antigua Plaza de Toros), Av. 16 Guajira con prolongación Circunvalación 2, Maracaibo",
+              "coords": [
+                10.6390,
+                -71.6480
+              ],
+              "maps": "https://maps.google.com/?q=Antigua+Plaza+de+Toros+Maracaibo",
+              "instagram": "alcaldiabmcbo",
+              "horario": "8:00am - 6:00pm",
+              "fuente": "Flyer oficial Alcaldía Bolivariana de Maracaibo · @alcaldiabmcbo"
+            },
+            {
+              "nombre": "Grupo Nezco Venezuela — Maracaibo",
+              "direccion": "Av. 12 entre 68-69, Local 69-95, Sector Tierra Negra, Maracaibo",
+              "coords": [
+                10.6630,
+                -71.6210
+              ],
+              "maps": "https://maps.google.com/?q=Av+12+entre+68+69+Tierra+Negra+Maracaibo",
+              "whatsapp": "+584246081907",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "nota": "También reciben calzado. Grupo Nezco coordina con empresas de transporte aliadas la distribución de ayudas a zonas afectadas, incluyendo Caracas y otras comunidades impactadas.",
+              "fuente": "Flyer Grupo Nezco Venezuela CA · @siempremimaracaibo"
+            },
+            {
+              "nombre": "U.E. Nuestra Sra. del Valle — VALLEMUN",
+              "direccion": "Unidad Educativa Nuestra Sra. del Valle, Maracaibo",
+              "coords": [
+                10.6610,
+                -71.6080
+              ],
+              "maps": "https://maps.google.com/?q=Unidad+Educativa+Nuestra+Se%C3%B1ora+del+Valle+Maracaibo",
+              "horario": "Viernes 26 de junio, 8:00am - 5:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "materiales para refugio"
+              ],
+              "nota": "Iniciativa del Comité Organizador y delegados de VALLEMUN (Model of United Nations) de la Unidad Educativa Nuestra Sra. del Valle.",
+              "fuente": "Flyer VALLEMUN · @siempremimaracaibo · @rodriguezgusmary_"
+            },
+            {
+              "nombre": "Elio's Bakery Shop — Kiosko Azul",
+              "direccion": "Kiosko Azul, Zona Oeste, Valle Claro, frente a los edificios, al lado de Súper Fruty, Maracaibo",
+              "coords": [
+                10.6800,
+                -71.6400
+              ],
+              "maps": "https://maps.google.com/?q=Valle+Claro+Zona+Oeste+Maracaibo",
+              "instagram": "eliosbakeryshop",
+              "horario": "A partir de las 4:30pm",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "nota": "El Kiosko Azul de Elio's Bakery Shop se convirtió en Centro de Acopio Activo. Además, TODO lo vendido el día de hoy será un aporte para ayudar a Venezuela.",
+              "fuente": "Flyer @eliosbakeryshop · @siempremimaracaibo"
+            },
+            {
+              "nombre": "Bakery Motion — Plaza 75",
+              "direccion": "Plaza 75, Local 1, Calle 75 con Avenida 3H, Sector La Lago, Maracaibo",
+              "coords": [
+                10.6680,
+                -71.6230
+              ],
+              "maps": "https://maps.google.com/?q=Plaza+75+Calle+75+Avenida+3H+La+Lago+Maracaibo",
+              "instagram": "bakerymotion",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "También reciben zapatos en buen estado.",
+              "fuente": "Flyer @bakerymotion · @siempremimaracaibo"
+            },
+            {
+              "nombre": "BioSouthTech / UNIMED — Clínica Centro Médico Docente Paraíso",
+              "direccion": "Clínica Centro Médico Docente Paraíso — Piso 1 (Unidad de Investigación Dr. \"Shubert Camacho\" UNIMED) y Planta Baja (Unidad de Anatomía Patológica, Dra. Iría Lozano), Maracaibo",
+              "coords": [
+                10.6700,
+                -71.6160
+              ],
+              "maps": "https://maps.google.com/?q=Cl%C3%ADnica+Centro+M%C3%A9dico+Docente+Para%C3%ADso+Maracaibo",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios"
+              ],
+              "nota": "Centro de acopio de INSUMOS MÉDICOS exclusivamente. Reciben: gasas, agua oxigenada, tapabocas, vendas, solución fisiológica, catéteres, adhesivo, jeringas, equipos de infusión, alcohol, guantes de látex. Dos puntos en la clínica: Piso 1 (UNIMED) y Planta Baja (Anatomía Patológica).",
+              "fuente": "Flyer oficial BioSouthTech · UNIMED · @noticiaaldia"
+            },
+            {
               "nombre": "Cruz Roja Venezolana — Filial Maracaibo",
               "direccion": "Sede de la Cruz Roja Venezolana Filial Maracaibo, Av. 11 con esquina Calle 83, Sector Veritas, Maracaibo",
               "coords": [
@@ -2520,17 +2727,24 @@
               "fuente": "Flyer oficial @cruzrojamaracaibo · Flyer uBag"
             },
             {
-              "nombre": "Facultad de Medicina LUZ (El Tacón)",
-              "direccion": "El Tacón, Avenida Delicias, Facultad de Medicina, Universidad del Zulia, Maracaibo",
+              "nombre": "Facultad de Medicina LUZ — Plaza Paul Moreno Camacho",
+              "direccion": "Plaza Paul Moreno Camacho, Facultad de Medicina, Universidad del Zulia, Maracaibo · Horario: viernes 26 de junio, 8:00 a.m. a 6:00 p.m.",
               "coords": [
                 10.661,
                 -71.63
               ],
-              "maps": "https://maps.google.com/?q=10.661,-71.63",
+              "maps": "https://maps.google.com/?q=Facultad+de+Medicina+LUZ+Maracaibo",
               "recibe": [
-                "medicamentos e insumos médicos"
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales para niños y adultos"
               ],
-              "fuente": "Reporte de la usuaria"
+              "fuente": "Comunicado oficial Facultad de Medicina LUZ · Dr. Sergio Osorio Morales, Decano"
             },
             {
               "nombre": "Synergy — CC Doral Center Mall",
@@ -2640,6 +2854,28 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
+              "nombre": "Arena Panter — CC Costa Verde",
+              "direccion": "Arena Panter, CC Costa Verde, Av. Bella Vista, Maracaibo · Horario: 2:00 p.m. a 10:00 p.m.",
+              "coords": [
+                10.6720,
+                -71.6200
+              ],
+              "maps": "https://maps.google.com/?q=Arena+Panter+CC+Costa+Verde+Maracaibo",
+              "instagram": "arenapanter",
+              "telefono": "+584146718920",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Flyer @arenapanter · @cccostaverde"
             },
             {
               "nombre": "Parroquia San Antonio María Claret",
@@ -2800,6 +3036,30 @@
                 "colchones, almohadas y colchones inflables"
               ],
               "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            }
+          ]
+        },
+        {
+          "nombre": "San Francisco",
+          "centros": [
+            {
+              "nombre": "Alcaldía de San Francisco — Centro de Acopio",
+              "direccion": "San Francisco, estado Zulia",
+              "coords": [
+                10.5739,
+                -71.6486
+              ],
+              "maps": "https://maps.google.com/?q=Alcald%C3%ADa+de+San+Francisco+Zulia",
+              "instagram": "alcaldiabsanfco",
+              "telefono": "+584226437205",
+              "correo": "desarrollosocialsf2407@gmail.com",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Story @alcaldiabsanfco · Alcalde Héctor Soto"
             }
           ]
         }
@@ -3308,6 +3568,22 @@
               ],
               "maps": "https://maps.google.com/?q=25.823,-80.186",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Miami Team Store — Nu Stadium",
+              "direccion": "Nu Stadium, 1000 Stadium Drive, Miami, FL · Horario: 26 jun – 3 jul, 9:00 a.m. a 3:00 p.m. · Domingo 28 jun horario especial 6:00 p.m. a 8:30 p.m. (concierto Carín León)",
+              "coords": [
+                25.9580,
+                -80.2389
+              ],
+              "maps": "https://maps.google.com/?q=Hard+Rock+Stadium+Miami",
+              "recibe": [
+                "kits de primeros auxilios",
+                "linternas, pilas y cargadores portátiles",
+                "pañales de bebé",
+                "artículos para niños"
+              ],
+              "fuente": "Diario Las Américas · diariolasamericas.com/florida/doral-activa-cuatro-puntos-acopio-damnificados-terremotos-venezuela"
             }
           ]
         },
@@ -3933,6 +4209,184 @@
               ],
               "nota": "Organizado por la Cámara de Comercio Dominico Venezolana. Reciben pañales (adultos y pediátricos), fórmula infantil, alimentos no perecederos, enlatados (atún, sardinas, frijoles negros), toallas húmedas, suero en polvo y medicamentos: analgésicos, antipiréticos, antibióticos, antisépticos, gasa, algodón, solución fisiológica, vitaminas y suero de rehidratación oral.",
               "fuente": "Flyer oficial @tusambildo · Cámara de Comercio Dominico Venezolana"
+            },
+            {
+              "nombre": "Downtown Center — Centro de Acopio",
+              "direccion": "Downtown Center, Sótano 2 (S2), Santo Domingo · Horario: viernes 26 jun – miércoles 1 jul, 9:00 a.m. a 4:00 p.m. · Fin de semana 10:00 a.m. a 7:00 p.m.",
+              "coords": [
+                18.4670,
+                -69.9410
+              ],
+              "maps": "https://maps.google.com/?q=Downtown+Center+Santo+Domingo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Food Truck Village",
+              "direccion": "Av. Gustavo Mejía Ricart 62-66, Santo Domingo · Horario: todos los días, 6:00 p.m. a 12:00 a.m.",
+              "coords": [
+                18.4730,
+                -69.9390
+              ],
+              "maps": "https://maps.google.com/?q=Food+Truck+Village+Santo+Domingo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "nota": "Todo lo recolectado será trasladado al centro principal de Sambil para su envío a Venezuela.",
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Restaurante Monte Cristo",
+              "direccion": "Av. Gustavo Mejía Ricart 44, Santo Domingo",
+              "coords": [
+                18.4729,
+                -69.9400
+              ],
+              "maps": "https://maps.google.com/?q=Restaurante+Monte+Cristo+Santo+Domingo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "El Arepanito",
+              "direccion": "Av. Winston Churchill 26, Santo Domingo · Horario: todos los días, 7:00 a.m. a 12:00 a.m.",
+              "coords": [
+                18.4655,
+                -69.9410
+              ],
+              "maps": "https://maps.google.com/?q=El+Arepanito+Winston+Churchill+Santo+Domingo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "nota": "Todo lo recolectado será trasladado al centro principal de Sambil para su envío a Venezuela.",
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Centro Familiar de Taekwondo — Mirador Sur",
+              "direccion": "Sede Mirador Sur, Santo Domingo · Horario: lunes a viernes 8:00 a.m. a 7:00 p.m. · Sábado 9:00 a.m. a 4:00 p.m.",
+              "coords": [
+                18.4424,
+                -69.9540
+              ],
+              "maps": "https://maps.google.com/?q=Centro+Familiar+Taekwondo+Mirador+Sur+Santo+Domingo",
+              "instagram": "centrofamiliartkd",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Katy Guillén Studio",
+              "direccion": "Edificio Las Camelias, Av. Perú, Piso 4, Oficina 404 C, Bella Vista, Santo Domingo · Horario: lunes a sábado, 9:00 a.m. a 3:00 p.m.",
+              "coords": [
+                18.4520,
+                -69.9450
+              ],
+              "maps": "https://maps.google.com/?q=Av+Per%C3%BA+Bella+Vista+Santo+Domingo",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Punta Cana",
+          "centros": [
+            {
+              "nombre": "Hard Rock Café Punta Cana",
+              "direccion": "Downtown Punta Cana, La Altagracia · Horario: 9:00 a.m. a 9:00 p.m.",
+              "coords": [
+                18.5820,
+                -68.4050
+              ],
+              "maps": "https://maps.google.com/?q=Hard+Rock+Cafe+Downtown+Punta+Cana",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Punto de Acopio — Alto Llano",
+              "direccion": "Av. Barceló, Alto Llano, Punta Cana",
+              "coords": [
+                18.5780,
+                -68.4100
+              ],
+              "maps": "https://maps.google.com/?q=Av+Barcel%C3%B3+Punta+Cana",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios"
+              ],
+              "nota": "Se priorizan insumos médicos, materiales de primeros auxilios y herramientas para labores de apoyo y rescate (palas, cascos, guantes, mascarillas, cinta adhesiva).",
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Santiago de los Caballeros",
+          "centros": [
+            {
+              "nombre": "Orangetheory Fitness Santiago",
+              "direccion": "Av. 27 de Febrero con calle Erick Eckman, Santiago de los Caballeros",
+              "coords": [
+                19.4520,
+                -70.6970
+              ],
+              "maps": "https://maps.google.com/?q=Orangetheory+Fitness+Santiago+Dominican+Republic",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Asociación de Venezolanos — Librería Paulinas",
+              "direccion": "Librería Paulinas, Calle 16 de Agosto, Centro Histórico, Santiago de los Caballeros",
+              "coords": [
+                19.4517,
+                -70.6970
+              ],
+              "maps": "https://maps.google.com/?q=Librer%C3%ADa+Paulinas+Santiago+Dominican+Republic",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Lo recolectado se traslada al centro principal en Sambil para su envío a Venezuela.",
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
             }
           ]
         }
@@ -4450,6 +4904,39 @@
               "maps": "https://maps.google.com/?q=40.425,-3.7",
               "instagram_url": "https://www.instagram.com/p/DaAU3uXoUdw/",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Gramabar (Grama Lounge)",
+              "direccion": "Grama Lounge / Gramabar, Madrid",
+              "coords": [
+                40.4378,
+                -3.6795
+              ],
+              "maps": "https://maps.google.com/?q=Gramabar+Grama+Lounge+Madrid",
+              "instagram": "gramabar",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El País · elpais.com/internacional/2026-06-26/espana-se-vuelca-con-venezuela-tras-el-devastador-terremoto"
+            },
+            {
+              "nombre": "Clínica Menorca",
+              "direccion": "Clínica Menorca, Madrid",
+              "coords": [
+                40.4258,
+                -3.6839
+              ],
+              "maps": "https://maps.google.com/?q=Cl%C3%ADnica+Menorca+Madrid",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Los donativos serán enviados a Caracas y distribuidos por el Ávila Fútbol Club junto con organizaciones locales.",
+              "fuente": "El País · elpais.com/internacional/2026-06-26/espana-se-vuelca-con-venezuela-tras-el-devastador-terremoto"
             }
           ]
         }
