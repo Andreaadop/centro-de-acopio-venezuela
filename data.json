@@ -1561,8 +1561,8 @@
               "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
             },
             {
-              "nombre": "Rescatistas y vecinos",
-              "direccion": "Edificio Petunia, Av. Francisco de Miranda entre Los Palos Grandes y Altamira",
+              "nombre": "Rescatistas y vecinos — Edificio Petunia",
+              "direccion": "Edificio Petunia, Av. Francisco de Miranda entre Los Palos Grandes y Altamira, Caracas",
               "coords": [
                 10.498,
                 -66.842
@@ -1570,8 +1570,17 @@
               "maps": "https://maps.google.com/?q=10.498,-66.842",
               "recibe": [
                 "agua potable",
-                "alimentos no perecederos"
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "linternas, pilas y cargadores portátiles",
+                "cascos de protección",
+                "herramientas de rescate (palas, picos, guantes, mascarillas)"
               ],
+              "nota": "Punto de apoyo para rescatistas y vecinos en el sitio del colapso del Edificio Petunia. Se priorizan equipos e insumos para labores de búsqueda y rescate, además de alimentos, agua y abrigo para los voluntarios y familias afectadas.",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
             },
             {
