@@ -3824,6 +3824,38 @@
       ]
     },
     {
+      "nombre": "Uruguay",
+      "ciudades": [
+        {
+          "nombre": "Montevideo",
+          "centros": [
+            {
+              "nombre": "Anita Ventas — Centro de Acopio",
+              "direccion": "Domingo Aramburu 1735, Montevideo, Uruguay",
+              "coords": [
+                -34.8580,
+                -56.1620
+              ],
+              "maps": "https://maps.google.com/?q=Domingo+Aramburu+1735+Montevideo+Uruguay",
+              "instagram": "anitaventas.uy",
+              "whatsapp": "+59896122609",
+              "horario": "Lunes a viernes 9:00am - 5:00pm · Sábados hasta las 2:00pm",
+              "recibe": [
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "cascos de protección"
+              ],
+              "nota": "🇺🇾 Reciben donaciones organizadas en 3 categorías: ROPA (limpia y en buen estado, medias, buzos ligeros, ropa interior nueva, mantas, pilot/impermeables, ropa para adultos y niños). HERRAMIENTAS (martillos, mazos, palas pequeñas, picos pequeños, cascos, guantes de trabajo, antiparras, chalecos reflectivos, cuerdas, botas de seguridad). MATERIAL MÉDICO (gasas estériles, vendas, cinta adhesiva tipo leuco, guantes descartables, banditas/curitas, mosquiteros, sueros de rehidratación oral en polvo). Coordinado junto a @venezolanosenuruguay.",
+              "fuente": "Flyer @anitaventas.uy · @elnudodevaneuy · @venezolanosenuruguay"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "nombre": "República Dominicana",
       "ciudades": [
         {
