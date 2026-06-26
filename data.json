@@ -298,6 +298,28 @@
           "nombre": "Maracay",
           "centros": [
             {
+              "nombre": "Centro Comercial Churún Merú",
+              "direccion": "CC Churún Merú, por la Avenida Lara, Maracay",
+              "coords": [
+                10.2470,
+                -67.5950
+              ],
+              "maps": "https://maps.google.com/?q=CC+Chur%C3%BAn+Mer%C3%BA+Avenida+Lara+Maracay",
+              "horario": "A partir del viernes 26 de junio, desde las 9:00am",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "nota": "Alimentos específicos: enlatados, pasta, arroz, azúcar, leche en polvo. Medicinas: analgésicos, antibióticos, vitaminas, sueros orales. Higiene: jabón, pasta dental, champú, toallas higiénicas, papel higiénico. Otros: ropa en buen estado, cobijas, toallas, linternas, pilas y pañales.",
+              "fuente": "Flyer @yelfraniriera · @eduardokoii"
+            },
+            {
               "nombre": "Comando Con Venezuela",
               "direccion": "Avenida 19 de Abril, Centro Comercial La Capilla, Piso 1, Local 21",
               "coords": [
