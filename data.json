@@ -3880,6 +3880,63 @@
       "nombre": "Argentina",
       "ciudades": [
         {
+          "nombre": "Buenos Aires",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio Buenos Aires — Amenabar",
+              "direccion": "Amenabar 1024, CABA, Buenos Aires",
+              "coords": [
+                -34.5570,
+                -58.4555
+              ],
+              "maps": "https://maps.google.com/?q=Amenabar+1024+Buenos+Aires",
+              "horario": "13:00 - 19:00",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "linternas, pilas y cargadores portátiles",
+                "artículos para niños"
+              ],
+              "nota": "🇦🇷 Enviamos a Venezuela. Reciben: higiene personal (jabón, shampoo, pasta y cepillos de dientes, desodorante, toallas femeninas, papel higiénico); alimentos enlatados, arroz, pasta seca, atún, sardinas; medicamentos y primeros auxilios (gasas, vendas, alcohol, curitas, guantes descartables); ropa en buen estado, calzado, mantas, camperas, ropa para niños; linternas, pilas, velas y guantes resistentes.",
+              "fuente": "Flyer comunitario Buenos Aires · Enviamos a Venezuela"
+            },
+            {
+              "nombre": "Centro de Acopio Buenos Aires — Libertad",
+              "direccion": "Libertad 996, CABA, Buenos Aires",
+              "coords": [
+                -34.5945,
+                -58.3811
+              ],
+              "maps": "https://maps.google.com/?q=Libertad+996+Buenos+Aires",
+              "horario": "10:00 - 21:00",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "linternas, pilas y cargadores portátiles",
+                "artículos para niños"
+              ],
+              "nota": "🇦🇷 Enviamos a Venezuela. Reciben: higiene personal (jabón, shampoo, pasta y cepillos de dientes, desodorante, toallas femeninas, papel higiénico); alimentos enlatados, arroz, pasta seca, atún, sardinas; medicamentos y primeros auxilios (gasas, vendas, alcohol, curitas, guantes descartables); ropa en buen estado, calzado, mantas, camperas, ropa para niños; linternas, pilas, velas y guantes resistentes.",
+              "fuente": "Flyer comunitario Buenos Aires · Enviamos a Venezuela"
+            }
+          ]
+        },
+        {
           "nombre": "Comodoro Rivadavia",
           "centros": [
             {
