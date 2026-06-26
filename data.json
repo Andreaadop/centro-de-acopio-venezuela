@@ -2324,6 +2324,25 @@
               "fuente": "Story @alcaldiabaruta · @darwingonzalezp"
             },
             {
+              "nombre": "Woman Clinix — Los Dos Caminos",
+              "direccion": "Sede de Woman Clinix, Av. Sucre de Los Dos Caminos, Caracas · Horario: desde las 8:00 a.m.",
+              "coords": [
+                10.495,
+                -66.844
+              ],
+              "maps": "https://maps.google.com/?q=Av+Sucre+Los+Dos+Caminos+Caracas",
+              "instagram": "womanclinix",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "sábanas",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Flyer @womanclinix · @dragzambrano"
+            },
+            {
               "nombre": "Base de Operaciones Tu Gruero — Los Dos Caminos",
               "direccion": "Av. El Carmen de Los Dos Caminos, diagonal a Iglesia Claret",
               "coords": [
@@ -3508,6 +3527,28 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
+              "nombre": "Sambil Maracaibo — Lobby Goajira",
+              "direccion": "Sambil Maracaibo, Lobby Goajira, Av. 17 Los Haticos, Maracaibo · Horario: desde las 6:00 a.m.",
+              "coords": [
+                10.6280,
+                -71.6310
+              ],
+              "maps": "https://maps.google.com/?q=Sambil+Maracaibo",
+              "instagram": "tusambilmcbo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Donaciones enviadas a las zonas afectadas a través de Cáritas Venezuela.",
+              "fuente": "Story @tusambilmcbo · Cáritas Venezuela"
             },
             {
               "nombre": "Centro de Arte de Maracaibo Lía Bermúdez (CAMLB)",
