@@ -2501,22 +2501,23 @@
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
             },
             {
-              "nombre": "Cruz Roja Venezolana — Seccional Zulia",
-              "direccion": "Av. 11 con Calle 83, Sector Veritas, Maracaibo",
+              "nombre": "Cruz Roja Venezolana — Filial Maracaibo",
+              "direccion": "Sede de la Cruz Roja Venezolana Filial Maracaibo, Av. 11 con esquina Calle 83, Sector Veritas, Maracaibo",
               "coords": [
                 10.6650,
                 -71.6150
               ],
               "maps": "https://maps.google.com/?q=Cruz+Roja+Venezolana+Maracaibo+Av+11+Calle+83",
+              "instagram": "cruzrojamaracaibo",
+              "horario": "A partir de las 7:00am",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos",
                 "kits de primeros auxilios",
-                "ropa en buen estado",
                 "artículos de higiene personal"
               ],
-              "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+              "fuente": "Flyer oficial @cruzrojamaracaibo · Flyer uBag"
             },
             {
               "nombre": "Facultad de Medicina LUZ (El Tacón)",
