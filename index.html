@@ -7,7 +7,7 @@
     <!-- Primary Meta -->
     <title>Centros de Acopio Venezuela — Directorio comunitario tras el sismo</title>
     <meta name="title" content="Centros de Acopio Venezuela — Directorio comunitario tras el sismo" />
-    <meta name="description" content="Encuentra dónde donar cerca de ti. Directorio abierto de centros de acopio en Venezuela y el exterior tras el sismo de magnitud 7.5. Busca por estado, ciudad o cercanía. Reporta nuevos puntos." />
+    <meta name="description" content="Encuentra dónde donar cerca de ti. Directorio abierto de centros de acopio en Venezuela y el exterior tras los dos sismos de magnitud 7.2 y 7.5 del 24 de junio. Busca por estado, ciudad o cercanía. Reporta nuevos puntos." />
     <meta name="keywords" content="centros de acopio Venezuela, donaciones Venezuela, sismo Venezuela, terremoto, ayuda humanitaria, donar, Cáritas, Caracas, Maracaibo, Punto Fijo, Aragua, refugio, agua potable, alimentos, medicamentos" />
     <meta name="author" content="Comunidad — Directorio abierto" />
     <meta name="robots" content="index, follow" />
@@ -33,7 +33,7 @@
     <meta property="og:site_name" content="Centros de Acopio Venezuela" />
     <meta property="og:url" content="https://www.centrosdeacopiovzla.com/" />
     <meta property="og:title" content="Centros de Acopio Venezuela" />
-    <meta property="og:description" content="Encuentra dónde donar cerca de ti. Directorio comunitario abierto tras el sismo de magnitud 7.5. Busca por estado, ciudad o cercanía." />
+    <meta property="og:description" content="Encuentra dónde donar cerca de ti. Directorio comunitario abierto tras los dos sismos de magnitud 7.2 y 7.5. Busca por estado, ciudad o cercanía." />
     <meta property="og:image" content="https://www.centrosdeacopiovzla.com/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -425,7 +425,7 @@
         </h1>
 
         <p class="mt-6 max-w-2xl text-base sm:text-lg text-muted body-relaxed reveal" style="animation-delay:.14s">
-          Directorio abierto tras el sismo de magnitud <strong class="text-ink font-semibold num">7.5</strong>.
+          Directorio abierto tras los dos sismos de magnitud <strong class="text-ink font-semibold num">7.2</strong> y <strong class="text-ink font-semibold num">7.5</strong> del 24 de junio.
           Elige tu estado para ver los centros activos, qué reciben y cómo llegar.
         </p>
 
@@ -723,7 +723,7 @@
         return q.toLowerCase().split(/\s+/).every((t) => hay.includes(t));
       }
 
-      const EXTERIOR = new Set(['Colombia','Estados Unidos','Panamá','Ecuador','España','Chile']);
+      const EXTERIOR = new Set(['Colombia','Estados Unidos','Panamá','Ecuador','España','Chile','México','Perú','Argentina']);
 
       function populateSelect() {
         const sel = $('#estado-select');

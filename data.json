@@ -290,7 +290,7 @@
                 "alimentos no perecederos",
                 "ropa en buen estado"
               ],
-              "fuente": "Lo publicaron en redes"
+              "fuente": "Publicado en redes sociales"
             }
           ]
         },
@@ -329,7 +329,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Familiares y amigos que viven en la zona"
+              "fuente": "Reporte comunitario local"
             },
             {
               "nombre": "Sociedad anticancerosa",
@@ -345,26 +345,7 @@
                 "alimentos no perecederos",
                 "ropa en buen estado"
               ],
-              "fuente": "Lo publicaron en redes"
-            },
-            {
-              "nombre": "Sociedad civil",
-              "direccion": "Burger Latin, centro comercial Palma Center",
-              "coords": [
-                10.2272,
-                -67.332
-              ],
-              "maps": "https://maps.google.com/?q=10.2272,-67.332",
-              "instagram_url": "https://www.instagram.com/p/DaAk8GWOLGH/?igsh=MXB2NDFyNzlheG54Nw%3D%3D",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado",
-                "pañales de bebé",
-                "pañales de adulto"
-              ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "fuente": "Publicado en redes sociales"
             },
             {
               "nombre": "Teatro de la Ópera (Maracay)",
@@ -407,6 +388,94 @@
           ]
         },
         {
+          "nombre": "La Victoria",
+          "centros": [
+            {
+              "nombre": "Burger Latin — CC Palma Center",
+              "direccion": "Burger Latin, Centro Comercial Palma Center, La Victoria",
+              "coords": [
+                10.2272,
+                -67.3320
+              ],
+              "maps": "https://maps.google.com/?q=Burger+Latin+CC+Palma+Center+La+Victoria+Aragua",
+              "instagram_url": "https://www.instagram.com/p/DaAk8GWOLGH/?igsh=MXB2NDFyNzlheG54Nw%3D%3D",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "pañales de bebé",
+                "pañales de adulto",
+                "alimentos para mascotas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "También reciben baterías, palas y picos.",
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
+            },
+            {
+              "nombre": "Bodega 33 — CC El Solidario",
+              "direccion": "Bodega 33, Centro Comercial El Solidario, La Victoria",
+              "coords": [
+                10.2280,
+                -67.3300
+              ],
+              "maps": "https://maps.google.com/?q=Bodega+33+CC+El+Solidario+La+Victoria+Aragua",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "pañales de bebé",
+                "pañales de adulto",
+                "alimentos para mascotas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "También reciben baterías, palas y picos.",
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
+            },
+            {
+              "nombre": "CEI María de las Mercedes",
+              "direccion": "Calle Dr. Vicentelli c/c Rosa María Paredes #7, Sector Centro, La Victoria",
+              "coords": [
+                10.2270,
+                -67.3340
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Vicentelli+Rosa+Mar%C3%ADa+Paredes+La+Victoria+Aragua",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños"
+              ],
+              "nota": "También reciben fórmulas infantiles.",
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
+            },
+            {
+              "nombre": "Parroquia Nuestra Señora del Carmen",
+              "direccion": "Calle Colón, La Victoria",
+              "coords": [
+                10.2290,
+                -67.3320
+              ],
+              "maps": "https://maps.google.com/?q=Parroquia+Nuestra+Se%C3%B1ora+del+Carmen+La+Victoria+Aragua",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños"
+              ],
+              "nota": "También reciben fórmulas infantiles.",
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
+            }
+          ]
+        },
+        {
           "nombre": "Turmero",
           "centros": [
             {
@@ -424,7 +493,7 @@
                 "medicamentos e insumos médicos",
                 "abrigos y otros implementos de protección"
               ],
-              "fuente": "Familiares y amigos que viven en la zona"
+              "fuente": "Reporte comunitario local"
             }
           ]
         }
@@ -823,7 +892,7 @@
                 "agua potable",
                 "medicamentos e insumos médicos"
               ],
-              "fuente": "Por una persona de confianza"
+              "fuente": "Reporte comunitario verificado"
             }
           ]
         }
@@ -850,7 +919,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Por WhatsApp"
+              "fuente": "Reporte por WhatsApp"
             }
           ]
         },
@@ -872,7 +941,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Por WhatsApp"
+              "fuente": "Reporte por WhatsApp"
             }
           ]
         }
@@ -955,7 +1024,14 @@
                 -66.844222
               ],
               "maps": "https://maps.google.com/?q=10.496491,-66.844222",
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "cascos de protección"
+              ],
+              "nota": "Alimentos específicos: enlatados, frutos secos, harina pan, queso, jamón, pan. Herramientas y protección: cinceles, mandarrias, guantes para escombros, gatos de botella, piquetas, cascos de seguridad y palas.",
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos · Lista colaborativa @marielozadab y @nathaliesayago"
             },
             {
               "nombre": "Comando Con Venezuela",
@@ -1015,7 +1091,7 @@
               ],
               "maps": "https://maps.google.com/?q=10.47599064,-66.95098002",
               "instagram": "comandoconvzla",
-              "fuente": "Compartido por el comando Con Venezuela"
+              "fuente": "Compartido por Comando Con Venezuela"
             },
             {
               "nombre": "Instituto de Diseño de Caracas",
@@ -1037,6 +1113,21 @@
                 "cascos de protección"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Rescatistas y Vecinos — Altamira CAF",
+              "direccion": "Altamira, frente a la sede de la CAF, Caracas",
+              "coords": [
+                10.4950,
+                -66.8470
+              ],
+              "maps": "https://maps.google.com/?q=CAF+Altamira+Caracas",
+              "contacto": "Victoria Castillo 0412-1937746 / Desireé Lugo 0424-9050118",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos"
+              ],
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
             },
             {
               "nombre": "Rescatistas y vecinos",
@@ -1283,6 +1374,28 @@
               "fuente": "Flyer @yelfraniriera · @eduardokoii"
             },
             {
+              "nombre": "Operación Todos con VZLA — Iribarren",
+              "direccion": "Av. Venezuela al lado del Sambil, canal lento desde la Av. Morán hasta el Sambil, al lado de Seguros Altamira, Barquisimeto",
+              "coords": [
+                10.0640,
+                -69.3200
+              ],
+              "maps": "https://maps.google.com/?q=Sambil+Barquisimeto+Av+Venezuela",
+              "instagram": "convzlacomando",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Primeros auxilios: guantes, vendas, alcohol, inyectadoras. Para rescatistas: cascos, guantes de protección, linternas, cinceles, picos, tobos, palas, mandarrias, disco de corte.",
+              "fuente": "Flyer @convzlacomando · Operación Todos con VZLA"
+            },
+            {
               "nombre": "Cáritas Barquisimeto",
               "direccion": "Cáritas, Carrera 18 entre calles 34 y 35, Barquisimeto",
               "coords": [
@@ -1367,6 +1480,114 @@
                 "ropa en buen estado"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Cabudare (Palavecino)",
+          "centros": [
+            {
+              "nombre": "Operación Todos con VZLA — Palavecino",
+              "direccion": "Los Rastrojos, Calle 3, esquina Calle Aquilino Juárez, diagonal Centro Deportivo El Cuadrito, detrás de la Escuela Pedro Gual",
+              "coords": [
+                10.0150,
+                -69.2300
+              ],
+              "maps": "https://maps.google.com/?q=Los+Rastrojos+Cabudare+Palavecino+Lara",
+              "instagram": "convzlacomando",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Primeros auxilios: guantes, vendas, alcohol, inyectadoras. Para rescatistas: cascos, guantes de protección, linternas, cinceles, picos, tobos, palas, mandarrias, disco de corte.",
+              "fuente": "Flyer @convzlacomando · Operación Todos con VZLA"
+            }
+          ]
+        },
+        {
+          "nombre": "Quíbor (Jiménez)",
+          "centros": [
+            {
+              "nombre": "Operación Todos con VZLA — Jiménez",
+              "direccion": "Avenida 5 entre Calle 13 y 14, Parroquia Juan Bautista Rodríguez, Quíbor",
+              "coords": [
+                9.9290,
+                -69.6320
+              ],
+              "maps": "https://maps.google.com/?q=Av+5+Calle+13+Qu%C3%ADbor+Lara",
+              "instagram": "convzlacomando",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Primeros auxilios: guantes, vendas, alcohol, inyectadoras. Para rescatistas: cascos, guantes de protección, linternas, cinceles, picos, tobos, palas, mandarrias, disco de corte.",
+              "fuente": "Flyer @convzlacomando · Operación Todos con VZLA"
+            }
+          ]
+        },
+        {
+          "nombre": "Duaca (Crespo)",
+          "centros": [
+            {
+              "nombre": "Operación Todos con VZLA — Crespo",
+              "direccion": "Calle 13 entre Carreras 12 y 13, Duaca",
+              "coords": [
+                10.2700,
+                -69.1390
+              ],
+              "maps": "https://maps.google.com/?q=Calle+13+Carrera+12+Duaca+Lara",
+              "instagram": "convzlacomando",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Primeros auxilios: guantes, vendas, alcohol, inyectadoras. Para rescatistas: cascos, guantes de protección, linternas, cinceles, picos, tobos, palas, mandarrias, disco de corte.",
+              "fuente": "Flyer @convzlacomando · Operación Todos con VZLA"
+            }
+          ]
+        },
+        {
+          "nombre": "Carora (Torres)",
+          "centros": [
+            {
+              "nombre": "Operación Todos con VZLA — Torres",
+              "direccion": "Academia Cecilio Acosta, Av. Dr. Pastor Oropeza entre calles 6 y 7, Sector Antonio José de Sucre, una cuadra antes de Monpet, Carora",
+              "coords": [
+                10.1750,
+                -70.0790
+              ],
+              "maps": "https://maps.google.com/?q=Academia+Cecilio+Acosta+Av+Pastor+Oropeza+Carora",
+              "instagram": "convzlacomando",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Primeros auxilios: guantes, vendas, alcohol, inyectadoras. Para rescatistas: cascos, guantes de protección, linternas, cinceles, picos, tobos, palas, mandarrias, disco de corte.",
+              "fuente": "Flyer @convzlacomando · Operación Todos con VZLA"
             }
           ]
         }
@@ -1525,19 +1746,21 @@
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
             },
             {
-              "nombre": "Sociedad civil",
+              "nombre": "Sociedad civil — Vía La Unión",
               "direccion": "Frente a la iglesia Rumana, en la entrada a la vía de La Unión",
               "coords": [
                 10.4233,
                 -66.823
               ],
               "maps": "https://maps.google.com/?q=10.4233,-66.823",
-              "whatsapp": "0414/2384085",
+              "whatsapp": "+584142384085",
               "recibe": [
                 "alimentos no perecederos",
-                "pañales de bebé"
+                "pañales de bebé",
+                "artículos para niños"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "nota": "⚠️ URGENTE: Alimento para bebés y pañales son las necesidades prioritarias.",
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos · Lista colaborativa @marielozadab y @nathaliesayago"
             }
           ]
         }
@@ -1565,7 +1788,7 @@
                 "mantas y cobijas",
                 "ropa en buen estado"
               ],
-              "fuente": "Soy uno de los representantes del centro."
+              "fuente": "Reporte de un representante del centro"
             },
             {
               "nombre": "Voluntad Popular",
@@ -2000,6 +2223,27 @@
           ]
         },
         {
+          "nombre": "Sabana de Mendoza",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio Municipio Sucre",
+              "direccion": "Urb. El Trompillo 2, parroquia Valmore Rodríguez, casa #39, Municipio Sucre",
+              "coords": [
+                9.4720,
+                -70.7400
+              ],
+              "maps": "https://maps.google.com/?q=Urb+El+Trompillo+Valmore+Rodr%C3%ADguez+Sucre+Trujillo",
+              "contacto": "Gabriela Delgado 0412-1644063",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
+            }
+          ]
+        },
+        {
           "nombre": "Trujillo",
           "centros": [
             {
@@ -2010,13 +2254,34 @@
                 -70.4333
               ],
               "maps": "https://maps.google.com/?q=9.3667,-70.4333",
-              "contacto": "Luis Pulgar (04126840791)",
+              "contacto": "Luis Pulgar 0412-6840791",
               "recibe": [
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Valera",
+          "centros": [
+            {
+              "nombre": "Casa Prada — Sociedad Civil",
+              "direccion": "Av. Principal La Floresta, sector Santa Elena, Casa G-11 (Casa Prada), Valera",
+              "coords": [
+                9.3187,
+                -70.6036
+              ],
+              "maps": "https://maps.google.com/?q=Av+Principal+La+Floresta+Santa+Elena+Valera",
+              "contacto": "Edgar Prada 0424-7137359",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos"
             }
           ]
         }
@@ -2029,6 +2294,30 @@
     {
       "nombre": "Zulia",
       "ciudades": [
+        {
+          "nombre": "Ciudad Ojeda",
+          "centros": [
+            {
+              "nombre": "RELEVECA",
+              "direccion": "Ciudad Ojeda, Centro Comercial Reycall, frente a la E/S La Tropicana",
+              "coords": [
+                10.1887,
+                -71.3109
+              ],
+              "maps": "https://maps.google.com/?q=Centro+Comercial+Reycall+Ciudad+Ojeda",
+              "instagram": "releveca_ca",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado en sitio · Confirmado por Venezuela Unida @cazamosfakenews"
+            }
+          ]
+        },
         {
           "nombre": "Cabimas",
           "centros": [
@@ -2187,23 +2476,6 @@
                 "medicamentos e insumos médicos"
               ],
               "fuente": "Reporte de la usuaria"
-            },
-            {
-              "nombre": "RELEVECA",
-              "direccion": "Av. Intercomunal, sector Tropicana, frente a la bomba Tropicana",
-              "coords": [
-                10.18866539,
-                -71.31085608
-              ],
-              "maps": "https://maps.google.com/?q=10.18866539,-71.31085608",
-              "contacto": "releveca_ca",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado"
-              ],
-              "fuente": "Fui personalmente"
             },
             {
               "nombre": "Synergy — CC Doral Center Mall",
@@ -2723,6 +2995,23 @@
               "fuente": "Sedes Calidex (courier)"
             },
             {
+              "nombre": "Institución Educativa Héctor Abad Gómez — Placita de Flores",
+              "direccion": "Institución Educativa Héctor Abad Gómez, sede Placita de Flores, Barrio Boston, Medellín",
+              "coords": [
+                6.2410,
+                -75.5610
+              ],
+              "maps": "https://maps.google.com/?q=Instituci%C3%B3n+Educativa+H%C3%A9ctor+Abad+G%C3%B3mez+Boston+Medell%C3%ADn",
+              "horario": "8:00am - 5:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Criptonoticias · criptonoticias.com/comunidad/terremoto-venezuela-centros-acopio-crisis-humanitaria"
+            },
+            {
               "nombre": "ENVIAR Courier - Medellín (Belén)",
               "direccion": "Diagonal 74B calle 32-10, sobre la Av. Bolivariana, a una cuadra del Parque de Belén, Medellín · Horario: L-V 8am-5pm, Sáb 8am-1pm",
               "coords": [
@@ -2893,6 +3182,7 @@
                 -98.4970
               ],
               "maps": "https://maps.google.com/?q=16111+San+Pedro+Ave+San+Antonio+TX+78232",
+              "horario": "A partir de la 1:00pm",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
@@ -2900,13 +3190,33 @@
                 "ropa en buen estado",
                 "abrigos y otros implementos de protección"
               ],
-              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela · Caracas Chronicles @caracaschron"
             }
           ]
         },
         {
           "nombre": "Miami",
           "centros": [
+            {
+              "nombre": "Friends of the Children Venezuela — Brickell",
+              "direccion": "1333 S Miami Ave, Suite 101, Brickell, Miami",
+              "coords": [
+                25.7660,
+                -80.1940
+              ],
+              "maps": "https://maps.google.com/?q=1333+S+Miami+Ave+Brickell+Miami",
+              "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
+            },
+            {
+              "nombre": "South Cargo",
+              "direccion": "6708 NW 82 Ave, Miami",
+              "coords": [
+                25.8200,
+                -80.3200
+              ],
+              "maps": "https://maps.google.com/?q=6708+NW+82+Ave+Miami",
+              "fuente": "Caracas Chronicles @caracaschron"
+            },
             {
               "nombre": "Organización AFE",
               "direccion": "6090 NW 84th Ave, Miami, FL 33166",
@@ -2928,6 +3238,300 @@
               ],
               "maps": "https://maps.google.com/?q=25.823,-80.186",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "Coral Gables",
+          "centros": [
+            {
+              "nombre": "Friends of the Children Venezuela — Coral Gables",
+              "direccion": "6705 Red Road Suite 504, Coral Gables, FL",
+              "coords": [
+                25.7240,
+                -80.2880
+              ],
+              "maps": "https://maps.google.com/?q=6705+Red+Road+Suite+504+Coral+Gables+FL",
+              "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
+            }
+          ]
+        },
+        {
+          "nombre": "Dallas",
+          "centros": [
+            {
+              "nombre": "La Francia Joyería",
+              "direccion": "2100 Dallas Parkway Ste 150, Dallas, TX",
+              "coords": [
+                32.9550,
+                -96.8210
+              ],
+              "maps": "https://maps.google.com/?q=2100+Dallas+Parkway+Ste+150+Dallas+TX",
+              "horario": "27 al 29 de junio, 2:00pm - 6:00pm",
+              "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        },
+        {
+          "nombre": "Katy (Houston area)",
+          "centros": [
+            {
+              "nombre": "Metabox Cargo — Katy",
+              "direccion": "19308 Morton Rd #106, Katy, TX 77449",
+              "coords": [
+                29.7860,
+                -95.7780
+              ],
+              "maps": "https://maps.google.com/?q=19308+Morton+Rd+106+Katy+TX+77449",
+              "horario": "9:00am - 5:00pm",
+              "fuente": "Caracas Chronicles @caracaschron"
+            },
+            {
+              "nombre": "Metabox Cinco Ranch — Katy",
+              "direccion": "25600 Westheimer Pkwy, Katy, TX 77494",
+              "coords": [
+                29.7350,
+                -95.8170
+              ],
+              "maps": "https://maps.google.com/?q=25600+Westheimer+Pkwy+Katy+TX+77494",
+              "horario": "12:00pm - 8:00pm",
+              "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        },
+        {
+          "nombre": "Key Biscayne",
+          "centros": [
+            {
+              "nombre": "Friends of the Children Venezuela — Key Biscayne",
+              "direccion": "792 Ridgewood Rd, Key Biscayne, FL",
+              "coords": [
+                25.6890,
+                -80.1620
+              ],
+              "maps": "https://maps.google.com/?q=792+Ridgewood+Rd+Key+Biscayne+FL",
+              "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
+            }
+          ]
+        },
+        {
+          "nombre": "Miami Lakes",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio Miami Lakes",
+              "direccion": "6135 NW 167 Suite E13, Miami Lakes, FL",
+              "coords": [
+                25.9160,
+                -80.3110
+              ],
+              "maps": "https://maps.google.com/?q=6135+NW+167+Suite+E13+Miami+Lakes+FL",
+              "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        },
+        {
+          "nombre": "Nueva York",
+          "centros": [
+            {
+              "nombre": "Budare Café — Queens",
+              "direccion": "9406 Roosevelt Avenue, Queens, NY",
+              "coords": [
+                40.7470,
+                -73.8740
+              ],
+              "maps": "https://maps.google.com/?q=Budare+Caf%C3%A9+9406+Roosevelt+Avenue+Queens+NY",
+              "fuente": "Caracas Chronicles @caracaschron"
+            },
+            {
+              "nombre": "Casa Ora — Brooklyn",
+              "direccion": "148 Meserole St, Brooklyn, NY",
+              "coords": [
+                40.7160,
+                -73.9430
+              ],
+              "maps": "https://maps.google.com/?q=Casa+Ora+148+Meserole+St+Brooklyn+NY",
+              "fuente": "Caracas Chronicles @caracaschron"
+            },
+            {
+              "nombre": "Lullas — Brooklyn",
+              "direccion": "169 Graham Avenue, Brooklyn, NY",
+              "coords": [
+                40.7100,
+                -73.9440
+              ],
+              "maps": "https://maps.google.com/?q=Lullas+169+Graham+Avenue+Brooklyn+NY",
+              "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        },
+        {
+          "nombre": "Spring (Houston area)",
+          "centros": [
+            {
+              "nombre": "Metabox Cargo — Spring",
+              "direccion": "25115 Gosling Rd Ste 108, Spring, TX 77389",
+              "coords": [
+                30.1230,
+                -95.5060
+              ],
+              "maps": "https://maps.google.com/?q=25115+Gosling+Rd+Ste+108+Spring+TX+77389",
+              "horario": "10:00am - 5:00pm",
+              "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        },
+        {
+          "nombre": "Weston",
+          "centros": [
+            {
+              "nombre": "Friends of the Children Venezuela — Weston",
+              "direccion": "824 Regal Cove Rd, Weston, FL",
+              "coords": [
+                26.1010,
+                -80.4060
+              ],
+              "maps": "https://maps.google.com/?q=824+Regal+Cove+Rd+Weston+FL",
+              "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
+            },
+            {
+              "nombre": "Weston Town Center",
+              "direccion": "1675 Market St, Weston, FL",
+              "coords": [
+                26.1010,
+                -80.3970
+              ],
+              "maps": "https://maps.google.com/?q=Weston+Town+Center+1675+Market+St+Weston+FL",
+              "horario": "12:00pm - 6:00pm",
+              "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "México",
+      "ciudades": [
+        {
+          "nombre": "Ciudad de México",
+          "centros": [
+            {
+              "nombre": "Brigada de Rescate Topos Tlaltelolco",
+              "direccion": "Magistrados 75, Amp. El Sifón, Iztapalapa, 09180 Ciudad de México, CDMX",
+              "coords": [
+                19.3540,
+                -99.0860
+              ],
+              "maps": "https://maps.google.com/?q=Magistrados+75+Amp+El+Sif%C3%B3n+Iztapalapa+CDMX",
+              "instagram": "topos.mx",
+              "web": "https://topos.mx",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "materiales para refugio",
+                "cascos de protección",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Reciben dos tipos de donaciones: (1) PARA LA POBLACIÓN VENEZOLANA AFECTADA: agua embotellada, casas de campaña, lonas de plástico, repelentes de insectos, protector solar, toallas sanitarias, jabón, alcohol, gasas, vendas, leche en polvo, latas de comida, sopas instantáneas, barras energéticas, frutos secos. (2) PARA LOS RESCATISTAS: cascos, guantes, botas, máscara con filtro, lámparas, picos, palas, barras de palanca, esmeriles, rotomartillos, cizallas, separadores, arietes, botiquines de trauma, camillas, collares cervicales, silbatos, radios para comunicación, pintura en aerosol naranja para marcaje.",
+              "fuente": "Flyer oficial @topos.mx · Sociedad Brigada de Rescate Topos Tlaltelolco AC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Argentina",
+      "ciudades": [
+        {
+          "nombre": "Comodoro Rivadavia",
+          "centros": [
+            {
+              "nombre": "Cambur Pintón — Sede",
+              "direccion": "Calle Canadá 2080, Comodoro Rivadavia, Chubut",
+              "coords": [
+                -45.8650,
+                -67.4900
+              ],
+              "maps": "https://maps.google.com/?q=Canad%C3%A1+2080+Comodoro+Rivadavia",
+              "instagram": "camburpinton_cr",
+              "whatsapp": "+5492975293518",
+              "horario": "Hasta el jueves 2 de julio, 13:00",
+              "recibe": [
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "abrigos y otros implementos de protección"
+              ],
+              "nota": "Recolecta organizada por Pasión Criolla Cambur Pintón. Reciben: kits de primeros auxilios, arroz, enlatados, ropa ligera, calzado cómodo, mantas, sábanas, linternas, pilas, lentes de seguridad y guantes tipo carnaza.",
+              "fuente": "El Comodorense · elcomodorense.net"
+            },
+            {
+              "nombre": "Shaka's Car Wash",
+              "direccion": "Calle José Álvarez al 95, Barrio Industrial, Comodoro Rivadavia, Chubut",
+              "coords": [
+                -45.8630,
+                -67.4870
+              ],
+              "maps": "https://maps.google.com/?q=Jos%C3%A9+%C3%81lvarez+95+Barrio+Industrial+Comodoro+Rivadavia",
+              "instagram": "camburpinton_cr",
+              "whatsapp": "+5492975293518",
+              "horario": "Hasta el jueves 2 de julio, 13:00",
+              "recibe": [
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "abrigos y otros implementos de protección"
+              ],
+              "nota": "Recolecta organizada por Pasión Criolla Cambur Pintón. Reciben: kits de primeros auxilios, arroz, enlatados, ropa ligera, calzado cómodo, mantas, sábanas, linternas, pilas, lentes de seguridad y guantes tipo carnaza.",
+              "fuente": "El Comodorense · elcomodorense.net"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Perú",
+      "ciudades": [
+        {
+          "nombre": "Lima",
+          "centros": [
+            {
+              "nombre": "Centro Médico La Viña",
+              "direccion": "Edificio Empresarial Prima Esperanza, VIP Medical Care, Lima",
+              "coords": [
+                -12.1190,
+                -77.0290
+              ],
+              "maps": "https://maps.google.com/?q=Centro+M%C3%A9dico+La+Vi%C3%B1a+Lima",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Criptonoticias · criptonoticias.com/comunidad/terremoto-venezuela-centros-acopio-crisis-humanitaria"
+            },
+            {
+              "nombre": "VIP Medical Care — Sede Miraflores",
+              "direccion": "Calle Porta 130, Piso 5, oficina 508, Miraflores, Lima",
+              "coords": [
+                -12.1280,
+                -77.0290
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Porta+130+Miraflores+Lima",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Criptonoticias · criptonoticias.com/comunidad/terremoto-venezuela-centros-acopio-crisis-humanitaria"
             }
           ]
         }
@@ -3131,6 +3735,48 @@
         {
           "nombre": "Santiago",
           "centros": [
+            {
+              "nombre": "Mi Trámite Migratorio — Santiago Centro",
+              "direccion": "Av. Portugal 412, Strip Center, Local 21, Santiago Centro",
+              "coords": [
+                -33.4485,
+                -70.6404
+              ],
+              "maps": "https://maps.google.com/?q=Av+Portugal+412+Santiago+Centro+Chile",
+              "horario": "Lunes a viernes 09:00 - 18:00 · Sábado 09:00 - 14:00",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "alimentos para mascotas"
+              ],
+              "nota": "⚠️ NO RECIBEN ROPA por limitaciones logísticas. Tampoco aceptan medicamentos abiertos/vencidos, alimentos vencidos, productos refrigerados, cosméticos abiertos, juguetes usados, objetos de decoración ni libros. SÍ reciben: enlatados (atún, sardinas, legumbres), arroz, pasta, avena, barras energéticas, galletas, comida para bebés sellada, fórmula infantil, mamaderas nuevas, toallas higiénicas, toallitas húmedas, alcohol gel.",
+              "fuente": "Flyer @lodiceruben · Chile"
+            },
+            {
+              "nombre": "Restaurante Calderos — Santiago Centro",
+              "direccion": "San Isidro 401, Santiago Centro",
+              "coords": [
+                -33.4410,
+                -70.6388
+              ],
+              "maps": "https://maps.google.com/?q=Restaurante+Calderos+San+Isidro+401+Santiago",
+              "horario": "Lunes a domingo, 12:00 - 22:00",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "alimentos para mascotas"
+              ],
+              "nota": "⚠️ NO RECIBEN ROPA por limitaciones logísticas. Tampoco aceptan medicamentos abiertos/vencidos, alimentos vencidos, productos refrigerados, cosméticos abiertos, juguetes usados, objetos de decoración ni libros. SÍ reciben: enlatados (atún, sardinas, legumbres), arroz, pasta, avena, barras energéticas, galletas, comida para bebés sellada, fórmula infantil, mamaderas nuevas, toallas higiénicas, toallitas húmedas, alcohol gel.",
+              "fuente": "Flyer @lodiceruben · Chile"
+            },
             {
               "nombre": "Rumbo Sur — Centro de Acopio",
               "direccion": "Zenteno 183, Santiago Centro, Santiago de Chile",
