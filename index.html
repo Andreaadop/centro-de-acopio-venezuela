@@ -1209,11 +1209,27 @@
               resetGeoBtn();
               let msg = 'No pudimos obtener tu ubicación.';
               if (err.code === 1) {
-                msg = '🚫 Permiso de ubicación negado. Para activarlo: en el navegador toca el ícono de candado de la URL → Ubicación → Permitir, y vuelve a intentar. O selecciona tu estado en el dropdown.';
+                msg = `🚫 <strong>Permiso de ubicación negado.</strong> Para activarlo:
+                  <details class="mt-2">
+                    <summary style="cursor:pointer;text-decoration:underline">Cómo activar la ubicación en tu navegador</summary>
+                    <div style="margin-top:0.6rem">
+                      <strong>Chrome en Android:</strong><br/>
+                      1. Toca los 3 puntos (⋮) arriba a la derecha<br/>
+                      2. <em>Configuración del sitio</em> → <em>Ubicación</em><br/>
+                      3. Cambia a <em>Permitir</em> y recarga<br/><br/>
+                      <strong>Chrome en iPhone:</strong><br/>
+                      1. Ajustes de iOS → Chrome → activa <em>Ubicación</em><br/>
+                      2. En Chrome: 3 puntos abajo → Configuración del sitio → Ubicación → activar<br/><br/>
+                      <strong>Safari en iPhone:</strong><br/>
+                      1. Ajustes de iOS → Safari → Ubicación → <em>Preguntar</em> o <em>Permitir</em><br/>
+                      2. Recarga la página
+                    </div>
+                  </details>
+                  Mientras tanto, puedes seleccionar tu estado en el dropdown.`;
               } else if (err.code === 2) {
-                msg = '📡 No pudimos determinar tu ubicación (GPS apagado o sin señal). Activa el GPS y reintenta, o selecciona tu estado en el dropdown.';
+                msg = '📡 <strong>No pudimos determinar tu ubicación</strong> (GPS apagado o sin señal). Activa el GPS y reintenta, o selecciona tu estado en el dropdown.';
               } else if (err.code === 3) {
-                msg = '⏱️ La búsqueda de ubicación tardó demasiado. Intenta de nuevo o selecciona tu estado en el dropdown.';
+                msg = '⏱️ <strong>La búsqueda tardó demasiado.</strong> Intenta de nuevo o selecciona tu estado en el dropdown.';
               }
               showGeoStatus(msg, 'error');
             },
