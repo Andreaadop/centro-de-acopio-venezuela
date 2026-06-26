@@ -431,16 +431,15 @@
             <span class="eyebrow text-navy group-hover:text-coral transition-colors" data-i18n="topbar.share">Compartir este directorio</span>
             <span id="share-status" class="eyebrow text-coral hidden" data-i18n="topbar.copied">¡Copiado!</span>
           </button>
-          <button id="share-story-btn" class="flex items-center gap-2 group" aria-label="Compartir en mi estado / story">
-            <svg class="text-coral" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M9 18h6"/></svg>
-            <span class="eyebrow text-coral group-hover:text-navy transition-colors" data-i18n="topbar.story">Compartir en mi estado</span>
+          <button id="share-story-btn" class="flex items-center gap-2 group" aria-label="Compartir imagen del directorio">
+            <svg class="text-coral" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
+            <span class="eyebrow text-coral group-hover:text-navy transition-colors" data-i18n="topbar.story">Compartir imagen</span>
             <span id="share-story-status" class="eyebrow text-navy hidden"></span>
           </button>
         </div>
         <a href="#aportar" class="eyebrow text-muted hover:text-coral transition-colors hidden sm:inline" data-i18n="topbar.know">
           ¿Conoces un centro? Agrégalo ↓
         </a>
-        <span class="eyebrow text-muted"><span data-i18n="topbar.updated">Act.</span> <span id="updated-date">—</span></span>
       </div>
     </div>
 
@@ -696,7 +695,7 @@
       const TRANSLATIONS = {
         es: {
           'topbar.share': 'Compartir este directorio',
-          'topbar.story': 'Compartir en mi estado',
+          'topbar.story': 'Compartir imagen',
           'topbar.copied': '¡Copiado!',
           'topbar.know': '¿Conoces un centro? Agrégalo ↓',
           'topbar.updated': 'Act.',
@@ -777,7 +776,7 @@
         },
         en: {
           'topbar.share': 'Share this directory',
-          'topbar.story': 'Share to my story',
+          'topbar.story': 'Share image',
           'topbar.copied': 'Copied!',
           'topbar.know': 'Know a center? Add it ↓',
           'topbar.updated': 'Upd.',
@@ -971,7 +970,6 @@
         $('#stat-centers').textContent = state.flat.length;
         $('#stat-estados').textContent = new Set(state.flat.map((c) => c.estado)).size;
         $('#stat-cities').textContent = new Set(state.flat.map((c) => `${c.estado}|${c.ciudad}`)).size;
-        $('#updated-date').textContent = fmtDate(state.data.actualizado);
         $('#result-count').textContent = state.filtered.length;
         const estadosUnicos = new Set(state.filtered.map((c) => c.estado));
         const esVE = (e) => !EXTERIOR.has(e);
@@ -1028,7 +1026,7 @@
         const wa = waUrl(c.whatsapp || c.telefono);
 
         const mapBlock = c.maps ? `
-          <div class="shrink-0 sm:w-[170px]">
+          <div class="shrink-0 w-[128px] sm:w-[170px]">
             <a class="map-thumb" href="${c.maps}" target="_blank" rel="noopener" aria-label="Abrir ubicación en Google Maps">
               ${mapThumbSvg}
               ${pinSvg}
