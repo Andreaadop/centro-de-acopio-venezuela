@@ -347,7 +347,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Fui personalmente"
+              "fuente": "Reporte comunitario"
             }
           ]
         },
@@ -370,7 +370,7 @@
                 "ropa en buen estado",
                 "mantas y cobijas"
               ],
-              "fuente": "Fui personalmente"
+              "fuente": "Reporte comunitario"
             }
           ]
         }
@@ -1655,7 +1655,7 @@
                 "pañales de bebé",
                 "ropa en buen estado"
               ],
-              "fuente": "Fui personalmente"
+              "fuente": "Reporte comunitario"
             }
           ]
         }
@@ -2045,7 +2045,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Fui personalmente"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "ESTADIO DE SOFTBOL Aquiles Machado",
@@ -2061,7 +2061,7 @@
                 "alimentos no perecederos",
                 "ropa en buen estado"
               ],
-              "fuente": "Conozco al organizador del punto y voy saliendo para allá yo mismo a colaborar"
+              "fuente": "Reporte comunitario"
             }
           ]
         },
@@ -2388,7 +2388,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Me lo dijo alguien de total confianza"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "Las Tabaqueras",
@@ -2409,7 +2409,7 @@
                 "mantas y cobijas",
                 "linternas, pilas y cargadores portátiles"
               ],
-              "fuente": "Me lo dijo algo de confianza"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "UNEFA SEDE PRINCIPAL",
@@ -2490,7 +2490,7 @@
                 "artículos de higiene personal",
                 "ropa en buen estado"
               ],
-              "fuente": "soy estudiante de la institución"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "Cede postgrado unesr",
@@ -2506,7 +2506,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Información de la universidad"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "Universidad de oriente",
@@ -2521,7 +2521,7 @@
                 "alimentos no perecederos",
                 "ropa en buen estado"
               ],
-              "fuente": "Soy estudiante de la universidad"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "Iglesia Casa de Dios",
@@ -2536,7 +2536,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Asisto a la iglesia y es por eso que se la información"
+              "fuente": "Reporte comunitario"
             }
           ]
         }
@@ -2548,7 +2548,35 @@
     },
     {
       "nombre": "Portuguesa",
-      "ciudades": []
+      "ciudades": [
+        {
+          "nombre": "Guanare",
+          "centros": [
+            {
+              "nombre": "Colegio de Ingenieros del Estado Portuguesa (CEINPORT)",
+              "direccion": "Sede del Colegio de Ingenieros del Estado Portuguesa, Guanare",
+              "coords": [
+                9.044,
+                -69.751
+              ],
+              "maps": "https://maps.google.com/?q=Colegio+de+Ingenieros+Portuguesa+Guanare",
+              "telefono": "+584167561364",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Iniciativa S.O.S. Venezuela junto con FundaVidan, Fondaris y Talento 58. Contactos: 0416-756-1364 · 0414-522-8424 · 0414-506-4142 · 0414-555-0870. Reciben principalmente alimentos no perecederos, agua, bebidas isotónicas, suero oral (pediátrico), compotas, pañales, colchones, mantas y ropa. También canalizan insumos médicos y herramientas con priorización.",
+              "fuente": "Story @jesusjavieraleman · @valvulapolitica"
+            }
+          ]
+        }
+      ]
     },
     {
       "nombre": "Sucre",
@@ -2876,7 +2904,7 @@
                 "ropa en buen estado",
                 "alimentos para mascotas"
               ],
-              "fuente": "fui directamente"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "Universidades experimental del Tachira (UNET)",
@@ -2892,7 +2920,7 @@
                 "medicamentos e insumos médicos",
                 "ropa en buen estado"
               ],
-              "fuente": "Fui personalmente"
+              "fuente": "Reporte comunitario"
             }
           ]
         },
@@ -3513,6 +3541,71 @@
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
             },
             {
+              "nombre": "Coremotif Functional Training Center",
+              "direccion": "Coremotif Functional Training Center, Maracaibo · Dirección por DM @coremotif_vzla",
+              "coords": [
+                10.674,
+                -71.62
+              ],
+              "maps": "https://maps.google.com/?q=Coremotif+Maracaibo",
+              "instagram": "coremotif_vzla",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Story @chubetoto · @coremotif_vzla"
+            },
+            {
+              "nombre": "CEVAZ — Sede Las Mercedes",
+              "direccion": "Centro Venezolano Americano del Zulia (CEVAZ), Sede Las Mercedes, Maracaibo · Horario: lunes a viernes 8:00 a.m. a 5:00 p.m. · Sábados 8:00 a.m. a 4:00 p.m. · Domingos 8:00 a.m. a 2:00 p.m.",
+              "coords": [
+                10.68,
+                -71.608
+              ],
+              "maps": "https://maps.google.com/?q=CEVAZ+Las+Mercedes+Maracaibo",
+              "instagram": "cevaz_zulia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Reciben gasas, vendas (elásticas y de algodón), adhesivo, alcohol, agua oxigenada, solución fisiológica, jeringas, guantes de látex, tapabocas, catéteres, equipos de infusión, linternas con pilas. Medicamentos con fecha de vencimiento vigente: analgésicos (paracetamol, ibuprofeno), antitérmicos, antibióticos, antisépticos, cremas para quemaduras, tratamientos para enfermedades crónicas (hipertensión, diabetes). Alimentos: agua mineral embotellada, productos enlatados (preferiblemente con abrefácil), arroz, granos, leche en polvo, fórmulas infantiles, barras de cereal. Higiene y refugio: jabón, papel higiénico, toallas húmedas y sanitarias, pañales (infantiles y de adultos), sábanas y cobijas limpias en buen estado.",
+              "fuente": "Flyer oficial @cevaz_zulia"
+            },
+            {
+              "nombre": "CEVAZ — Sede La Limpia",
+              "direccion": "Centro Venezolano Americano del Zulia (CEVAZ), Sede La Limpia, Maracaibo · Horario: lunes a viernes 8:00 a.m. a 5:00 p.m. · Sábados 8:00 a.m. a 4:00 p.m. · Domingos 8:00 a.m. a 2:00 p.m.",
+              "coords": [
+                10.7,
+                -71.63
+              ],
+              "maps": "https://maps.google.com/?q=CEVAZ+La+Limpia+Maracaibo",
+              "instagram": "cevaz_zulia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Reciben gasas, vendas, alcohol, agua oxigenada, solución fisiológica, jeringas, guantes de látex, tapabocas, catéteres, equipos de infusión, linternas con pilas. Medicamentos con vencimiento vigente: analgésicos, antitérmicos, antibióticos, antisépticos, cremas para quemaduras, tratamientos para hipertensión y diabetes. Alimentos: agua, enlatados con abrefácil, arroz, granos, leche en polvo, fórmulas infantiles, barras de cereal. Jabón, papel higiénico, toallas húmedas y sanitarias, pañales, sábanas y cobijas limpias.",
+              "fuente": "Flyer oficial @cevaz_zulia"
+            },
+            {
               "nombre": "Sambil Maracaibo — Lobby Goajira",
               "direccion": "Sambil Maracaibo, Lobby Goajira, Av. 17 Los Haticos, Maracaibo · Horario: desde las 6:00 a.m.",
               "coords": [
@@ -3824,6 +3917,49 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Story @alcaldiabsanfco · Alcalde Héctor Soto"
+            },
+            {
+              "nombre": "Luxor Graphic",
+              "direccion": "Luxor Graphic, San Francisco, sector La Coromoto, calle 165, frente al Gimnasio Atlas, estado Zulia",
+              "coords": [
+                10.571,
+                -71.647
+              ],
+              "maps": "https://maps.google.com/?q=Luxor+Graphic+San+Francisco+La+Coromoto+Zulia",
+              "telefono": "+584246622634",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "mantas y cobijas"
+              ],
+              "nota": "Iniciativa “Unidos por Caracas”.",
+              "fuente": "Story Llaveros Mcbo · Luxor Graphic"
+            },
+            {
+              "nombre": "CEVAZ — Sede San Francisco",
+              "direccion": "Centro Venezolano Americano del Zulia (CEVAZ), Sede San Francisco, estado Zulia · Horario: lunes a viernes 8:00 a.m. a 5:00 p.m. · Sábados 8:00 a.m. a 4:00 p.m. · Domingos 8:00 a.m. a 2:00 p.m.",
+              "coords": [
+                10.575,
+                -71.65
+              ],
+              "maps": "https://maps.google.com/?q=CEVAZ+San+Francisco+Zulia",
+              "instagram": "cevaz_zulia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Reciben gasas, vendas, alcohol, agua oxigenada, solución fisiológica, jeringas, guantes de látex, tapabocas, catéteres, equipos de infusión, linternas con pilas. Medicamentos con vencimiento vigente: analgésicos, antitérmicos, antibióticos, antisépticos, cremas para quemaduras, tratamientos para hipertensión y diabetes. Alimentos: agua, enlatados con abrefácil, arroz, granos, leche en polvo, fórmulas infantiles, barras de cereal. Jabón, papel higiénico, toallas húmedas y sanitarias, pañales, sábanas y cobijas limpias.",
+              "fuente": "Flyer oficial @cevaz_zulia"
             }
           ]
         }
@@ -5142,6 +5278,31 @@
           "nombre": "Orlando",
           "centros": [
             {
+              "nombre": "KOË",
+              "direccion": "601 W Taft Vineland Rd, Orlando, FL 32824 · Horario: 2:00 p.m. a 8:30 p.m.",
+              "coords": [
+                28.409,
+                -81.448
+              ],
+              "maps": "https://maps.google.com/?q=601+W+Taft+Vineland+Rd+Orlando+FL+32824",
+              "instagram": "koe.usa",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "nota": "Reciben donaciones para personas y mascotas. Para mascotas: alimento seco y enlatado, correas, collares, arneses, transportines/jaulas, camas, mantas, shampoo y jabón, antiparasitarios, antibióticos, analgésicos y botiquín veterinario. Destino: La Guaira.",
+              "fuente": "Flyer @koe.usa · @ale.finds"
+            },
+            {
               "nombre": "Centro Orlando — Ayuda Humanitaria Venezuela",
               "direccion": "Punto de contacto regional, Orlando, FL",
               "instagram": "ayudahumanitariavzla",
@@ -5654,6 +5815,43 @@
         {
           "nombre": "Ciudad de México",
           "centros": [
+            {
+              "nombre": "Caracas de Ayer",
+              "direccion": "Calle Cuicuilco 8, colonia Letrán Valle, alcaldía Benito Juárez, CDMX",
+              "coords": [
+                19.37,
+                -99.166
+              ],
+              "maps": "https://maps.google.com/?q=Cuicuilco+8+Letr%C3%A1n+Valle+CDMX",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "nota": "Reciben alimentos no perecederos (atún, sardinas, frijoles, garbanzos, maíz, vegetales y sopas enlatadas, arroz, pasta, harina, avena, azúcar, sal, café), medicamentos (analgésicos, antibióticos, antiinflamatorios, sueros orales, material de curación no controlado), pañales de bebé y adulto, jabón, shampoo, acondicionador, pasta dental, desodorante, cepillos de dientes, papel higiénico, toallas femeninas. Los insumos se envían mediante vuelos humanitarios a Venezuela.",
+              "fuente": "El Economista · eleconomista.com.mx/politica/terremoto-venezuela-apoyar-economicamente-donar-viveres-mexico"
+            },
+            {
+              "nombre": "Centro de Acopio Ayuda a Venezuela — Roma Sur",
+              "direccion": "Calle Tehuantepec 36, colonia Roma Sur, alcaldía Cuauhtémoc, CDMX",
+              "coords": [
+                19.403,
+                -99.162
+              ],
+              "maps": "https://maps.google.com/?q=Tehuantepec+36+Roma+Sur+CDMX",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos para niños"
+              ],
+              "nota": "Reciben ropa limpia y en buen estado, cobijas, calzado en buenas condiciones, agua embotellada, alimentos para bebé y alimentos no perecederos.",
+              "fuente": "El Economista · eleconomista.com.mx/politica/terremoto-venezuela-apoyar-economicamente-donar-viveres-mexico"
+            },
             {
               "nombre": "Brigada de Rescate Topos Tlaltelolco",
               "direccion": "Magistrados 75, Amp. El Sifón, Iztapalapa, 09180 Ciudad de México, CDMX",
@@ -7070,7 +7268,7 @@
                 "mantas y cobijas",
                 "abrigos y otros implementos de protección"
               ],
-              "fuente": "Por redes sociales"
+              "fuente": "Reporte comunitario"
             },
             {
               "nombre": "San Blas - Estadio Metropolitano",
@@ -7505,7 +7703,7 @@
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos"
               ],
-              "fuente": "Por sus redes sociales."
+              "fuente": "Reporte comunitario"
             }
           ]
         },
