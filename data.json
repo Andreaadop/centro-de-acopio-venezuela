@@ -3076,6 +3076,19 @@
           "nombre": "Doral",
           "centros": [
             {
+              "nombre": "Ayuda Humanitaria Venezuela — Depósito Principal",
+              "direccion": "Value Store It, 5900 NW 102nd Ave, #1007, Doral, FL 33178",
+              "coords": [
+                25.8200,
+                -80.3550
+              ],
+              "maps": "https://maps.google.com/?q=Value+Store+It+5900+NW+102nd+Ave+Doral+FL",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "donaciones@ayudahumanitariavenezuela.org",
+              "nota": "Depósito principal de la fundación Ayuda Humanitaria Venezuela. Recepción de donaciones físicas en cajas pequeñas. Más info y red completa de coordinadores en ayudahumanitariavenezuela.org/centrosdeacopio.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            },
+            {
               "nombre": "Community Center — Doral Legacy Park",
               "direccion": "11400 NW 82nd Street, Doral, FL 33178",
               "coords": [
@@ -3242,6 +3255,45 @@
           ]
         },
         {
+          "nombre": "Alabama (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Alabama — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional (sin dirección pública)",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "al@ayudahumanitariavenezuela.org — Coordinadora: Yohana Carrillo",
+              "nota": "💌 Centro de contacto regional. Escribe a al@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Carolina del Norte (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Carolina del Norte — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional (sin dirección pública)",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "nc@ayudahumanitariavenezuela.org — Coordinador: Carlos Arévalo",
+              "nota": "💌 Centro de contacto regional. Escribe a nc@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Carolina del Sur (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Carolina del Sur — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional (sin dirección pública)",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "sc@ayudahumanitariavenezuela.org — Coordinadora: Olga Duke",
+              "nota": "💌 Centro de contacto regional. Escribe a sc@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
           "nombre": "Coral Gables",
           "centros": [
             {
@@ -3300,6 +3352,45 @@
           ]
         },
         {
+          "nombre": "Georgia (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Georgia — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional (sin dirección pública)",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "georgia@ayudahumanitariavenezuela.org — Coordinadora: Clementina Bayot",
+              "nota": "💌 Centro de contacto regional. Escribe a georgia@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Jacksonville",
+          "centros": [
+            {
+              "nombre": "Centro Jacksonville — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Jacksonville, FL",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "jax@ayudahumanitariavenezuela.org — Coordinadora: Belkys Polanco",
+              "nota": "💌 Centro de contacto regional. Escribe a jax@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Kentucky e Indiana Sur (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Kentucky e Indiana Sur — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional (sin dirección pública)",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "ky@ayudahumanitariavenezuela.org — Coordinador: José Da Silva",
+              "nota": "💌 Centro de contacto regional para Kentucky e Indiana Sur. Escribe a ky@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
           "nombre": "Key Biscayne",
           "centros": [
             {
@@ -3315,6 +3406,19 @@
           ]
         },
         {
+          "nombre": "Maryland, DC y Virginia (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Maryland-Washington DC-Virginia — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional (sin dirección pública)",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "dc@ayudahumanitariavenezuela.org — Coordinadora: Rosario Ponte",
+              "nota": "💌 Centro de contacto regional para Maryland, Washington DC y Virginia. Escribe a dc@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
           "nombre": "Miami Lakes",
           "centros": [
             {
@@ -3326,6 +3430,32 @@
               ],
               "maps": "https://maps.google.com/?q=6135+NW+167+Suite+E13+Miami+Lakes+FL",
               "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        },
+        {
+          "nombre": "Michigan (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Michigan — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional (sin dirección pública)",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "mi@ayudahumanitariavenezuela.org — Coordinadora: Cecilia Escobar",
+              "nota": "💌 Centro de contacto regional. Escribe a mi@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Naples",
+          "centros": [
+            {
+              "nombre": "Centro Naples — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Naples, FL",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "1naples@ayudahumanitariavenezuela.org — Coordinadoras: Yamilet Brito y Xiomara Valderrama",
+              "nota": "💌 Centro de contacto regional. Escribe a 1naples@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
             }
           ]
         },
@@ -3365,6 +3495,19 @@
           ]
         },
         {
+          "nombre": "Orlando",
+          "centros": [
+            {
+              "nombre": "Centro Orlando — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Orlando, FL",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "orlando@ayudahumanitariavenezuela.org — Coordinadora: Fabiola Gómez",
+              "nota": "💌 Centro de contacto regional. Escribe a orlando@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
           "nombre": "Spring (Houston area)",
           "centros": [
             {
@@ -3383,6 +3526,19 @@
         {
           "nombre": "Weston",
           "centros": [
+            {
+              "nombre": "Ayuda Humanitaria Venezuela — Dirección Postal",
+              "direccion": "1062 Lavender Circle, Weston, FL 33327",
+              "coords": [
+                26.1050,
+                -80.4060
+              ],
+              "maps": "https://maps.google.com/?q=1062+Lavender+Circle+Weston+FL+33327",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "donaciones@ayudahumanitariavenezuela.org",
+              "nota": "⚠️ Dirección postal SOLO para recepción de cheques y correspondencia — NO para entrega de donaciones físicas. Para donaciones físicas, ve al Depósito Principal en Doral (Value Store It).",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            },
             {
               "nombre": "Friends of the Children Venezuela — Weston",
               "direccion": "824 Regal Cove Rd, Weston, FL",
@@ -3403,6 +3559,132 @@
               "maps": "https://maps.google.com/?q=Weston+Town+Center+1675+Market+St+Weston+FL",
               "horario": "12:00pm - 6:00pm",
               "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Emiratos Árabes Unidos",
+      "ciudades": [
+        {
+          "nombre": "Abu Dhabi",
+          "centros": [
+            {
+              "nombre": "Centro Abu Dhabi — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Abu Dhabi",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "abudhabi@ayudahumanitariavenezuela.org — Coordinadora: Yazmarys Chocrón",
+              "nota": "💌 Centro de contacto regional. Escribe a abudhabi@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Escocia",
+      "ciudades": [
+        {
+          "nombre": "Edimburgo (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Escocia — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Escocia",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "escocia@ayudahumanitariavenezuela.org — Coordinadora: Evelyn Sutherland",
+              "nota": "💌 Centro de contacto regional. Escribe a escocia@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Francia",
+      "ciudades": [
+        {
+          "nombre": "París (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Francia — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Francia",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "francia@ayudahumanitariavenezuela.org — Coordinadora: Vivianne Costa-Denais",
+              "nota": "💌 Centro de contacto regional. Escribe a francia@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Inglaterra",
+      "ciudades": [
+        {
+          "nombre": "Londres (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Inglaterra — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Inglaterra",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "uk@ayudahumanitariavenezuela.org — Coordinadora: Patricia Araujo",
+              "nota": "💌 Centro de contacto regional. Escribe a uk@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Irlanda",
+      "ciudades": [
+        {
+          "nombre": "Dublín (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Irlanda — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Irlanda",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "irlanda@ayudahumanitariavenezuela.org — Coordinadora: Angelisa Zerpa",
+              "nota": "💌 Centro de contacto regional. Escribe a irlanda@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Italia",
+      "ciudades": [
+        {
+          "nombre": "Roma (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Italia — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Italia",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "italia@ayudahumanitariavenezuela.org — Coordinador: Edoardo Leombruni",
+              "nota": "💌 Centro de contacto regional. Escribe a italia@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Portugal",
+      "ciudades": [
+        {
+          "nombre": "Lisboa (regional)",
+          "centros": [
+            {
+              "nombre": "Centro Portugal — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Portugal",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "portugal@ayudahumanitariavenezuela.org — Coordinador: Christian Höhn",
+              "nota": "💌 Centro de contacto regional. Escribe a portugal@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
             }
           ]
         }
@@ -3436,6 +3718,59 @@
               ],
               "nota": "Reciben dos tipos de donaciones: (1) PARA LA POBLACIÓN VENEZOLANA AFECTADA: agua embotellada, casas de campaña, lonas de plástico, repelentes de insectos, protector solar, toallas sanitarias, jabón, alcohol, gasas, vendas, leche en polvo, latas de comida, sopas instantáneas, barras energéticas, frutos secos. (2) PARA LOS RESCATISTAS: cascos, guantes, botas, máscara con filtro, lámparas, picos, palas, barras de palanca, esmeriles, rotomartillos, cizallas, separadores, arietes, botiquines de trauma, camillas, collares cervicales, silbatos, radios para comunicación, pintura en aerosol naranja para marcaje.",
               "fuente": "Flyer oficial @topos.mx · Sociedad Brigada de Rescate Topos Tlaltelolco AC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "República Dominicana",
+      "ciudades": [
+        {
+          "nombre": "Santo Domingo",
+          "centros": [
+            {
+              "nombre": "BlueMall Santo Domingo — Centro de Acopio",
+              "direccion": "BlueMall Santo Domingo, Piso -1, Oficinas Administrativas, Av. Winston Churchill, Santo Domingo",
+              "coords": [
+                18.4720,
+                -69.9420
+              ],
+              "maps": "https://maps.google.com/?q=BlueMall+Santo+Domingo",
+              "horario": "Lunes a viernes 9:00am - 6:00pm · Sábado y domingo 9:00am - 12:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños"
+              ],
+              "nota": "Reciben enlatados, agua embotellada, fórmula infantil, analgésicos, antisépticos, gasa, algodón, solución fisiológica, vitaminas y suero de rehidratación oral.",
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/25/bluemall-habilita-centro-de-acopio-para-asistir-familias-en-venezuela"
+            },
+            {
+              "nombre": "Centro de Acopio Sambil Santo Domingo",
+              "direccion": "Sambil Santo Domingo, Av. John F. Kennedy, Santo Domingo",
+              "coords": [
+                18.4790,
+                -69.9420
+              ],
+              "maps": "https://maps.google.com/?q=Sambil+Santo+Domingo",
+              "instagram": "tusambildo",
+              "horario": "10:00am - 7:00pm",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños"
+              ],
+              "nota": "Organizado por la Cámara de Comercio Dominico Venezolana. Reciben pañales (adultos y pediátricos), fórmula infantil, alimentos no perecederos, enlatados (atún, sardinas, frijoles negros), toallas húmedas, suero en polvo y medicamentos: analgésicos, antipiréticos, antibióticos, antisépticos, gasa, algodón, solución fisiológica, vitaminas y suero de rehidratación oral.",
+              "fuente": "Flyer oficial @tusambildo · Cámara de Comercio Dominico Venezolana"
             }
           ]
         }
@@ -3559,6 +3894,14 @@
                 "abrigos y otros implementos de protección"
               ],
               "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela"
+            },
+            {
+              "nombre": "Centro Panamá — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Ciudad de Panamá",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "panama@ayudahumanitariavenezuela.org — Coordinadora: Natalia González",
+              "nota": "💌 Centro de contacto regional. Escribe a panama@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
             },
             {
               "nombre": "Alcaldía de Panamá",
@@ -3844,6 +4187,14 @@
         {
           "nombre": "Madrid",
           "centros": [
+            {
+              "nombre": "Centro España — Ayuda Humanitaria Venezuela",
+              "direccion": "Punto de contacto regional, Madrid",
+              "web": "https://www.ayudahumanitariavenezuela.org/centrosdeacopio/",
+              "contacto": "espana@ayudahumanitariavenezuela.org — Coordinador: Alejandro Hernández",
+              "nota": "💌 Centro de contacto regional. Escribe a espana@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
+              "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            },
             {
               "nombre": "Una Vzlana en Madrid — Sambil Madrid",
               "direccion": "Sambil Madrid, Planta 0, Madrid",
