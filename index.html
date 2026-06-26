@@ -117,6 +117,30 @@
       .btn-coral:hover { background: #B5311C; }
       .btn-ghost { color: #5B6478; }
       .btn-ghost:hover { color: #0B1220; }
+      .btn-success { background: #1F7A1F; color: #FFFFFF; }
+      .btn-success:hover { background: #186118; }
+
+      #geo-status {
+        font-size: 0.9rem; line-height: 1.5;
+        padding: 0.8rem 1rem; border-radius: 10px;
+        margin-top: 0.75rem; max-width: 38rem;
+      }
+      #geo-status.error {
+        background: #FCE6E1; color: #8E1F0E;
+        border-left: 3px solid #C8341B;
+      }
+      #geo-status.success {
+        background: #D6F5D6; color: #1F5A1F;
+        border-left: 3px solid #1F7A1F;
+      }
+      /* En móvil hago el botón geo más prominente */
+      @media (max-width: 640px) {
+        #geo-btn {
+          width: 100%; justify-content: center;
+          padding: 0.8rem 1rem; font-size: 0.95rem;
+        }
+        #geo-status { font-size: 0.92rem; }
+      }
 
       .tag {
         display: inline-flex; align-items: center;
@@ -464,6 +488,7 @@
               Reportar un centro
             </a>
           </div>
+          <div id="geo-status" class="hidden"></div>
         </form>
 
         <!-- Stats strip -->
@@ -1113,30 +1138,86 @@
           render();
         });
 
+        const geoIcon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>';
+        const checkIcon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 10-10"/></svg>';
+
         const resetGeoBtn = () => {
-          $('#geo-btn').innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg> Usar mi ubicación`;
+          const btn = $('#geo-btn');
+          btn.classList.remove('btn-success');
+          btn.classList.add('btn-line');
+          btn.disabled = false;
+          btn.innerHTML = `${geoIcon} Usar mi ubicación`;
+        };
+
+        const showGeoStatus = (msg, type) => {
+          const el = $('#geo-status');
+          if (!msg) { el.className = 'hidden'; el.innerHTML = ''; return; }
+          el.className = type;
+          el.innerHTML = msg;
         };
 
         $('#geo-btn').addEventListener('click', () => {
-          if (!navigator.geolocation) return alert('Tu navegador no soporta geolocalización.');
           const btn = $('#geo-btn');
+
+          // Toggle: si ya está activa, desactivar
+          if (state.userCoords) {
+            state.userCoords = null;
+            resetGeoBtn();
+            showGeoStatus('', '');
+            render();
+            return;
+          }
+
+          if (!navigator.geolocation) {
+            showGeoStatus('Tu navegador no soporta geolocalización. Selecciona tu estado en el dropdown de arriba.', 'error');
+            return;
+          }
+
+          if (!window.isSecureContext) {
+            showGeoStatus('La geolocalización requiere HTTPS. Selecciona tu estado en el dropdown de arriba.', 'error');
+            return;
+          }
+
           btn.disabled = true;
-          btn.innerHTML = 'Buscando…';
+          btn.innerHTML = 'Buscando ubicación…';
+          showGeoStatus('', '');
+
           navigator.geolocation.getCurrentPosition(
             (pos) => {
               state.userCoords = [pos.coords.latitude, pos.coords.longitude];
               state.estado = '';
               $('#estado-select').value = '';
+
               btn.disabled = false;
-              btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg> Ubicación activa';
+              btn.classList.remove('btn-line');
+              btn.classList.add('btn-success');
+              btn.innerHTML = `${checkIcon} Ubicación activa · click para desactivar`;
+
               render();
+
+              const cercanos = state.filtered.filter(c => c._dist != null && isFinite(c._dist)).slice(0, 3);
+              if (cercanos.length) {
+                const lista = cercanos.map(c => `<strong>${c.nombre}</strong> a ${c._dist.toFixed(1)} km`).join(' · ');
+                showGeoStatus(`✓ Ubicación detectada. Los 3 centros más cercanos: ${lista}`, 'success');
+              } else {
+                showGeoStatus('Ubicación detectada pero ningún centro tiene coordenadas válidas para calcular la distancia.', 'error');
+              }
+
               document.getElementById('contenido').scrollIntoView({ behavior: 'smooth', block: 'start' });
             },
-            () => {
-              btn.disabled = false;
+            (err) => {
               resetGeoBtn();
-              alert('No pudimos obtener tu ubicación.');
-            }
+              let msg = 'No pudimos obtener tu ubicación.';
+              if (err.code === 1) {
+                msg = '🚫 Permiso de ubicación negado. Para activarlo: en el navegador toca el ícono de candado de la URL → Ubicación → Permitir, y vuelve a intentar. O selecciona tu estado en el dropdown.';
+              } else if (err.code === 2) {
+                msg = '📡 No pudimos determinar tu ubicación (GPS apagado o sin señal). Activa el GPS y reintenta, o selecciona tu estado en el dropdown.';
+              } else if (err.code === 3) {
+                msg = '⏱️ La búsqueda de ubicación tardó demasiado. Intenta de nuevo o selecciona tu estado en el dropdown.';
+              }
+              showGeoStatus(msg, 'error');
+            },
+            { enableHighAccuracy: false, timeout: 15000, maximumAge: 60000 }
           );
         });
 
