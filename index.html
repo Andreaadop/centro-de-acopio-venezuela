@@ -394,6 +394,25 @@
         .reveal, .pulse-dot { animation: none !important; }
         .card { transition: none; }
       }
+
+      /* Lang toggle floating button */
+      .lang-btn {
+        position: fixed; bottom: 1.25rem; right: 1.25rem;
+        z-index: 50;
+        display: inline-flex; align-items: center; gap: 0.4rem;
+        background: #0A1F44; color: #FFFFFF;
+        padding: 0.7rem 1rem; border-radius: 999px;
+        font-weight: 700; font-size: 0.82rem; letter-spacing: 0.05em;
+        box-shadow: 0 8px 24px -8px rgba(10, 31, 68, 0.5);
+        cursor: pointer; border: none;
+        transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease;
+      }
+      .lang-btn:hover { background: #152A55; transform: translateY(-2px); }
+      .lang-btn:active { transform: translateY(0); }
+      .lang-btn:focus-visible { outline: 2px solid #E0432A; outline-offset: 2px; }
+      @media (max-width: 640px) {
+        .lang-btn { bottom: 1rem; right: 1rem; padding: 0.6rem 0.85rem; font-size: 0.78rem; }
+      }
     </style>
   </head>
   <body>
@@ -404,34 +423,34 @@
       <div class="mx-auto max-w-6xl px-5 sm:px-8 h-12 flex items-center justify-between gap-4">
         <button id="share-btn" class="flex items-center gap-2 group" aria-label="Compartir directorio">
           <svg class="text-navy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v14"/></svg>
-          <span class="eyebrow text-navy group-hover:text-coral transition-colors">Compartir este directorio</span>
-          <span id="share-status" class="eyebrow text-coral hidden">¡Copiado!</span>
+          <span class="eyebrow text-navy group-hover:text-coral transition-colors" data-i18n="topbar.share">Compartir este directorio</span>
+          <span id="share-status" class="eyebrow text-coral hidden" data-i18n="topbar.copied">¡Copiado!</span>
         </button>
-        <a href="#aportar" class="eyebrow text-muted hover:text-coral transition-colors hidden sm:inline">
+        <a href="#aportar" class="eyebrow text-muted hover:text-coral transition-colors hidden sm:inline" data-i18n="topbar.know">
           ¿Conoces un centro? Agrégalo ↓
         </a>
-        <span class="eyebrow text-muted">Act. <span id="updated-date">—</span></span>
+        <span class="eyebrow text-muted"><span data-i18n="topbar.updated">Act.</span> <span id="updated-date">—</span></span>
       </div>
     </div>
 
     <!-- Hero -->
     <header class="relative">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 pt-12 sm:pt-20 pb-10">
-        <p class="eyebrow text-coral reveal" style="animation-delay:.05s">Centros de acopio · Venezuela</p>
+        <p class="eyebrow text-coral reveal" style="animation-delay:.05s" data-i18n="hero.eyebrow">Centros de acopio · Venezuela</p>
 
-        <h1 class="display text-[44px] sm:text-[78px] md:text-[104px] mt-4 sm:mt-5 text-ink reveal" style="animation-delay:.08s">
+        <h1 class="display text-[44px] sm:text-[78px] md:text-[104px] mt-4 sm:mt-5 text-ink reveal" style="animation-delay:.08s" data-i18n-html="hero.title">
           Encuentra dónde<br />
           <span class="text-navy">donar cerca de ti.</span>
         </h1>
 
-        <p class="mt-6 max-w-2xl text-base sm:text-lg text-muted body-relaxed reveal" style="animation-delay:.14s">
+        <p class="mt-6 max-w-2xl text-base sm:text-lg text-muted body-relaxed reveal" style="animation-delay:.14s" data-i18n-html="hero.subtitle">
           Directorio abierto tras los dos sismos de magnitud <strong class="text-ink font-semibold num">7.2</strong> y <strong class="text-ink font-semibold num">7.5</strong> del 24 de junio.
           Elige tu estado para ver los centros activos, qué reciben y cómo llegar.
         </p>
 
         <!-- Primary action: big dropdown -->
         <form id="estado-form" class="mt-10 sm:mt-12 reveal" style="animation-delay:.2s" onsubmit="event.preventDefault()">
-          <label for="estado-select" class="eyebrow text-muted block mb-3">Paso 1 · Selecciona tu estado <span class="text-coral">(o país si estás fuera de Venezuela)</span></label>
+          <label for="estado-select" class="eyebrow text-muted block mb-3" data-i18n-html="hero.step1">Paso 1 · Selecciona tu estado <span class="text-coral">(o país si estás fuera de Venezuela)</span></label>
           <div class="relative max-w-2xl">
             <!-- left icon -->
             <svg class="absolute left-4 top-1/2 -translate-y-1/2 text-navy" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -450,32 +469,28 @@
           <div class="mt-4 flex flex-wrap items-center gap-3 text-sm text-muted">
             <a href="#donaciones" class="btn btn-line">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 10h6M9 14h6"/></svg>
-              Ver organizaciones oficiales para donar
+              <span data-i18n="hero.donate">Ver organizaciones oficiales para donar</span>
             </a>
             <a href="#aportar" class="btn btn-ghost px-0">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
-              Reportar un centro
+              <span data-i18n="hero.report">Reportar un centro</span>
             </a>
           </div>
         </form>
 
         <!-- Stats strip -->
-        <dl class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-px bg-line border border-line rounded-2xl overflow-hidden reveal" style="animation-delay:.26s">
+        <dl class="mt-12 grid grid-cols-3 gap-px bg-line border border-line rounded-2xl overflow-hidden reveal" style="animation-delay:.26s">
           <div class="bg-white px-5 py-5">
-            <dt class="eyebrow text-muted">Centros</dt>
+            <dt class="eyebrow text-muted" data-i18n="stats.centers">Centros</dt>
             <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-centers">—</dd>
           </div>
           <div class="bg-white px-5 py-5">
-            <dt class="eyebrow text-muted">Estados / países</dt>
+            <dt class="eyebrow text-muted" data-i18n="stats.statesCountries">Estados / países</dt>
             <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-estados">—</dd>
           </div>
           <div class="bg-white px-5 py-5">
-            <dt class="eyebrow text-muted">Ciudades</dt>
+            <dt class="eyebrow text-muted" data-i18n="stats.cities">Ciudades</dt>
             <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-cities">—</dd>
-          </div>
-          <div class="bg-white px-5 py-5">
-            <dt class="eyebrow text-muted">Última revisión</dt>
-            <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-rev">—</dd>
           </div>
         </dl>
       </div>
@@ -486,13 +501,13 @@
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-4 flex flex-col sm:flex-row sm:items-center gap-3">
         <div class="relative flex-1">
           <svg class="absolute left-3 top-1/2 -translate-y-1/2 text-muted" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-          <input id="search" type="search" class="input" placeholder="Filtrar por nombre, ciudad o insumo (agua, medicinas…)" aria-label="Buscar dentro de los resultados" />
+          <input id="search" type="search" class="input" placeholder="Filtrar por nombre, ciudad o insumo (agua, medicinas…)" aria-label="Buscar" data-i18n-ph="search.placeholder" />
         </div>
         <div class="flex items-center gap-2">
           <span id="active-estado" class="eyebrow text-muted hidden"></span>
-          <button id="clear-btn" class="btn btn-line" title="Limpiar filtros">
+          <button id="clear-btn" class="btn btn-line">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6 6 18M6 6l12 12"/></svg>
-            <span>Limpiar</span>
+            <span data-i18n="search.clear">Limpiar</span>
           </button>
         </div>
       </div>
@@ -502,17 +517,17 @@
     <main id="contenido" class="mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-14">
       <div class="flex items-baseline justify-between mb-6">
         <p class="eyebrow text-muted">
-          <span id="result-count" class="text-ink num">0</span> centros · <span id="result-states" class="text-ink num">0</span> estados · <span id="result-countries" class="text-ink num">0</span> países
+          <span id="result-count" class="text-ink num">0</span> <span data-i18n="meta.centers">centros</span> · <span id="result-states" class="text-ink num">0</span> <span data-i18n="meta.states">estados</span> · <span id="result-countries" class="text-ink num">0</span> <span data-i18n="meta.countries">países</span>
         </p>
-        <p id="sort-mode" class="eyebrow text-muted">Orden · alfabético</p>
+        <p id="sort-mode" class="eyebrow text-muted" data-i18n="meta.sort">Orden · alfabético</p>
       </div>
 
       <div id="results"></div>
 
       <div id="empty" class="hidden text-center py-24">
-        <p class="display-md text-3xl">Aún no hay centros registrados en este estado.</p>
-        <p class="mt-3 text-muted body-relaxed max-w-md mx-auto">Si conoces uno, ayúdanos a registrarlo. Tu reporte se publica una vez verificado.</p>
-        <a href="#aportar" class="btn btn-coral mt-6">Reportar un centro</a>
+        <p class="display-md text-3xl" data-i18n="empty.title">Aún no hay centros registrados en este estado.</p>
+        <p class="mt-3 text-muted body-relaxed max-w-md mx-auto" data-i18n="empty.subtitle">Si conoces uno, ayúdanos a registrarlo. Tu reporte se publica una vez verificado.</p>
+        <a href="#aportar" class="btn btn-coral mt-6" data-i18n="empty.cta">Reportar un centro</a>
       </div>
     </main>
 
@@ -520,11 +535,11 @@
     <section id="donaciones" class="border-t border-line">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-20">
         <div class="max-w-3xl mb-12">
-          <p class="eyebrow text-coral">Organizaciones oficiales para donar</p>
-          <h2 class="display text-4xl sm:text-5xl mt-3 text-ink">
+          <p class="eyebrow text-coral" data-i18n="don.eyebrow">Organizaciones oficiales para donar</p>
+          <h2 class="display text-4xl sm:text-5xl mt-3 text-ink" data-i18n-html="don.title">
             Donar <span class="text-navy">dinero</span> también ayuda.
           </h2>
-          <p class="mt-5 text-muted body-relaxed">
+          <p class="mt-5 text-muted body-relaxed" data-i18n-html="don.intro">
             Este sitio <strong class="text-ink">no recibe donaciones</strong> — es un directorio.
             Acá listamos organizaciones nacionales e internacionales verificadas que sí canalizan
             donaciones económicas para la respuesta humanitaria. Antes de donar, verifica que estés
@@ -545,93 +560,93 @@
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-16 sm:py-20">
         <div class="grid md:grid-cols-[1fr,1.2fr] gap-12 items-start">
           <div class="md:sticky md:top-24">
-            <p class="eyebrow text-coral">Contribuye</p>
-            <h2 class="display text-4xl sm:text-5xl mt-3 text-ink">
+            <p class="eyebrow text-coral" data-i18n="contrib.eyebrow">Contribuye</p>
+            <h2 class="display text-4xl sm:text-5xl mt-3 text-ink" data-i18n-html="contrib.title">
               ¿Conoces un centro<br />que <span class="text-navy">no está aquí</span>?
             </h2>
-            <p class="mt-5 text-muted body-relaxed">
+            <p class="mt-5 text-muted body-relaxed" data-i18n="contrib.subtitle">
               Llena los datos y nos llega por correo. Verificamos antes de publicar para mantener el directorio confiable.
             </p>
             <div class="mt-6 text-sm text-muted space-y-1.5">
-              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span>Tus datos no se publican</p>
-              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span>Verificamos en menos de 24 horas</p>
-              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span>Una vez confirmado, aparece en la lista</p>
+              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span><span data-i18n="contrib.b1">Tus datos no se publican</span></p>
+              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span><span data-i18n="contrib.b2">Verificamos en menos de 24 horas</span></p>
+              <p class="flex items-start gap-2"><span class="text-coral mt-0.5">●</span><span data-i18n="contrib.b3">Una vez confirmado, aparece en la lista</span></p>
             </div>
           </div>
 
           <form id="report-form" class="bg-white border border-line rounded-2xl p-6 sm:p-8 space-y-6">
             <div class="grid sm:grid-cols-2 gap-4">
               <div class="sm:col-span-2">
-                <label class="eyebrow text-ink block mb-2" for="f-nombre">Nombre del centro *</label>
-                <input id="f-nombre" name="nombre" required class="form-input" placeholder="Ej: Iglesia La Paz" />
+                <label class="eyebrow text-ink block mb-2" for="f-nombre" data-i18n="form.name">Nombre del centro *</label>
+                <input id="f-nombre" name="nombre" required class="form-input" placeholder="Ej: Iglesia La Paz" data-i18n-ph="form.namePh" />
               </div>
 
               <div>
-                <label class="eyebrow text-ink block mb-2" for="f-estado">Estado *</label>
+                <label class="eyebrow text-ink block mb-2" for="f-estado" data-i18n="form.state">Estado *</label>
                 <div class="relative">
                   <select id="f-estado" name="estado" required class="form-input pr-10 appearance-none">
-                    <option value="">Selecciona…</option>
+                    <option value="" data-i18n="form.select">Selecciona…</option>
                   </select>
                   <svg class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-ink" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m6 9 6 6 6-6"/></svg>
                 </div>
               </div>
 
               <div>
-                <label class="eyebrow text-ink block mb-2" for="f-ciudad">Ciudad *</label>
-                <input id="f-ciudad" name="ciudad" required class="form-input" placeholder="Ej: Caracas" />
+                <label class="eyebrow text-ink block mb-2" for="f-ciudad" data-i18n="form.city">Ciudad *</label>
+                <input id="f-ciudad" name="ciudad" required class="form-input" placeholder="Ej: Caracas" data-i18n-ph="form.cityPh" />
               </div>
 
               <div class="sm:col-span-2">
-                <label class="eyebrow text-ink block mb-2" for="f-direccion">Dirección *</label>
-                <input id="f-direccion" name="direccion" required class="form-input" placeholder="Av., calle, edificio, referencia" />
+                <label class="eyebrow text-ink block mb-2" for="f-direccion" data-i18n="form.address">Dirección *</label>
+                <input id="f-direccion" name="direccion" required class="form-input" placeholder="Av., calle, edificio, referencia" data-i18n-ph="form.addressPh" />
               </div>
 
               <div class="sm:col-span-2">
-                <label class="eyebrow text-ink block mb-2" for="f-maps">Enlace de Google Maps</label>
+                <label class="eyebrow text-ink block mb-2" for="f-maps" data-i18n="form.maps">Enlace de Google Maps</label>
                 <input id="f-maps" name="maps" class="form-input" placeholder="https://maps.app.goo.gl/..." />
               </div>
 
               <div>
-                <label class="eyebrow text-ink block mb-2" for="f-ig">Instagram del centro</label>
-                <input id="f-ig" name="instagram" class="form-input" placeholder="@cuenta" />
+                <label class="eyebrow text-ink block mb-2" for="f-ig" data-i18n="form.ig">Instagram del centro</label>
+                <input id="f-ig" name="instagram" class="form-input" placeholder="@cuenta" data-i18n-ph="form.igPh" />
               </div>
 
               <div>
-                <label class="eyebrow text-ink block mb-2" for="f-wa">WhatsApp del centro</label>
+                <label class="eyebrow text-ink block mb-2" for="f-wa" data-i18n="form.wa">WhatsApp del centro</label>
                 <input id="f-wa" name="whatsapp" class="form-input" placeholder="+58 412 …" />
               </div>
 
               <div class="sm:col-span-2">
-                <label class="eyebrow text-ink block mb-2" for="f-horario">Horario (si lo conoces)</label>
-                <input id="f-horario" name="horario" class="form-input" placeholder="Ej: Lun a Sáb, 8 am a 6 pm" />
+                <label class="eyebrow text-ink block mb-2" for="f-horario" data-i18n="form.hours">Horario (si lo conoces)</label>
+                <input id="f-horario" name="horario" class="form-input" placeholder="Ej: Lun a Sáb, 8 am a 6 pm" data-i18n-ph="form.hoursPh" />
               </div>
             </div>
 
             <div>
-              <p class="eyebrow text-ink mb-3">¿Qué reciben? *</p>
+              <p class="eyebrow text-ink mb-3" data-i18n="form.receive">¿Qué reciben? *</p>
               <div id="recibe-list" class="grid sm:grid-cols-2 gap-x-4 gap-y-2"></div>
               <div class="mt-3">
-                <label class="text-xs text-muted block mb-1" for="f-otro">Otros insumos (separar con comas)</label>
-                <input id="f-otro" name="otro" class="form-input" placeholder="Ej: pañales, fórmula infantil" />
+                <label class="text-xs text-muted block mb-1" for="f-otro" data-i18n="form.other">Otros insumos (separar con comas)</label>
+                <input id="f-otro" name="otro" class="form-input" placeholder="Ej: pañales, fórmula infantil" data-i18n-ph="form.otherPh" />
               </div>
             </div>
 
             <div class="pt-4 border-t border-line">
-              <p class="eyebrow text-ink mb-3">Tus datos (para verificar)</p>
+              <p class="eyebrow text-ink mb-3" data-i18n="form.yourData">Tus datos (para verificar)</p>
               <div class="grid sm:grid-cols-2 gap-4">
                 <div>
-                  <label class="text-xs text-muted block mb-1" for="f-tu-nombre">Tu nombre *</label>
+                  <label class="text-xs text-muted block mb-1" for="f-tu-nombre" data-i18n="form.yourName">Tu nombre *</label>
                   <input id="f-tu-nombre" name="tu_nombre" required class="form-input" />
                 </div>
                 <div>
-                  <label class="text-xs text-muted block mb-1" for="f-tu-contacto">Tu correo o WhatsApp *</label>
+                  <label class="text-xs text-muted block mb-1" for="f-tu-contacto" data-i18n="form.yourContact">Tu correo o WhatsApp *</label>
                   <input id="f-tu-contacto" name="tu_contacto" required class="form-input" placeholder="correo@…  o  +58 …" />
                 </div>
               </div>
             </div>
 
             <div class="flex flex-col sm:flex-row sm:items-center gap-3 pt-2">
-              <button type="submit" class="btn btn-coral w-full sm:w-auto justify-center">
+              <button type="submit" class="btn btn-coral w-full sm:w-auto justify-center" data-i18n="form.submit">
                 Enviar reporte
               </button>
               <p id="form-status" class="text-sm text-muted"></p>
@@ -641,13 +656,19 @@
       </div>
     </section>
 
+    <!-- Floating language toggle -->
+    <button id="lang-btn" type="button" class="lang-btn" aria-label="Change language">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+      <span id="lang-btn-label">EN</span>
+    </button>
+
     <footer class="border-t border-line">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-8 space-y-4">
         <div class="flex flex-col sm:flex-row gap-3 justify-between items-start sm:items-center">
-          <p class="eyebrow text-muted">Hecho por la comunidad · Verifica siempre antes de donar</p>
-          <p class="eyebrow text-muted">Datos en <code class="text-ink">data.json</code></p>
+          <p class="eyebrow text-muted" data-i18n="footer.made">Hecho por la comunidad · Verifica siempre antes de donar</p>
+          <p class="eyebrow text-muted" data-i18n-html="footer.data">Datos en <code class="text-ink">data.json</code></p>
         </div>
-        <p class="text-xs text-muted body-relaxed border-t border-line pt-4 max-w-3xl">
+        <p class="text-xs text-muted body-relaxed border-t border-line pt-4 max-w-3xl" data-i18n-html="footer.credits">
           Parte de los datos provienen de
           <a href="https://acopios-refugios.vercel.app/" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">acopios-refugios.vercel.app</a>
           y la lista colaborativa de
@@ -660,6 +681,200 @@
     </footer>
 
     <script type="module">
+      // === i18n ===
+      const TRANSLATIONS = {
+        es: {
+          'topbar.share': 'Compartir este directorio',
+          'topbar.copied': '¡Copiado!',
+          'topbar.know': '¿Conoces un centro? Agrégalo ↓',
+          'topbar.updated': 'Act.',
+          'hero.eyebrow': 'Centros de acopio · Venezuela',
+          'hero.title': 'Encuentra dónde<br /><span class="text-navy">donar cerca de ti.</span>',
+          'hero.subtitle': 'Directorio abierto tras los dos sismos de magnitud <strong class="text-ink font-semibold num">7.2</strong> y <strong class="text-ink font-semibold num">7.5</strong> del 24 de junio. Elige tu estado para ver los centros activos, qué reciben y cómo llegar.',
+          'hero.step1': 'Paso 1 · Selecciona tu estado <span class="text-coral">(o país si estás fuera de Venezuela)</span>',
+          'hero.dropdownAll': '— Todos los estados / países —',
+          'hero.donate': 'Ver organizaciones oficiales para donar',
+          'hero.report': 'Reportar un centro',
+          'stats.centers': 'Centros',
+          'stats.statesCountries': 'Estados / países',
+          'stats.cities': 'Ciudades',
+          'search.placeholder': 'Filtrar por nombre, ciudad o insumo (agua, medicinas…)',
+          'search.clear': 'Limpiar',
+          'meta.centers': 'centros',
+          'meta.states': 'estados',
+          'meta.countries': 'países',
+          'meta.sort': 'Orden · alfabético',
+          'meta.estado': 'Estado:',
+          'empty.title': 'Aún no hay centros registrados en este estado.',
+          'empty.subtitle': 'Si conoces uno, ayúdanos a registrarlo. Tu reporte se publica una vez verificado.',
+          'empty.cta': 'Reportar un centro',
+          'exterior.label': 'Exterior',
+          'exterior.subtitle': 'Centros internacionales para venezolanos en el exterior',
+          'don.eyebrow': 'Organizaciones oficiales para donar',
+          'don.title': 'Donar <span class="text-navy">dinero</span> también ayuda.',
+          'don.intro': 'Este sitio <strong class="text-ink">no recibe donaciones</strong> — es un directorio. Acá listamos organizaciones nacionales e internacionales verificadas que sí canalizan donaciones económicas para la respuesta humanitaria. Antes de donar, verifica que estés usando los canales oficiales de cada organización.',
+          'don.viewAccounts': 'Ver cuentas y métodos de pago',
+          'don.goSite': 'Ir al sitio oficial',
+          'don.confirmedAje': 'Confirmado por AJE',
+          'don.type': 'Tipo · ',
+          'don.copy': 'Copiar',
+          'don.copied': '¡Copiado!',
+          'contrib.eyebrow': 'Contribuye',
+          'contrib.title': '¿Conoces un centro<br />que <span class="text-navy">no está aquí</span>?',
+          'contrib.subtitle': 'Llena los datos y nos llega por correo. Verificamos antes de publicar para mantener el directorio confiable.',
+          'contrib.b1': 'Tus datos no se publican',
+          'contrib.b2': 'Verificamos en menos de 24 horas',
+          'contrib.b3': 'Una vez confirmado, aparece en la lista',
+          'form.name': 'Nombre del centro *',
+          'form.namePh': 'Ej: Iglesia La Paz',
+          'form.state': 'Estado *',
+          'form.select': 'Selecciona…',
+          'form.city': 'Ciudad *',
+          'form.cityPh': 'Ej: Caracas',
+          'form.address': 'Dirección *',
+          'form.addressPh': 'Av., calle, edificio, referencia',
+          'form.maps': 'Enlace de Google Maps',
+          'form.ig': 'Instagram del centro',
+          'form.igPh': '@cuenta',
+          'form.wa': 'WhatsApp del centro',
+          'form.hours': 'Horario (si lo conoces)',
+          'form.hoursPh': 'Ej: Lun a Sáb, 8 am a 6 pm',
+          'form.receive': '¿Qué reciben? *',
+          'form.other': 'Otros insumos (separar con comas)',
+          'form.otherPh': 'Ej: pañales, fórmula infantil',
+          'form.yourData': 'Tus datos (para verificar)',
+          'form.yourName': 'Tu nombre *',
+          'form.yourContact': 'Tu correo o WhatsApp *',
+          'form.submit': 'Enviar reporte',
+          'form.sending': 'Enviando…',
+          'form.success': '¡Reporte enviado! Gracias. Verificaremos en menos de 24 horas.',
+          'form.errorAtLeast': 'Selecciona al menos un insumo que reciben.',
+          'form.errorSend': 'No pudimos enviar. Revisa tu conexión o escribe a <strong>andrea@mainpups.com</strong>.',
+          'card.directions': 'Cómo llegar',
+          'card.receives': 'Recibe',
+          'card.important': 'Importante:',
+          'card.web': 'Sitio web',
+          'card.contact': 'Contacto:',
+          'card.source': 'Fuente:',
+          'card.center': 'centro',
+          'card.centers': 'centros',
+          'footer.made': 'Hecho por la comunidad · Verifica siempre antes de donar',
+          'footer.data': 'Datos en <code class="text-ink">data.json</code>',
+          'footer.credits': 'Parte de los datos provienen de <a href="https://acopios-refugios.vercel.app/" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">acopios-refugios.vercel.app</a> y la lista colaborativa de <a href="https://instagram.com/marielozadab" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">@marielozadab</a> y <a href="https://instagram.com/nathaliesayago" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">@nathaliesayago</a>. Gracias a todas las personas que reportan y mantienen actualizada esta información.',
+          'lang.switch': 'EN',
+        },
+        en: {
+          'topbar.share': 'Share this directory',
+          'topbar.copied': 'Copied!',
+          'topbar.know': 'Know a center? Add it ↓',
+          'topbar.updated': 'Upd.',
+          'hero.eyebrow': 'Donation centers · Venezuela',
+          'hero.title': 'Find where<br /><span class="text-navy">to donate near you.</span>',
+          'hero.subtitle': 'Open directory after the two earthquakes of magnitude <strong class="text-ink font-semibold num">7.2</strong> and <strong class="text-ink font-semibold num">7.5</strong> on June 24. Pick your state to see active centers, what they receive and how to get there.',
+          'hero.step1': 'Step 1 · Select your state <span class="text-coral">(or country if you\'re outside Venezuela)</span>',
+          'hero.dropdownAll': '— All states / countries —',
+          'hero.donate': 'See official organizations to donate',
+          'hero.report': 'Report a center',
+          'stats.centers': 'Centers',
+          'stats.statesCountries': 'States / countries',
+          'stats.cities': 'Cities',
+          'search.placeholder': 'Filter by name, city or supply (water, medicine…)',
+          'search.clear': 'Clear',
+          'meta.centers': 'centers',
+          'meta.states': 'states',
+          'meta.countries': 'countries',
+          'meta.sort': 'Order · alphabetical',
+          'meta.estado': 'State:',
+          'empty.title': 'No centers registered in this state yet.',
+          'empty.subtitle': 'If you know one, help us register it. Your report is published once verified.',
+          'empty.cta': 'Report a center',
+          'exterior.label': 'International',
+          'exterior.subtitle': 'International centers for Venezuelans abroad',
+          'don.eyebrow': 'Official organizations to donate',
+          'don.title': 'Donating <span class="text-navy">money</span> also helps.',
+          'don.intro': 'This site <strong class="text-ink">doesn\'t receive donations</strong> — it\'s a directory. We list verified national and international organizations that do channel monetary donations for humanitarian response. Before donating, verify you\'re using each organization\'s official channels.',
+          'don.viewAccounts': 'View accounts and payment methods',
+          'don.goSite': 'Go to official site',
+          'don.confirmedAje': 'Verified by AJE',
+          'don.type': 'Type · ',
+          'don.copy': 'Copy',
+          'don.copied': 'Copied!',
+          'contrib.eyebrow': 'Contribute',
+          'contrib.title': 'Know a center<br />that\'s <span class="text-navy">not listed</span>?',
+          'contrib.subtitle': 'Fill in the details and we\'ll receive them by email. We verify before publishing to keep the directory reliable.',
+          'contrib.b1': 'Your data is not published',
+          'contrib.b2': 'We verify in less than 24 hours',
+          'contrib.b3': 'Once confirmed, it appears in the list',
+          'form.name': 'Center name *',
+          'form.namePh': 'E.g.: La Paz Church',
+          'form.state': 'State *',
+          'form.select': 'Select…',
+          'form.city': 'City *',
+          'form.cityPh': 'E.g.: Caracas',
+          'form.address': 'Address *',
+          'form.addressPh': 'Avenue, street, building, reference',
+          'form.maps': 'Google Maps link',
+          'form.ig': 'Center\'s Instagram',
+          'form.igPh': '@handle',
+          'form.wa': 'Center\'s WhatsApp',
+          'form.hours': 'Hours (if known)',
+          'form.hoursPh': 'E.g.: Mon to Sat, 8am to 6pm',
+          'form.receive': 'What do they receive? *',
+          'form.other': 'Other supplies (comma separated)',
+          'form.otherPh': 'E.g.: diapers, infant formula',
+          'form.yourData': 'Your details (for verification)',
+          'form.yourName': 'Your name *',
+          'form.yourContact': 'Your email or WhatsApp *',
+          'form.submit': 'Send report',
+          'form.sending': 'Sending…',
+          'form.success': 'Report sent! Thanks. We\'ll verify in less than 24 hours.',
+          'form.errorAtLeast': 'Select at least one supply they receive.',
+          'form.errorSend': 'Could not send. Check your connection or write to <strong>andrea@mainpups.com</strong>.',
+          'card.directions': 'Get directions',
+          'card.receives': 'Receives',
+          'card.important': 'Important:',
+          'card.web': 'Website',
+          'card.contact': 'Contact:',
+          'card.source': 'Source:',
+          'card.center': 'center',
+          'card.centers': 'centers',
+          'footer.made': 'Made by the community · Always verify before donating',
+          'footer.data': 'Data in <code class="text-ink">data.json</code>',
+          'footer.credits': 'Some data comes from <a href="https://acopios-refugios.vercel.app/" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">acopios-refugios.vercel.app</a> and the collaborative list of <a href="https://instagram.com/marielozadab" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">@marielozadab</a> and <a href="https://instagram.com/nathaliesayago" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2 hover:text-ink">@nathaliesayago</a>. Thanks to everyone who reports and keeps this information up to date.',
+          'lang.switch': 'ES',
+        }
+      };
+      let CURRENT_LANG = localStorage.getItem('lang') || 'es';
+      const t = (key) => (TRANSLATIONS[CURRENT_LANG] && TRANSLATIONS[CURRENT_LANG][key]) || (TRANSLATIONS.es[key] || key);
+      function applyTranslations() {
+        document.documentElement.lang = CURRENT_LANG;
+        document.querySelectorAll('[data-i18n]').forEach((el) => {
+          const k = el.getAttribute('data-i18n');
+          el.textContent = t(k);
+        });
+        document.querySelectorAll('[data-i18n-html]').forEach((el) => {
+          const k = el.getAttribute('data-i18n-html');
+          el.innerHTML = t(k);
+        });
+        document.querySelectorAll('[data-i18n-ph]').forEach((el) => {
+          const k = el.getAttribute('data-i18n-ph');
+          el.setAttribute('placeholder', t(k));
+        });
+        const btnLabel = document.getElementById('lang-btn-label');
+        if (btnLabel) btnLabel.textContent = t('lang.switch');
+      }
+      function setLanguage(lang) {
+        CURRENT_LANG = lang;
+        localStorage.setItem('lang', lang);
+        applyTranslations();
+        // Re-render dynamic content if state exists
+        if (state.data) {
+          populateSelect();
+          render();
+          renderDonaciones();
+        }
+      }
+
       const $ = (s, r = document) => r.querySelector(s);
       const fmtDate = (iso) => {
         if (!iso) return '—';
@@ -727,12 +942,12 @@
         const ve = all.filter((e) => !EXTERIOR.has(e.nombre)).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
         const ex = all.filter((e) => EXTERIOR.has(e.nombre)).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
 
-        const fmt = (e) => `<option value="${e.nombre}">${e.count > 0 ? `${e.nombre} — ${e.count} centro${e.count === 1 ? '' : 's'}` : e.nombre}</option>`;
+        const fmt = (e) => `<option value="${e.nombre}">${e.count > 0 ? `${e.nombre} — ${e.count} ${e.count === 1 ? t('card.center') : t('card.centers')}` : e.nombre}</option>`;
 
-        let html = `<option value="">— Todos los estados / países —</option>`;
+        let html = `<option value="">${t('hero.dropdownAll')}</option>`;
         html += ve.map(fmt).join('');
         if (ex.length) {
-          html += `<option value="" disabled>──────────  Exterior  ──────────</option>`;
+          html += `<option value="" disabled>──────────  ${t('exterior.label')}  ──────────</option>`;
           html += ex.map(fmt).join('');
         }
         sel.innerHTML = html;
@@ -743,7 +958,6 @@
         $('#stat-centers').textContent = state.flat.length;
         $('#stat-estados').textContent = new Set(state.flat.map((c) => c.estado)).size;
         $('#stat-cities').textContent = new Set(state.flat.map((c) => `${c.estado}|${c.ciudad}`)).size;
-        $('#stat-rev').textContent = fmtShort(state.data.actualizado);
         $('#updated-date').textContent = fmtDate(state.data.actualizado);
         $('#result-count').textContent = state.filtered.length;
         const estadosUnicos = new Set(state.filtered.map((c) => c.estado));
@@ -754,7 +968,7 @@
 
         const active = $('#active-estado');
         if (state.estado) {
-          active.textContent = `Estado: ${state.estado}`;
+          active.textContent = `${t('meta.estado')} ${state.estado}`;
           active.classList.remove('hidden');
         } else {
           active.classList.add('hidden');
@@ -795,7 +1009,7 @@
         const notaBlock = c.nota ? `
           <div class="mt-3 mb-4 flex items-start gap-2 px-3 py-2.5 bg-surface border-l-2 border-coral rounded-r">
             <svg class="mt-0.5 shrink-0 text-coral" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
-            <p class="text-sm text-ink"><strong class="text-coral font-semibold">Importante:</strong> ${c.nota}</p>
+            <p class="text-sm text-ink"><strong class="text-coral font-semibold">${t('card.important')}</strong> ${c.nota}</p>
           </div>` : '';
         const ig = igUrl(c.instagram);
         const wa = waUrl(c.whatsapp || c.telefono);
@@ -811,13 +1025,13 @@
               </span>
             </a>
             <a class="btn btn-navy mt-2 w-full justify-center" href="${c.maps}" target="_blank" rel="noopener">
-              ${icon.maps} Cómo llegar
+              ${icon.maps} ${t('card.directions')}
             </a>
           </div>` : '';
 
         const recibeBlock = tags ? `
           <div class="flex-1 min-w-0">
-            <p class="eyebrow text-muted mb-2">Recibe</p>
+            <p class="eyebrow text-muted mb-2">${t('card.receives')}</p>
             <div class="flex flex-wrap gap-1.5">${tags}</div>
           </div>` : '';
 
@@ -836,22 +1050,22 @@
         const igLink = ig || c.instagram_url || '';
         const igLabel = c.instagram ? `@${c.instagram.replace(/^@/, '')}` : (c.instagram_url ? 'Instagram' : '');
         const contactExtras = [];
-        if (c.contacto && !wa) contactExtras.push(`<p class="text-sm text-muted"><strong class="text-ink font-semibold">Contacto:</strong> ${c.contacto}</p>`);
-        if (c.web) contactExtras.push(`<a class="btn btn-line" href="${c.web}" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18"/></svg> Sitio web</a>`);
+        if (c.contacto && !wa) contactExtras.push(`<p class="text-sm text-muted"><strong class="text-ink font-semibold">${t('card.contact')}</strong> ${c.contacto}</p>`);
+        if (c.web) contactExtras.push(`<a class="btn btn-line" href="${c.web}" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18"/></svg> ${t('card.web')}</a>`);
 
         const hasContactBlock = igLink || wa || c.web || c.contacto;
         const contactBtns = hasContactBlock ? `
           <div class="mt-5 pt-5 border-t border-line">
-            ${c.contacto && !wa ? `<p class="text-sm text-muted mb-3"><strong class="text-ink font-semibold">Contacto:</strong> ${c.contacto}</p>` : ''}
+            ${c.contacto && !wa ? `<p class="text-sm text-muted mb-3"><strong class="text-ink font-semibold">${t('card.contact')}</strong> ${c.contacto}</p>` : ''}
             <div class="flex flex-wrap gap-2">
               ${igLink ? `<a class="btn btn-line" href="${igLink}" target="_blank" rel="noopener">${icon.ig} ${igLabel}</a>` : ''}
               ${wa ? `<a class="btn btn-line" href="${wa}" target="_blank" rel="noopener">${icon.wa} WhatsApp</a>` : ''}
-              ${c.web ? `<a class="btn btn-line" href="${c.web}" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18"/></svg> Sitio web</a>` : ''}
+              ${c.web ? `<a class="btn btn-line" href="${c.web}" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 0 1 0 18M12 3a16 16 0 0 0 0 18"/></svg> ${t('card.web')}</a>` : ''}
             </div>
           </div>` : '';
 
         const fuenteBlock = c.fuente ? `
-          <p class="mt-4 text-xs text-muted italic">Fuente: ${c.fuente}</p>` : '';
+          <p class="mt-4 text-xs text-muted italic">${t('card.source')} ${c.fuente}</p>` : '';
 
         return `${notaBlock}${horarioBlock}${splitBlock}${contactBtns}${fuenteBlock}`;
       }
@@ -925,9 +1139,9 @@
           if (EXTERIOR.has(estado) && !exteriorHeaderInserted) {
             sections.push(`
               <div class="mt-16 mb-2 flex items-center gap-4">
-                <span class="eyebrow text-coral">Exterior</span>
+                <span class="eyebrow text-coral">${t('exterior.label')}</span>
                 <span class="flex-1 h-px bg-line"></span>
-                <span class="eyebrow text-muted">Centros internacionales para venezolanos en el exterior</span>
+                <span class="eyebrow text-muted">${t('exterior.subtitle')}</span>
               </div>
             `);
             exteriorHeaderInserted = true;
@@ -937,7 +1151,7 @@
             <div class="mt-7">
               <div class="flex items-baseline gap-3 mb-2 px-1">
                 <h4 class="eyebrow text-ink">${ciudad}</h4>
-                <span class="eyebrow text-muted num">${centros.length} centro${centros.length === 1 ? '' : 's'}</span>
+                <span class="eyebrow text-muted num">${centros.length} ${centros.length === 1 ? t('card.center') : t('card.centers')}</span>
               </div>
               <div class="card overflow-hidden">
                 ${centros.map((c) => centroRow(c)).join('')}
@@ -950,7 +1164,7 @@
               <summary class="flex items-center gap-4 py-3 group">
                 <svg class="chev text-ink shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6 6 6-6 6"/></svg>
                 <h3 class="display-md text-3xl sm:text-4xl text-ink group-hover:text-navy transition-colors">${estado}</h3>
-                <span class="eyebrow text-muted num">${count} centro${count === 1 ? '' : 's'}</span>
+                <span class="eyebrow text-muted num">${count} ${count === 1 ? t('card.center') : t('card.centers')}</span>
               </summary>
               <div class="section-rule mt-1 mb-2"></div>
               ${ciudades}
@@ -967,7 +1181,7 @@
 
         if (fuente) {
           const attr = $('#dona-attribution p');
-          if (attr) attr.innerHTML = `${fuente.descripcion} <strong>Fuente:</strong> <a href="${fuente.url}" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2">${fuente.nombre}</a>.`;
+          if (attr) attr.innerHTML = `${fuente.descripcion} <strong>${t('card.source')}</strong> <a href="${fuente.url}" target="_blank" rel="noopener" class="underline decoration-coral underline-offset-2">${fuente.nombre}</a>.`;
         }
 
         const container = $('#donaciones-list');
@@ -976,14 +1190,14 @@
         container.innerHTML = list.map((org, idx) => {
           const badge = `<span class="badge-scope ${org.alcance}">${org.alcance}</span>`;
           const ajeConfirmed = org.aje_confirmed !== false;
-          const aje = ajeConfirmed ? `<span class="badge-aje">Confirmado por AJE</span>` : '';
-          const tipoAyuda = org.tipo_ayuda ? `<p class="eyebrow text-muted mt-3">Tipo · ${org.tipo_ayuda}</p>` : '';
+          const aje = ajeConfirmed ? `<span class="badge-aje">${t('don.confirmedAje')}</span>` : '';
+          const tipoAyuda = org.tipo_ayuda ? `<p class="eyebrow text-muted mt-3">${t('don.type')}${org.tipo_ayuda}</p>` : '';
           const notaBlock = org.nota ? `
             <div class="mt-3 flex items-start gap-2 px-3 py-2.5 bg-surface border-l-2 border-coral rounded-r">
               <svg class="mt-0.5 shrink-0 text-coral" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
               <p class="text-sm text-ink">${org.nota}</p>
             </div>` : '';
-          const fuenteBlock = org.fuente ? `<p class="mt-3 text-xs text-muted italic">Fuente: ${org.fuente}</p>` : '';
+          const fuenteBlock = org.fuente ? `<p class="mt-3 text-xs text-muted italic">${t('card.source')} ${org.fuente}</p>` : '';
 
           let metodosBlock = '';
           if (org.metodos && org.metodos.length) {
@@ -992,7 +1206,7 @@
                 <summary class="cursor-pointer">
                   <span class="btn btn-navy w-full justify-center">
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/></svg>
-                    Ver cuentas y métodos de pago
+                    ${t('don.viewAccounts')}
                     <svg class="chev" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6 6 6-6 6"/></svg>
                   </span>
                 </summary>
@@ -1011,7 +1225,7 @@
                           </div>
                           <button class="copy-btn" data-copy="${c.valor.replace(/"/g, '&quot;')}" type="button">
                             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
-                            Copiar
+                            ${t('don.copy')}
                           </button>
                         </div>
                       `).join('')}
@@ -1024,7 +1238,7 @@
           const webBtn = org.web ? `
             <a class="btn btn-navy mt-4 w-full justify-center" href="${org.web}" target="_blank" rel="noopener">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg>
-              Ir al sitio oficial
+              ${t('don.goSite')}
             </a>` : '';
 
           return `
@@ -1053,7 +1267,7 @@
               await navigator.clipboard.writeText(val);
               btn.classList.add('copied');
               const orig = btn.innerHTML;
-              btn.innerHTML = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 10-10"/></svg>¡Copiado!';
+              btn.innerHTML = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 10-10"/></svg>' + t('don.copied');
               setTimeout(() => {
                 btn.classList.remove('copied');
                 btn.innerHTML = orig;
@@ -1119,6 +1333,12 @@
         });
 
         setupForm();
+
+        // Language toggle button
+        applyTranslations();
+        document.getElementById('lang-btn').addEventListener('click', () => {
+          setLanguage(CURRENT_LANG === 'es' ? 'en' : 'es');
+        });
       }
 
       function setupForm() {
@@ -1154,7 +1374,7 @@
           const recibeAll = [...recibeSelected, ...otros];
 
           if (recibeAll.length === 0) {
-            status.innerHTML = '<span class="text-coral2">Selecciona al menos un insumo que reciben.</span>';
+            status.innerHTML = `<span class="text-coral2">${t('form.errorAtLeast')}</span>`;
             return;
           }
 
@@ -1174,7 +1394,7 @@
 
           submitBtn.disabled = true;
           submitBtn.style.opacity = '0.6';
-          submitBtn.textContent = 'Enviando…';
+          submitBtn.textContent = t('form.sending');
           status.innerHTML = '';
 
           try {
@@ -1185,14 +1405,14 @@
               mode: 'no-cors',
             });
             // no-cors → opaque response; assume success if no network error
-            status.innerHTML = '<span class="text-navy font-semibold">¡Reporte enviado! Gracias. Verificaremos en menos de 24 horas.</span>';
+            status.innerHTML = `<span class="text-navy font-semibold">${t('form.success')}</span>`;
             f.reset();
           } catch (err) {
-            status.innerHTML = '<span class="text-coral2">No pudimos enviar. Revisa tu conexión o escribe a <strong>andrea@mainpups.com</strong>.</span>';
+            status.innerHTML = `<span class="text-coral2">${t('form.errorSend')}</span>`;
           } finally {
             submitBtn.disabled = false;
             submitBtn.style.opacity = '';
-            submitBtn.textContent = 'Enviar reporte';
+            submitBtn.textContent = t('form.submit');
           }
         });
       }
