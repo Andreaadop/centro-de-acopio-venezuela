@@ -56,36 +56,72 @@
           "tipo": "Pago Móvil",
           "banco": "Banco Mercantil",
           "campos": [
-            { "etiqueta": "RIF", "valor": "J-000579105" },
-            { "etiqueta": "Teléfono", "valor": "0412-332-1367" }
+            {
+              "etiqueta": "RIF",
+              "valor": "J-000579105"
+            },
+            {
+              "etiqueta": "Teléfono",
+              "valor": "0412-332-1367"
+            }
           ]
         },
         {
           "tipo": "Transferencia",
           "banco": "Banco Mercantil",
           "campos": [
-            { "etiqueta": "Titular", "valor": "Dividendo Voluntario para la Comunidad, A.C." },
-            { "etiqueta": "Cuenta Corriente", "valor": "0105-0026-5410-2642-4518" },
-            { "etiqueta": "RIF", "valor": "J-000579105" }
+            {
+              "etiqueta": "Titular",
+              "valor": "Dividendo Voluntario para la Comunidad, A.C."
+            },
+            {
+              "etiqueta": "Cuenta Corriente",
+              "valor": "0105-0026-5410-2642-4518"
+            },
+            {
+              "etiqueta": "RIF",
+              "valor": "J-000579105"
+            }
           ]
         },
         {
           "tipo": "Transferencia",
           "banco": "Banco Nacional de Crédito (BNC)",
           "campos": [
-            { "etiqueta": "Titular", "valor": "Dividendo Voluntario para la Comunidad, A.C." },
-            { "etiqueta": "Cuenta Corriente", "valor": "0191-0154-1321-0019-6480" },
-            { "etiqueta": "RIF", "valor": "J-000579105" }
+            {
+              "etiqueta": "Titular",
+              "valor": "Dividendo Voluntario para la Comunidad, A.C."
+            },
+            {
+              "etiqueta": "Cuenta Corriente",
+              "valor": "0191-0154-1321-0019-6480"
+            },
+            {
+              "etiqueta": "RIF",
+              "valor": "J-000579105"
+            }
           ]
         },
         {
           "tipo": "Cuenta en divisas",
           "banco": "Mercantil Banco, S.A. (Panamá)",
           "campos": [
-            { "etiqueta": "Titular", "valor": "Dividendo Voluntario para la Comunidad, A.C." },
-            { "etiqueta": "SWIFT", "valor": "MPANPAPA" },
-            { "etiqueta": "N° de cuenta", "valor": "300016658" },
-            { "etiqueta": "Dirección del banco", "valor": "Torre de las Américas, Punta Pacífica, Ciudad de Panamá, Panamá" }
+            {
+              "etiqueta": "Titular",
+              "valor": "Dividendo Voluntario para la Comunidad, A.C."
+            },
+            {
+              "etiqueta": "SWIFT",
+              "valor": "MPANPAPA"
+            },
+            {
+              "etiqueta": "N° de cuenta",
+              "valor": "300016658"
+            },
+            {
+              "etiqueta": "Dirección del banco",
+              "valor": "Torre de las Américas, Punta Pacífica, Ciudad de Panamá, Panamá"
+            }
           ]
         }
       ]
@@ -127,16 +163,28 @@
           "tipo": "Donación online",
           "banco": "Portal oficial",
           "campos": [
-            { "etiqueta": "Sitio principal", "valor": "dona.cruzrojacolombiana.org" },
-            { "etiqueta": "Programa Accionistas Humanitarios", "valor": "accionistashumanitarios.org" }
+            {
+              "etiqueta": "Sitio principal",
+              "valor": "dona.cruzrojacolombiana.org"
+            },
+            {
+              "etiqueta": "Programa Accionistas Humanitarios",
+              "valor": "accionistashumanitarios.org"
+            }
           ]
         },
         {
           "tipo": "Transferencia bancaria directa",
           "banco": "Davivienda (Colombia)",
           "campos": [
-            { "etiqueta": "Titular", "valor": "Sociedad Nacional de la Cruz Roja Colombiana" },
-            { "etiqueta": "Cuenta Corriente", "valor": "455-069996904" }
+            {
+              "etiqueta": "Titular",
+              "valor": "Sociedad Nacional de la Cruz Roja Colombiana"
+            },
+            {
+              "etiqueta": "Cuenta Corriente",
+              "valor": "455-069996904"
+            }
           ]
         }
       ]
@@ -152,18 +200,36 @@
           "tipo": "Transferencia bolívares (VES)",
           "banco": "Banco Banesco",
           "campos": [
-            { "etiqueta": "Titular", "valor": "Sociedad Venezolana de la Cruz Roja" },
-            { "etiqueta": "RIF", "valor": "J-00235031-8" },
-            { "etiqueta": "Cuenta", "valor": "0134-0224-82-2243028658" }
+            {
+              "etiqueta": "Titular",
+              "valor": "Sociedad Venezolana de la Cruz Roja"
+            },
+            {
+              "etiqueta": "RIF",
+              "valor": "J-00235031-8"
+            },
+            {
+              "etiqueta": "Cuenta",
+              "valor": "0134-0224-82-2243028658"
+            }
           ]
         },
         {
           "tipo": "Transferencia dólares (USD) en Venezuela",
           "banco": "Banco Banesco",
           "campos": [
-            { "etiqueta": "Titular", "valor": "Sociedad Venezolana de la Cruz Roja" },
-            { "etiqueta": "RIF", "valor": "J-00235031-8" },
-            { "etiqueta": "Cuenta", "valor": "0134-1736-99-0001006051" }
+            {
+              "etiqueta": "Titular",
+              "valor": "Sociedad Venezolana de la Cruz Roja"
+            },
+            {
+              "etiqueta": "RIF",
+              "valor": "J-00235031-8"
+            },
+            {
+              "etiqueta": "Cuenta",
+              "valor": "0134-1736-99-0001006051"
+            }
           ]
         }
       ]
@@ -263,6 +329,50 @@
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
             }
           ]
+        },
+        {
+          "nombre": "Barcelona",
+          "centros": [
+            {
+              "nombre": "ugma sede principal Barcelona",
+              "direccion": "Avenida intercomunal",
+              "coords": [
+                10.1664,
+                -64.6834
+              ],
+              "maps": "https://maps.google.com/?q=10.1664,-64.6834",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Fui personalmente"
+            }
+          ]
+        },
+        {
+          "nombre": "Puerto La Cruz",
+          "centros": [
+            {
+              "nombre": "Hotel Paradise Puerto la Cruz",
+              "direccion": "Paseo Colón, Puerto La Cruz",
+              "coords": [
+                10.2278,
+                -64.6329
+              ],
+              "maps": "https://maps.google.com/?q=10.2278,-64.6329",
+              "instagram": "paradiseplc",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "fuente": "Fui personalmente"
+            }
+          ]
         }
       ]
     },
@@ -297,6 +407,45 @@
         {
           "nombre": "Maracay",
           "centros": [
+            {
+              "nombre": "Hyper Jumbo — Maracay",
+              "direccion": "Hyper Jumbo, Maracay",
+              "coords": [
+                10.253,
+                -67.601
+              ],
+              "maps": "https://maps.google.com/?q=Hyper+Jumbo+Maracay",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Story @quehayenmaracay · @soysanah"
+            },
+            {
+              "nombre": "Colegio San José — Maristas",
+              "direccion": "Aula de Dibujo II (Media General), Colegio San José, Maracay · Horario: a partir del viernes 26 de junio de 2026, de 9:00 a.m. a 12:00 p.m.",
+              "coords": [
+                10.247,
+                -67.595
+              ],
+              "maps": "https://maps.google.com/?q=Colegio+San+Jos%C3%A9+Maristas+Maracay",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "mantas y cobijas",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "nota": "Campaña “Manos Maristas en Acción” inspirada en la pedagogía de San Marcelino Champagnat.",
+              "fuente": "Flyer Colegio San José Maracay — Maristas"
+            },
             {
               "nombre": "Comando Con Venezuela",
               "direccion": "Avenida 19 de Abril, Centro Comercial La Capilla, Piso 1, Local 21",
@@ -395,7 +544,7 @@
               "direccion": "Burger Latin, Centro Comercial Palma Center, La Victoria",
               "coords": [
                 10.2272,
-                -67.3320
+                -67.332
               ],
               "maps": "https://maps.google.com/?q=Burger+Latin+CC+Palma+Center+La+Victoria+Aragua",
               "instagram_url": "https://www.instagram.com/p/DaAk8GWOLGH/?igsh=MXB2NDFyNzlheG54Nw%3D%3D",
@@ -416,8 +565,8 @@
               "nombre": "Bodega 33 — CC El Solidario",
               "direccion": "Bodega 33, Centro Comercial El Solidario, La Victoria",
               "coords": [
-                10.2280,
-                -67.3300
+                10.228,
+                -67.33
               ],
               "maps": "https://maps.google.com/?q=Bodega+33+CC+El+Solidario+La+Victoria+Aragua",
               "recibe": [
@@ -437,8 +586,8 @@
               "nombre": "CEI María de las Mercedes",
               "direccion": "Calle Dr. Vicentelli c/c Rosa María Paredes #7, Sector Centro, La Victoria",
               "coords": [
-                10.2270,
-                -67.3340
+                10.227,
+                -67.334
               ],
               "maps": "https://maps.google.com/?q=Calle+Vicentelli+Rosa+Mar%C3%ADa+Paredes+La+Victoria+Aragua",
               "recibe": [
@@ -457,8 +606,8 @@
               "nombre": "Parroquia Nuestra Señora del Carmen",
               "direccion": "Calle Colón, La Victoria",
               "coords": [
-                10.2290,
-                -67.3320
+                10.229,
+                -67.332
               ],
               "maps": "https://maps.google.com/?q=Parroquia+Nuestra+Se%C3%B1ora+del+Carmen+La+Victoria+Aragua",
               "recibe": [
@@ -494,6 +643,26 @@
                 "abrigos y otros implementos de protección"
               ],
               "fuente": "Reporte comunitario local"
+            },
+            {
+              "nombre": "U.E. Coronel Juan José Rondón",
+              "direccion": "Av. Intercomunal Turmero-Maracay, frente al Mercado Mayorista (Instalaciones JJR) · Horario: a partir de las 7:30 a.m.",
+              "coords": [
+                10.227,
+                -67.541
+              ],
+              "maps": "https://maps.google.com/?q=Av+Intercomunal+Turmero+Maracay+Mercado+Mayorista",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Unidad Educativa Privada Coronel Juan José Rondón"
             }
           ]
         }
@@ -531,6 +700,130 @@
           "nombre": "Barinas",
           "centros": [
             {
+              "nombre": "Droguería Merecure — La Floresta",
+              "direccion": "Droguería Merecure (Local 5), CC Central Plaza, Av. 23 de Enero, La Floresta, Barinas",
+              "coords": [
+                8.632,
+                -70.208
+              ],
+              "maps": "https://maps.google.com/?q=Drogueria+Merecure+CC+Central+Plaza+Barinas",
+              "instagram": "drogueriamerecure",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "nota": "Iniciativa “Barinas Unida — Emergencia Caracas” junto con Galletera Italia y Farmacia Santa Rosa. Camión de Galletera Italia trasladará todos los donativos directamente desde Barinas.",
+              "fuente": "Flyer @galleteraitalia · @farmaciasantarosa_oficial · @drogueriamerecure"
+            },
+            {
+              "nombre": "Farmacia Santa Rosa — Alto Barinas",
+              "direccion": "Calle Justicia con Av. Venezuela, Urb. Alto Barinas Norte (frente a la Clínica Varyna), Barinas",
+              "coords": [
+                8.624,
+                -70.22
+              ],
+              "maps": "https://maps.google.com/?q=Farmacia+Santa+Rosa+Alto+Barinas",
+              "instagram": "farmaciasantarosa_oficial",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "nota": "Iniciativa “Barinas Unida — Emergencia Caracas” junto con Galletera Italia y Droguería Merecure.",
+              "fuente": "Flyer @galleteraitalia · @farmaciasantarosa_oficial · @drogueriamerecure"
+            },
+            {
+              "nombre": "Galletera Italia — Sede Central La Industrial",
+              "direccion": "Galletera Italia, Zona Industrial Cazdeba, Av. 02 Sur, La Industrial, Barinas",
+              "coords": [
+                8.616,
+                -70.205
+              ],
+              "maps": "https://maps.google.com/?q=Galletera+Italia+Zona+Industrial+Cazdeba+Barinas",
+              "instagram": "galletera.italia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "nota": "Sede central — desde aquí saldrá un camión de la directiva de Galletera Italia para trasladar los donativos a Caracas. Iniciativa “Barinas Unida — Emergencia Caracas”.",
+              "fuente": "Flyer @galleteraitalia · @farmaciasantarosa_oficial · @drogueriamerecure"
+            },
+            {
+              "nombre": "Inversiones Decolux",
+              "direccion": "Inversiones Decolux, Caja de Agua, callejón 2, Barinas",
+              "coords": [
+                8.623,
+                -70.212
+              ],
+              "maps": "https://maps.google.com/?q=Inversiones+Decolux+Barinas",
+              "instagram": "decolux",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado"
+              ],
+              "nota": "Reciben también fórmulas y alimento para bebé. Si tienes algo distinto para donar, comunícate al domicilio.",
+              "fuente": "Story @soybarinass · @yuss.mb"
+            },
+            {
+              "nombre": "Delgadillo FerreAgro",
+              "direccion": "Av. Coddazi, diagonal al parque Jimmy Flores, Barinas · Horario: 7:30 a.m. a 6:00 p.m.",
+              "coords": [
+                8.621,
+                -70.216
+              ],
+              "maps": "https://maps.google.com/?q=Delgadillo+FerreAgro+Av+Coddazi+Barinas",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "fuente": "Flyer Delgadillo FerreAgro"
+            },
+            {
+              "nombre": "Celsas Bocaditos",
+              "direccion": "Calle Mérida, entre Av. Olímpica y San Martín, frente a Licocenter, Barinas",
+              "coords": [
+                8.626,
+                -70.211
+              ],
+              "maps": "https://maps.google.com/?q=Calle+M%C3%A9rida+Av+Ol%C3%ADmpica+Barinas",
+              "instagram": "celsasbocaditos",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto"
+              ],
+              "nota": "Las donaciones se llevan a Tucacas, edo. Falcón, para las personas afectadas por el terremoto.",
+              "fuente": "Story @celsasbocaditos · @soybarinass · @anyeli9880"
+            },
+            {
               "nombre": "Comando Con Venezuela",
               "direccion": "Av. Marqués del Pumar diagonal al Hotel Comercio, Casa Azul",
               "coords": [
@@ -555,6 +848,22 @@
                 -70.1956269
               ],
               "maps": "https://maps.google.com/?q=8.6050614,-70.1956269",
+              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Fe y Alegría \"Padre Felipe Salvador Gilij\"",
+              "direccion": "Fe y Alegría Padre Felipe Salvador Gilij, Barinas",
+              "coords": [
+                8.6051,
+                -70.1956
+              ],
+              "maps": "https://maps.google.com/?q=8.6051,-70.1956",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
             }
           ]
@@ -771,8 +1080,8 @@
               "nombre": "Iglesia La Esmeralda",
               "direccion": "Iglesia La Esmeralda, San Diego",
               "coords": [
-                10.2400,
-                -67.9700
+                10.24,
+                -67.97
               ],
               "maps": "https://maps.google.com/?q=Iglesia+La+Esmeralda+San+Diego+Carabobo",
               "recibe": [
@@ -788,8 +1097,8 @@
               "nombre": "Iglesia Pueblo de San Diego",
               "direccion": "Iglesia Pueblo de San Diego, San Diego",
               "coords": [
-                10.2420,
-                -67.9720
+                10.242,
+                -67.972
               ],
               "maps": "https://maps.google.com/?q=Iglesia+Pueblo+de+San+Diego+Carabobo",
               "recibe": [
@@ -825,8 +1134,8 @@
               "nombre": "Cuerpo de Bomberos Universidad de Carabobo",
               "direccion": "Sede del Cuerpo de Bomberos, Universidad de Carabobo, Valencia",
               "coords": [
-                10.1640,
-                -68.0080
+                10.164,
+                -68.008
               ],
               "maps": "https://maps.google.com/?q=Cuerpo+de+Bomberos+Universidad+de+Carabobo+Valencia",
               "recibe": [
@@ -844,8 +1153,8 @@
               "nombre": "G3 Logística — Valencia",
               "direccion": "Calle La Pedrera, Fundo Los Marines, Zona Industrial San Diego",
               "coords": [
-                10.2430,
-                -68.0010
+                10.243,
+                -68.001
               ],
               "maps": "https://maps.google.com/?q=G3+Log%C3%ADstica+Zona+Industrial+San+Diego+Valencia",
               "horario": "Lunes a viernes, 9:00am - 12:00pm y 2:00pm - 3:30pm",
@@ -855,8 +1164,8 @@
               "nombre": "Asociación de Ejecutivos del estado Carabobo (AEEC)",
               "direccion": "Av. 119 Teodoro Gubaira, Edif. 122-145, Urbanización Valle de Camoruco (4ta Avenida de Prebo), Valencia",
               "coords": [
-                10.1730,
-                -68.0090
+                10.173,
+                -68.009
               ],
               "maps": "https://maps.app.goo.gl/e9962zFSQRTUVaoC6",
               "instagram": "aeecoficial",
@@ -884,8 +1193,8 @@
               "nombre": "Grupo Nezco Venezuela — Valencia",
               "direccion": "Calle Lisandro Ramírez #97-30, Parroquia San Blas, Valencia",
               "coords": [
-                10.1660,
-                -68.0030
+                10.166,
+                -68.003
               ],
               "maps": "https://maps.google.com/?q=Calle+Lisandro+Ram%C3%ADrez+San+Blas+Valencia",
               "whatsapp": "+584246491600",
@@ -905,8 +1214,8 @@
               "nombre": "Casa Amira — Amira Studio & Mosaico",
               "direccion": "Casa Amira, Calle Alejo Zuluaga, Av. Z, El Trigal Norte, Valencia",
               "coords": [
-                10.1700,
-                -68.0150
+                10.17,
+                -68.015
               ],
               "maps": "https://maps.google.com/?q=Casa+Amira+Calle+Alejo+Zuluaga+El+Trigal+Norte+Valencia",
               "instagram": "_amirastudio",
@@ -968,6 +1277,55 @@
                 "medicamentos e insumos médicos"
               ],
               "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "Ballroom Valencia / Fundación MAVID",
+              "direccion": "Urb. Tarapío, Calle 189 c/c Av. 104, Naguanagua (a 2 cuadras del semáforo de la 190) · Horario: L-V 8:30am-4pm, Sáb 9am-1pm",
+              "coords": [
+                10.253,
+                -68.012
+              ],
+              "maps": "https://maps.google.com/?q=10.253,-68.012",
+              "instagram": "ballroom.vzla",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Ballroom Venezuela / Fundación MAVID"
+            },
+            {
+              "nombre": "CONNECTION ACADEMY",
+              "direccion": "SECTOR LA CANDELARIA CENTRO COMERCIAL BAHIA IMPERIAL",
+              "coords": [
+                10.1774,
+                -68.0068
+              ],
+              "maps": "https://maps.google.com/?q=10.1774,-68.0068",
+              "instagram": "connectionacademy_ve",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Organizado por la Institucion Academica"
+            },
+            {
+              "nombre": "Plaza de flor amarillo.",
+              "direccion": "Plaza de flor amarillo, c",
+              "coords": [
+                10.1381,
+                -67.9449
+              ],
+              "maps": "https://maps.google.com/?q=10.1381,-67.9449",
+              "telefono": "04247608331",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "pañales de bebé",
+                "ropa en buen estado"
+              ],
+              "fuente": "Fuí personalmente"
             }
           ]
         }
@@ -1046,8 +1404,8 @@
               "nombre": "FCU-UCV — Plaza Rectorado",
               "direccion": "Plaza Rectorado, Universidad Central de Venezuela (UCV), Caracas",
               "coords": [
-                10.4900,
-                -66.8900
+                10.49,
+                -66.89
               ],
               "maps": "https://maps.google.com/?q=Plaza+Rectorado+UCV+Caracas",
               "recibe": [
@@ -1065,8 +1423,8 @@
               "nombre": "Alcaldía de Chacao — Sede de Desarrollo Social",
               "direccion": "Sede de Desarrollo Social, Calle Los Ángeles, lateral al CC Sambil Chacao, Municipio Chacao",
               "coords": [
-                10.4960,
-                -66.8540
+                10.496,
+                -66.854
               ],
               "maps": "https://maps.google.com/?q=Calle+Los+%C3%81ngeles+Sambil+Chacao+Caracas",
               "instagram": "alcaldiachacao",
@@ -1082,8 +1440,8 @@
               "nombre": "Edificio Rita Palace — Los Caobos",
               "direccion": "Edif. Rita Palace, Av. La Salle, Planta Baja, Los Caobos",
               "coords": [
-                10.5010,
-                -66.9130
+                10.501,
+                -66.913
               ],
               "maps": "https://maps.google.com/?q=Edificio+Rita+Palace+Los+Caobos+Caracas",
               "whatsapp": "+584145634459",
@@ -1142,8 +1500,8 @@
               "nombre": "Iglesia San Bernardino de Siena",
               "direccion": "Parroquia San Bernardino, Caracas",
               "coords": [
-                10.5060,
-                -66.8980
+                10.506,
+                -66.898
               ],
               "maps": "https://maps.google.com/?q=Iglesia+San+Bernardino+de+Siena+Caracas",
               "recibe": [
@@ -1191,8 +1549,8 @@
               "nombre": "Rescatistas y Vecinos — Altamira CAF",
               "direccion": "Altamira, frente a la sede de la CAF, Caracas",
               "coords": [
-                10.4950,
-                -66.8470
+                10.495,
+                -66.847
               ],
               "maps": "https://maps.google.com/?q=CAF+Altamira+Caracas",
               "contacto": "Victoria Castillo 0412-1937746 / Desireé Lugo 0424-9050118",
@@ -1252,8 +1610,8 @@
               "nombre": "Toneladas de Alegría",
               "direccion": "Edificio VVZ, Av. Sorocaima, Caracas",
               "coords": [
-                10.4920,
-                -66.8580
+                10.492,
+                -66.858
               ],
               "maps": "https://maps.google.com/?q=Edificio+VVZ+Av+Sorocaima+Caracas",
               "instagram": "toneladasdealegria",
@@ -1287,6 +1645,24 @@
                 "ropa en buen estado"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Iglesia Santo Domingo Savio",
+              "direccion": "A una cuadra de la estación de policia",
+              "coords": [
+                10.445,
+                -66.9276
+              ],
+              "maps": "https://maps.google.com/?q=10.445,-66.9276",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado"
+              ],
+              "fuente": "Fui personalmente"
             }
           ]
         }
@@ -1314,6 +1690,48 @@
           "nombre": "Punto Fijo",
           "centros": [
             {
+              "nombre": "Alcaldía de Carirubana — Plazoleta del Mercado Turístico",
+              "direccion": "Plazoleta del Mercado Turístico, Av. Principal Antiguo Aeropuerto, Parroquia Norte, Punto Fijo (Municipio Carirubana) · Horario: 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                11.7045,
+                -70.215
+              ],
+              "maps": "https://maps.google.com/?q=Mercado+Tur%C3%ADstico+Punto+Fijo",
+              "instagram": "alcariubana",
+              "telefono": "+584126617682",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Contactos y coordinación: 0412-661-7682 · 0412-672-5298. Reciben también colchonetas y ropa de cama en buen estado.",
+              "fuente": "Flyer oficial Alcaldía de Carirubana · @alcariubana · @somosimaseo"
+            },
+            {
+              "nombre": "Total Motos Falcón",
+              "direccion": "Calle Peninsular, esquina Las Palmas, Local 2, diagonal a Imaseo, Punto Fijo · Horario: a partir de la 1:00 p.m.",
+              "coords": [
+                11.708,
+                -70.21
+              ],
+              "maps": "https://maps.google.com/?q=Total+Motos+Falc%C3%B3n+Punto+Fijo",
+              "instagram": "punto_fijo_novedades",
+              "telefono": "+584126663055",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Story @punto_fijo_novedades · Total Motos Falcón"
+            },
+            {
               "nombre": "GoldStars Gym — Sede Sambil",
               "direccion": "GoldStars Gym, Sambil Paraguaná, Punto Fijo",
               "coords": [
@@ -1338,7 +1756,7 @@
               "nombre": "GoldStars Gym — Sede CC Las Virtudes",
               "direccion": "GoldStars Gym, Centro Comercial Las Virtudes, Punto Fijo",
               "coords": [
-                11.6850,
+                11.685,
                 -70.2106
               ],
               "maps": "https://maps.google.com/?q=Centro+Comercial+Las+Virtudes+Punto+Fijo",
@@ -1359,7 +1777,7 @@
               "nombre": "Alas Viajeras",
               "direccion": "Oficina Alas Viajeras, Hotel Puerto Plata, Punto Fijo",
               "coords": [
-                11.6960,
+                11.696,
                 -70.2153
               ],
               "maps": "https://maps.google.com/?q=Hotel+Puerto+Plata+Punto+Fijo",
@@ -1400,6 +1818,50 @@
               "fuente": "Flyer oficial de Cáritas Diócesis de Punto Fijo · Lista colaborativa de @marielozadab y @nathaliesayago"
             }
           ]
+        },
+        {
+          "nombre": "Coro",
+          "centros": [
+            {
+              "nombre": "RE/MAX Avanti",
+              "direccion": "C.C.R 'Las Virtudes' Local F1-5",
+              "coords": [
+                11.6585,
+                -70.2048
+              ],
+              "maps": "https://maps.google.com/?q=11.6585,-70.2048",
+              "instagram": "avantiremax.ve",
+              "telefono": "+584146967465",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado"
+              ],
+              "fuente": "Instagram"
+            },
+            {
+              "nombre": "Tambú Sushi",
+              "direccion": "C.C.R 'Las Virtudes' Nivel galería",
+              "coords": [
+                11.658,
+                -70.2056
+              ],
+              "maps": "https://maps.google.com/?q=11.658,-70.2056",
+              "instagram": "tambusushivzla",
+              "telefono": "+584220291641",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Instagram"
+            }
+          ]
         }
       ]
     },
@@ -1421,8 +1883,8 @@
               "nombre": "G3 Logística — Barquisimeto",
               "direccion": "Zona Industrial II, Av. Principal con Calle 6, locales 110-111-112",
               "coords": [
-                10.0690,
-                -69.3140
+                10.069,
+                -69.314
               ],
               "maps": "https://maps.google.com/?q=G3+Log%C3%ADstica+Zona+Industrial+II+Barquisimeto",
               "horario": "Lunes a viernes, 9:00am - 12:00pm y 2:00pm - 3:30pm",
@@ -1450,8 +1912,8 @@
               "nombre": "Grupo Nezco Venezuela — Barquisimeto",
               "direccion": "Carrera 18 con Calle 49, al lado de SEIPCA, Puerta Negra, Barquisimeto",
               "coords": [
-                10.0700,
-                -69.3220
+                10.07,
+                -69.322
               ],
               "maps": "https://maps.google.com/?q=Carrera+18+Calle+49+SEIPCA+Barquisimeto",
               "whatsapp": "+584126938188",
@@ -1471,8 +1933,8 @@
               "nombre": "Operación Todos con VZLA — Iribarren",
               "direccion": "Av. Venezuela al lado del Sambil, canal lento desde la Av. Morán hasta el Sambil, al lado de Seguros Altamira, Barquisimeto",
               "coords": [
-                10.0640,
-                -69.3200
+                10.064,
+                -69.32
               ],
               "maps": "https://maps.google.com/?q=Sambil+Barquisimeto+Av+Venezuela",
               "instagram": "convzlacomando",
@@ -1574,6 +2036,39 @@
                 "ropa en buen estado"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "FUNDACIÓN TEJIENDO REDES",
+              "direccion": "CALLE 41 ENTRE CARRERAS 13 Y 14 CASA 13-50",
+              "coords": [
+                10.0595,
+                -69.3323
+              ],
+              "maps": "https://maps.google.com/?q=10.0595,-69.3323",
+              "instagram_url": "https://www.instagram.com/fundaciontejiendoredes?igsh=MTlqamVjMnBvMjB4cw==",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Fui personalmente"
+            },
+            {
+              "nombre": "ESTADIO DE SOFTBOL Aquiles Machado",
+              "direccion": "Calle 64 con carrera 13, detrás de las piscinas Bolivarianas",
+              "coords": [
+                10.05,
+                -69.3545
+              ],
+              "maps": "https://maps.google.com/?q=10.05,-69.3545",
+              "telefono": "4120179138",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Conozco al organizador del punto y voy saliendo para allá yo mismo a colaborar"
             }
           ]
         },
@@ -1584,8 +2079,8 @@
               "nombre": "Operación Todos con VZLA — Palavecino",
               "direccion": "Los Rastrojos, Calle 3, esquina Calle Aquilino Juárez, diagonal Centro Deportivo El Cuadrito, detrás de la Escuela Pedro Gual",
               "coords": [
-                10.0150,
-                -69.2300
+                10.015,
+                -69.23
               ],
               "maps": "https://maps.google.com/?q=Los+Rastrojos+Cabudare+Palavecino+Lara",
               "instagram": "convzlacomando",
@@ -1611,8 +2106,8 @@
               "nombre": "Operación Todos con VZLA — Jiménez",
               "direccion": "Avenida 5 entre Calle 13 y 14, Parroquia Juan Bautista Rodríguez, Quíbor",
               "coords": [
-                9.9290,
-                -69.6320
+                9.929,
+                -69.632
               ],
               "maps": "https://maps.google.com/?q=Av+5+Calle+13+Qu%C3%ADbor+Lara",
               "instagram": "convzlacomando",
@@ -1638,8 +2133,8 @@
               "nombre": "Operación Todos con VZLA — Crespo",
               "direccion": "Calle 13 entre Carreras 12 y 13, Duaca",
               "coords": [
-                10.2700,
-                -69.1390
+                10.27,
+                -69.139
               ],
               "maps": "https://maps.google.com/?q=Calle+13+Carrera+12+Duaca+Lara",
               "instagram": "convzlacomando",
@@ -1665,8 +2160,8 @@
               "nombre": "Operación Todos con VZLA — Torres",
               "direccion": "Academia Cecilio Acosta, Av. Dr. Pastor Oropeza entre calles 6 y 7, Sector Antonio José de Sucre, una cuadra antes de Monpet, Carora",
               "coords": [
-                10.1750,
-                -70.0790
+                10.175,
+                -70.079
               ],
               "maps": "https://maps.google.com/?q=Academia+Cecilio+Acosta+Av+Pastor+Oropeza+Carora",
               "instagram": "convzlacomando",
@@ -1739,8 +2234,8 @@
               "nombre": "Centro de Acopio San Antonio — Bulevar de Las Minas",
               "direccion": "Bulevar de Las Minas, frente al Farmatodo, San Antonio de Los Altos",
               "coords": [
-                10.3700,
-                -66.9450
+                10.37,
+                -66.945
               ],
               "maps": "https://maps.google.com/?q=Bulevar+de+Las+Minas+San+Antonio+de+Los+Altos",
               "recibe": [
@@ -1758,8 +2253,8 @@
               "nombre": "Complejo Cultural Los Salias",
               "direccion": "Complejo Cultural Los Salias, San Antonio de Los Altos",
               "coords": [
-                10.3720,
-                -66.9460
+                10.372,
+                -66.946
               ],
               "maps": "https://maps.google.com/?q=Complejo+Cultural+Los+Salias+San+Antonio+de+Los+Altos",
               "recibe": [
@@ -1792,8 +2287,8 @@
               "nombre": "Alcaldía de Baruta — Sede de la Policía",
               "direccion": "Sede de la Policía Municipal de Baruta, Municipio Baruta",
               "coords": [
-                10.4350,
-                -66.8660
+                10.435,
+                -66.866
               ],
               "maps": "https://maps.google.com/?q=Polic%C3%ADa+de+Baruta+Caracas",
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
@@ -1802,8 +2297,8 @@
               "nombre": "Alcaldía de Baruta — Sede Protección Civil El Cafetal",
               "direccion": "Sede de Protección Civil El Cafetal, Municipio Baruta",
               "coords": [
-                10.4500,
-                -66.8350
+                10.45,
+                -66.835
               ],
               "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+El+Cafetal+Caracas",
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
@@ -1812,8 +2307,8 @@
               "nombre": "Alcaldía de Baruta — Concha Acústica de Bello Monte",
               "direccion": "Concha Acústica, Colinas de Bello Monte, Municipio Baruta · Horario: 24 horas",
               "coords": [
-                10.4830,
-                -66.8650
+                10.483,
+                -66.865
               ],
               "maps": "https://maps.google.com/?q=Concha+Ac%C3%BAstica+Bello+Monte+Caracas",
               "instagram": "alcaldiabaruta",
@@ -1823,8 +2318,8 @@
               "nombre": "Base de Operaciones Tu Gruero — Los Dos Caminos",
               "direccion": "Av. El Carmen de Los Dos Caminos, diagonal a Iglesia Claret",
               "coords": [
-                10.4940,
-                -66.8420
+                10.494,
+                -66.842
               ],
               "maps": "https://maps.google.com/?q=Iglesia+Claret+Los+Dos+Caminos+Caracas",
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
@@ -1833,8 +2328,8 @@
               "nombre": "G3 Logística — Caracas",
               "direccion": "Av. Principal de Los Cortijos de Lourdes, Edificio Maploca, Municipio Sucre",
               "coords": [
-                10.4900,
-                -66.8350
+                10.49,
+                -66.835
               ],
               "maps": "https://maps.google.com/?q=Edificio+Maploca+Los+Cortijos+Caracas",
               "horario": "Lunes a viernes, 9:00am - 12:00pm y 2:00pm - 3:30pm",
@@ -1844,8 +2339,8 @@
               "nombre": "Polideportivo Los Naranjos (Belisario Academy)",
               "direccion": "Polideportivo Los Naranjos, Av. Este 3, Los Naranjos, Municipio El Hatillo",
               "coords": [
-                10.4430,
-                -66.8350
+                10.443,
+                -66.835
               ],
               "maps": "https://maps.google.com/?q=Polideportivo+Los+Naranjos+Caracas",
               "fuente": "AJE Venezuela · ajevenezuela.org/ayuda-venezuela/acopio"
@@ -1866,6 +2361,62 @@
               ],
               "nota": "⚠️ URGENTE: Alimento para bebés y pañales son las necesidades prioritarias.",
               "fuente": "Flyer Venezuela Unida · @cazamosfakenews · @lavidadenos · Lista colaborativa @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Canchas de fútbol striker",
+              "direccion": "El cafetal San Luis",
+              "coords": [
+                10.4667,
+                -66.8426
+              ],
+              "maps": "https://maps.google.com/?q=10.4667,-66.8426",
+              "instagram": "hibrido.fit",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Me lo dijo alguien de total confianza"
+            },
+            {
+              "nombre": "Las Tabaqueras",
+              "direccion": "Av. Sorocaima, Urb Juan Iturbe, Edif. Las Tabaqueras, La Trinidad.",
+              "coords": [
+                10.433,
+                -66.8593
+              ],
+              "maps": "https://maps.google.com/?q=10.433,-66.8593",
+              "instagram": "rodandoenfamiliaporvenezuela",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Me lo dijo algo de confianza"
+            },
+            {
+              "nombre": "UNEFA SEDE PRINCIPAL",
+              "direccion": "entre la Av. La Estancia y la Av. Caracas con calle Holanda, frente al Edificio Banaven (Cubo Negro)",
+              "coords": [
+                10.4831,
+                -66.8532
+              ],
+              "maps": "https://maps.google.com/?q=10.4831,-66.8532",
+              "instagram_url": "https://www.instagram.com/riverabastardo?igsh=MTU5djY3ZzRvenFtcQ==",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Post del rector de la universidad en instagram"
             }
           ]
         }
@@ -1911,6 +2462,69 @@
                 "abrigos y otros implementos de protección"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "UECA \"Dr. Braulio Pérez Marcio\"",
+              "direccion": "Urbanización Alberto ravell, detrás del hospital universitario Manuel Núñez Tovar",
+              "coords": [
+                9.7429,
+                -63.1997
+              ],
+              "maps": "https://maps.google.com/?q=9.7429,-63.1997",
+              "instagram": "uecabraulioperezmarcio.oficial",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "soy estudiante de la institución"
+            },
+            {
+              "nombre": "Cede postgrado unesr",
+              "direccion": "Av libertador",
+              "coords": [
+                9.7313,
+                -63.1947
+              ],
+              "maps": "https://maps.google.com/?q=9.7313,-63.1947",
+              "telefono": "4121983945",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Información de la universidad"
+            },
+            {
+              "nombre": "Universidad de oriente",
+              "direccion": "Avenida universidad",
+              "coords": [
+                9.7254,
+                -63.1902
+              ],
+              "maps": "https://maps.google.com/?q=9.7254,-63.1902",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Soy estudiante de la universidad"
+            },
+            {
+              "nombre": "Iglesia Casa de Dios",
+              "direccion": "Av. Libertador, Antiguo galpón de la Mitsubishi, detrás de Papa y son",
+              "coords": [
+                9.738,
+                -63.1658
+              ],
+              "maps": "https://maps.google.com/?q=9.738,-63.1658",
+              "instagram": "Casadediossobrenatural",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Asisto a la iglesia y es por eso que se la información"
             }
           ]
         }
@@ -1934,8 +2548,8 @@
               "nombre": "Centro de Acopio 5ta Transversal",
               "direccion": "5ta transversal, Av. Gran Mariscal y Av. Santa Rosa, entre Zen y Los Hermanos Wasi",
               "coords": [
-                10.4610,
-                -64.1760
+                10.461,
+                -64.176
               ],
               "maps": "https://maps.google.com/?q=5ta+transversal+Av+Gran+Mariscal+Santa+Rosa+Cuman%C3%A1",
               "horario": "9:00am - 6:00pm",
@@ -1953,8 +2567,8 @@
               "nombre": "Cruz Roja Venezolana — Sucre",
               "direccion": "Sede de la Cruz Roja Venezolana, Municipio Sucre, Cumaná",
               "coords": [
-                10.4560,
-                -64.1720
+                10.456,
+                -64.172
               ],
               "maps": "https://maps.google.com/?q=Cruz+Roja+Venezolana+Cuman%C3%A1",
               "recibe": [
@@ -1989,7 +2603,7 @@
               "direccion": "Sedes de Protección Civil y Administración de Desastres, Municipio Sucre, Cumaná",
               "coords": [
                 10.4548,
-                -64.1710
+                -64.171
               ],
               "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+Cuman%C3%A1+Sucre",
               "recibe": [
@@ -2007,8 +2621,8 @@
               "nombre": "UNESR — Núcleo Mariscal Antonio José de Sucre",
               "direccion": "Universidad Nacional Experimental Simón Rodríguez, Núcleo Mariscal Antonio José de Sucre, Cumaná",
               "coords": [
-                10.4600,
-                -64.1730
+                10.46,
+                -64.173
               ],
               "maps": "https://maps.google.com/?q=UNESR+N%C3%BAcleo+Cuman%C3%A1",
               "horario": "8:30am - 5:30pm",
@@ -2031,8 +2645,8 @@
               "nombre": "UNESR — Núcleo Mariscal Antonio José de Sucre",
               "direccion": "Universidad Nacional Experimental Simón Rodríguez, Núcleo Mariscal Antonio José de Sucre, Mariguitar",
               "coords": [
-                10.4340,
-                -63.9170
+                10.434,
+                -63.917
               ],
               "maps": "https://maps.google.com/?q=UNESR+Mariguitar+Sucre",
               "horario": "8:30am - 5:30pm",
@@ -2060,8 +2674,8 @@
               "nombre": "Universidad de Los Andes — Núcleo Táchira",
               "direccion": "Núcleo Táchira de la ULA, San Cristóbal",
               "coords": [
-                7.7660,
-                -72.2300
+                7.766,
+                -72.23
               ],
               "maps": "https://maps.google.com/?q=ULA+N%C3%BAcleo+T%C3%A1chira+San+Crist%C3%B3bal",
               "fuente": "Lista colaborativa @lorenadavilaaaaa"
@@ -2070,8 +2684,8 @@
               "nombre": "Ven Únete — Sede Civil",
               "direccion": "Sede de Civil, Edificio A, Cochineras, San Cristóbal",
               "coords": [
-                7.7670,
-                -72.2160
+                7.767,
+                -72.216
               ],
               "maps": "https://maps.google.com/?q=UNET+Cochineras+San+Crist%C3%B3bal",
               "horario": "A partir del jueves 25 de junio",
@@ -2141,7 +2755,7 @@
               "direccion": "Boulevard de la UCAT, sede vieja, Barrio Obrero, San Cristóbal",
               "coords": [
                 7.7607,
-                -72.2350
+                -72.235
               ],
               "maps": "https://maps.google.com/?q=UCAT+sede+vieja+Barrio+Obrero+San+Crist%C3%B3bal",
               "horario": "25 y 26 de junio",
@@ -2160,8 +2774,8 @@
               "nombre": "Hotel Eurobuilding El Tama — Idea Market local 5",
               "direccion": "Hotel Eurobuilding El Tama, Idea Market, local 5, San Cristóbal",
               "coords": [
-                7.7750,
-                -72.2050
+                7.775,
+                -72.205
               ],
               "maps": "https://maps.google.com/?q=Hotel+Eurobuilding+El+Tama+San+Crist%C3%B3bal",
               "fuente": "Lista colaborativa @lorenadavilaaaaa"
@@ -2171,7 +2785,7 @@
               "direccion": "Centro de Acopio Supermarket SC, San Cristóbal",
               "coords": [
                 7.7669,
-                -72.2250
+                -72.225
               ],
               "maps": "https://maps.google.com/?q=Supermarket+SC+San+Crist%C3%B3bal",
               "instagram": "supermarket_sc",
@@ -2182,7 +2796,7 @@
               "direccion": "Madeco, Av. Cuatricentenaria, San Cristóbal",
               "coords": [
                 7.7669,
-                -72.2250
+                -72.225
               ],
               "maps": "https://maps.google.com/?q=Madeco+Av+Cuatricentenaria+San+Crist%C3%B3bal",
               "instagram": "madeco_contigo",
@@ -2202,8 +2816,8 @@
               "nombre": "Centro de Acopio UNET — FUNDEUNET",
               "direccion": "Centro de Acopio UNET (Universidad Nacional Experimental del Táchira), San Cristóbal",
               "coords": [
-                7.7680,
-                -72.2270
+                7.768,
+                -72.227
               ],
               "maps": "https://maps.google.com/?q=UNET+San+Crist%C3%B3bal",
               "recibe": [
@@ -2220,8 +2834,8 @@
               "nombre": "Centro de Acopio Universitario — FCCU, Cogobierno y Alpha",
               "direccion": "Sede Industrial, Edificio A, al lado de Proveeduría (pasando la peluquería), San Cristóbal",
               "coords": [
-                7.7680,
-                -72.2270
+                7.768,
+                -72.227
               ],
               "maps": "https://maps.google.com/?q=UNET+Sede+Industrial+San+Crist%C3%B3bal",
               "instagram": "alphauniversidad",
@@ -2236,6 +2850,37 @@
               ],
               "nota": "Necesitan mucha agua, leche en polvo de bebé y ropa de bebé. Todo debe entregarse limpio y en buen estado. Iniciativa universitaria de FCCU (Federación de Centros Universitarios), Cogobierno Estudiantil y Alpha.",
               "fuente": "Flyer @alphauniversidad · Solidaridad con Venezuela"
+            },
+            {
+              "nombre": "Policlínica Táchira",
+              "direccion": "Av. Rotaria",
+              "coords": [
+                7.7587,
+                -72.2142
+              ],
+              "maps": "https://maps.google.com/?q=7.7587,-72.2142",
+              "recibe": [
+                "alimentos no perecederos",
+                "ropa en buen estado",
+                "alimentos para mascotas"
+              ],
+              "fuente": "fui directamente"
+            },
+            {
+              "nombre": "Universidades experimental del Tachira (UNET)",
+              "direccion": "Pueblo nuevo, San Cristóbal",
+              "coords": [
+                7.7923,
+                -72.2018
+              ],
+              "maps": "https://maps.google.com/?q=7.7923,-72.2018",
+              "instagram": "ven.unete",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado"
+              ],
+              "fuente": "Fui personalmente"
             }
           ]
         },
@@ -2247,7 +2892,7 @@
               "direccion": "Brave Community Fitness, al lado del Hotel Manuel, San Antonio del Táchira",
               "coords": [
                 7.8146,
-                -72.4430
+                -72.443
               ],
               "maps": "https://maps.google.com/?q=Brave+Community+Fitness+San+Antonio+T%C3%A1chira",
               "whatsapp": "+573508741816",
@@ -2334,8 +2979,8 @@
               "nombre": "Centro de Acopio Municipio Sucre",
               "direccion": "Urb. El Trompillo 2, parroquia Valmore Rodríguez, casa #39, Municipio Sucre",
               "coords": [
-                9.4720,
-                -70.7400
+                9.472,
+                -70.74
               ],
               "maps": "https://maps.google.com/?q=Urb+El+Trompillo+Valmore+Rodr%C3%ADguez+Sucre+Trujillo",
               "contacto": "Gabriela Delgado 0412-1644063",
@@ -2489,8 +3134,8 @@
               "nombre": "Colegio de Médicos del Zulia",
               "direccion": "Av. 16 con Calle 56, Maracaibo 4005",
               "coords": [
-                10.6650,
-                -71.6200
+                10.665,
+                -71.62
               ],
               "maps": "https://maps.google.com/?q=Colegio+de+M%C3%A9dicos+Maracaibo+Av+16+Calle+56",
               "instagram": "comezu_2021",
@@ -2504,8 +3149,8 @@
               "nombre": "\"Korea Japón Motor\"",
               "direccion": "Av. 15 Delicias con Calle 69, pasando la Clínica de Izot, Maracaibo",
               "coords": [
-                10.6480,
-                -71.6230
+                10.648,
+                -71.623
               ],
               "maps": "https://maps.google.com/?q=Av+15+Delicias+Calle+69+Maracaibo",
               "recibe": [
@@ -2521,8 +3166,8 @@
               "nombre": "\"Pandaventura\" CC Galerías",
               "direccion": "CC Galerías Mall, planta baja, frente al Restaurante Oasis, Maracaibo",
               "coords": [
-                10.6740,
-                -71.6080
+                10.674,
+                -71.608
               ],
               "maps": "https://maps.google.com/?q=CC+Galer%C3%ADas+Mall+Maracaibo",
               "recibe": [
@@ -2538,8 +3183,8 @@
               "nombre": "Basílica de Chiquinquirá",
               "direccion": "Av. 12 con Calle 96, final Paseo Las Ciencias, Maracaibo",
               "coords": [
-                10.6380,
-                -71.6380
+                10.638,
+                -71.638
               ],
               "maps": "https://maps.google.com/?q=Bas%C3%ADlica+Chiquinquir%C3%A1+Maracaibo",
               "recibe": [
@@ -2555,8 +3200,8 @@
               "nombre": "Alcaldía de Maracaibo — Plaza de la República",
               "direccion": "Plaza de la República, Calle 77 (5 de Julio) con Av. 3Y, Maracaibo",
               "coords": [
-                10.6710,
-                -71.6160
+                10.671,
+                -71.616
               ],
               "maps": "https://maps.google.com/?q=Plaza+de+la+Rep%C3%BAblica+Calle+77+Maracaibo",
               "instagram": "alcaldiabmcbo",
@@ -2567,8 +3212,8 @@
               "nombre": "Alcaldía de Maracaibo — Estación Central del Tranvía",
               "direccion": "Av. 2 El Milagro, dentro del Parque Vereda del Lago, Maracaibo",
               "coords": [
-                10.6850,
-                -71.6090
+                10.685,
+                -71.609
               ],
               "maps": "https://maps.google.com/?q=Parque+Vereda+del+Lago+Maracaibo",
               "instagram": "alcaldiabmcbo",
@@ -2579,8 +3224,8 @@
               "nombre": "Alcaldía de Maracaibo — Plaza Canta Claro",
               "direccion": "Plaza Canta Claro, Urbanización Canta Claro, entre calles 51 y 52, Maracaibo",
               "coords": [
-                10.6580,
-                -71.6020
+                10.658,
+                -71.602
               ],
               "maps": "https://maps.google.com/?q=Urbanizaci%C3%B3n+Canta+Claro+Maracaibo",
               "instagram": "alcaldiabmcbo",
@@ -2591,8 +3236,8 @@
               "nombre": "Alcaldía de Maracaibo — Centro Deportivo y Cultura Patria Joven",
               "direccion": "Av. 92 y 94, entre calles 79G y 79H, Maracaibo",
               "coords": [
-                10.6430,
-                -71.6440
+                10.643,
+                -71.644
               ],
               "maps": "https://maps.google.com/?q=Centro+Deportivo+Patria+Joven+Maracaibo",
               "instagram": "alcaldiabmcbo",
@@ -2603,8 +3248,8 @@
               "nombre": "Alcaldía de Maracaibo — Plaza Para Todos (Antigua Plaza de Toros)",
               "direccion": "Plaza Para Todos (Antigua Plaza de Toros), Av. 16 Guajira con prolongación Circunvalación 2, Maracaibo",
               "coords": [
-                10.6390,
-                -71.6480
+                10.639,
+                -71.648
               ],
               "maps": "https://maps.google.com/?q=Antigua+Plaza+de+Toros+Maracaibo",
               "instagram": "alcaldiabmcbo",
@@ -2615,8 +3260,8 @@
               "nombre": "Grupo Nezco Venezuela — Maracaibo",
               "direccion": "Av. 12 entre 68-69, Local 69-95, Sector Tierra Negra, Maracaibo",
               "coords": [
-                10.6630,
-                -71.6210
+                10.663,
+                -71.621
               ],
               "maps": "https://maps.google.com/?q=Av+12+entre+68+69+Tierra+Negra+Maracaibo",
               "whatsapp": "+584246081907",
@@ -2636,8 +3281,8 @@
               "nombre": "U.E. Nuestra Sra. del Valle — VALLEMUN",
               "direccion": "Unidad Educativa Nuestra Sra. del Valle, Maracaibo",
               "coords": [
-                10.6610,
-                -71.6080
+                10.661,
+                -71.608
               ],
               "maps": "https://maps.google.com/?q=Unidad+Educativa+Nuestra+Se%C3%B1ora+del+Valle+Maracaibo",
               "horario": "Viernes 26 de junio, 8:00am - 5:00pm",
@@ -2656,8 +3301,8 @@
               "nombre": "Elio's Bakery Shop — Kiosko Azul",
               "direccion": "Kiosko Azul, Zona Oeste, Valle Claro, frente a los edificios, al lado de Súper Fruty, Maracaibo",
               "coords": [
-                10.6800,
-                -71.6400
+                10.68,
+                -71.64
               ],
               "maps": "https://maps.google.com/?q=Valle+Claro+Zona+Oeste+Maracaibo",
               "instagram": "eliosbakeryshop",
@@ -2675,8 +3320,8 @@
               "nombre": "Bakery Motion — Plaza 75",
               "direccion": "Plaza 75, Local 1, Calle 75 con Avenida 3H, Sector La Lago, Maracaibo",
               "coords": [
-                10.6680,
-                -71.6230
+                10.668,
+                -71.623
               ],
               "maps": "https://maps.google.com/?q=Plaza+75+Calle+75+Avenida+3H+La+Lago+Maracaibo",
               "instagram": "bakerymotion",
@@ -2696,8 +3341,8 @@
               "nombre": "BioSouthTech / UNIMED — Clínica Centro Médico Docente Paraíso",
               "direccion": "Clínica Centro Médico Docente Paraíso — Piso 1 (Unidad de Investigación Dr. \"Shubert Camacho\" UNIMED) y Planta Baja (Unidad de Anatomía Patológica, Dra. Iría Lozano), Maracaibo",
               "coords": [
-                10.6700,
-                -71.6160
+                10.67,
+                -71.616
               ],
               "maps": "https://maps.google.com/?q=Cl%C3%ADnica+Centro+M%C3%A9dico+Docente+Para%C3%ADso+Maracaibo",
               "recibe": [
@@ -2711,8 +3356,8 @@
               "nombre": "Cruz Roja Venezolana — Filial Maracaibo",
               "direccion": "Sede de la Cruz Roja Venezolana Filial Maracaibo, Av. 11 con esquina Calle 83, Sector Veritas, Maracaibo",
               "coords": [
-                10.6650,
-                -71.6150
+                10.665,
+                -71.615
               ],
               "maps": "https://maps.google.com/?q=Cruz+Roja+Venezolana+Maracaibo+Av+11+Calle+83",
               "instagram": "cruzrojamaracaibo",
@@ -2750,8 +3395,8 @@
               "nombre": "Synergy — CC Doral Center Mall",
               "direccion": "Synergy, CC Doral Center Mall, Maracaibo",
               "coords": [
-                10.6920,
-                -71.6250
+                10.692,
+                -71.625
               ],
               "maps": "https://maps.google.com/?q=Synergy+Doral+Center+Mall+Maracaibo",
               "recibe": [
@@ -2767,8 +3412,8 @@
               "nombre": "Synergy — Mall Paseo San Francisco",
               "direccion": "Synergy, Mall Paseo San Francisco, San Francisco (zona metropolitana de Maracaibo)",
               "coords": [
-                10.6100,
-                -71.6600
+                10.61,
+                -71.66
               ],
               "maps": "https://maps.google.com/?q=Synergy+Mall+Paseo+San+Francisco+Zulia",
               "recibe": [
@@ -2842,8 +3487,8 @@
               "nombre": "Pitts Bowling",
               "direccion": "CC Costa Verde, Av. Bella Vista, Maracaibo 4002",
               "coords": [
-                10.6720,
-                -71.6200
+                10.672,
+                -71.62
               ],
               "maps": "https://maps.google.com/?q=Pitts+Bowling+CC+Costa+Verde+Maracaibo",
               "recibe": [
@@ -2856,11 +3501,31 @@
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
             },
             {
+              "nombre": "Centro de Arte de Maracaibo Lía Bermúdez (CAMLB)",
+              "direccion": "Sede del CAMLB, frente al Terminal Lacustre, Plaza Baralt, Maracaibo · Horario: todos los días, 9:00 a.m. a 5:00 p.m.",
+              "coords": [
+                10.636,
+                -71.612
+              ],
+              "maps": "https://maps.google.com/?q=Centro+de+Arte+L%C3%ADa+Berm%C3%BAdez+Plaza+Baralt+Maracaibo",
+              "instagram": "camliabermudez",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "fuente": "Flyer @camliabermudez"
+            },
+            {
               "nombre": "Arena Panter — CC Costa Verde",
               "direccion": "Arena Panter, CC Costa Verde, Av. Bella Vista, Maracaibo · Horario: 2:00 p.m. a 10:00 p.m.",
               "coords": [
-                10.6720,
-                -71.6200
+                10.672,
+                -71.62
               ],
               "maps": "https://maps.google.com/?q=Arena+Panter+CC+Costa+Verde+Maracaibo",
               "instagram": "arenapanter",
@@ -2882,7 +3547,7 @@
               "direccion": "Calle 78 Dr. Portillo con Av. 3E",
               "coords": [
                 10.6727,
-                -71.6160
+                -71.616
               ],
               "maps": "https://maps.google.com/?q=Calle+78+Dr+Portillo+Av+3E+Maracaibo",
               "horario": "8:00am - 4:00pm",
@@ -2902,8 +3567,8 @@
               "nombre": "Fresconi Fresh Market",
               "direccion": "Av. 4 Bella Vista con calle 74 (antiguo Fresconi), Maracaibo",
               "coords": [
-                10.6630,
-                -71.6190
+                10.663,
+                -71.619
               ],
               "maps": "https://maps.google.com/?q=Av+4+Bella+Vista+calle+74+Maracaibo",
               "whatsapp": "+584246514415",
@@ -2924,8 +3589,8 @@
               "nombre": "Hogar Clínica San Rafael",
               "direccion": "Calle 64 con Av. 3F, Sector Las Mercedes",
               "coords": [
-                10.6660,
-                -71.6190
+                10.666,
+                -71.619
               ],
               "maps": "https://maps.google.com/?q=Hogar+Cl%C3%ADnica+San+Rafael+Maracaibo",
               "horario": "8:00am - 4:00pm",
@@ -2945,8 +3610,8 @@
               "nombre": "Ludus Box",
               "direccion": "Barrio Paraíso, Calle 80 entre Av. 19 y 19A, Maracaibo 4002",
               "coords": [
-                10.6630,
-                -71.6090
+                10.663,
+                -71.609
               ],
               "maps": "https://maps.google.com/?q=Barrio+Para%C3%ADso+Calle+80+Av+19+Maracaibo",
               "instagram": "ludusbox",
@@ -2968,7 +3633,7 @@
               "direccion": "Calle 76 entre Av. 3H y 3Y, Edificio Villa Ota II, tercer piso",
               "coords": [
                 10.6695,
-                -71.6170
+                -71.617
               ],
               "maps": "https://maps.app.goo.gl/FRq8wyRKg1a7ikiYA",
               "instagram": "imagolab.ve",
@@ -2999,8 +3664,8 @@
               "nombre": "Protección Civil Maracaibo",
               "direccion": "Av. 15 Delicias con Av. 16 Los Haticos, al lado de Terminal Terrestre Maracaibo",
               "coords": [
-                10.6300,
-                -71.6500
+                10.63,
+                -71.65
               ],
               "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+Maracaibo+Terminal+Terrestre",
               "whatsapp": "+584141479763",
@@ -3020,8 +3685,8 @@
               "nombre": "CAFI",
               "direccion": "Galpón 1, Residencias Santa Lucía, Av. El Milagro",
               "coords": [
-                10.6900,
-                -71.6280
+                10.69,
+                -71.628
               ],
               "maps": "https://maps.google.com/?q=Residencias+Santa+Luc%C3%ADa+Av+El+Milagro+Maracaibo",
               "horario": "A partir del 26/06, 10:00am",
@@ -3036,6 +3701,71 @@
                 "colchones, almohadas y colchones inflables"
               ],
               "fuente": "Flyer comunitario centros de acopio Maracaibo"
+            },
+            {
+              "nombre": "Alfred's Coffee Bar",
+              "direccion": "Av 5 de Julio con Av Bella Vista",
+              "coords": [
+                10.6656,
+                -71.608
+              ],
+              "maps": "https://maps.google.com/?q=10.6656,-71.608",
+              "instagram": "alfredscoffeebar",
+              "recibe": [
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "la cuenta oficial lo publico."
+            },
+            {
+              "nombre": "Basilica de la Chinita",
+              "direccion": "Av. 12 con calle 96, final Paseo Ciencias, Maracaibo, Zulia",
+              "coords": [
+                10.6423,
+                -71.6144
+              ],
+              "maps": "https://maps.google.com/?q=10.6423,-71.6144",
+              "instagram": "basilicachinita",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "la cuenta oficial lo publico."
+            },
+            {
+              "nombre": "Farmacia SAAS Las Mercedes",
+              "direccion": "Avenida Bella Vista con Avenida Universidad",
+              "coords": [
+                10.6816,
+                -71.6056
+              ],
+              "maps": "https://maps.google.com/?q=10.6816,-71.6056",
+              "instagram_url": "https://www.instagram.com/saas.lasmercedes/",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "la cuenta oficial lo publico."
+            },
+            {
+              "nombre": "Fresconi Market",
+              "direccion": "Av Bella Vista con calle 74",
+              "coords": [
+                10.6689,
+                -71.6082
+              ],
+              "maps": "https://maps.google.com/?q=10.6689,-71.6082",
+              "instagram": "entresocios",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "la cuenta oficial lo publico."
             }
           ]
         },
@@ -3075,8 +3805,8 @@
               "nombre": "Alcaldía de Barranquilla — Centro de Acopio",
               "direccion": "Cra 43 #6-120, Barranquillita, Barranquilla",
               "coords": [
-                10.9850,
-                -74.8050
+                10.985,
+                -74.805
               ],
               "maps": "https://maps.google.com/?q=Cra+43+6-120+Barranquillita+Barranquilla",
               "horario": "Lunes a domingo, 8:00am - 4:00pm",
@@ -3116,6 +3846,23 @@
               "maps": "https://maps.google.com/?q=6.338,-75.555",
               "web": "https://calidex.co/",
               "fuente": "Sedes Calidex (courier)"
+            },
+            {
+              "nombre": "Dumbos Restaurante - Bello",
+              "direccion": "Diagonal 59 #32-45, barrio Hermosa Provincia, cerca al CC Puerta del Norte, Bello, Antioquia",
+              "coords": [
+                6.3375,
+                -75.5545
+              ],
+              "maps": "https://maps.google.com/?q=6.3375,-75.5545",
+              "telefono": "+573504500039",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Fundación Carks"
             }
           ]
         },
@@ -3168,6 +3915,22 @@
                 "medicamentos e insumos médicos"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Panggola - Bogotá San Felipe",
+              "direccion": "Calle 76 #23-18, Barrio San Felipe, Bogotá",
+              "coords": [
+                4.666,
+                -74.0555
+              ],
+              "maps": "https://maps.google.com/?q=4.666,-74.0555",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Caracas Chronicles (X)"
             }
           ]
         },
@@ -3259,8 +4022,8 @@
               "nombre": "Comando Con Vzla — Cúcuta",
               "direccion": "Calle 11 A 7MA, Centro Comercial Gran Sam, segundo piso, local 243 GS",
               "coords": [
-                7.8920,
-                -72.5040
+                7.892,
+                -72.504
               ],
               "maps": "https://maps.google.com/?q=Centro+Comercial+Gran+Sam+C%C3%BAcuta",
               "recibe": [
@@ -3314,8 +4077,8 @@
               "nombre": "Institución Educativa Héctor Abad Gómez — Placita de Flores",
               "direccion": "Institución Educativa Héctor Abad Gómez, sede Placita de Flores, Barrio Boston, Medellín",
               "coords": [
-                6.2410,
-                -75.5610
+                6.241,
+                -75.561
               ],
               "maps": "https://maps.google.com/?q=Instituci%C3%B3n+Educativa+H%C3%A9ctor+Abad+G%C3%B3mez+Boston+Medell%C3%ADn",
               "horario": "8:00am - 5:00pm",
@@ -3336,6 +4099,55 @@
               ],
               "maps": "https://maps.google.com/?q=6.233,-75.598",
               "fuente": "Flyer ENVIAR Courier"
+            },
+            {
+              "nombre": "Arroz Caracas - Medellín",
+              "direccion": "Carrera 84 #33-52, Barrio Laureles La Castellana, cerca de la universidad adventista, Medellín · Horario: Mar-Dom 12-7pm",
+              "coords": [
+                6.243,
+                -75.6
+              ],
+              "maps": "https://maps.google.com/?q=6.243,-75.6",
+              "telefono": "+573504500039",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Fundación Carks"
+            },
+            {
+              "nombre": "Parrillas Caracas - Medellín",
+              "direccion": "Carrera 78 #45a-04, Barrio Velódromo, Medellín · Horario: Mar-Jue 4-10pm, Vie-Sáb 2-11pm, Dom 12-9pm",
+              "coords": [
+                6.248,
+                -75.587
+              ],
+              "maps": "https://maps.google.com/?q=6.248,-75.587",
+              "telefono": "+573504500039",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Fundación Carks"
+            },
+            {
+              "nombre": "Tepuy Laureles",
+              "direccion": "Carrera 73 C3-5",
+              "coords": [
+                6.2428,
+                -75.5962
+              ],
+              "maps": "https://maps.google.com/?q=6.2428,-75.5962",
+              "instagram": "tepuysv",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios"
+              ],
+              "fuente": "es un restaurante de comida venezolana en Medelli de confianza"
             }
           ]
         },
@@ -3382,6 +4194,65 @@
               "fuente": "Flyer Operación Todos con VZLA"
             }
           ]
+        },
+        {
+          "nombre": "Envigado",
+          "centros": [
+            {
+              "nombre": "El Refugio del Bolso - Envigado",
+              "direccion": "Calle 39 sur #40-74, Envigado, diagonal a la Cámara de Comercio",
+              "coords": [
+                6.169,
+                -75.588
+              ],
+              "maps": "https://maps.google.com/?q=6.169,-75.588",
+              "telefono": "+573504500039",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Fundación Carks"
+            },
+            {
+              "nombre": "Tepuy Envigado, Colombia",
+              "direccion": "Tv. 32a Sur #31e - 20, Zona sur, Envigado, Antioquia, Colombia",
+              "coords": [
+                6.166,
+                -75.5821
+              ],
+              "maps": "https://maps.google.com/?q=6.166,-75.5821",
+              "instagram": "tepuysv",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios"
+              ],
+              "fuente": "Es de confianza, es en Envigado Colombia"
+            }
+          ]
+        },
+        {
+          "nombre": "Rionegro",
+          "centros": [
+            {
+              "nombre": "Fundación Carks - Rionegro (La Provincia)",
+              "direccion": "Sector La Provincia, Rionegro, Antioquia (contacto: Gabriela Izarra) · fundacioncarks.com",
+              "coords": [
+                6.15,
+                -75.38
+              ],
+              "maps": "https://maps.google.com/?q=6.15,-75.38",
+              "telefono": "+573504500039",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer Fundación Carks"
+            }
+          ]
         }
       ]
     },
@@ -3395,8 +4266,8 @@
               "nombre": "Ayuda Humanitaria Venezuela — Depósito Principal",
               "direccion": "Value Store It, 5900 NW 102nd Ave, #1007, Doral, FL 33178",
               "coords": [
-                25.8200,
-                -80.3550
+                25.82,
+                -80.355
               ],
               "maps": "https://maps.google.com/?q=Value+Store+It+5900+NW+102nd+Ave+Doral+FL",
               "instagram": "ayudahumanitariavzla",
@@ -3409,8 +4280,8 @@
               "nombre": "Community Center — Doral Legacy Park",
               "direccion": "11400 NW 82nd Street, Doral, FL 33178",
               "coords": [
-                25.8210,
-                -80.3280
+                25.821,
+                -80.328
               ],
               "maps": "https://maps.google.com/?q=11400+NW+82nd+Street+Doral+FL",
               "horario": "Lunes a viernes 5:00pm - 9:00pm · Fines de semana 8:00am - 5:00pm",
@@ -3420,8 +4291,8 @@
               "nombre": "Global Empowerment Mission (GEM) — Sede Calle 14",
               "direccion": "10815 NW Calle 14, Doral, FL",
               "coords": [
-                25.7890,
-                -80.3530
+                25.789,
+                -80.353
               ],
               "maps": "https://maps.google.com/?q=10815+NW+14th+Street+Doral+FL",
               "horario": "Lunes a viernes, 9:00am - 4:00pm",
@@ -3436,8 +4307,8 @@
               "nombre": "Oficina de la Supervisora de Elecciones de Miami-Dade",
               "direccion": "2700 NW 87th Ave, Doral, FL 33172",
               "coords": [
-                25.7850,
-                -80.3360
+                25.785,
+                -80.336
               ],
               "maps": "https://maps.google.com/?q=2700+NW+87th+Ave+Doral+FL+33172",
               "horario": "Lunes a viernes, 8:00am - 5:00pm",
@@ -3447,8 +4318,8 @@
               "nombre": "Restaurante El Arepazo",
               "direccion": "10191 NW 58th St, Doral, FL 33178",
               "coords": [
-                25.8210,
-                -80.3530
+                25.821,
+                -80.353
               ],
               "maps": "https://maps.google.com/?q=10191+NW+58th+St+Doral+FL+33178",
               "horario": "24 horas, lunes a domingo",
@@ -3508,8 +4379,8 @@
               "nombre": "Comando Con Vzla — San Antonio Texas",
               "direccion": "16111 San Pedro Ave, San Antonio, TX 78232",
               "coords": [
-                29.5780,
-                -98.4970
+                29.578,
+                -98.497
               ],
               "maps": "https://maps.google.com/?q=16111+San+Pedro+Ave+San+Antonio+TX+78232",
               "horario": "A partir de la 1:00pm",
@@ -3531,8 +4402,8 @@
               "nombre": "Friends of the Children Venezuela — Brickell",
               "direccion": "1333 S Miami Ave, Suite 101, Brickell, Miami",
               "coords": [
-                25.7660,
-                -80.1940
+                25.766,
+                -80.194
               ],
               "maps": "https://maps.google.com/?q=1333+S+Miami+Ave+Brickell+Miami",
               "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
@@ -3541,8 +4412,8 @@
               "nombre": "South Cargo",
               "direccion": "6708 NW 82 Ave, Miami",
               "coords": [
-                25.8200,
-                -80.3200
+                25.82,
+                -80.32
               ],
               "maps": "https://maps.google.com/?q=6708+NW+82+Ave+Miami",
               "fuente": "Caracas Chronicles @caracaschron"
@@ -3551,8 +4422,8 @@
               "nombre": "Organización AFE",
               "direccion": "6090 NW 84th Ave, Miami, FL 33166",
               "coords": [
-                25.8120,
-                -80.3180
+                25.812,
+                -80.318
               ],
               "maps": "https://maps.google.com/?q=6090+NW+84th+Ave+Miami+FL+33166",
               "whatsapp": "+13056024466",
@@ -3570,10 +4441,32 @@
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
             },
             {
+              "nombre": "Americargo Miami",
+              "direccion": "5585 NW 72nd Ave, Miami, FL 33195 · Horario: sábados únicamente, 9:00 a.m. a 1:00 p.m.",
+              "coords": [
+                25.821,
+                -80.311
+              ],
+              "maps": "https://maps.google.com/?q=5585+NW+72nd+Ave+Miami+FL+33195",
+              "instagram": "americargo",
+              "web": "https://americargomiami.com",
+              "recibe": [
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "nota": "Empresa de envíos a Venezuela — la propia Americargo canaliza las donaciones. Reciben enlatados, arroz, pastas, harina, avena, cereal, leche en polvo, jabón, pasta dental, shampoo, toallas sanitarias, papel higiénico, pañales, toallitas húmedas, fórmula, teteros, cobijas, toallas, colchonetas, guantes, bolsas, linternas, pilas, productos de limpieza, alimento seco para mascotas, collares y correas.",
+              "fuente": "Flyer @americargo · americargomiami.com"
+            },
+            {
               "nombre": "Miami Team Store — Nu Stadium",
               "direccion": "Nu Stadium, 1000 Stadium Drive, Miami, FL · Horario: 26 jun – 3 jul, 9:00 a.m. a 3:00 p.m. · Domingo 28 jun horario especial 6:00 p.m. a 8:30 p.m. (concierto Carín León)",
               "coords": [
-                25.9580,
+                25.958,
                 -80.2389
               ],
               "maps": "https://maps.google.com/?q=Hard+Rock+Stadium+Miami",
@@ -3636,8 +4529,8 @@
               "nombre": "Centro de Acopio Olivera Rodríguez",
               "direccion": "84 Hawthorns St, Chelsea, MA",
               "coords": [
-                42.3920,
-                -71.0330
+                42.392,
+                -71.033
               ],
               "maps": "https://maps.google.com/?q=84+Hawthorns+St+Chelsea+MA",
               "whatsapp": "+18572009393",
@@ -3662,8 +4555,8 @@
               "nombre": "Friends of the Children Venezuela — Coral Gables",
               "direccion": "6705 Red Road Suite 504, Coral Gables, FL",
               "coords": [
-                25.7240,
-                -80.2880
+                25.724,
+                -80.288
               ],
               "maps": "https://maps.google.com/?q=6705+Red+Road+Suite+504+Coral+Gables+FL",
               "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
@@ -3677,8 +4570,8 @@
               "nombre": "La Francia Joyería",
               "direccion": "2100 Dallas Parkway Ste 150, Dallas, TX",
               "coords": [
-                32.9550,
-                -96.8210
+                32.955,
+                -96.821
               ],
               "maps": "https://maps.google.com/?q=2100+Dallas+Parkway+Ste+150+Dallas+TX",
               "horario": "27 al 29 de junio, 2:00pm - 6:00pm",
@@ -3693,8 +4586,8 @@
               "nombre": "Metabox Cargo — Katy",
               "direccion": "19308 Morton Rd #106, Katy, TX 77449",
               "coords": [
-                29.7860,
-                -95.7780
+                29.786,
+                -95.778
               ],
               "maps": "https://maps.google.com/?q=19308+Morton+Rd+106+Katy+TX+77449",
               "horario": "9:00am - 5:00pm",
@@ -3704,8 +4597,8 @@
               "nombre": "Metabox Cinco Ranch — Katy",
               "direccion": "25600 Westheimer Pkwy, Katy, TX 77494",
               "coords": [
-                29.7350,
-                -95.8170
+                29.735,
+                -95.817
               ],
               "maps": "https://maps.google.com/?q=25600+Westheimer+Pkwy+Katy+TX+77494",
               "horario": "12:00pm - 8:00pm",
@@ -3791,8 +4684,8 @@
               "nombre": "Friends of the Children Venezuela — Key Biscayne",
               "direccion": "792 Ridgewood Rd, Key Biscayne, FL",
               "coords": [
-                25.6890,
-                -80.1620
+                25.689,
+                -80.162
               ],
               "maps": "https://maps.google.com/?q=792+Ridgewood+Rd+Key+Biscayne+FL",
               "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
@@ -3820,8 +4713,8 @@
               "nombre": "Centro de Acopio Miami Lakes",
               "direccion": "6135 NW 167 Suite E13, Miami Lakes, FL",
               "coords": [
-                25.9160,
-                -80.3110
+                25.916,
+                -80.311
               ],
               "maps": "https://maps.google.com/?q=6135+NW+167+Suite+E13+Miami+Lakes+FL",
               "fuente": "Caracas Chronicles @caracaschron"
@@ -3863,8 +4756,8 @@
               "nombre": "Budare Café — Queens",
               "direccion": "9406 Roosevelt Avenue, Queens, NY",
               "coords": [
-                40.7470,
-                -73.8740
+                40.747,
+                -73.874
               ],
               "maps": "https://maps.google.com/?q=Budare+Caf%C3%A9+9406+Roosevelt+Avenue+Queens+NY",
               "fuente": "Caracas Chronicles @caracaschron"
@@ -3873,8 +4766,8 @@
               "nombre": "Casa Ora — Brooklyn",
               "direccion": "148 Meserole St, Brooklyn, NY",
               "coords": [
-                40.7160,
-                -73.9430
+                40.716,
+                -73.943
               ],
               "maps": "https://maps.google.com/?q=Casa+Ora+148+Meserole+St+Brooklyn+NY",
               "fuente": "Caracas Chronicles @caracaschron"
@@ -3883,11 +4776,28 @@
               "nombre": "Lullas — Brooklyn",
               "direccion": "169 Graham Avenue, Brooklyn, NY",
               "coords": [
-                40.7100,
-                -73.9440
+                40.71,
+                -73.944
               ],
               "maps": "https://maps.google.com/?q=Lullas+169+Graham+Avenue+Brooklyn+NY",
               "fuente": "Caracas Chronicles @caracaschron"
+            },
+            {
+              "nombre": "Classic Arepas (@classicarepas)",
+              "direccion": "31 W 8th St, New York, NY 10011",
+              "coords": [
+                40.733,
+                -73.998
+              ],
+              "maps": "https://maps.google.com/?q=40.733,-73.998",
+              "instagram": "classicarepas",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Instagram @classicarepas"
             }
           ]
         },
@@ -3912,8 +4822,8 @@
               "nombre": "Metabox Cargo — Spring",
               "direccion": "25115 Gosling Rd Ste 108, Spring, TX 77389",
               "coords": [
-                30.1230,
-                -95.5060
+                30.123,
+                -95.506
               ],
               "maps": "https://maps.google.com/?q=25115+Gosling+Rd+Ste+108+Spring+TX+77389",
               "horario": "10:00am - 5:00pm",
@@ -3928,8 +4838,8 @@
               "nombre": "Ayuda Humanitaria Venezuela — Dirección Postal",
               "direccion": "1062 Lavender Circle, Weston, FL 33327",
               "coords": [
-                26.1050,
-                -80.4060
+                26.105,
+                -80.406
               ],
               "maps": "https://maps.google.com/?q=1062+Lavender+Circle+Weston+FL+33327",
               "instagram": "ayudahumanitariavzla",
@@ -3942,8 +4852,8 @@
               "nombre": "Friends of the Children Venezuela — Weston",
               "direccion": "824 Regal Cove Rd, Weston, FL",
               "coords": [
-                26.1010,
-                -80.4060
+                26.101,
+                -80.406
               ],
               "maps": "https://maps.google.com/?q=824+Regal+Cove+Rd+Weston+FL",
               "fuente": "Caracas Chronicles @caracaschron · Operated by Friends of the Children Venezuela"
@@ -3952,12 +4862,73 @@
               "nombre": "Weston Town Center",
               "direccion": "1675 Market St, Weston, FL",
               "coords": [
-                26.1010,
-                -80.3970
+                26.101,
+                -80.397
               ],
               "maps": "https://maps.google.com/?q=Weston+Town+Center+1675+Market+St+Weston+FL",
               "horario": "12:00pm - 6:00pm",
               "fuente": "Caracas Chronicles @caracaschron"
+            }
+          ]
+        },
+        {
+          "nombre": "Brooklyn",
+          "centros": [
+            {
+              "nombre": "Lulla Brooklyn (@lullabrooklyn)",
+              "direccion": "169 Graham Ave, Brooklyn, NY 11206",
+              "coords": [
+                40.7085,
+                -73.944
+              ],
+              "maps": "https://maps.google.com/?q=40.7085,-73.944",
+              "instagram": "lullabrooklyn",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Instagram @lullabrooklyn"
+            }
+          ]
+        },
+        {
+          "nombre": "Queens",
+          "centros": [
+            {
+              "nombre": "El Budare Café (@elbudarecafe) - 94-06",
+              "direccion": "94-06 Roosevelt Ave, Queens, NY 11372",
+              "coords": [
+                40.7478,
+                -73.8767
+              ],
+              "maps": "https://maps.google.com/?q=40.7478,-73.8767",
+              "instagram": "elbudarecafe",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Instagram @elbudarecafe"
+            },
+            {
+              "nombre": "El Budare Café (@elbudarecafe) - 87-21",
+              "direccion": "87-21 Roosevelt Ave, Queens, NY 11372",
+              "coords": [
+                40.749,
+                -73.8845
+              ],
+              "maps": "https://maps.google.com/?q=40.749,-73.8845",
+              "instagram": "elbudarecafe",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Instagram @elbudarecafe"
             }
           ]
         }
@@ -4106,8 +5077,8 @@
               "nombre": "Brigada de Rescate Topos Tlaltelolco",
               "direccion": "Magistrados 75, Amp. El Sifón, Iztapalapa, 09180 Ciudad de México, CDMX",
               "coords": [
-                19.3540,
-                -99.0860
+                19.354,
+                -99.086
               ],
               "maps": "https://maps.google.com/?q=Magistrados+75+Amp+El+Sif%C3%B3n+Iztapalapa+CDMX",
               "instagram": "topos.mx",
@@ -4139,8 +5110,8 @@
               "nombre": "Anita Ventas — Centro de Acopio",
               "direccion": "Domingo Aramburu 1735, Montevideo, Uruguay",
               "coords": [
-                -34.8580,
-                -56.1620
+                -34.858,
+                -56.162
               ],
               "maps": "https://maps.google.com/?q=Domingo+Aramburu+1735+Montevideo+Uruguay",
               "instagram": "anitaventas.uy",
@@ -4171,8 +5142,8 @@
               "nombre": "BlueMall Santo Domingo — Centro de Acopio",
               "direccion": "BlueMall Santo Domingo, Piso -1, Oficinas Administrativas, Av. Winston Churchill, Santo Domingo",
               "coords": [
-                18.4720,
-                -69.9420
+                18.472,
+                -69.942
               ],
               "maps": "https://maps.google.com/?q=BlueMall+Santo+Domingo",
               "horario": "Lunes a viernes 9:00am - 6:00pm · Sábado y domingo 9:00am - 12:00pm",
@@ -4192,8 +5163,8 @@
               "nombre": "Centro de Acopio Sambil Santo Domingo",
               "direccion": "Sambil Santo Domingo, Av. John F. Kennedy, Santo Domingo",
               "coords": [
-                18.4790,
-                -69.9420
+                18.479,
+                -69.942
               ],
               "maps": "https://maps.google.com/?q=Sambil+Santo+Domingo",
               "instagram": "tusambildo",
@@ -4214,8 +5185,8 @@
               "nombre": "Downtown Center — Centro de Acopio",
               "direccion": "Downtown Center, Sótano 2 (S2), Santo Domingo · Horario: viernes 26 jun – miércoles 1 jul, 9:00 a.m. a 4:00 p.m. · Fin de semana 10:00 a.m. a 7:00 p.m.",
               "coords": [
-                18.4670,
-                -69.9410
+                18.467,
+                -69.941
               ],
               "maps": "https://maps.google.com/?q=Downtown+Center+Santo+Domingo",
               "recibe": [
@@ -4232,8 +5203,8 @@
               "nombre": "Food Truck Village",
               "direccion": "Av. Gustavo Mejía Ricart 62-66, Santo Domingo · Horario: todos los días, 6:00 p.m. a 12:00 a.m.",
               "coords": [
-                18.4730,
-                -69.9390
+                18.473,
+                -69.939
               ],
               "maps": "https://maps.google.com/?q=Food+Truck+Village+Santo+Domingo",
               "recibe": [
@@ -4252,7 +5223,7 @@
               "direccion": "Av. Gustavo Mejía Ricart 44, Santo Domingo",
               "coords": [
                 18.4729,
-                -69.9400
+                -69.94
               ],
               "maps": "https://maps.google.com/?q=Restaurante+Monte+Cristo+Santo+Domingo",
               "recibe": [
@@ -4268,7 +5239,7 @@
               "direccion": "Av. Winston Churchill 26, Santo Domingo · Horario: todos los días, 7:00 a.m. a 12:00 a.m.",
               "coords": [
                 18.4655,
-                -69.9410
+                -69.941
               ],
               "maps": "https://maps.google.com/?q=El+Arepanito+Winston+Churchill+Santo+Domingo",
               "recibe": [
@@ -4286,7 +5257,7 @@
               "direccion": "Sede Mirador Sur, Santo Domingo · Horario: lunes a viernes 8:00 a.m. a 7:00 p.m. · Sábado 9:00 a.m. a 4:00 p.m.",
               "coords": [
                 18.4424,
-                -69.9540
+                -69.954
               ],
               "maps": "https://maps.google.com/?q=Centro+Familiar+Taekwondo+Mirador+Sur+Santo+Domingo",
               "instagram": "centrofamiliartkd",
@@ -4302,8 +5273,8 @@
               "nombre": "Katy Guillén Studio",
               "direccion": "Edificio Las Camelias, Av. Perú, Piso 4, Oficina 404 C, Bella Vista, Santo Domingo · Horario: lunes a sábado, 9:00 a.m. a 3:00 p.m.",
               "coords": [
-                18.4520,
-                -69.9450
+                18.452,
+                -69.945
               ],
               "maps": "https://maps.google.com/?q=Av+Per%C3%BA+Bella+Vista+Santo+Domingo",
               "recibe": [
@@ -4322,8 +5293,8 @@
               "nombre": "Hard Rock Café Punta Cana",
               "direccion": "Downtown Punta Cana, La Altagracia · Horario: 9:00 a.m. a 9:00 p.m.",
               "coords": [
-                18.5820,
-                -68.4050
+                18.582,
+                -68.405
               ],
               "maps": "https://maps.google.com/?q=Hard+Rock+Cafe+Downtown+Punta+Cana",
               "recibe": [
@@ -4339,8 +5310,8 @@
               "nombre": "Punto de Acopio — Alto Llano",
               "direccion": "Av. Barceló, Alto Llano, Punta Cana",
               "coords": [
-                18.5780,
-                -68.4100
+                18.578,
+                -68.41
               ],
               "maps": "https://maps.google.com/?q=Av+Barcel%C3%B3+Punta+Cana",
               "recibe": [
@@ -4359,8 +5330,8 @@
               "nombre": "Orangetheory Fitness Santiago",
               "direccion": "Av. 27 de Febrero con calle Erick Eckman, Santiago de los Caballeros",
               "coords": [
-                19.4520,
-                -70.6970
+                19.452,
+                -70.697
               ],
               "maps": "https://maps.google.com/?q=Orangetheory+Fitness+Santiago+Dominican+Republic",
               "recibe": [
@@ -4376,7 +5347,7 @@
               "direccion": "Librería Paulinas, Calle 16 de Agosto, Centro Histórico, Santiago de los Caballeros",
               "coords": [
                 19.4517,
-                -70.6970
+                -70.697
               ],
               "maps": "https://maps.google.com/?q=Librer%C3%ADa+Paulinas+Santiago+Dominican+Republic",
               "recibe": [
@@ -4402,7 +5373,7 @@
               "nombre": "Centro de Acopio Buenos Aires — Amenabar",
               "direccion": "Amenabar 1024, CABA, Buenos Aires",
               "coords": [
-                -34.5570,
+                -34.557,
                 -58.4555
               ],
               "maps": "https://maps.google.com/?q=Amenabar+1024+Buenos+Aires",
@@ -4459,8 +5430,8 @@
               "nombre": "Cambur Pintón — Sede",
               "direccion": "Calle Canadá 2080, Comodoro Rivadavia, Chubut",
               "coords": [
-                -45.8650,
-                -67.4900
+                -45.865,
+                -67.49
               ],
               "maps": "https://maps.google.com/?q=Canad%C3%A1+2080+Comodoro+Rivadavia",
               "instagram": "camburpinton_cr",
@@ -4481,8 +5452,8 @@
               "nombre": "Shaka's Car Wash",
               "direccion": "Calle José Álvarez al 95, Barrio Industrial, Comodoro Rivadavia, Chubut",
               "coords": [
-                -45.8630,
-                -67.4870
+                -45.863,
+                -67.487
               ],
               "maps": "https://maps.google.com/?q=Jos%C3%A9+%C3%81lvarez+95+Barrio+Industrial+Comodoro+Rivadavia",
               "instagram": "camburpinton_cr",
@@ -4513,8 +5484,8 @@
               "nombre": "Centro Médico La Viña",
               "direccion": "Edificio Empresarial Prima Esperanza, VIP Medical Care, Lima",
               "coords": [
-                -12.1190,
-                -77.0290
+                -12.119,
+                -77.029
               ],
               "maps": "https://maps.google.com/?q=Centro+M%C3%A9dico+La+Vi%C3%B1a+Lima",
               "recibe": [
@@ -4529,8 +5500,8 @@
               "nombre": "VIP Medical Care — Sede Miraflores",
               "direccion": "Calle Porta 130, Piso 5, oficina 508, Miraflores, Lima",
               "coords": [
-                -12.1280,
-                -77.0290
+                -12.128,
+                -77.029
               ],
               "maps": "https://maps.google.com/?q=Calle+Porta+130+Miraflores+Lima",
               "recibe": [
@@ -4555,8 +5526,8 @@
               "nombre": "Comando Con Vzla — Casa Club Casa Omar",
               "direccion": "Casa Club Casa Omar, Ciudad de Panamá",
               "coords": [
-                8.9920,
-                -79.5180
+                8.992,
+                -79.518
               ],
               "maps": "https://maps.google.com/?q=Casa+Club+Casa+Omar+Ciudad+de+Panam%C3%A1",
               "recibe": [
@@ -4607,8 +5578,8 @@
               "nombre": "Comando Con Vzla — Ibarra",
               "direccion": "Calle García Moreno 2-58 y Maldonado, a media cuadra del Subcentro de Salud N° 1",
               "coords": [
-                0.3490,
-                -78.1220
+                0.349,
+                -78.122
               ],
               "maps": "https://maps.google.com/?q=Calle+Garc%C3%ADa+Moreno+2-58+Ibarra",
               "recibe": [
@@ -4629,8 +5600,8 @@
               "nombre": "Cachapas El Félix",
               "direccion": "Av. Naciones Unidas y Av. 10 de Agosto, Quito Norte",
               "coords": [
-                -0.1810,
-                -78.4870
+                -0.181,
+                -78.487
               ],
               "maps": "https://maps.google.com/?q=Cachapas+El+F%C3%A9lix+Av+Naciones+Unidas+Quito",
               "recibe": [
@@ -4650,8 +5621,8 @@
               "nombre": "Edificio Gaudí",
               "direccion": "Calle Checoslovaquia, Quito",
               "coords": [
-                -0.1830,
-                -78.4830
+                -0.183,
+                -78.483
               ],
               "maps": "https://maps.google.com/?q=Edificio+Gaud%C3%AD+Calle+Checoslovaquia+Quito",
               "recibe": [
@@ -4670,8 +5641,8 @@
               "nombre": "IMPAQTO La Carolina — Cámara de Comercio Ecuatoriano Venezolana",
               "direccion": "Av. Shyris y Suecia, Edificio IQON, Quito",
               "coords": [
-                -0.1790,
-                -78.4830
+                -0.179,
+                -78.483
               ],
               "maps": "https://maps.google.com/?q=Edificio+IQON+Av+Shyris+Suecia+Quito",
               "recibe": [
@@ -4695,8 +5666,8 @@
               "nombre": "Edificio Portal del Sol",
               "direccion": "Av. 12 de Octubre y calle Emilio Carrere, sector Yanuncay, Cuenca",
               "coords": [
-                -2.9100,
-                -79.0190
+                -2.91,
+                -79.019
               ],
               "maps": "https://maps.google.com/?q=Av+12+de+Octubre+Emilio+Carrere+Yanuncay+Cuenca",
               "recibe": [
@@ -4719,8 +5690,8 @@
               "nombre": "Comando Con Vzla — Chamos Burger",
               "direccion": "Víctor Emilio Estrada y Jiguas, diagonal al Novagym Urdesa, local Chamos Burger, Guayaquil",
               "coords": [
-                -2.1620,
-                -79.9080
+                -2.162,
+                -79.908
               ],
               "maps": "https://maps.google.com/?q=Chamos+Burger+V%C3%ADctor+Emilio+Estrada+Guayaquil",
               "recibe": [
@@ -4777,7 +5748,7 @@
               "nombre": "Restaurante Calderos — Santiago Centro",
               "direccion": "San Isidro 401, Santiago Centro",
               "coords": [
-                -33.4410,
+                -33.441,
                 -70.6388
               ],
               "maps": "https://maps.google.com/?q=Restaurante+Calderos+San+Isidro+401+Santiago",
@@ -4798,8 +5769,8 @@
               "nombre": "Rumbo Sur — Centro de Acopio",
               "direccion": "Zenteno 183, Santiago Centro, Santiago de Chile",
               "coords": [
-                -33.4450,
-                -70.6510
+                -33.445,
+                -70.651
               ],
               "maps": "https://maps.google.com/?q=Zenteno+183+Santiago+Centro+Chile",
               "instagram": "rumbosur.cl",
@@ -4828,6 +5799,23 @@
               ],
               "nota": "Reciben también leche (líquida o en polvo), fórmulas infantiles, toallas sanitarias, toallas húmedas, jabón, shampoo, pasta dental, papel higiénico y enlatados. En beneficio de los afectados del terremoto del 24 de junio en Venezuela.",
               "fuente": "Flyer @visualizaudios · Papelón Sabroso es Centro de Acopio"
+            },
+            {
+              "nombre": "Centro de Acopio Santiago de Chile",
+              "direccion": "Av. Providencia 1669, Santiago",
+              "coords": [
+                -33.4265,
+                -70.619
+              ],
+              "maps": "https://maps.google.com/?q=-33.4265,-70.619",
+              "instagram": "papelonsabroso",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "fuente": "Flyer diáspora"
             }
           ]
         }
@@ -4843,8 +5831,8 @@
               "nombre": "AACV — Asociación de Ayuda Comunitaria Venezolana",
               "direccion": "Calle Francisco García Talavera 2, Santa Cruz de Tenerife",
               "coords": [
-                28.4720,
-                -16.2500
+                28.472,
+                -16.25
               ],
               "maps": "https://maps.google.com/?q=Calle+Francisco+Garc%C3%ADa+Talavera+2+Santa+Cruz+Tenerife",
               "recibe": [
@@ -4875,7 +5863,7 @@
               "direccion": "Sambil Madrid, Planta 0, Madrid",
               "coords": [
                 40.4837,
-                -3.6680
+                -3.668
               ],
               "maps": "https://maps.google.com/?q=Sambil+Madrid",
               "instagram": "unavzlanaenmadrid",
@@ -4937,6 +5925,425 @@
               ],
               "nota": "Los donativos serán enviados a Caracas y distribuidos por el Ávila Fútbol Club junto con organizaciones locales.",
               "fuente": "El País · elpais.com/internacional/2026-06-26/espana-se-vuelca-con-venezuela-tras-el-devastador-terremoto"
+            },
+            {
+              "nombre": "Diáspora en Movimiento",
+              "direccion": "Calle Matilde Landa 26, Madrid",
+              "coords": [
+                40.4729,
+                -3.6928
+              ],
+              "maps": "https://maps.google.com/?q=40.4729,-3.6928",
+              "instagram": "diasporaenmovimientovzla",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Por redes sociales"
+            },
+            {
+              "nombre": "San Blas - Estadio Metropolitano",
+              "direccion": "Estadio Metropolitano (parking oeste), San Blas-Canillejas, Madrid · Dom 08:00-15:00",
+              "coords": [
+                40.4362,
+                -3.5995
+              ],
+              "maps": "https://maps.google.com/?q=40.4362,-3.5995",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Chamberí - Taquería La Lupita (Zurbano)",
+              "direccion": "Taquería La Lupita, Zurbano 67, Chamberí, Madrid · Vie 13:00-00:00",
+              "coords": [
+                40.4365,
+                -3.694
+              ],
+              "maps": "https://maps.google.com/?q=40.4365,-3.694",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Centro - Taquería La Lupita (Conde de Xiquena)",
+              "direccion": "Taquería La Lupita, Conde de Xiquena 10, Madrid · Vie 13:00-00:00",
+              "coords": [
+                40.423,
+                -3.694
+              ],
+              "maps": "https://maps.google.com/?q=40.423,-3.694",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Chamberí - Panadería Levadura Madre",
+              "direccion": "Panadería Levadura Madre, Bravo Murillo 60, Chamberí, Madrid · Sáb y dom desde 08:00",
+              "coords": [
+                40.4395,
+                -3.703
+              ],
+              "maps": "https://maps.google.com/?q=40.4395,-3.703",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Fuencarral-El Pardo",
+              "direccion": "Plaza de Mondariz 15, planta 12 pta 1 (Mónica Dudamel), Fuencarral, Madrid",
+              "coords": [
+                40.479,
+                -3.708
+              ],
+              "maps": "https://maps.google.com/?q=40.479,-3.708",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Ciudad Lineal",
+              "direccion": "Emilio Ferrari 102, bajo exterior izquierdo, Ciudad Lineal, Madrid",
+              "coords": [
+                40.447,
+                -3.648
+              ],
+              "maps": "https://maps.google.com/?q=40.447,-3.648",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Carabanchel - Metro Aluche",
+              "direccion": "Estación de Metro Aluche (cerca de taquillas/exterior), Madrid",
+              "coords": [
+                40.385,
+                -3.756
+              ],
+              "maps": "https://maps.google.com/?q=40.385,-3.756",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Salamanca - General Pardiñas",
+              "direccion": "General Pardiñas 85, 28006, Salamanca, Madrid",
+              "coords": [
+                40.433,
+                -3.677
+              ],
+              "maps": "https://maps.google.com/?q=40.433,-3.677",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Salamanca - Núñez de Balboa",
+              "direccion": "Núñez de Balboa 35A, 28006, Salamanca, Madrid",
+              "coords": [
+                40.428,
+                -3.681
+              ],
+              "maps": "https://maps.google.com/?q=40.428,-3.681",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Salamanca - Calle del Cid",
+              "direccion": "Calle del Cid 2, 28001, Salamanca, Madrid",
+              "coords": [
+                40.4245,
+                -3.684
+              ],
+              "maps": "https://maps.google.com/?q=40.4245,-3.684",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Salamanca - Marqués de Zafra",
+              "direccion": "Paseo del Marqués de Zafra 7, 4D, Madrid",
+              "coords": [
+                40.429,
+                -3.666
+              ],
+              "maps": "https://maps.google.com/?q=40.429,-3.666",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Salamanca - Diego de León",
+              "direccion": "Calle Diego de León 67, 3 izq, Salamanca, Madrid",
+              "coords": [
+                40.436,
+                -3.672
+              ],
+              "maps": "https://maps.google.com/?q=40.436,-3.672",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Tres Cantos",
+              "direccion": "Av. 21 de Marzo 1, portal 6, 4ºB, Tres Cantos, Madrid",
+              "coords": [
+                40.602,
+                -3.71
+              ],
+              "maps": "https://maps.google.com/?q=40.602,-3.71",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Navas del Rey",
+              "direccion": "Calle Pelayos 4B, Navas del Rey, Madrid",
+              "coords": [
+                40.356,
+                -4.143
+              ],
+              "maps": "https://maps.google.com/?q=40.356,-4.143",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Chamartín - Peluquería JJ Matamoros",
+              "direccion": "Peluquería JJ Matamoros, Av. Alberto Alcocer 49 (Metro Colombia), SOLO RECOGIDA, hasta 22:00, Madrid",
+              "coords": [
+                40.464,
+                -3.681
+              ],
+              "maps": "https://maps.google.com/?q=40.464,-3.681",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "El Cañaveral (Hortaleza) - Kora Balance",
+              "direccion": "Kora Balance, Av. de Miguel Delibes 47, El Cañaveral, Madrid · 09:30-21:30",
+              "coords": [
+                40.4,
+                -3.57
+              ],
+              "maps": "https://maps.google.com/?q=40.4,-3.57",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Algete",
+              "direccion": "Calle Félix Rodríguez de la Fuente 23 3D, 28110, Algete, Madrid · desde 17:00",
+              "coords": [
+                40.597,
+                -3.499
+              ],
+              "maps": "https://maps.google.com/?q=40.597,-3.499",
+              "telefono": "643093680",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "San Sebastián de los Reyes - Bongo y Timbal",
+              "direccion": "Bongo y Timbal, Travesía Juan Manuel Sánchez Pedagogo 2, San Sebastián de los Reyes, Madrid",
+              "coords": [
+                40.547,
+                -3.626
+              ],
+              "maps": "https://maps.google.com/?q=40.547,-3.626",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Villaverde",
+              "direccion": "Calle Periana 28, 1-D, Villaverde, Madrid",
+              "coords": [
+                40.345,
+                -3.69
+              ],
+              "maps": "https://maps.google.com/?q=40.345,-3.69",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Leganés - Oohlala Bistró",
+              "direccion": "Oohlala Bistró, Calle de la Rioja 134, 28915, Leganés, Madrid",
+              "coords": [
+                40.328,
+                -3.765
+              ],
+              "maps": "https://maps.google.com/?q=40.328,-3.765",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "Arganzuela - Olé Dogo",
+              "direccion": "Olé Dogo, Paseo de la Esperanza 49, 28005, Arganzuela, Madrid · Vie 08:00-20:00, Sáb 11:00-16:00",
+              "coords": [
+                40.401,
+                -3.705
+              ],
+              "maps": "https://maps.google.com/?q=40.401,-3.705",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Listado El Independiente (Madrid se solidariza)"
+            },
+            {
+              "nombre": "AVA Alcobendas - Parroquia Santa María de la Esperanza",
+              "direccion": "Parroquia Santa María de la Esperanza, Alcobendas (Madrid Norte) · Sáb 27 y Dom 28 jun, 10:00-18:30",
+              "coords": [
+                40.539,
+                -3.642
+              ],
+              "maps": "https://maps.google.com/?q=40.539,-3.642",
+              "instagram": "asoc_venezolana_alcobendas",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Flyer AVA Alcobendas (@asoc_venezolana_alcobendas)"
+            }
+          ]
+        },
+        {
+          "nombre": "La Ñora (Murcia)",
+          "centros": [
+            {
+              "nombre": "El garaje de mamá tía",
+              "direccion": "Calle Profesor Joaquín Hellín, La Ñora",
+              "coords": [
+                37.9894,
+                -1.1945
+              ],
+              "maps": "https://maps.google.com/?q=37.9894,-1.1945",
+              "telefono": "968951672",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Por sus redes sociales."
             }
           ]
         }
