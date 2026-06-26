@@ -849,22 +849,6 @@
               ],
               "maps": "https://maps.google.com/?q=8.6050614,-70.1956269",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
-            },
-            {
-              "nombre": "Fe y Alegría \"Padre Felipe Salvador Gilij\"",
-              "direccion": "Fe y Alegría Padre Felipe Salvador Gilij, Barinas",
-              "coords": [
-                8.6051,
-                -70.1956
-              ],
-              "maps": "https://maps.google.com/?q=8.6051,-70.1956",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "artículos de higiene personal"
-              ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
             }
           ]
         },
@@ -4000,6 +3984,23 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Caracas Chronicles (X)"
+            },
+            {
+              "nombre": "CC Tunal Sur — Puerta 06",
+              "direccion": "DG 48b sur 24-86, CC Tunal Sur, Puerta 06, Bogotá · Horario: desde 9:00 a.m.",
+              "coords": [
+                4.566,
+                -74.131
+              ],
+              "maps": "https://maps.google.com/?q=4.566,-74.131",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -4085,6 +4086,23 @@
               ],
               "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
               "fuente": "Flyer Tigresas de la Patria — Donatón"
+            },
+            {
+              "nombre": "Comuneros II — Cl. 72q",
+              "direccion": "Cl. 72q #28-18, Comuneros II, Cali, Valle del Cauca · Horario: 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                3.471,
+                -76.479
+              ],
+              "maps": "https://maps.google.com/?q=3.471,-76.479",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -4415,6 +4433,23 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer Fundación Carks"
+            },
+            {
+              "nombre": "CC Banco Ganadero",
+              "direccion": "CL 49 CR 50-59, CC Banco Ganadero, Local 211, Rionegro, Antioquia · Horario: 9:00 a.m. a 6:00 p.m.",
+              "coords": [
+                6.153,
+                -75.376
+              ],
+              "maps": "https://maps.google.com/?q=6.153,-75.376",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -4463,6 +4498,28 @@
               ],
               "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
               "fuente": "Flyer Tigresas de la Patria — Donatón"
+            }
+          ]
+        },
+        {
+          "nombre": "Villavicencio",
+          "centros": [
+            {
+              "nombre": "La Alborada",
+              "direccion": "La Alborada, Cra 26A 4B-115, Manzana M, Casa 42, Villavicencio · Horario: 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                4.142,
+                -73.626
+              ],
+              "maps": "https://maps.google.com/?q=4.142,-73.626",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         }
@@ -4561,6 +4618,23 @@
                 "medicamentos e insumos médicos"
               ],
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "La Uchireña — Doral",
+              "direccion": "La Uchireña, 7878 NW 52nd St, Doral, FL 33166 · Horario: domingo 28, 10:00 a.m. a 1:00 p.m.",
+              "coords": [
+                25.821,
+                -80.317
+              ],
+              "maps": "https://maps.google.com/?q=25.821,-80.317",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -4604,6 +4678,23 @@
                 "abrigos y otros implementos de protección"
               ],
               "fuente": "El Diario · eldiario.com/2026/06/25/centros-acopio-venezuela · Caracas Chronicles @caracaschron"
+            },
+            {
+              "nombre": "16111 San Pedro Ave",
+              "direccion": "16111 San Pedro Ave, San Antonio, TX 78232 · Horario: desde 11:00 a.m.",
+              "coords": [
+                29.578,
+                -98.47
+              ],
+              "maps": "https://maps.google.com/?q=29.578,-98.47",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -4689,6 +4780,23 @@
                 "artículos para niños"
               ],
               "fuente": "Diario Las Américas · diariolasamericas.com/florida/doral-activa-cuatro-puntos-acopio-damnificados-terremotos-venezuela"
+            },
+            {
+              "nombre": "Bonjour Bistro — Kendall",
+              "direccion": "Bonjour Bistro, 16650 SW 88th St, Kendall, FL · Horario: sábado 27, 10:00 a.m. a 2:00 p.m.",
+              "coords": [
+                25.69,
+                -80.44
+              ],
+              "maps": "https://maps.google.com/?q=25.69,-80.44",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -4886,6 +4994,23 @@
               ],
               "nota": "También reciben mascarillas, guantes y toallitas. Cualquier ayuda hace la diferencia.",
               "fuente": "Flyer @beattrainingglobal"
+            },
+            {
+              "nombre": "Arepas Santa Bárbara",
+              "direccion": "Arepas Santa Bárbara, 1016 Buenaventura Blvd, Kissimmee, FL 34743 · Horario: 10:00 a.m. a 2:00 p.m.",
+              "coords": [
+                28.31,
+                -81.406
+              ],
+              "maps": "https://maps.google.com/?q=28.31,-81.406",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -5024,6 +5149,57 @@
               "contacto": "orlando@ayudahumanitariavenezuela.org — Coordinadora: Fabiola Gómez",
               "nota": "💌 Centro de contacto regional. Escribe a orlando@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
               "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            },
+            {
+              "nombre": "13256 Village Park",
+              "direccion": "13256 Village Park #200, Orlando, FL · Horario: 10:00 a.m. a 2:00 p.m.",
+              "coords": [
+                28.415,
+                -81.454
+              ],
+              "maps": "https://maps.google.com/?q=28.415,-81.454",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Pecargo — Orinoco Dr.",
+              "direccion": "Pecargo, 2100 Orinoco Dr., Suite 164, Orlando, FL 32837 · Horario: 10:00 a.m. a 2:00 p.m.",
+              "coords": [
+                28.395,
+                -81.408
+              ],
+              "maps": "https://maps.google.com/?q=28.395,-81.408",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "10924 S Trail Circle",
+              "direccion": "10924 S Trail Circle, Orlando, FL 32837 · Horario: 10:00 a.m. a 2:00 p.m.",
+              "coords": [
+                28.385,
+                -81.42
+              ],
+              "maps": "https://maps.google.com/?q=28.385,-81.42",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -5141,6 +5317,94 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Instagram @elbudarecafe"
+            }
+          ]
+        },
+        {
+          "nombre": "Deerfield Beach",
+          "centros": [
+            {
+              "nombre": "Gusticos Bistro",
+              "direccion": "Gusticos Bistro, 2249 W Hillsboro Blvd, Deerfield Beach, FL 33442 · Horario: sábado 27, 10:00 a.m. a 2:00 p.m.",
+              "coords": [
+                26.325,
+                -80.173
+              ],
+              "maps": "https://maps.google.com/?q=26.325,-80.173",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Pembroke Pines",
+          "centros": [
+            {
+              "nombre": "Bonjour Bistro — Pembroke Pines",
+              "direccion": "Bonjour Bistro, 10800 Pines Blvd, Pembroke Pines, FL 33026 · Horario: sábado 27, 10:00 a.m. a 2:00 p.m.",
+              "coords": [
+                26.008,
+                -80.298
+              ],
+              "maps": "https://maps.google.com/?q=26.008,-80.298",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Denver",
+          "centros": [
+            {
+              "nombre": "5045 W First Ave",
+              "direccion": "5045 W First Ave, Denver, CO 80219 · Horario: 11:00 a.m. a 3:00 p.m.",
+              "coords": [
+                39.718,
+                -105.049
+              ],
+              "maps": "https://maps.google.com/?q=39.718,-105.049",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Mint Hill",
+          "centros": [
+            {
+              "nombre": "9044 Lawyers Rd C",
+              "direccion": "9044 Lawyers Rd C, Mint Hill, NC 28227 · Horario: martes a sábado, 10:00 a.m. a 6:00 p.m.",
+              "coords": [
+                35.18,
+                -80.648
+              ],
+              "maps": "https://maps.google.com/?q=35.18,-80.648",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         }
@@ -5276,6 +5540,111 @@
               "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
             }
           ]
+        },
+        {
+          "nombre": "Porto",
+          "centros": [
+            {
+              "nombre": "Rua Formosa 297",
+              "direccion": "Rua Formosa 297, 2.º frente, 4000-252 Porto · Horário: Segunda a sábado, 11:00 às 17:00",
+              "coords": [
+                41.149,
+                -8.609
+              ],
+              "maps": "https://maps.google.com/?q=41.149,-8.609",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Restaurante Destino",
+              "direccion": "Restaurante Destino, R. de Serpa Pinto 644, Porto · Horário: Segunda a sexta, 8:00 às 22:00",
+              "coords": [
+                41.162,
+                -8.624
+              ],
+              "maps": "https://maps.google.com/?q=41.162,-8.624",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Aveiro",
+          "centros": [
+            {
+              "nombre": "Rua Dr. Mário Sacramento",
+              "direccion": "Rua Dr. Mário Sacramento, 3810-105 Aveiro · Horário: Terça a domingo, 10:00 às 21:00",
+              "coords": [
+                40.641,
+                -8.653
+              ],
+              "maps": "https://maps.google.com/?q=40.641,-8.653",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Madeira (Funchal)",
+          "centros": [
+            {
+              "nombre": "Praça do Colombo",
+              "direccion": "Praça do Colombo, 90000-057 Funchal, Madeira · Horário: 16:30 às 17:00",
+              "coords": [
+                32.65,
+                -16.909
+              ],
+              "maps": "https://maps.google.com/?q=32.65,-16.909",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Lisboa",
+          "centros": [
+            {
+              "nombre": "Calçada da Tapada 15",
+              "direccion": "Calçada da Tapada 15, 1300-544 Lisboa · Horário: 11:00 às 14:00",
+              "coords": [
+                38.708,
+                -9.181
+              ],
+              "maps": "https://maps.google.com/?q=38.708,-9.181",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
         }
       ]
     },
@@ -5307,6 +5676,123 @@
               ],
               "nota": "Reciben dos tipos de donaciones: (1) PARA LA POBLACIÓN VENEZOLANA AFECTADA: agua embotellada, casas de campaña, lonas de plástico, repelentes de insectos, protector solar, toallas sanitarias, jabón, alcohol, gasas, vendas, leche en polvo, latas de comida, sopas instantáneas, barras energéticas, frutos secos. (2) PARA LOS RESCATISTAS: cascos, guantes, botas, máscara con filtro, lámparas, picos, palas, barras de palanca, esmeriles, rotomartillos, cizallas, separadores, arietes, botiquines de trauma, camillas, collares cervicales, silbatos, radios para comunicación, pintura en aerosol naranja para marcaje.",
               "fuente": "Flyer oficial @topos.mx · Sociedad Brigada de Rescate Topos Tlaltelolco AC"
+            },
+            {
+              "nombre": "Thelmas Cakes",
+              "direccion": "Thelmas Cakes, Ciudad de México · Horario: 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                19.4326,
+                -99.1332
+              ],
+              "maps": "https://maps.google.com/?q=19.4326,-99.1332",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Rivas Express — Narvarte",
+              "direccion": "Local Rivas Express, Diagonal San Antonio 1115, Local E1, Col. Narvarte Poniente, Benito Juárez, C.P. 03020, CDMX · Horario: 10:00 a.m. a 6:00 p.m.",
+              "coords": [
+                19.4,
+                -99.164
+              ],
+              "maps": "https://maps.google.com/?q=19.4,-99.164",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Viloria Clínica Dental — Del Valle",
+              "direccion": "Viloria Clínica Dental, Calle Tlacoquemecatl 156, Colonia Del Valle, Benito Juárez, CDMX · Horario: 9:00 a.m. a 6:00 p.m.",
+              "coords": [
+                19.385,
+                -99.17
+              ],
+              "maps": "https://maps.google.com/?q=19.385,-99.17",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Villahermosa",
+          "centros": [
+            {
+              "nombre": "Parroquia San Miguel Arcángel",
+              "direccion": "Parroquia San Miguel Arcángel, Col. Multi80, Villahermosa · Horario: 10:00 a.m. a 6:00 p.m.",
+              "coords": [
+                17.989,
+                -92.947
+              ],
+              "maps": "https://maps.google.com/?q=17.989,-92.947",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Guadalajara",
+          "centros": [
+            {
+              "nombre": "Avenida de las Américas 1241",
+              "direccion": "Avenida de las Américas 1241, Colonia Circunvalación (Providencia), Guadalajara · Tel: 33 12 55 67 30 (Hassan, 24/7) · Horario: 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                20.689,
+                -103.387
+              ],
+              "maps": "https://maps.google.com/?q=20.689,-103.387",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Zapopan",
+          "centros": [
+            {
+              "nombre": "Viveros del Valle",
+              "direccion": "Viveros del Valle, Zapopan, Jalisco, C.P. 45138 · Horario: 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                20.712,
+                -103.406
+              ],
+              "maps": "https://maps.google.com/?q=20.712,-103.406",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         }
@@ -5518,6 +6004,23 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            },
+            {
+              "nombre": "Club de Leones El Millón",
+              "direccion": "Club de Leones El Millón, peatonal Domingo Mallol, Urb. Ciudad de los Millones, D.N. detrás de la Plaza Saint Michel, Santo Domingo · Horario: 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                18.464,
+                -69.951
+              ],
+              "maps": "https://maps.google.com/?q=18.464,-69.951",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -5593,6 +6096,50 @@
               ],
               "nota": "Lo recolectado se traslada al centro principal en Sambil para su envío a Venezuela.",
               "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/tras-los-terremotos-en-venezuela-rd-activa-centros-de-acopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Santo Domingo Norte",
+          "centros": [
+            {
+              "nombre": "Guardería Rayitos de Sol",
+              "direccion": "Guardería Rayitos de Sol, F.A. Dorado III, Casa 9 manzana K, Jacobo Majluta, Santo Domingo Norte · Horario: desde 6:30 a.m.",
+              "coords": [
+                18.553,
+                -69.922
+              ],
+              "maps": "https://maps.google.com/?q=18.553,-69.922",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Puerto Plata",
+          "centros": [
+            {
+              "nombre": "Colegio Educando a Tiempo para el Futuro",
+              "direccion": "Colegio Educando a Tiempo para el Futuro, Sosúa, Puerto Plata · Horario: 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                19.753,
+                -70.522
+              ],
+              "maps": "https://maps.google.com/?q=19.753,-70.522",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         }
@@ -5746,6 +6293,89 @@
                 "ropa en buen estado"
               ],
               "fuente": "Criptonoticias · criptonoticias.com/comunidad/terremoto-venezuela-centros-acopio-crisis-humanitaria"
+            },
+            {
+              "nombre": "Av. 28 de Julio 2491 — La Victoria",
+              "direccion": "Av. 28 de Julio 2491, La Victoria, Lima · Horario: 7:00 a.m. a 9:00 p.m.",
+              "coords": [
+                -12.068,
+                -77.022
+              ],
+              "maps": "https://maps.google.com/?q=-12.068,-77.022",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Trujillo",
+          "centros": [
+            {
+              "nombre": "Plaza de Armas",
+              "direccion": "Plaza de Armas, Trujillo · Horario: 8:00 a.m. a 8:00 p.m. (viernes, sábado y domingo)",
+              "coords": [
+                -8.112,
+                -79.029
+              ],
+              "maps": "https://maps.google.com/?q=-8.112,-79.029",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Huancayo",
+          "centros": [
+            {
+              "nombre": "Jr. Amazonas N124",
+              "direccion": "Jr. Amazonas N124 (detrás del Open Plaza), Huancayo · Horario: desde 10:00 a.m.",
+              "coords": [
+                -12.07,
+                -75.205
+              ],
+              "maps": "https://maps.google.com/?q=-12.07,-75.205",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Arequipa",
+          "centros": [
+            {
+              "nombre": "Urb. 15 de Agosto — Paucarpata",
+              "direccion": "Urbanización 15 de Agosto, Paucarpata, Arequipa · Horario: 10:00 a.m. a 7:00 p.m.",
+              "coords": [
+                -16.425,
+                -71.507
+              ],
+              "maps": "https://maps.google.com/?q=-16.425,-71.507",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         }
@@ -5891,6 +6521,91 @@
               ],
               "nota": "Operado por la Cámara de Comercio Ecuatoriano Venezolana, en el coworking IMPAQTO La Carolina.",
               "fuente": "Teleamazonas · teleamazonas.com/actualidad/noticias/sociedad/terremoto-venezuela-puntos-acopio-donaciones-ecuador"
+            },
+            {
+              "nombre": "Restaurante Don Lucho",
+              "direccion": "Av Rumichaca Ñan, frente al estadio, Quito · Horario: 8:00 a.m. a 5:00 p.m.",
+              "coords": [
+                -0.27,
+                -78.55
+              ],
+              "maps": "https://maps.google.com/?q=-0.27,-78.55",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Edif. Julio Cesar — Chillogallo",
+              "direccion": "Av Rumichaca Ñan y Calle Moromoros, Edif. Julio Cesar, Local 03, Sector Chillogallo (frente al estadio del Aucas — el sur), Quito · Horario: 9:00 a.m. a 4:00 p.m.",
+              "coords": [
+                -0.282,
+                -78.556
+              ],
+              "maps": "https://maps.google.com/?q=-0.282,-78.556",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Udyat Fitness Club",
+              "direccion": "Udyat Fitness Club (Piscina), Av. París N40-108 y De los Granados, Quito · Horario: 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                -0.175,
+                -78.488
+              ],
+              "maps": "https://maps.google.com/?q=-0.175,-78.488",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Av. Napo Casa S6-308",
+              "direccion": "Avenida Napo Casa S6-308, frente al colegio Montúfar, al lado de la peluquería Ooh!, Quito · Horario: 8:00 a.m. a 4:00 p.m.",
+              "coords": [
+                -0.251,
+                -78.518
+              ],
+              "maps": "https://maps.google.com/?q=-0.251,-78.518",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Local Virtus — Miraflores",
+              "direccion": "Redondel para entrar a Miraflores, calle Olmedo y Francisco Flor, pasos arriba del colegio Cevallos, Local Virtus, Quito · Horario: 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                -0.204,
+                -78.492
+              ],
+              "maps": "https://maps.google.com/?q=-0.204,-78.492",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -5947,6 +6662,184 @@
               ],
               "maps": "https://maps.google.com/?q=-2.148,-79.887",
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+            },
+            {
+              "nombre": "Un Rincón de Venezuela — Alborada",
+              "direccion": "Alborada 11va, Mz 30, Villa 28, Guayaquil — Un Rincón de Venezuela · Horario: 4:00 p.m.",
+              "coords": [
+                -2.138,
+                -79.9
+              ],
+              "maps": "https://maps.google.com/?q=-2.138,-79.9",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Mucholote 1, 7ma etapa",
+              "direccion": "Mucholote 1, 7ma etapa, Guayaquil · Horario: 10:00 a.m.",
+              "coords": [
+                -2.17,
+                -79.89
+              ],
+              "maps": "https://maps.google.com/?q=-2.17,-79.89",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Quito Sur",
+          "centros": [
+            {
+              "nombre": "Casa Comunal La Comarca",
+              "direccion": "Sector Quitumbes Ninallacta, Casa Comunal La Comarca, Quito · Horario: 24 horas",
+              "coords": [
+                -0.303,
+                -78.553
+              ],
+              "maps": "https://maps.google.com/?q=-0.303,-78.553",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Santo Domingo de los Tsáchilas",
+          "centros": [
+            {
+              "nombre": "Terminal Centro de Atención al Migrante",
+              "direccion": "Terminal centro de atención al migrante, entrada por el patio de comida, Santo Domingo de los Tsáchilas · Horario: 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                -0.253,
+                -79.175
+              ],
+              "maps": "https://maps.google.com/?q=-0.253,-79.175",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Municipio — Av. Quito con Tsáchila",
+              "direccion": "Municipio, Av. Quito con calle Tsáchila al lado del Salón de la Ciudad, Santo Domingo de los Tsáchilas · Horario: 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                -0.254,
+                -79.174
+              ],
+              "maps": "https://maps.google.com/?q=-0.254,-79.174",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Calle Manuelita Sáez — Liberación Popular",
+              "direccion": "Calle Manuelita Sáez o Liberación Popular, con calle La Niña, frente al local de Alejandra Osorio Lashista, ref. Escuela UNE, Santo Domingo de los Tsáchilas · Horario: 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                -0.256,
+                -79.177
+              ],
+              "maps": "https://maps.google.com/?q=-0.256,-79.177",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Sangolquí",
+          "centros": [
+            {
+              "nombre": "Parque Turismo — Valle de los Chillos",
+              "direccion": "Parque Turismo, Valle de los Chillos, Sangolquí · Horario: desde 10:00 a.m.",
+              "coords": [
+                -0.332,
+                -78.448
+              ],
+              "maps": "https://maps.google.com/?q=-0.332,-78.448",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Quevedo",
+          "centros": [
+            {
+              "nombre": "Parroquia 7 de Octubre",
+              "direccion": "Parroquia 7 de Octubre, calle 7ma y la B, Quevedo · Horario: desde las 8:00 a.m.",
+              "coords": [
+                -1.022,
+                -79.464
+              ],
+              "maps": "https://maps.google.com/?q=-1.022,-79.464",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Ambato",
+          "centros": [
+            {
+              "nombre": "Tufastmarket — Redondel de la Cumandá",
+              "direccion": "Av. 12 de Noviembre, Tufastmarket / Redondel de la Cumandá, Ambato · Horario: 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                -1.249,
+                -78.616
+              ],
+              "maps": "https://maps.google.com/?q=-1.249,-78.616",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         }
@@ -6558,6 +7451,40 @@
                 "linternas, pilas y cargadores portátiles"
               ],
               "fuente": "Flyer AVA Alcobendas (@asoc_venezolana_alcobendas)"
+            },
+            {
+              "nombre": "AMS Abogados — Calle Oñate",
+              "direccion": "Calle Oñate 10, Bajo exterior derecha, Oficina AMS Abogados, 28020 Madrid · Horario: 9:00 a.m. a 6:00 p.m.",
+              "coords": [
+                40.464,
+                -3.69
+              ],
+              "maps": "https://maps.google.com/?q=40.464,-3.69",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Parroquia Santísimo Cristo de la Victoria",
+              "direccion": "Parroquia Santísimo Cristo de la Victoria, Calle Fernando el Católico 45, Chamberí, Madrid · Horario: 8:30 a.m. a 9:00 p.m.",
+              "coords": [
+                40.436,
+                -3.718
+              ],
+              "maps": "https://maps.google.com/?q=40.436,-3.718",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         },
@@ -6579,6 +7506,265 @@
                 "medicamentos e insumos médicos"
               ],
               "fuente": "Por sus redes sociales."
+            }
+          ]
+        },
+        {
+          "nombre": "Bilbao",
+          "centros": [
+            {
+              "nombre": "Local Tierra de Gracia",
+              "direccion": "Local Tierra de Gracia, Plaza Moraza 4, 48007 Bilbao · Horario: 5:00 p.m. a 8:00 p.m.",
+              "coords": [
+                43.264,
+                -2.923
+              ],
+              "maps": "https://maps.google.com/?q=43.264,-2.923",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Brasil",
+      "ciudades": [
+        {
+          "nombre": "Boa Vista",
+          "centros": [
+            {
+              "nombre": "Praça do Centro Cívico",
+              "direccion": "Praça do Centro Cívico, Boa Vista · Horário: 9:00 às 19:00",
+              "coords": [
+                2.82,
+                -60.672
+              ],
+              "maps": "https://maps.google.com/?q=2.82,-60.672",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Av. Nossa Sra da Consolata 2555",
+              "direccion": "Av. Nossa Sra da Consolata 2555, Boa Vista · Horário: 9:00 às 19:00",
+              "coords": [
+                2.819,
+                -60.666
+              ],
+              "maps": "https://maps.google.com/?q=2.819,-60.666",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Manaus",
+          "centros": [
+            {
+              "nombre": "Upa Academia Coroado 2",
+              "direccion": "Upa Academia Coroado 2, Manaus · Horário: 6:00 às 20:00",
+              "coords": [
+                -3.075,
+                -59.955
+              ],
+              "maps": "https://maps.google.com/?q=-3.075,-59.955",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Pacaraima",
+          "centros": [
+            {
+              "nombre": "Setor Vila Nova",
+              "direccion": "Rua Maria Dos Anjos Pimentel Guerreiro, n102, Setor Vila Nova, Pacaraima · Horário: 9:00 às 18:00",
+              "coords": [
+                4.476,
+                -61.15
+              ],
+              "maps": "https://maps.google.com/?q=4.476,-61.15",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Guatemala",
+      "ciudades": [
+        {
+          "nombre": "Ciudad de Guatemala",
+          "centros": [
+            {
+              "nombre": "Vengo360 — Boulevard Los Próceres",
+              "direccion": "Vengo360, Boulevard Los Próceres 16-63, Ciudad de Guatemala · Horario: 8:00 a.m. a 4:00 p.m.",
+              "coords": [
+                14.599,
+                -90.502
+              ],
+              "maps": "https://maps.google.com/?q=14.599,-90.502",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Restaurante Carne en Vara — Zona 10",
+              "direccion": "Restaurante Carne en Vara, Zona 10, Ciudad de Guatemala · Horario: 8:00 a.m. a 4:00 p.m.",
+              "coords": [
+                14.586,
+                -90.512
+              ],
+              "maps": "https://maps.google.com/?q=14.586,-90.512",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "SOS Therapy — todas las sedes",
+              "direccion": "SOS Therapy (sedes CAES, Zona 14 y Zona 15), Ciudad de Guatemala · Horario: 8:00 a.m. a 4:00 p.m.",
+              "coords": [
+                14.579,
+                -90.505
+              ],
+              "maps": "https://maps.google.com/?q=14.579,-90.505",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Paraguay",
+      "ciudades": [
+        {
+          "nombre": "Asunción",
+          "centros": [
+            {
+              "nombre": "Restaurant Salvaje — Barrio Ycuá",
+              "direccion": "Restaurant Salvaje, Esquina Calle Austria con Viena, Barrio Ycuá, Asunción · Horario: 8:00 a 22:30",
+              "coords": [
+                -25.284,
+                -57.635
+              ],
+              "maps": "https://maps.google.com/?q=-25.284,-57.635",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Luque",
+          "centros": [
+            {
+              "nombre": "N.° 1 Troche c/ Pantaleón García",
+              "direccion": "N.° 1 Troche c/ Pantaleón García, Luque · Horario: 9:00 a 12:30 y 16:30 a 18:00",
+              "coords": [
+                -25.27,
+                -57.486
+              ],
+              "maps": "https://maps.google.com/?q=-25.27,-57.486",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Comité Olímpico Paraguayo",
+              "direccion": "Comité Olímpico Paraguayo, Luque · Horario: 24 horas",
+              "coords": [
+                -25.272,
+                -57.488
+              ],
+              "maps": "https://maps.google.com/?q=-25.272,-57.488",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Ciudad del Este",
+          "centros": [
+            {
+              "nombre": "Av. Las Américas — Edif. WB Group",
+              "direccion": "Av. Las Américas, Edificio WB Group, Área 4, Ciudad del Este · Horario: 10:00 a 21:00",
+              "coords": [
+                -25.516,
+                -54.616
+              ],
+              "maps": "https://maps.google.com/?q=-25.516,-54.616",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
             }
           ]
         }
