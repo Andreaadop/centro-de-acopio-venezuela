@@ -3479,6 +3479,35 @@
           ]
         },
         {
+          "nombre": "Kissimmee",
+          "centros": [
+            {
+              "nombre": "Beat Training — Centro de Acopio",
+              "direccion": "904 E Osceola Pkwy, Kissimmee, FL 34744",
+              "coords": [
+                28.3203,
+                -81.4047
+              ],
+              "maps": "https://maps.google.com/?q=904+E+Osceola+Pkwy+Kissimmee+FL+34744",
+              "instagram": "beattrainingglobal",
+              "horario": "Sábado, 9:00am - 1:00pm",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos de higiene personal",
+                "mantas y cobijas",
+                "alimentos para mascotas"
+              ],
+              "nota": "También reciben mascarillas, guantes y toallitas. Cualquier ayuda hace la diferencia.",
+              "fuente": "Flyer @beattrainingglobal"
+            }
+          ]
+        },
+        {
           "nombre": "Key Biscayne",
           "centros": [
             {
