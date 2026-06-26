@@ -25,6 +25,10 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-ZJ55ZNSHMM');
+      // Helper: track custom interactions. No-op if gtag is blocked.
+      window.track = function (name, params) {
+        try { gtag('event', name, params || {}); } catch (e) {}
+      };
     </script>
 
     <!-- Open Graph / Facebook / WhatsApp -->
@@ -421,11 +425,18 @@
     <!-- Top bar -->
     <div class="border-b border-line">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 h-12 flex items-center justify-between gap-4">
-        <button id="share-btn" class="flex items-center gap-2 group" aria-label="Compartir directorio">
-          <svg class="text-navy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v14"/></svg>
-          <span class="eyebrow text-navy group-hover:text-coral transition-colors" data-i18n="topbar.share">Compartir este directorio</span>
-          <span id="share-status" class="eyebrow text-coral hidden" data-i18n="topbar.copied">¡Copiado!</span>
-        </button>
+        <div class="flex items-center gap-4">
+          <button id="share-btn" class="flex items-center gap-2 group" aria-label="Compartir directorio">
+            <svg class="text-navy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v14"/></svg>
+            <span class="eyebrow text-navy group-hover:text-coral transition-colors" data-i18n="topbar.share">Compartir este directorio</span>
+            <span id="share-status" class="eyebrow text-coral hidden" data-i18n="topbar.copied">¡Copiado!</span>
+          </button>
+          <button id="share-story-btn" class="flex items-center gap-2 group" aria-label="Compartir en mi estado / story">
+            <svg class="text-coral" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M9 18h6"/></svg>
+            <span class="eyebrow text-coral group-hover:text-navy transition-colors" data-i18n="topbar.story">Compartir en mi estado</span>
+            <span id="share-story-status" class="eyebrow text-navy hidden"></span>
+          </button>
+        </div>
         <a href="#aportar" class="eyebrow text-muted hover:text-coral transition-colors hidden sm:inline" data-i18n="topbar.know">
           ¿Conoces un centro? Agrégalo ↓
         </a>
@@ -685,6 +696,7 @@
       const TRANSLATIONS = {
         es: {
           'topbar.share': 'Compartir este directorio',
+          'topbar.story': 'Compartir en mi estado',
           'topbar.copied': '¡Copiado!',
           'topbar.know': '¿Conoces un centro? Agrégalo ↓',
           'topbar.updated': 'Act.',
@@ -765,6 +777,7 @@
         },
         en: {
           'topbar.share': 'Share this directory',
+          'topbar.story': 'Share to my story',
           'topbar.copied': 'Copied!',
           'topbar.know': 'Know a center? Add it ↓',
           'topbar.updated': 'Upd.',
@@ -1297,18 +1310,26 @@
         $('#estado-select').addEventListener('change', (e) => {
           state.estado = e.target.value;
           render();
+          track('filter_estado', { estado: state.estado || '(todos)', results: state.filtered.length });
           if (state.estado) {
             document.getElementById('contenido').scrollIntoView({ behavior: 'smooth', block: 'start' });
           }
         });
 
+        let _searchTimer = null;
         $('#search').addEventListener('input', (e) => {
           state.query = e.target.value;
           render();
+          clearTimeout(_searchTimer);
+          _searchTimer = setTimeout(() => {
+            const q = (state.query || '').trim();
+            if (q.length >= 2) track('filter_search', { query: q, results: state.filtered.length });
+          }, 800);
         });
 
 
         $('#share-btn').addEventListener('click', async () => {
+          track('share_site', { method: navigator.share ? 'native' : 'clipboard' });
           const url = window.location.href;
           const title = 'Centros de Acopio · Venezuela';
           const text = 'Directorio de centros de acopio en Venezuela. Encuentra dónde donar cerca de ti.';
@@ -1324,12 +1345,48 @@
           } catch {}
         });
 
+        $('#share-story-btn').addEventListener('click', async () => {
+          const btn = $('#share-story-btn');
+          const status = $('#share-story-status');
+          const showStatus = (msg) => {
+            status.textContent = msg;
+            status.classList.remove('hidden');
+            setTimeout(() => status.classList.add('hidden'), 2200);
+          };
+          try {
+            const res = await fetch('share-image/9-16-share-image.png', { cache: 'force-cache' });
+            const blob = await res.blob();
+            const file = new File([blob], 'centrosdeacopiovzla.png', { type: 'image/png' });
+            const shareText = CURRENT_LANG === 'en'
+              ? 'Directory of donation drop-off centers in Venezuela. Find where to donate near you: https://www.centrosdeacopiovzla.com/'
+              : 'Directorio de centros de acopio en Venezuela. Encuentra dónde donar cerca de ti: https://www.centrosdeacopiovzla.com/';
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+              await navigator.share({ files: [file], text: shareText, title: 'Centros de Acopio · Venezuela' });
+              track('share_story', { method: 'native' });
+            } else {
+              // Desktop fallback: download image + copy text
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url; a.download = 'centrosdeacopiovzla.png';
+              document.body.appendChild(a); a.click(); a.remove();
+              setTimeout(() => URL.revokeObjectURL(url), 1000);
+              try { await navigator.clipboard.writeText(shareText); } catch {}
+              showStatus(CURRENT_LANG === 'en' ? 'Image downloaded' : 'Imagen descargada');
+              track('share_story', { method: 'download' });
+            }
+          } catch (err) {
+            track('share_story_error');
+            showStatus(CURRENT_LANG === 'en' ? 'Could not share' : 'No se pudo compartir');
+          }
+        });
+
         $('#clear-btn').addEventListener('click', () => {
           state.query = '';
           state.estado = '';
           $('#search').value = '';
           $('#estado-select').value = '';
           render();
+          track('filter_clear');
         });
 
         setupForm();
@@ -1337,7 +1394,29 @@
         // Language toggle button
         applyTranslations();
         document.getElementById('lang-btn').addEventListener('click', () => {
-          setLanguage(CURRENT_LANG === 'es' ? 'en' : 'es');
+          const next = CURRENT_LANG === 'es' ? 'en' : 'es';
+          track('language_toggle', { from: CURRENT_LANG, to: next });
+          setLanguage(next);
+        });
+
+        // Event delegation: track outbound clicks on card actions (Maps, IG, WA, web)
+        document.body.addEventListener('click', (e) => {
+          const a = e.target.closest('a[href]');
+          if (!a) return;
+          const href = a.getAttribute('href') || '';
+          const row = a.closest('details.centro-row');
+          const centroName = row ? (row.querySelector('.row-name')?.textContent || '').trim() : '';
+          if (/maps\.google\./i.test(href) || href.includes('?q=')) {
+            track('card_directions', { centro: centroName });
+          } else if (/instagram\.com/i.test(href)) {
+            track('card_instagram', { centro: centroName, url: href });
+          } else if (/^https?:\/\/wa\.me\//i.test(href) || /api\.whatsapp\.com/i.test(href)) {
+            track('card_whatsapp', { centro: centroName });
+          } else if (a.matches('a[href^="#donaciones"]')) {
+            track('donate_link_click');
+          } else if (a.matches('a[href^="#aportar"]')) {
+            track('report_link_click');
+          }
         });
       }
 
@@ -1406,9 +1485,11 @@
             });
             // no-cors → opaque response; assume success if no network error
             status.innerHTML = `<span class="text-navy font-semibold">${t('form.success')}</span>`;
+            track('report_submit', { estado: payload.estado, ciudad: payload.ciudad, items: recibeAll.length });
             f.reset();
           } catch (err) {
             status.innerHTML = `<span class="text-coral2">${t('form.errorSend')}</span>`;
+            track('report_submit_error');
           } finally {
             submitBtn.disabled = false;
             submitBtn.style.opacity = '';
