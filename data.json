@@ -5482,6 +5482,28 @@
           ]
         },
         {
+          "nombre": "Pompano Beach",
+          "centros": [
+            {
+              "nombre": "Dulce Tropical",
+              "direccion": "2301 NE 16th St, Unit 102, Pompano Beach, FL 33062",
+              "coords": [
+                26.2400,
+                -80.0950
+              ],
+              "maps": "https://maps.google.com/?q=2301+NE+16th+St+Pompano+Beach+FL+33062",
+              "instagram": "dulcetropicalmiami",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "mantas y cobijas",
+                "ropa en buen estado"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            }
+          ]
+        },
+        {
           "nombre": "Deerfield Beach",
           "centros": [
             {
