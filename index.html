@@ -466,7 +466,7 @@
             <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-centers">—</dd>
           </div>
           <div class="bg-white px-5 py-5">
-            <dt class="eyebrow text-muted">Estados activos</dt>
+            <dt class="eyebrow text-muted">Estados / países</dt>
             <dd class="display-md text-3xl sm:text-4xl mt-1 num" id="stat-estados">—</dd>
           </div>
           <div class="bg-white px-5 py-5">
@@ -502,7 +502,7 @@
     <main id="contenido" class="mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-14">
       <div class="flex items-baseline justify-between mb-6">
         <p class="eyebrow text-muted">
-          <span id="result-count" class="text-ink num">0</span> centros · <span id="result-states" class="text-ink num">0</span> estados
+          <span id="result-count" class="text-ink num">0</span> centros · <span id="result-states" class="text-ink num">0</span> estados · <span id="result-countries" class="text-ink num">0</span> países
         </p>
         <p id="sort-mode" class="eyebrow text-muted">Orden · alfabético</p>
       </div>
@@ -746,7 +746,10 @@
         $('#stat-rev').textContent = fmtShort(state.data.actualizado);
         $('#updated-date').textContent = fmtDate(state.data.actualizado);
         $('#result-count').textContent = state.filtered.length;
-        $('#result-states').textContent = new Set(state.filtered.map((c) => c.estado)).size;
+        const estadosUnicos = new Set(state.filtered.map((c) => c.estado));
+        const esVE = (e) => !EXTERIOR.has(e);
+        $('#result-states').textContent = [...estadosUnicos].filter(esVE).length;
+        $('#result-countries').textContent = [...estadosUnicos].filter(e => !esVE(e)).length;
         $('#sort-mode').textContent = `Orden · ${state.sortMode}`;
 
         const active = $('#active-estado');
