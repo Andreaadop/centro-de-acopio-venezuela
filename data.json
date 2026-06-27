@@ -40,6 +40,14 @@
   },
   "donaciones_monetarias": [
     {
+      "nombre": "Hazlo Hoy · Venezuela Ayuda",
+      "alcance": "internacional",
+      "descripcion": "Plataforma comunitaria sin fines de lucro que coordina la respuesta a la emergencia: reportes de desaparecidos, edificios dañados, voluntarios y canales de donación verificados. Trabaja con iniciativas no afiliadas como Yummy (logística), Digitel (comunicaciones), Ingeniería Solidaria/RedesAyuda (evaluación estructural), SismoAyuda VE y la Cámara Venezolana de la Construcción.",
+      "tipo_ayuda": "Plataforma de coordinación + donaciones",
+      "web": "https://terremoto.hazlohoy.org/",
+      "instagram": "terremoto.hazlohoy"
+    },
+    {
       "nombre": "Alimenta La Solidaridad, Inc.",
       "alcance": "internacional",
       "descripcion": "Organización sin fines de lucro 501(c)3 dedicada a alimentar a niños venezolanos. Las donaciones son deducibles de impuestos en EE.UU.",
@@ -1388,8 +1396,8 @@
               "nombre": "Caracas FC — Cocodrilos Sports Park",
               "direccion": "Cocodrilos Sports Park, Av. Antonio Guzmán Blanco, entre el Parque El Pinar y La India, El Paraíso, Caracas · Sede administrativa y de entrenamiento del Caracas Fútbol Club · Horario: desde el sábado 27 de junio, 8:00 a.m. a 6:00 p.m.",
               "coords": [
-                10.4810,
-                -66.9320
+                10.481,
+                -66.932
               ],
               "maps": "https://maps.google.com/?q=Cocodrilos+Sports+Park+El+Para%C3%ADso+Caracas",
               "instagram": "caracas_fc",
@@ -1408,8 +1416,8 @@
               "nombre": "Centro de Acopio UCV — Gestión Menstrual (Plaza del Rectorado)",
               "direccion": "Plaza del Rectorado, Universidad Central de Venezuela (UCV), Caracas · Para mujeres, niñas y adolescentes de La Guaira y El Junquito",
               "coords": [
-                10.4910,
-                -66.8910
+                10.491,
+                -66.891
               ],
               "maps": "https://maps.google.com/?q=Plaza+del+Rectorado+UCV+Caracas",
               "instagram": "marialaurarg",
@@ -1896,7 +1904,403 @@
     },
     {
       "nombre": "Guárico",
-      "ciudades": []
+      "ciudades": [
+        {
+          "nombre": "San Juan de los Morros",
+          "centros": [
+            {
+              "nombre": "Gobernación del Estado Bolivariano de Guárico — Centro Principal",
+              "direccion": "Gobernación del Estado Bolivariano de Guárico, San Juan de los Morros, Guárico · Horario: lunes a domingo, 8:00 a.m. a 6:00 p.m.",
+              "coords": [
+                9.909,
+                -67.354
+              ],
+              "maps": "https://maps.google.com/?q=9.909,-67.354",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Centro de acopio principal para la recolección de insumos destinados a las personas afectadas por el terremoto en diferentes ciudades del país.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            },
+            {
+              "nombre": "Parque Antonio Miguel Martínez",
+              "direccion": "Parque Antonio Miguel Martínez, San Juan de los Morros, Guárico",
+              "coords": [
+                9.909,
+                -67.355
+              ],
+              "maps": "https://maps.google.com/?q=9.909,-67.355",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Ortiz",
+          "centros": [
+            {
+              "nombre": "Plaza Bolívar — Ortiz",
+              "direccion": "Plaza Bolívar, Ortiz, Guárico",
+              "coords": [
+                9.619,
+                -67.3
+              ],
+              "maps": "https://maps.google.com/?q=9.619,-67.3",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Valle de la Pascua",
+          "centros": [
+            {
+              "nombre": "Desarrollo Social de la Alcaldía",
+              "direccion": "Desarrollo Social de la Alcaldía, calle Vigía, Valle de la Pascua, Guárico",
+              "coords": [
+                9.215,
+                -65.997
+              ],
+              "maps": "https://maps.google.com/?q=9.215,-65.997",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Guayabal",
+          "centros": [
+            {
+              "nombre": "Salón de Usos Múltiples de la Alcaldía — Guayabal",
+              "direccion": "Salón de Usos Múltiples de la Alcaldía, Guayabal, Guárico",
+              "coords": [
+                8.58,
+                -67.4
+              ],
+              "maps": "https://maps.google.com/?q=8.58,-67.4",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Santa María de Ipire",
+          "centros": [
+            {
+              "nombre": "Concejo Municipal — Santa María",
+              "direccion": "Concejo Municipal, Santa María de Ipire, Guárico",
+              "coords": [
+                8.961,
+                -65.326
+              ],
+              "maps": "https://maps.google.com/?q=8.961,-65.326",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "El Sombrero",
+          "centros": [
+            {
+              "nombre": "Alcaldía de El Sombrero",
+              "direccion": "Alcaldía de El Sombrero, Guárico",
+              "coords": [
+                9.385,
+                -67.05
+              ],
+              "maps": "https://maps.google.com/?q=9.385,-67.05",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Calabozo",
+          "centros": [
+            {
+              "nombre": "Salón de Usos Múltiples de la Alcaldía — Calabozo",
+              "direccion": "Salón de Usos Múltiples de la Alcaldía, Calabozo, Guárico",
+              "coords": [
+                8.924,
+                -67.426
+              ],
+              "maps": "https://maps.google.com/?q=8.924,-67.426",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Camaguán",
+          "centros": [
+            {
+              "nombre": "Plaza Castor Vásquez y Plaza Bolívar de Puerto Miranda",
+              "direccion": "Plaza Castor Vásquez y Plaza Bolívar de Puerto Miranda, Camaguán, Guárico",
+              "coords": [
+                8.119,
+                -67.598
+              ],
+              "maps": "https://maps.google.com/?q=8.119,-67.598",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Tucupido",
+          "centros": [
+            {
+              "nombre": "Instituto de Deportes IMDRI",
+              "direccion": "Instituto de Deportes IMDRI, Tucupido, Guárico",
+              "coords": [
+                9.298,
+                -65.771
+              ],
+              "maps": "https://maps.google.com/?q=9.298,-65.771",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Altagracia de Orituco",
+          "centros": [
+            {
+              "nombre": "Alcaldía de Altagracia de Orituco",
+              "direccion": "Alcaldía de Altagracia de Orituco, Guárico",
+              "coords": [
+                9.877,
+                -66.383
+              ],
+              "maps": "https://maps.google.com/?q=9.877,-66.383",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Las Mercedes del Llano",
+          "centros": [
+            {
+              "nombre": "Casa de la Cultura — Las Mercedes del Llano",
+              "direccion": "Casa de la Cultura, Las Mercedes del Llano, Guárico",
+              "coords": [
+                9.11,
+                -66.4
+              ],
+              "maps": "https://maps.google.com/?q=9.11,-66.4",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Zaraza",
+          "centros": [
+            {
+              "nombre": "Cuerpo de Bomberos — Zaraza",
+              "direccion": "Cuerpo de Bomberos, Zaraza, Guárico",
+              "coords": [
+                9.352,
+                -65.321
+              ],
+              "maps": "https://maps.google.com/?q=9.352,-65.321",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Chaguaramas",
+          "centros": [
+            {
+              "nombre": "PAC de la GNB — Chaguaramas",
+              "direccion": "Puesto de Atención al Ciudadano (PAC) de la Guardia Nacional Bolivariana, Chaguaramas, Guárico",
+              "coords": [
+                9.336,
+                -66.253
+              ],
+              "maps": "https://maps.google.com/?q=9.336,-66.253",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "Guaribe",
+          "centros": [
+            {
+              "nombre": "Sala Situacional de Seguridad y Paz",
+              "direccion": "Sala Situacional de Seguridad y Paz, Plaza Bolívar, Sector Centro, Guaribe, Guárico",
+              "coords": [
+                9.829,
+                -65.595
+              ],
+              "maps": "https://maps.google.com/?q=9.829,-65.595",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        },
+        {
+          "nombre": "El Socorro",
+          "centros": [
+            {
+              "nombre": "Comandancia del Sector Calichito",
+              "direccion": "Comandancia del Sector Calichito, calle Bolívar, El Socorro, Guárico",
+              "coords": [
+                8.992,
+                -65.722
+              ],
+              "maps": "https://maps.google.com/?q=8.992,-65.722",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "nota": "Punto de acopio municipal de la Gobernación del Estado Bolivariano de Guárico — iniciativa “Por amor a Guárico, Unidos somos más fuertes”. Coordinación: Centro principal en la Gobernación, San Juan de los Morros.",
+              "fuente": "Flyer oficial Gobernación del Estado Bolivariano de Guárico"
+            }
+          ]
+        }
+      ]
     },
     {
       "nombre": "La Guaira",
@@ -2218,6 +2622,83 @@
           "nombre": "Mérida",
           "centros": [
             {
+              "nombre": "El Sistema — Núcleo Mérida",
+              "direccion": "El Sistema Nacional de Orquestas y Coros Juveniles e Infantiles, Núcleo Mérida, Calle 37 entre Av. 2 y 3, Sector Glorias Patrias, Mérida · Horario: sábado 27 de junio, 9:00 a.m. a 4:00 p.m.",
+              "coords": [
+                8.591,
+                -71.15
+              ],
+              "maps": "https://maps.google.com/?q=Calle+37+Glorias+Patrias+M%C3%A9rida",
+              "instagram": "programa.musicapopularmerida",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Operativo especial de recolección para Caracas y La Guaira. Insumos médicos específicos: guantes, torniquetes, lidocaína tópica, algodón, diclofenaco, ibuprofeno, acetaminofén, sueros, bebidas con electrolitos, vitamina K, dipirona, gasas, solución 0.9, alcohol, agua oxigenada, vendas, suturas, jeringas, gerdex. También reciben alimentos no perecederos, pañales, toallas sanitarias, bolsas negras, linternas y agua embotellada.",
+              "fuente": "Story @meridaven · @programa.musicapopularmerida"
+            },
+            {
+              "nombre": "Local Scuderia — Mérida se une",
+              "direccion": "Local Scuderia, final Av. 16 de Septiembre con calle Miranda, diagonal a las canchas del Luis Ghersi, Mérida",
+              "coords": [
+                8.583,
+                -71.149
+              ],
+              "maps": "https://maps.google.com/?q=Av+16+de+Septiembre+Miranda+M%C3%A9rida",
+              "telefono": "+584247659598",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "nota": "Iniciativa “Mérida se une”. Reciben también velas y fósforos. Contactos: Zorimar Quintero +58 424-7659598 · Sthefanny Quintero +58 412-1011049 (por WhatsApp para coordinar entregas o aportes económicos).",
+              "fuente": "Flyer @meridaven — Local Scuderia"
+            },
+            {
+              "nombre": "Traki Mérida",
+              "direccion": "Edificio Traki, Av. Los Próceres, Mérida · Horario: 8:30 a.m. a 8:00 p.m.",
+              "coords": [
+                8.587,
+                -71.162
+              ],
+              "maps": "https://maps.google.com/?q=Traki+Av+Los+Pr%C3%B3ceres+M%C3%A9rida",
+              "instagram": "meridaven",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "ropa en buen estado",
+                "abrigos y otros implementos de protección"
+              ],
+              "fuente": "Story @meridaven · @eri.nunez4"
+            },
+            {
+              "nombre": "Universidad de Los Andes (ULA) — Edificio del Rectorado",
+              "direccion": "Edificio del Rectorado, Universidad de Los Andes, Mérida · Horario: viernes 26/6/26, 8:30 a.m. a 2:00 p.m.",
+              "coords": [
+                8.587,
+                -71.145
+              ],
+              "maps": "https://maps.google.com/?q=Rectorado+ULA+M%C3%A9rida",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos"
+              ],
+              "nota": "Solo reciben enlatados y agua potable.",
+              "fuente": "Flyer oficial Universidad de Los Andes"
+            },
+            {
               "nombre": "Animales Sin Nombre",
               "direccion": "CC El Rodeo (contactar a través de Instagram)",
               "coords": [
@@ -2248,6 +2729,33 @@
                 "ropa en buen estado"
               ],
               "fuente": "El Nacional · elnacional.com · Lista colaborativa de @marielozadab y @nathaliesayago"
+            }
+          ]
+        },
+        {
+          "nombre": "El Vigía",
+          "centros": [
+            {
+              "nombre": "CETA — El Vigía",
+              "direccion": "CETA, Av. 16, Sector Barrio El Carmen, El Vigía, Mérida · Horario: hasta las 6:00 p.m.",
+              "coords": [
+                8.624,
+                -71.647
+              ],
+              "maps": "https://maps.google.com/?q=Av+16+Barrio+El+Carmen+El+Vig%C3%ADa+M%C3%A9rida",
+              "instagram": "cetaenlinea",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "nota": "Iniciativa “Apoyemos a Caracas y La Guaira”. Lo recolectado será trasladado en el transporte de Protección Civil.",
+              "fuente": "Story @meridaven · @cetaenlinea"
             }
           ]
         }
@@ -3580,8 +4088,8 @@
               "nombre": "Proyecto Mujeres × Studio Velu — Gym Lago Club",
               "direccion": "Gym Lago Club, Hotel Tibisay, Av. El Milagro, Maracaibo",
               "coords": [
-                10.6770,
-                -71.6010
+                10.677,
+                -71.601
               ],
               "maps": "https://maps.google.com/?q=Hotel+Tibisay+Av+El+Milagro+Maracaibo",
               "instagram": "proyectomujeres",
@@ -5543,8 +6051,8 @@
               "nombre": "Dulce Tropical",
               "direccion": "2301 NE 16th St, Unit 102, Pompano Beach, FL 33062",
               "coords": [
-                26.2400,
-                -80.0950
+                26.24,
+                -80.095
               ],
               "maps": "https://maps.google.com/?q=2301+NE+16th+St+Pompano+Beach+FL+33062",
               "instagram": "dulcetropicalmiami",
