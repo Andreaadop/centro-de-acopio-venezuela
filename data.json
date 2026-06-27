@@ -1385,6 +1385,26 @@
               "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
             },
             {
+              "nombre": "Caracas FC — Cocodrilos Sports Park",
+              "direccion": "Cocodrilos Sports Park, Av. Antonio Guzmán Blanco, entre el Parque El Pinar y La India, El Paraíso, Caracas · Sede administrativa y de entrenamiento del Caracas Fútbol Club · Horario: desde el sábado 27 de junio, 8:00 a.m. a 6:00 p.m.",
+              "coords": [
+                10.4810,
+                -66.9320
+              ],
+              "maps": "https://maps.google.com/?q=Cocodrilos+Sports+Park+El+Para%C3%ADso+Caracas",
+              "instagram": "caracas_fc",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Iniciativa “Juntos por nuestro país”. La institución se encarga de llevar las donaciones a las personas y zonas más necesitadas. Reciben específicamente: solución fisiológica 0.9% (10 cajas), Jelco #18, #20, #24 / Mariposa, inyectadoras 3, 5, 10 y 20 ml, adhesivo, equipo de infusión (macrogoteo), ibuprofeno 800 mg, ketoprofeno 100 mg, diclofenaco potásico (tabletas), hidrocortisona 500 mg, agua potable, alimentos no perecederos, herramientas, linternas y artículos de higiene personal.",
+              "fuente": "Flyer oficial @caracas_fc · Cocodrilos Sports Park"
+            },
+            {
               "nombre": "Centro de Acopio UCV — Gestión Menstrual (Plaza del Rectorado)",
               "direccion": "Plaza del Rectorado, Universidad Central de Venezuela (UCV), Caracas · Para mujeres, niñas y adolescentes de La Guaira y El Junquito",
               "coords": [
@@ -3555,6 +3575,25 @@
                 "artículos de higiene personal"
               ],
               "fuente": "Flyer uBag · Puntos de recolección Maracaibo"
+            },
+            {
+              "nombre": "Proyecto Mujeres × Studio Velu — Gym Lago Club",
+              "direccion": "Gym Lago Club, Hotel Tibisay, Av. El Milagro, Maracaibo",
+              "coords": [
+                10.6770,
+                -71.6010
+              ],
+              "maps": "https://maps.google.com/?q=Hotel+Tibisay+Av+El+Milagro+Maracaibo",
+              "instagram": "proyectomujeres",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "alimentos para mascotas"
+              ],
+              "nota": "Iniciativa específica para mujeres y niñas, y para animales afectados. Reciben kits menstruales (toallas sanitarias, tampones, toallitas húmedas, pañales, analgésico, ibuprofeno, gel antibacterial), ropa interior nueva para niñas y mujeres, mantas y toallas, alimento para perros y gatos (perrarina y gatarina), insumos veterinarios y de primeros auxilios, correa y arnés para animales, soluciones y sulfadiazina de plata, tazas de comida y agua.",
+              "fuente": "Flyer @proyectomujeres × @studiovelu"
             },
             {
               "nombre": "Coremotif Functional Training Center",
