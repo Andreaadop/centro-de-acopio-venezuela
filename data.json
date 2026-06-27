@@ -1533,12 +1533,13 @@
             },
             {
               "nombre": "FCU-UCV — Plaza Rectorado",
-              "direccion": "Plaza Rectorado, Universidad Central de Venezuela (UCV), Caracas",
+              "direccion": "Plaza Rectorado, Universidad Central de Venezuela (UCV), Caracas · Entrega también en la sede del Centro de Estudiantes de Farmacia (FCU)",
               "coords": [
                 10.49,
                 -66.89
               ],
               "maps": "https://maps.google.com/?q=Plaza+Rectorado+UCV+Caracas",
+              "instagram": "cefarmaciaucv",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
@@ -1548,7 +1549,8 @@
                 "ropa en buen estado",
                 "artículos de higiene personal"
               ],
-              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela"
+              "nota": "🚨 URGENTE — Medicamentos prioritarios para hospitales (ninguno debe estar vencido ni abierto): Dipirona (ampollas), Dexametasona (ampollas), Omeprazol (ampollas), Adrenalina (ampollas), Ceftriaxona (ampollas), Cefepime (ampollas), Cefazolina (ampollas), Ceftazidima (ampollas), Ciprofloxacina (ampollas), Ampicilina/Sulbactam (ampollas), Vitamina K (ampollas), Ácido Tranexámico (ampollas), Heparina (ampollas), Ketoprofeno (ampollas), Metronidazol (solución inyectable), Enoxaparina (jeringas prellenadas), Sulfadiazina de plata (crema), Sales de rehidratación oral (polvo).",
+              "fuente": "El Diario · eldiario.com/2026/06/25/centros-de-acopio-terremotos-en-venezuela · Flyer @cefarmaciaucv"
             },
             {
               "nombre": "Alcaldía de Chacao — Sede de Desarrollo Social",
