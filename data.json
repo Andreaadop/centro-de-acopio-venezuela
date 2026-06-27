@@ -8880,6 +8880,27 @@
           "nombre": "Montevideo",
           "centros": [
             {
+              "nombre": "Embajada de Venezuela en Uruguay — Sección Consular",
+              "direccion": "Sección Consular de la Embajada de Venezuela, Rincón 745 esquina Ciudadela, Montevideo · Horario: lunes a viernes, 9:00 a 16:30 · Sábado y domingo, 10:00 a 15:00",
+              "coords": [
+                -34.9070,
+                -56.2050
+              ],
+              "maps": "https://maps.google.com/?q=Rinc%C3%B3n+745+Ciudadela+Montevideo",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "artículos para niños",
+                "linternas, pilas y cargadores portátiles",
+                "mantas y cobijas",
+                "materiales para refugio"
+              ],
+              "nota": "Centro de acopio oficial habilitado desde el 26 de junio. Reciben principalmente medicamentos esenciales, material médico, kits de higiene, fórmulas infantiles, linternas, baterías, herramientas de rescate, equipos de protección personal, colchones, mantas, carpas, plantas potabilizadoras y equipos de almacenamiento en frío. El Consulado coordina con el Sindicato Médico del Uruguay y el Ministerio de Salud Pública para priorizar medicamentos.",
+              "fuente": "APU.uy · apu.uy/noticias/organizaciones-sociales-y-migrantes-articulan-una-campana-solidaria-para-asistir-las"
+            },
+            {
               "nombre": "Anita Ventas — Centro de Acopio",
               "direccion": "Domingo Aramburu 1735, Montevideo, Uruguay",
               "coords": [
