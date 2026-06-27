@@ -3530,7 +3530,7 @@
               "direccion": "Centro Comercial Centenario, Ejido, Mérida",
               "coords": [
                 8.5451,
-                -71.2350
+                -71.235
               ],
               "maps": "https://maps.app.goo.gl/tAzSDnB7k78Rvq2K6",
               "recibe": [
@@ -3901,7 +3901,38 @@
     },
     {
       "nombre": "Nueva Esparta",
-      "ciudades": []
+      "ciudades": [
+        {
+          "nombre": "Pampatar",
+          "centros": [
+            {
+              "nombre": "Centro Comercial Sambil Margarita",
+              "direccion": "Sambil Margarita, Av. Jóvito Villalba, Sector San Lorenzo, Pampatar 6316, Nueva Esparta · Horario: 10:00 a.m. a 9:00 p.m.",
+              "coords": [
+                11.005,
+                -63.79
+              ],
+              "maps": "https://maps.app.goo.gl/j1oX3igxq24PWDNh7",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "tusambilmgta"
+            }
+          ]
+        }
+      ]
     },
     {
       "nombre": "Portuguesa",
@@ -5218,7 +5249,7 @@
                 "alimentos no perecederos",
                 "artículos de higiene personal"
               ],
-              "fuente": "la cuenta oficial lo publico."
+              "fuente": "Reporte de cuenta oficial verificada"
             },
             {
               "nombre": "Basilica de la Chinita",
@@ -5234,7 +5265,7 @@
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos"
               ],
-              "fuente": "la cuenta oficial lo publico."
+              "fuente": "Reporte de cuenta oficial verificada"
             },
             {
               "nombre": "Farmacia SAAS Las Mercedes",
@@ -5250,25 +5281,98 @@
                 "medicamentos e insumos médicos",
                 "artículos de higiene personal"
               ],
-              "fuente": "la cuenta oficial lo publico."
+              "fuente": "Reporte de cuenta oficial verificada"
             },
             {
-              "nombre": "Fresconi Market",
-              "direccion": "Av Bella Vista con calle 74",
+              "nombre": "Complejo Educativo Profesor Adelis Fusil",
+              "direccion": "Complejo Deportivo Niños Cantores, Av. 55 con Calle 96D, Maracaibo · Horario: sábado desde las 8:00 a.m.",
               "coords": [
-                10.6689,
-                -71.6082
+                10.645,
+                -71.628
               ],
-              "maps": "https://maps.google.com/?q=10.6689,-71.6082",
-              "instagram": "entresocios",
+              "maps": "https://maps.app.goo.gl/USWh22h7uom7GogU6",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
                 "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
                 "artículos de higiene personal",
-                "ropa en buen estado"
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
               ],
-              "fuente": "la cuenta oficial lo publico."
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "rayoescuela"
+            },
+            {
+              "nombre": "La Casona — Sector Lanamericano",
+              "direccion": "Av. 86, Sector Lanamericano, Maracaibo · Horario: lunes a sábado, 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                10.692,
+                -71.671
+              ],
+              "maps": "https://maps.app.goo.gl/gZdQuvf7mgpNHaND9",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "telefono": "+584122503053"
+            },
+            {
+              "nombre": "Iglesia María Inmaculada",
+              "direccion": "Av. 15G con calle 50, Urb. La California, Maracaibo · Horario: martes a viernes, 4:30 p.m. a 5:30 p.m.",
+              "coords": [
+                10.668,
+                -71.626
+              ],
+              "maps": "https://maps.google.com/?q=Av+15G+calle+50+La+California+Maracaibo",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "lainmaculadamcbo"
+            },
+            {
+              "nombre": "Iglesia Tiempos de Reino",
+              "direccion": "Frente al Estadio Luis Aparicio, al lado del galpón de Gramoca, Maracaibo · Horario: 9:00 a.m. a 12:00 a.m.",
+              "coords": [
+                10.665,
+                -71.65
+              ],
+              "maps": "https://maps.google.com/?q=Estadio+Luis+Aparicio+Maracaibo",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "Tiemposdereinomcbo"
             }
           ]
         },
@@ -5336,6 +5440,30 @@
               ],
               "nota": "Reciben gasas, vendas, alcohol, agua oxigenada, solución fisiológica, jeringas, guantes de látex, tapabocas, catéteres, equipos de infusión, linternas con pilas. Medicamentos con vencimiento vigente: analgésicos, antitérmicos, antibióticos, antisépticos, cremas para quemaduras, tratamientos para hipertensión y diabetes. Alimentos: agua, enlatados con abrefácil, arroz, granos, leche en polvo, fórmulas infantiles, barras de cereal. Jabón, papel higiénico, toallas húmedas y sanitarias, pañales, sábanas y cobijas limpias.",
               "fuente": "Flyer oficial @cevaz_zulia"
+            },
+            {
+              "nombre": "Sede Vente San Francisco",
+              "direccion": "Avenida 10 entre Calles 15 y 16A, Sierra Maestra, San Francisco · Horario: miércoles a domingo, 7:00 a.m. a 7:00 p.m.",
+              "coords": [
+                10.584,
+                -71.6405
+              ],
+              "maps": "https://maps.app.goo.gl/eTCfKxvrkWsXKCAS6",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "sanfrancisco_conmariacorina"
             }
           ]
         }
