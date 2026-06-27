@@ -2803,12 +2803,12 @@
             },
             {
               "nombre": "Animales Sin Nombre",
-              "direccion": "CC El Rodeo (contactar a través de Instagram)",
+              "direccion": "Centro Comercial El Rodeo, Av. Las Américas, frente a la Estación de Servicio Alba Lago, Mérida 5101 · Contactar también por Instagram",
               "coords": [
-                8.589793,
-                -71.142436
+                8.5899,
+                -71.1611
               ],
-              "maps": "https://maps.google.com/?q=8.589793,-71.142436",
+              "maps": "https://maps.app.goo.gl/UKTLZFxNs1kcWVEZ7",
               "instagram": "_asn",
               "recibe": [
                 "alimentos no perecederos",
@@ -3081,26 +3081,6 @@
                 -71.144
               ],
               "maps": "https://maps.google.com/?q=Cumis+Por+Venezuela%2C+Mérida",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "kits de primeros auxilios",
-                "artículos de higiene personal",
-                "ropa en buen estado",
-                "mantas y cobijas"
-              ],
-              "nota": "Punto reportado en el listado consolidado de @meridaaldia. Reciben insumos para los afectados por el terremoto.",
-              "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
-            },
-            {
-              "nombre": "Colegio de Médicos — Mérida",
-              "direccion": "Sede del Colegio de Médicos de Mérida, Mérida",
-              "coords": [
-                8.5916,
-                -71.1448
-              ],
-              "maps": "https://maps.google.com/?q=Sede+del+Colegio+de+Médicos+de+Mérida%2C+Mérida",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
@@ -3607,12 +3587,12 @@
             },
             {
               "nombre": "CC Centenario",
-              "direccion": "CC Centenario, Ejido, Mérida",
+              "direccion": "Centro Comercial Centenario, Ejido, Mérida",
               "coords": [
-                8.545,
-                -71.234
+                8.5451,
+                -71.2350
               ],
-              "maps": "https://maps.google.com/?q=CC+Centenario%2C+Ejido%2C+Mérida",
+              "maps": "https://maps.app.goo.gl/tAzSDnB7k78Rvq2K6",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
