@@ -2994,26 +2994,6 @@
               "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
             },
             {
-              "nombre": "Edificio Administrativo ULA",
-              "direccion": "Edificio Administrativo ULA, Mérida",
-              "coords": [
-                8.591,
-                -71.148
-              ],
-              "maps": "https://maps.google.com/?q=Edificio+Administrativo+ULA%2C+Mérida",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "kits de primeros auxilios",
-                "artículos de higiene personal",
-                "ropa en buen estado",
-                "mantas y cobijas"
-              ],
-              "nota": "Punto reportado en el listado consolidado de @meridaaldia. Reciben insumos para los afectados por el terremoto.",
-              "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
-            },
-            {
               "nombre": "Facultad de Medicina ULA",
               "direccion": "Facultad de Medicina, Universidad de Los Andes, Mérida",
               "coords": [
@@ -3294,26 +3274,6 @@
               "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
             },
             {
-              "nombre": "Servisalud — Mérida",
-              "direccion": "Servisalud, Mérida",
-              "coords": [
-                8.587,
-                -71.145
-              ],
-              "maps": "https://maps.google.com/?q=Servisalud%2C+Mérida",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "kits de primeros auxilios",
-                "artículos de higiene personal",
-                "ropa en buen estado",
-                "mantas y cobijas"
-              ],
-              "nota": "Punto reportado en el listado consolidado de @meridaaldia. Reciben insumos para los afectados por el terremoto.",
-              "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
-            },
-            {
               "nombre": "Mérida Grill — CC Rodeo",
               "direccion": "Mérida Grill, CC Rodeo Plaza, Av. Andrés Bello, Mérida",
               "coords": [
@@ -3341,26 +3301,6 @@
                 -71.146
               ],
               "maps": "https://maps.google.com/?q=Sede+de+Protección+Civil+del+Estado+Mérida%2C+Mérida",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "kits de primeros auxilios",
-                "artículos de higiene personal",
-                "ropa en buen estado",
-                "mantas y cobijas"
-              ],
-              "nota": "Punto reportado en el listado consolidado de @meridaaldia. Reciben insumos para los afectados por el terremoto.",
-              "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
-            },
-            {
-              "nombre": "Rectorado ULA",
-              "direccion": "Edificio del Rectorado, Universidad de Los Andes, Mérida",
-              "coords": [
-                8.591,
-                -71.147
-              ],
-              "maps": "https://maps.google.com/?q=Edificio+del+Rectorado%2C+Universidad+de+Los+Andes%2C+Mérida",
               "recibe": [
                 "agua potable",
                 "alimentos no perecederos",
