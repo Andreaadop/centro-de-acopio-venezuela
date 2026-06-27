@@ -286,6 +286,13 @@
         transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
       }
       .need-card:hover { border-color: #C7CBD8; box-shadow: 0 12px 24px -18px rgba(10,31,68,0.35); }
+      .need-card .btn-line {
+        font-size: 0.72rem;
+        padding: 5px 9px;
+        border-radius: 8px;
+        gap: 4px;
+      }
+      .need-card .btn-line svg { width: 11px; height: 11px; }
       .urg-badge {
         display: inline-flex; align-items: center; gap: 5px;
         font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em;
@@ -869,6 +876,7 @@
           'needs.units': 'unidades',
           'needs.unit': 'necesidades',
           'needs.unit1': 'necesidad',
+          'needs.call': 'Llamar',
           'topbar.copied': '¡Copiado!',
           'topbar.know': '¿Conoces un centro? Agrégalo ↓',
           'topbar.updated': 'Act.',
@@ -972,6 +980,7 @@
           'needs.units': 'units',
           'needs.unit': 'needs',
           'needs.unit1': 'need',
+          'needs.call': 'Call',
           'topbar.copied': 'Copied!',
           'topbar.know': 'Know a center? Add it ↓',
           'topbar.updated': 'Upd.',
@@ -1185,6 +1194,8 @@
         maps: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-7.5-7-12a7 7 0 1 1 14 0c0 4.5-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>',
         ig: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>',
         wa: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.5L3 21z"/></svg>',
+        sms: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12z"/></svg>',
+        phone: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>',
         clock: '<svg class="mt-0.5 shrink-0 text-muted" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
       };
       const igUrl = (h) => (h ? `https://instagram.com/${h.replace(/^@/, '')}` : null);
@@ -1816,7 +1827,19 @@
               <p class="text-xs text-muted mt-0.5">${escHtml([org.ciudad, org.estado].filter(Boolean).join(', '))}</p>
               <div class="flex flex-wrap gap-2 mt-3">
                 ${org.direccion ? `<a class="btn btn-line" href="https://maps.google.com/?q=${mapsQ}" target="_blank" rel="noopener">${icon.maps} ${t('card.directions')}</a>` : ''}
-                ${org.contactoTelefono ? `<a class="btn btn-line" href="tel:${escHtml(org.contactoTelefono)}">📞 ${escHtml(org.contactoTelefono)}</a>` : ''}
+                ${(() => {
+                  if (!org.contactoTelefono) return '';
+                  const raw = String(org.contactoTelefono).replace(/[^0-9+]/g, '');
+                  let digits = raw.replace(/^\+/, '');
+                  if (digits.startsWith('0') && digits.length >= 10) digits = '58' + digits.slice(1);
+                  else if (!digits.startsWith('58') && digits.length === 10) digits = '58' + digits;
+                  const tel = '+' + digits;
+                  return `
+                    <a class="btn btn-line" href="https://wa.me/${digits}" target="_blank" rel="noopener" aria-label="WhatsApp">${icon.wa} WhatsApp</a>
+                    <a class="btn btn-line" href="sms:${tel}" aria-label="Mensaje de texto">${icon.sms} SMS</a>
+                    <a class="btn btn-line" href="tel:${tel}" aria-label="Llamar">${icon.phone} ${t('needs.call')}</a>
+                  `;
+                })()}
               </div>
               ${verified ? `<p class="mt-2">${verified}</p>` : ''}
             </div>
