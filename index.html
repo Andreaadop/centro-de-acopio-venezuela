@@ -279,6 +279,101 @@
       .estado-select:hover { box-shadow: 0 10px 24px -16px rgba(10,31,68,0.35); }
       .estado-select:focus { outline: none; box-shadow: 0 0 0 4px rgba(224,67,42,0.20); }
 
+      /* Needs detail cards */
+      .need-card {
+        background: #FFFFFF; border: 1px solid #E6E8EE; border-radius: 14px;
+        padding: 16px 16px 14px; display: flex; flex-direction: column; gap: 8px;
+        transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+      }
+      .need-card:hover { border-color: #C7CBD8; box-shadow: 0 12px 24px -18px rgba(10,31,68,0.35); }
+      .urg-badge {
+        display: inline-flex; align-items: center; gap: 5px;
+        font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em;
+        text-transform: uppercase; padding: 3px 8px; border-radius: 999px;
+        white-space: nowrap;
+      }
+      .urg-critica { background: #FDE7E1; color: #B0301A; }
+      .urg-critica::before { content: ""; width: 6px; height: 6px; border-radius: 999px; background: #B0301A; }
+      .urg-alta    { background: #FFEFD9; color: #8A4F00; }
+      .urg-alta::before    { content: ""; width: 6px; height: 6px; border-radius: 999px; background: #C97900; }
+      .urg-media   { background: #EEF0F6; color: #4A546A; }
+      .urg-media::before   { content: ""; width: 6px; height: 6px; border-radius: 999px; background: #6B7591; }
+      .need-qty { font-variant-numeric: tabular-nums; }
+      .need-progress {
+        height: 4px; background: #EEF0F6; border-radius: 999px; overflow: hidden; margin-top: 4px;
+      }
+      .need-progress > span { display: block; height: 100%; background: #0A1F44; }
+
+      /* Needs filter chips */
+      .chip-group { display: flex; flex-direction: column; gap: 8px; }
+      @media (min-width: 720px) {
+        .chip-group { flex-direction: row; align-items: center; gap: 14px; }
+        .chip-group > .eyebrow { width: 90px; }
+      }
+      .chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+      .chip {
+        display: inline-flex; align-items: center; gap: 6px;
+        background: #FFFFFF; border: 1px solid #E6E8EE; color: #4A546A;
+        font-size: 0.82rem; font-weight: 500;
+        padding: 6px 12px; border-radius: 999px;
+        cursor: pointer; transition: all .15s ease;
+        white-space: nowrap; line-height: 1.2;
+      }
+      .chip svg { width: 14px; height: 14px; flex-shrink: 0; }
+      .chip:hover { border-color: #C7CBD8; color: #0A1F44; }
+      .chip:focus-visible { outline: 2px solid #E0432A; outline-offset: 2px; }
+      .chip-active {
+        background: #0A1F44; border-color: #0A1F44; color: #FFFFFF;
+      }
+      /* Urgencia colors when active */
+      .chip-urg-critica.chip-active { background: #B0301A; border-color: #B0301A; color: #FFFFFF; }
+      .chip-urg-alta.chip-active    { background: #C97900; border-color: #C97900; color: #FFFFFF; }
+      .chip-urg-media.chip-active   { background: #6B7591; border-color: #6B7591; color: #FFFFFF; }
+      /* Urgencia inactive dots */
+      .chip-urg-critica::before { content: ""; width: 6px; height: 6px; border-radius: 999px; background: #B0301A; }
+      .chip-urg-alta::before    { content: ""; width: 6px; height: 6px; border-radius: 999px; background: #C97900; }
+      .chip-urg-media::before   { content: ""; width: 6px; height: 6px; border-radius: 999px; background: #6B7591; }
+      .chip-urg-critica.chip-active::before,
+      .chip-urg-alta.chip-active::before,
+      .chip-urg-media.chip-active::before { background: #FFFFFF; }
+      .chip-all { background: #F4F6FA; border-color: transparent; }
+      .chip-all.chip-active { background: #0A1F44; color: #FFFFFF; }
+      .chip-count { font-size: 0.7rem; opacity: 0.7; font-variant-numeric: tabular-nums; }
+
+      /* Needs CTA card */
+      .needs-card {
+        display: flex; align-items: center; gap: 14px;
+        background: linear-gradient(135deg, #FFF6F2 0%, #FFFFFF 65%);
+        border: 1px solid #F4D2C7; border-radius: 16px;
+        padding: 14px 18px;
+        text-decoration: none; color: inherit;
+        transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+      }
+      .needs-card:hover { border-color: #E0432A; transform: translateY(-1px); box-shadow: 0 16px 30px -22px rgba(224,67,42,0.45); }
+      .needs-card:focus-visible { outline: 2px solid #E0432A; outline-offset: 3px; }
+      .needs-text { flex: 1; min-width: 0; }
+      .needs-title { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; color: #0A1F44; line-height: 1.25; margin-top: 4px; letter-spacing: -0.01em; }
+      .needs-sub   { color: #5B6478; font-size: 0.86rem; line-height: 1.5; margin-top: 4px; }
+      .needs-arrow {
+        display: inline-flex; align-items: center; justify-content: center;
+        width: 36px; height: 36px; border-radius: 999px;
+        background: #0A1F44; color: #FFFFFF; flex-shrink: 0;
+        transition: background .15s ease;
+      }
+      .needs-card:hover .needs-arrow { background: #E0432A; }
+      .needs-pulse {
+        position: relative; flex-shrink: 0;
+        width: 10px; height: 10px; border-radius: 999px; background: #E0432A;
+        box-shadow: 0 0 0 0 rgba(224,67,42,0.6);
+        animation: pulse 1.6s infinite;
+      }
+      @media (max-width: 520px) {
+        .needs-card { padding: 12px 14px; gap: 10px; }
+        .needs-title { font-size: 0.98rem; }
+        .needs-sub { font-size: 0.8rem; }
+        .needs-arrow { width: 32px; height: 32px; }
+      }
+
       /* Pulse dot */
       .pulse-dot {
         width: 8px; height: 8px; border-radius: 999px; background: #E0432A;
@@ -523,6 +618,62 @@
       </div>
     </div>
 
+    <!-- Necesidades urgentes — teaser card -->
+    <section id="needs-teaser-section" class="border-b border-line bg-surface/40">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-6">
+        <button type="button" class="needs-card group w-full text-left" id="needs-open">
+          <span class="needs-pulse" aria-hidden="true"></span>
+          <div class="needs-text">
+            <p class="eyebrow text-coral" data-i18n="needs.eyebrow">En vivo · solo dentro de Venezuela</p>
+            <p class="needs-title" data-i18n="needs.title">¿Quieres ayudar de manera más directa?</p>
+            <p class="needs-sub" data-i18n-html="needs.sub">Ve qué insumos específicos necesitan los centros y organizaciones en Venezuela ahora mismo, gracias a <strong class="text-ink">Ayuda en Camino</strong>.</p>
+          </div>
+          <span class="needs-arrow" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6 6 6-6 6"/></svg>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Necesidades urgentes — vista completa (hidden por default) -->
+    <section id="needs-view" class="hidden border-b border-line">
+      <div class="mx-auto max-w-6xl px-5 sm:px-8 py-8 sm:py-12">
+        <button type="button" id="needs-back" class="btn btn-line mb-6">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 6-6 6 6 6"/></svg>
+          <span data-i18n="needs.back">Volver al directorio de centros</span>
+        </button>
+
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-6">
+          <div>
+            <p class="eyebrow text-coral" data-i18n="needs.eyebrow2">En vivo · solo dentro de Venezuela</p>
+            <h2 class="display-md text-3xl sm:text-4xl mt-2 text-ink" data-i18n="needs.h2">Necesidades urgentes</h2>
+            <p class="mt-3 text-muted body-relaxed max-w-2xl" data-i18n-html="needs.intro">Centros y organizaciones en Venezuela que necesitan artículos específicos en este momento. Información en tiempo real, gracias a <a href="https://ayudaencamino.com/necesidades" target="_blank" rel="noopener" class="text-coral underline underline-offset-2">Ayuda en Camino</a>.</p>
+          </div>
+          <p id="needs-count" class="eyebrow text-muted shrink-0"></p>
+        </div>
+
+        <div id="needs-toolbar" class="flex flex-col gap-4 mb-6">
+          <div class="chip-group">
+            <p class="eyebrow text-muted shrink-0" data-i18n="needs.lblUrg">Urgencia</p>
+            <div class="chip-row" id="chips-urgencia" role="group" aria-label="Filtrar por urgencia"></div>
+          </div>
+          <div class="chip-group">
+            <p class="eyebrow text-muted shrink-0" data-i18n="needs.lblCat">Categoría</p>
+            <div class="chip-row" id="chips-categoria" role="group" aria-label="Filtrar por categoría"></div>
+          </div>
+          <div class="chip-group">
+            <p class="eyebrow text-muted shrink-0" data-i18n="needs.lblEst">Estado</p>
+            <div class="chip-row" id="chips-estado" role="group" aria-label="Filtrar por estado"></div>
+          </div>
+        </div>
+
+        <div id="needs-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+        <p id="needs-empty" class="hidden text-muted text-sm py-6" data-i18n="needs.empty">No hay necesidades activas con esos filtros.</p>
+        <p id="needs-error" class="hidden text-muted text-sm py-6" data-i18n-html="needs.error">No pudimos cargar las necesidades en vivo. Visítalas directamente en <a href="https://ayudaencamino.com/necesidades" target="_blank" rel="noopener" class="text-coral underline">Ayuda en Camino</a>.</p>
+        <p id="needs-loading" class="hidden text-muted text-sm py-6" data-i18n="needs.loading">Cargando necesidades en vivo…</p>
+      </div>
+    </section>
+
     <!-- Main -->
     <main id="contenido" class="mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-14">
       <div class="flex items-baseline justify-between mb-6">
@@ -696,6 +847,28 @@
         es: {
           'topbar.share': 'Compartir este directorio',
           'topbar.story': 'Compartir imagen',
+          'needs.eyebrow': 'En vivo · solo dentro de Venezuela',
+          'needs.eyebrow2': 'En vivo · solo dentro de Venezuela',
+          'needs.title': '¿Quieres ayudar de manera más directa?',
+          'needs.h2': 'Necesidades urgentes',
+          'needs.sub': 'Ve qué insumos específicos necesitan los centros y organizaciones en Venezuela ahora mismo, gracias a <strong class="text-ink">Ayuda en Camino</strong>.',
+          'needs.intro': 'Centros y organizaciones en Venezuela que necesitan artículos específicos en este momento. Información en tiempo real, gracias a <a href="https://ayudaencamino.com/necesidades" target="_blank" rel="noopener" class="text-coral underline underline-offset-2">Ayuda en Camino</a>.',
+          'needs.back': 'Volver al directorio de centros',
+          'needs.lblUrg': 'Urgencia',
+          'needs.lblCat': 'Categoría',
+          'needs.lblEst': 'Estado',
+          'needs.allUrg': 'Todas',
+          'needs.allCat': 'Todas',
+          'needs.allEst': 'Todos',
+          'needs.urgCritica': 'Crítica',
+          'needs.urgAlta': 'Alta',
+          'needs.urgMedia': 'Media',
+          'needs.empty': 'No hay necesidades activas con esos filtros.',
+          'needs.error': 'No pudimos cargar las necesidades en vivo. Visítalas directamente en <a href="https://ayudaencamino.com/necesidades" target="_blank" rel="noopener" class="text-coral underline">Ayuda en Camino</a>.',
+          'needs.loading': 'Cargando necesidades en vivo…',
+          'needs.units': 'unidades',
+          'needs.unit': 'necesidades',
+          'needs.unit1': 'necesidad',
           'topbar.copied': '¡Copiado!',
           'topbar.know': '¿Conoces un centro? Agrégalo ↓',
           'topbar.updated': 'Act.',
@@ -777,6 +950,28 @@
         en: {
           'topbar.share': 'Share this directory',
           'topbar.story': 'Share image',
+          'needs.eyebrow': 'Live · inside Venezuela only',
+          'needs.eyebrow2': 'Live · inside Venezuela only',
+          'needs.title': 'Want to help in a more direct way?',
+          'needs.h2': 'Urgent needs',
+          'needs.sub': 'See which specific supplies centers and organizations in Venezuela need right now, courtesy of <strong class="text-ink">Ayuda en Camino</strong>.',
+          'needs.intro': 'Centers and organizations in Venezuela that need specific items right now. Real-time data, courtesy of <a href="https://ayudaencamino.com/necesidades" target="_blank" rel="noopener" class="text-coral underline underline-offset-2">Ayuda en Camino</a>.',
+          'needs.back': 'Back to the centers directory',
+          'needs.lblUrg': 'Urgency',
+          'needs.lblCat': 'Category',
+          'needs.lblEst': 'State',
+          'needs.allUrg': 'All',
+          'needs.allCat': 'All',
+          'needs.allEst': 'All',
+          'needs.urgCritica': 'Critical',
+          'needs.urgAlta': 'High',
+          'needs.urgMedia': 'Medium',
+          'needs.empty': 'No active needs match those filters.',
+          'needs.error': 'Could not load live needs. Visit <a href="https://ayudaencamino.com/necesidades" target="_blank" rel="noopener" class="text-coral underline">Ayuda en Camino</a> directly.',
+          'needs.loading': 'Loading live needs…',
+          'needs.units': 'units',
+          'needs.unit': 'needs',
+          'needs.unit1': 'need',
           'topbar.copied': 'Copied!',
           'topbar.know': 'Know a center? Add it ↓',
           'topbar.updated': 'Upd.',
@@ -1416,6 +1611,217 @@
             track('report_link_click');
           }
         });
+
+        // Necesidades urgentes — abrir/cerrar vista
+        document.getElementById('needs-open').addEventListener('click', () => openNeedsView());
+        document.getElementById('needs-back').addEventListener('click', () => closeNeedsView());
+        // Soporte para hash (#necesidades) y back button del navegador
+        window.addEventListener('hashchange', syncNeedsViewWithHash);
+        if (location.hash === '#necesidades') openNeedsView({ pushHash: false });
+      }
+
+      function openNeedsView(opts = {}) {
+        document.getElementById('needs-teaser-section').classList.add('hidden');
+        document.getElementById('toolbar').classList.add('hidden');
+        document.getElementById('contenido').classList.add('hidden');
+        const view = document.getElementById('needs-view');
+        view.classList.remove('hidden');
+        if (opts.pushHash !== false && location.hash !== '#necesidades') {
+          history.pushState(null, '', '#necesidades');
+        }
+        window.scrollTo({ top: view.offsetTop - 12, behavior: 'smooth' });
+        track('needs_open');
+        if (!needsState.loaded) loadNeeds();
+      }
+      function closeNeedsView() {
+        document.getElementById('needs-view').classList.add('hidden');
+        document.getElementById('needs-teaser-section').classList.remove('hidden');
+        document.getElementById('toolbar').classList.remove('hidden');
+        document.getElementById('contenido').classList.remove('hidden');
+        if (location.hash === '#necesidades') {
+          history.pushState(null, '', location.pathname + location.search);
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        track('needs_close');
+      }
+      function syncNeedsViewWithHash() {
+        if (location.hash === '#necesidades') openNeedsView({ pushHash: false });
+        else if (!document.getElementById('needs-view').classList.contains('hidden')) closeNeedsView();
+      }
+
+      // ---- Necesidades urgentes (live de ayudaencamino.com) ----
+      const NEEDS_API = 'https://ayudaencamino.com/api/needs';
+      const needsState = { items: [], filtered: [], urgencia: '', categoria: '', estado: '', loaded: false };
+      const URG_ORDER = { critica: 0, alta: 1, media: 2 };
+      const CAT_LABEL = {
+        medicinas: 'Medicinas e insumos médicos',
+        alimentos: 'Alimentos',
+        agua: 'Agua',
+        higiene: 'Higiene',
+        ropa: 'Ropa y refugio',
+        herramientas: 'Herramientas',
+        otro: 'Otros',
+      };
+
+      async function loadNeeds() {
+        const loading = $('#needs-loading');
+        const err = $('#needs-error');
+        loading.classList.remove('hidden');
+        err.classList.add('hidden');
+        try {
+          const res = await fetch(NEEDS_API, { cache: 'no-store' });
+          if (!res.ok) throw new Error('http ' + res.status);
+          const data = await res.json();
+          needsState.items = (data || []).filter(n => n.status === 'activa' && n.organizacion);
+          needsState.loaded = true;
+          loading.classList.add('hidden');
+          populateNeedFilters();
+          renderNeeds();
+        } catch (e) {
+          loading.classList.add('hidden');
+          err.classList.remove('hidden');
+          $('#needs-toolbar').classList.add('hidden');
+        }
+      }
+
+      const CAT_ICON = {
+        medicinas:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 3h4v4h4v4h-4v4h-4v-4H6V7h4z"/></svg>',
+        alimentos:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3v7a3 3 0 0 0 3 3v8M7 13a3 3 0 0 0 3-3V3M16 3c-2 0-3 1.5-3 5s1 5 3 5v8"/></svg>',
+        agua:         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg>',
+        higiene:      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3h6l1 4H8z"/><rect x="6" y="7" width="12" height="14" rx="2"/></svg>',
+        ropa:         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 3 4 3 4-3 4 4-3 3v11H7V10L4 7z"/></svg>',
+        herramientas: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m14.7 6.3 3 3-9 9-3-3zM18 9l3-3-3-3-3 3M6 18l-3 3"/></svg>',
+        otro:         '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>',
+      };
+
+      function buildChips(containerId, key, options, allLabel) {
+        const c = document.getElementById(containerId);
+        c.innerHTML = '';
+        const allBtn = document.createElement('button');
+        allBtn.type = 'button';
+        allBtn.className = 'chip chip-all chip-active';
+        allBtn.dataset.value = '';
+        allBtn.textContent = allLabel;
+        c.appendChild(allBtn);
+        for (const opt of options) {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'chip' + (opt.cls ? ' ' + opt.cls : '');
+          btn.dataset.value = opt.value;
+          if (opt.icon) btn.insertAdjacentHTML('beforeend', opt.icon);
+          btn.insertAdjacentText('beforeend', opt.label);
+          if (opt.count != null) {
+            const sp = document.createElement('span');
+            sp.className = 'chip-count';
+            sp.textContent = opt.count;
+            btn.appendChild(sp);
+          }
+          c.appendChild(btn);
+        }
+        c.addEventListener('click', (e) => {
+          const btn = e.target.closest('.chip');
+          if (!btn) return;
+          c.querySelectorAll('.chip').forEach(b => b.classList.remove('chip-active'));
+          btn.classList.add('chip-active');
+          needsState[key] = btn.dataset.value;
+          renderNeeds();
+          track('needs_filter', { type: key, value: btn.dataset.value });
+        });
+      }
+
+      function populateNeedFilters() {
+        const countBy = (fn) => {
+          const m = new Map();
+          for (const n of needsState.items) {
+            const k = fn(n);
+            if (!k) continue;
+            m.set(k, (m.get(k) || 0) + 1);
+          }
+          return m;
+        };
+        const urgCounts = countBy(n => n.urgencia);
+        const catCounts = countBy(n => n.categoria);
+        const estCounts = countBy(n => n.organizacion?.estado);
+
+        buildChips('chips-urgencia', 'urgencia', [
+          { value: 'critica', label: t('needs.urgCritica'), cls: 'chip-urg-critica', count: urgCounts.get('critica') || 0 },
+          { value: 'alta',    label: t('needs.urgAlta'),    cls: 'chip-urg-alta',    count: urgCounts.get('alta') || 0 },
+          { value: 'media',   label: t('needs.urgMedia'),   cls: 'chip-urg-media',   count: urgCounts.get('media') || 0 },
+        ], t('needs.allUrg'));
+
+        const cats = [...catCounts.keys()].sort((a,b) => (catCounts.get(b) - catCounts.get(a)));
+        buildChips('chips-categoria', 'categoria', cats.map(c => ({
+          value: c,
+          label: CAT_LABEL[c] || (c[0].toUpperCase()+c.slice(1)),
+          icon: CAT_ICON[c] || '',
+          count: catCounts.get(c),
+        })), t('needs.allCat'));
+
+        const ests = [...estCounts.keys()].sort((a,b) => (estCounts.get(b) - estCounts.get(a)));
+        buildChips('chips-estado', 'estado', ests.map(e => ({
+          value: e, label: e, count: estCounts.get(e),
+        })), t('needs.allEst'));
+      }
+
+      function renderNeeds() {
+        const list = $('#needs-list');
+        const empty = $('#needs-empty');
+        const cnt = $('#needs-count');
+        let items = needsState.items.slice();
+        if (needsState.urgencia) items = items.filter(n => n.urgencia === needsState.urgencia);
+        if (needsState.categoria) items = items.filter(n => n.categoria === needsState.categoria);
+        if (needsState.estado) items = items.filter(n => n.organizacion?.estado === needsState.estado);
+        items.sort((a, b) => (URG_ORDER[a.urgencia] ?? 9) - (URG_ORDER[b.urgencia] ?? 9));
+        needsState.filtered = items;
+        cnt.textContent = `${items.length} ${items.length === 1 ? t('needs.unit1') : t('needs.unit')}`;
+        if (items.length === 0) { list.innerHTML = ''; empty.classList.remove('hidden'); return; }
+        empty.classList.add('hidden');
+        list.innerHTML = items.map(needCard).join('');
+      }
+
+      function escHtml(s) {
+        return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      }
+
+      function needCard(n) {
+        const org = n.organizacion || {};
+        const urg = n.urgencia || 'media';
+        const urgLabel = t(`needs.urg${urg[0].toUpperCase()+urg.slice(1)}`) || urg;
+        const cat = CAT_LABEL[n.categoria] || n.categoria || '';
+        const qNeed = Number(n.cantidadNecesaria) || 0;
+        const qDone = Number(n.cantidadCumplida) || 0;
+        const qCommit = Number(n.cantidadComprometida) || 0;
+        const pct = qNeed > 0 ? Math.min(100, Math.round(((qDone + qCommit) / qNeed) * 100)) : 0;
+        const verified = org.verificada ? `<span class="eyebrow text-coral" title="Verificada por Ayuda en Camino">✓ Verificada</span>` : '';
+        const mapsQ = encodeURIComponent([org.direccion, org.ciudad, org.estado].filter(Boolean).join(', '));
+        return `
+          <article class="need-card">
+            <div class="flex items-center justify-between gap-2">
+              <span class="urg-badge urg-${urg}">${urgLabel}</span>
+              <span class="eyebrow text-muted">${escHtml(cat)}</span>
+            </div>
+            <h3 class="text-base font-semibold text-ink leading-tight">${escHtml(n.nombreArticulo || '—')}</h3>
+            ${n.descripcion ? `<p class="text-sm text-muted">${escHtml(n.descripcion)}</p>` : ''}
+            ${qNeed ? `
+              <div>
+                <div class="flex items-center justify-between text-xs text-muted mt-1">
+                  <span class="need-qty">${qDone + qCommit} / ${qNeed} ${t('needs.units')}</span>
+                  <span>${pct}%</span>
+                </div>
+                <div class="need-progress"><span style="width:${pct}%"></span></div>
+              </div>
+            ` : ''}
+            <div class="mt-2 pt-3 border-t border-line">
+              <p class="text-sm font-medium text-ink">${escHtml(org.nombre || '')}</p>
+              <p class="text-xs text-muted mt-0.5">${escHtml([org.ciudad, org.estado].filter(Boolean).join(', '))}</p>
+              <div class="flex flex-wrap gap-2 mt-3">
+                ${org.direccion ? `<a class="btn btn-line" href="https://maps.google.com/?q=${mapsQ}" target="_blank" rel="noopener">${icon.maps} ${t('card.directions')}</a>` : ''}
+                ${org.contactoTelefono ? `<a class="btn btn-line" href="tel:${escHtml(org.contactoTelefono)}">📞 ${escHtml(org.contactoTelefono)}</a>` : ''}
+              </div>
+              ${verified ? `<p class="mt-2">${verified}</p>` : ''}
+            </div>
+          </article>
+        `;
       }
 
       function setupForm() {
