@@ -1803,6 +1803,26 @@
                 "ropa en buen estado"
               ],
               "fuente": "Reporte comunitario"
+            },
+            {
+              "nombre": "Clínica Ciaclab",
+              "direccion": "Av. Principal de La Carlota, Caracas 1071",
+              "coords": [
+                10.502,
+                -66.876
+              ],
+              "maps": "https://maps.google.com/?q=Av+Principal+de+La+Carlota+Caracas",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "ciaclab",
+              "telefono": "+584124110422"
             }
           ]
         }
@@ -5622,6 +5642,31 @@
               ],
               "fuente": "Reporte comunitario verificado",
               "instagram": "somospaluz"
+            },
+            {
+              "nombre": "U.E. Colegio Antonio Rosmini",
+              "direccion": "Av. Milagro Norte con calle 25, Sector Barrio Los Pescadores, Maracaibo · Horario: lunes a sábado, 8:00 a.m. a 12:00 p.m.",
+              "coords": [
+                10.685,
+                -71.605
+              ],
+              "maps": "https://maps.app.goo.gl/9eNEJRAJRgXSU7H36",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "ue_antoniorosmini"
             }
           ]
         },
@@ -5828,6 +5873,30 @@
               ],
               "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
               "fuente": "Flyer Tigresas de la Patria — Donatón"
+            },
+            {
+              "nombre": "El Minuto de Dios — El Bosque",
+              "direccion": "Calle 73 #7E esquina, Barrio El Bosque, Barranquilla",
+              "coords": [
+                10.99,
+                -74.795
+              ],
+              "maps": "https://maps.google.com/?q=10.99,-74.795",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Campaña “Venezuela: Un Minuto por los panas” de la Corporación El Minuto de Dios."
             }
           ]
         },
@@ -5946,6 +6015,335 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Fundación Juntos Se Puede — Hotel Matisse (Chapinero)",
+              "direccion": "Hotel Matisse, Kr 13 #63-21, Local 111, Chapinero, Bogotá · Horario: 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                4.65,
+                -74.062
+              ],
+              "maps": "https://maps.google.com/?q=4.65,-74.062",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda",
+              "nota": "Centros de la Fundación Juntos Se Puede en Bogotá para recolectar ayudas que serán llevadas hasta la frontera."
+            },
+            {
+              "nombre": "Fundación Juntos Se Puede — Carrera 9 (Chapinero)",
+              "direccion": "Kr 9 #61-70, Chapinero, Bogotá · Horario: 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                4.646,
+                -74.064
+              ],
+              "maps": "https://maps.google.com/?q=4.646,-74.064",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda",
+              "nota": "Centros de la Fundación Juntos Se Puede en Bogotá para recolectar ayudas que serán llevadas hasta la frontera."
+            },
+            {
+              "nombre": "Fundación Juntos Se Puede — Castilla (Kennedy)",
+              "direccion": "Calle 10 #80-41, Castilla, Kennedy, Bogotá · Horario: 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                4.632,
+                -74.138
+              ],
+              "maps": "https://maps.google.com/?q=4.632,-74.138",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda",
+              "nota": "Centros de la Fundación Juntos Se Puede en Bogotá para recolectar ayudas que serán llevadas hasta la frontera."
+            },
+            {
+              "nombre": "Fundación Mahuampi (Fontibón)",
+              "direccion": "Kr 116a #15c-70, Fontibón, Bogotá · Horario: sábados y domingos, 3:00 p.m. a 8:00 p.m.",
+              "coords": [
+                4.671,
+                -74.175
+              ],
+              "maps": "https://maps.google.com/?q=4.671,-74.175",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda",
+              "nota": "Centros de la Fundación Juntos Se Puede en Bogotá para recolectar ayudas que serán llevadas hasta la frontera."
+            },
+            {
+              "nombre": "Fundación Juntos Se Puede — Panadería Ávila (Cedritos)",
+              "direccion": "Panadería Ávila, Kr 17 #141-05, Cedritos, Bogotá · Horario: 8:00 a.m. a 5:00 p.m.",
+              "coords": [
+                4.728,
+                -74.041
+              ],
+              "maps": "https://maps.google.com/?q=4.728,-74.041",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda",
+              "nota": "Centros de la Fundación Juntos Se Puede en Bogotá para recolectar ayudas que serán llevadas hasta la frontera."
+            },
+            {
+              "nombre": "Fundación Juntos Se Puede — Usaquén",
+              "direccion": "Kr 8 #127-76, Local 1, Usaquén, Bogotá · Horario: 9:00 a.m. a 6:00 p.m.",
+              "coords": [
+                4.697,
+                -74.031
+              ],
+              "maps": "https://maps.google.com/?q=4.697,-74.031",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda",
+              "nota": "Centros de la Fundación Juntos Se Puede en Bogotá para recolectar ayudas que serán llevadas hasta la frontera."
+            },
+            {
+              "nombre": "El Minuto de Dios — Banco de Ropas",
+              "direccion": "Transversal 73A #82-61, Barrio Minuto de Dios, Bogotá",
+              "coords": [
+                4.692,
+                -74.108
+              ],
+              "maps": "https://maps.google.com/?q=4.692,-74.108",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Campaña “Venezuela: Un Minuto por los panas” de la Corporación El Minuto de Dios."
+            },
+            {
+              "nombre": "Bomberos — Puente Aranda",
+              "direccion": "Estación de Bomberos, Calle 20 #68A-06, Puente Aranda, Bogotá",
+              "coords": [
+                4.628,
+                -74.111
+              ],
+              "maps": "https://maps.google.com/?q=4.628,-74.111",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Estación de Bomberos de Bogotá habilitada como centro de acopio."
+            },
+            {
+              "nombre": "Bomberos — Kennedy",
+              "direccion": "Estación de Bomberos, Cra 79 #41D-20 Sur, Kennedy, Bogotá",
+              "coords": [
+                4.616,
+                -74.15
+              ],
+              "maps": "https://maps.google.com/?q=4.616,-74.15",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Estación de Bomberos de Bogotá habilitada como centro de acopio."
+            },
+            {
+              "nombre": "Bomberos — Chapinero",
+              "direccion": "Estación de Bomberos, Cra 9A #61-77, Chapinero, Bogotá",
+              "coords": [
+                4.647,
+                -74.064
+              ],
+              "maps": "https://maps.google.com/?q=4.647,-74.064",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Estación de Bomberos de Bogotá habilitada como centro de acopio."
+            },
+            {
+              "nombre": "Bomberos — Restrepo",
+              "direccion": "Estación de Bomberos, Av Cra 27 #19A-10 Sur, Restrepo, Bogotá",
+              "coords": [
+                4.574,
+                -74.101
+              ],
+              "maps": "https://maps.google.com/?q=4.574,-74.101",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Estación de Bomberos de Bogotá habilitada como centro de acopio."
+            },
+            {
+              "nombre": "Laika 140 — Patitas por Venezuela",
+              "direccion": "Laika 140, Calle 140 #13-18, Bogotá · Hasta el 30 de junio",
+              "coords": [
+                4.724,
+                -74.051
+              ],
+              "maps": "https://maps.google.com/?q=4.724,-74.051",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika 116 — Patitas por Venezuela",
+              "direccion": "Laika 116, Calle 116 #18B-43, Bogotá · Hasta el 30 de junio",
+              "coords": [
+                4.7,
+                -74.044
+              ],
+              "maps": "https://maps.google.com/?q=4.7,-74.044",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika Chapinero — Patitas por Venezuela",
+              "direccion": "Laika Chapinero, Carrera 7 #59-34, Bogotá · Hasta el 30 de junio",
+              "coords": [
+                4.642,
+                -74.064
+              ],
+              "maps": "https://maps.google.com/?q=4.642,-74.064",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika Usaquén — Patitas por Venezuela",
+              "direccion": "Laika Usaquén, Carrera 7 #124-97, Bogotá · Hasta el 30 de junio",
+              "coords": [
+                4.7,
+                -74.034
+              ],
+              "maps": "https://maps.google.com/?q=4.7,-74.034",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika Modelia — Patitas por Venezuela",
+              "direccion": "Laika Modelia, Calle 24 #74A-67, Bogotá · Hasta el 30 de junio",
+              "coords": [
+                4.663,
+                -74.123
+              ],
+              "maps": "https://maps.google.com/?q=4.663,-74.123",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
             }
           ]
         },
@@ -5968,6 +6366,30 @@
                 "abrigos y otros implementos de protección"
               ],
               "fuente": "Flyer Operación Todos con VZLA"
+            },
+            {
+              "nombre": "El Minuto de Dios — Bucaramanga",
+              "direccion": "Cra 27 #19-40, Oficina COMD, Bucaramanga",
+              "coords": [
+                7.114,
+                -73.115
+              ],
+              "maps": "https://maps.google.com/?q=7.114,-73.115",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Campaña “Venezuela: Un Minuto por los panas” de la Corporación El Minuto de Dios."
             }
           ]
         },
@@ -6048,6 +6470,81 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "El Minuto de Dios — San Fernando",
+              "direccion": "Calle 5B #37-120, San Fernando, Cali",
+              "coords": [
+                3.429,
+                -76.534
+              ],
+              "maps": "https://maps.google.com/?q=3.429,-76.534",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Campaña “Venezuela: Un Minuto por los panas” de la Corporación El Minuto de Dios."
+            },
+            {
+              "nombre": "Laika Pance — Patitas por Venezuela",
+              "direccion": "Laika Pance, Calle 18 #127-120, Cali · Hasta el 30 de junio",
+              "coords": [
+                3.387,
+                -76.535
+              ],
+              "maps": "https://maps.google.com/?q=3.387,-76.535",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika Capri — Patitas por Venezuela",
+              "direccion": "Laika Capri, Calle 13 #75-110, Cali · Hasta el 30 de junio",
+              "coords": [
+                3.418,
+                -76.54
+              ],
+              "maps": "https://maps.google.com/?q=3.418,-76.54",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika Santa Mónica — Patitas por Venezuela",
+              "direccion": "Laika Santa Mónica, Av. 6a Norte #28-39, Cali · Hasta el 30 de junio",
+              "coords": [
+                3.473,
+                -76.535
+              ],
+              "maps": "https://maps.google.com/?q=3.473,-76.535",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
             }
           ]
         },
@@ -6082,6 +6579,30 @@
               ],
               "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
               "fuente": "Flyer Tigresas de la Patria — Donatón"
+            },
+            {
+              "nombre": "El Minuto de Dios — CC San Lázaro",
+              "direccion": "Cra 15 #31-110, Centro Comercial San Lázaro, Local 19, Cartagena",
+              "coords": [
+                10.422,
+                -75.545
+              ],
+              "maps": "https://maps.google.com/?q=10.422,-75.545",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Campaña “Venezuela: Un Minuto por los panas” de la Corporación El Minuto de Dios."
             }
           ]
         },
@@ -6134,6 +6655,30 @@
               ],
               "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
               "fuente": "Flyer Tigresas de la Patria — Donatón"
+            },
+            {
+              "nombre": "El Minuto de Dios — Blanco-Caobos",
+              "direccion": "Avenida 1E #20-56, Barrio Blanco-Caobos, Cúcuta",
+              "coords": [
+                7.9,
+                -72.505
+              ],
+              "maps": "https://maps.google.com/?q=7.9,-72.505",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Campaña “Venezuela: Un Minuto por los panas” de la Corporación El Minuto de Dios."
             }
           ]
         },
@@ -6256,6 +6801,81 @@
               ],
               "nota": "Punto de recolección de la Donatón Tigresas de la Patria — Colombia y Venezuela, un solo corazón.",
               "fuente": "Flyer Tigresas de la Patria — Donatón"
+            },
+            {
+              "nombre": "El Minuto de Dios — Edificio Bancoquia",
+              "direccion": "Cra 49 #53-19, Oficina 403, Edificio Bancoquia, Medellín",
+              "coords": [
+                6.252,
+                -75.566
+              ],
+              "maps": "https://maps.google.com/?q=6.252,-75.566",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Pulzo · pulzo.com/mundo/como-ayudar-venezuela-puntos-acopio-donaciones-campanas-desde-colombia",
+              "nota": "Campaña “Venezuela: Un Minuto por los panas” de la Corporación El Minuto de Dios."
+            },
+            {
+              "nombre": "Laika Llanogrande — Patitas por Venezuela",
+              "direccion": "Laika Llanogrande, Km 7 vía Llano Grande, Antioquia · Hasta el 30 de junio",
+              "coords": [
+                6.166,
+                -75.428
+              ],
+              "maps": "https://maps.google.com/?q=6.166,-75.428",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika Poblado — Patitas por Venezuela",
+              "direccion": "Laika Poblado, Cl 2 Sur #32-54, Medellín · Hasta el 30 de junio",
+              "coords": [
+                6.207,
+                -75.568
+              ],
+              "maps": "https://maps.google.com/?q=6.207,-75.568",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika Arkadia — Patitas por Venezuela",
+              "direccion": "Laika Arkadia, Cra 70 #1-141, Local 9822, Medellín · Hasta el 30 de junio",
+              "coords": [
+                6.235,
+                -75.587
+              ],
+              "maps": "https://maps.google.com/?q=6.235,-75.587",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
             }
           ]
         },
@@ -6465,6 +7085,45 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Chía",
+          "centros": [
+            {
+              "nombre": "Laika Chía — Patitas por Venezuela",
+              "direccion": "Laika Chía, Km 2.5 vía Chía-Cajicá, Cundinamarca · Hasta el 30 de junio",
+              "coords": [
+                4.88,
+                -74.05
+              ],
+              "maps": "https://maps.google.com/?q=4.88,-74.05",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
+            },
+            {
+              "nombre": "Laika La Caro — Patitas por Venezuela",
+              "direccion": "Laika La Caro, Autopista Norte Km 21, Chía, Cundinamarca · Hasta el 30 de junio",
+              "coords": [
+                4.85,
+                -74.05
+              ],
+              "maps": "https://maps.google.com/?q=4.85,-74.05",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos",
+                "agua potable",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Valora Analitik · valoraanalitik.com/terremoto-venezuela-puntos-donaciones-ayuda · Pulzo",
+              "nota": "Iniciativa “Patitas por Venezuela”. Reciben principalmente para mascotas: alimento para perros y gatos, medicamentos, agua y productos de aseo. También aceptan ayudas para familias damnificadas."
             }
           ]
         }
