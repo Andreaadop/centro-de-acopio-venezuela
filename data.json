@@ -4493,6 +4493,54 @@
                 "alimentos para mascotas"
               ],
               "fuente": "Reporte comunitario verificado en sitio · Confirmado por Venezuela Unida @cazamosfakenews"
+            },
+            {
+              "nombre": "Bomberos de Ciudad Ojeda",
+              "direccion": "Plaza Bolívar de Ciudad Ojeda, Zulia · Horario: lunes a sábado, 9:00 a.m. a 6:00 p.m.",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/dwuTqXtVctu29ZANA",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "telefono": "+584122390446"
+            },
+            {
+              "nombre": "Frutería al lado del Banco Mercantil — Centro de Acopio",
+              "direccion": "Frutería al lado del Banco Mercantil, Lagunillas, Ciudad Ojeda · Horario: lunes a sábado, 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                10.1985,
+                -71.3143
+              ],
+              "maps": "https://maps.app.goo.gl/pWeX2YJHeDQqob5x5",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "telefono": "+584122390446"
             }
           ]
         },
@@ -5373,6 +5421,51 @@
               ],
               "fuente": "Reporte comunitario verificado",
               "instagram": "Tiemposdereinomcbo"
+            },
+            {
+              "nombre": "Iglesia San Miguel Arcángel",
+              "direccion": "Parroquia San Miguel Arcángel, Calle 100 Sabaneta, frente a la Clínica Zulia, Maracaibo · Horario: 8:00 a.m. a 7:00 p.m.",
+              "coords": [
+                10.633,
+                -71.64
+              ],
+              "maps": "https://maps.app.goo.gl/TEVva55ViA1Nntth7",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "ropa en buen estado"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "caritas.sanmiguelarcangel"
+            },
+            {
+              "nombre": "Papeleras Ramírez",
+              "direccion": "Av. 28 La Limpia, Sector Los Postes Negros, Maracaibo · Horario: lunes a sábado, 8:00 a.m. a 6:00 p.m.",
+              "coords": [
+                10.69,
+                -71.63
+              ],
+              "maps": "https://share.google/LGVufsDrhu8GKe16R",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "papelerasramirez",
+              "telefono": "+584246724572"
             }
           ]
         },
@@ -7092,6 +7185,393 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        },
+        {
+          "nombre": "Katy (TX)",
+          "centros": [
+            {
+              "nombre": "La Mora",
+              "direccion": "2004 Mason Rd, Ste D4, Katy, TX 77450 · Horario: lunes a domingo, 10:00 a.m. a 9:00 p.m.",
+              "coords": [
+                29.786,
+                -95.747
+              ],
+              "maps": "https://maps.google.com/?q=2004+Mason+Rd%2C+Ste+D4%2C+Katy%2C+TX+77450",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Metabox Cargo — Katy",
+              "direccion": "19308 Morton Rd, Suite #106, Katy, TX 77449 · Horario: lunes a sábado, 9:00 a.m. a 5:00 p.m.",
+              "coords": [
+                29.819,
+                -95.734
+              ],
+              "maps": "https://maps.google.com/?q=19308+Morton+Rd%2C+Suite+#106%2C+Katy%2C+TX+77449",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Metabox Cargo — Cinco Ranch (Mi Querencia)",
+              "direccion": "25600 Westheimer Pkwy, Katy, TX 77494 · Horario: lunes a domingo, 12:00 p.m. a 6:00 p.m.",
+              "coords": [
+                29.735,
+                -95.796
+              ],
+              "maps": "https://maps.google.com/?q=25600+Westheimer+Pkwy%2C+Katy%2C+TX+77494",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Mi Pueblito Restaurante",
+              "direccion": "20940 Katy Fwy, Katy, TX · Horario: lunes a sábado, 10:00 a.m. a 10:00 p.m.",
+              "coords": [
+                29.786,
+                -95.728
+              ],
+              "maps": "https://maps.google.com/?q=20940+Katy+Fwy%2C+Katy%2C+TX",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "El Kourmet",
+              "direccion": "25757 Westheimer Pkwy, Katy, TX · Horario: lunes a domingo, 8:00 a.m. a 10:00 p.m.",
+              "coords": [
+                29.735,
+                -95.798
+              ],
+              "maps": "https://maps.google.com/?q=25757+Westheimer+Pkwy%2C+Katy%2C+TX",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Leobel Martínez Group",
+              "direccion": "24329 Kingsland Blvd #400, Katy, TX 77494 · Horario: lunes a domingo, 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                29.78,
+                -95.782
+              ],
+              "maps": "https://maps.google.com/?q=24329+Kingsland+Blvd+#400%2C+Katy%2C+TX+77494",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Dukes Katy",
+              "direccion": "1420 S Mason Rd, Suite 110, Katy, TX 77450 · Horario: lunes a domingo, 8:00 a.m. a 8:00 p.m.",
+              "coords": [
+                29.778,
+                -95.747
+              ],
+              "maps": "https://maps.google.com/?q=1420+S+Mason+Rd%2C+Suite+110%2C+Katy%2C+TX+77450",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Uptown Barber Zone",
+              "direccion": "829 S Mason Rd #255, Katy, TX 77450 · Horario: lunes a domingo, 9:00 a.m. a 8:00 p.m.",
+              "coords": [
+                29.782,
+                -95.747
+              ],
+              "maps": "https://maps.google.com/?q=829+S+Mason+Rd+#255%2C+Katy%2C+TX+77450",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Ángel Family Clinic",
+              "direccion": "5330 Fry Rd, Ste C, Katy, TX 77449 · Horario: lunes a sábado, 8:30 a.m. a 4:00 p.m.",
+              "coords": [
+                29.821,
+                -95.734
+              ],
+              "maps": "https://maps.google.com/?q=5330+Fry+Rd%2C+Ste+C%2C+Katy%2C+TX+77449",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            }
+          ]
+        },
+        {
+          "nombre": "Houston (TX)",
+          "centros": [
+            {
+              "nombre": "Pa' Que La Negra",
+              "direccion": "6182 Highview Dr #A, Houston, TX 77084 · Horario: lunes a domingo, 6:00 p.m. a 11:30 p.m.",
+              "coords": [
+                29.818,
+                -95.65
+              ],
+              "maps": "https://maps.google.com/?q=6182+Highview+Dr+#A%2C+Houston%2C+TX+77084",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Acción Social — Venezuela",
+              "direccion": "12180 West Houston Center Blvd, Houston, TX 77077 · Horario: a partir del lunes, todos los días en 2 horarios: 9:00 a.m. a 1:00 p.m. y 1:00 p.m. a 5:00 p.m.",
+              "coords": [
+                29.761,
+                -95.621
+              ],
+              "maps": "https://maps.google.com/?q=12180+West+Houston+Center+Blvd%2C+Houston%2C+TX+77077",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "American Help Center — Galleria Financial Center",
+              "direccion": "5065 Westheimer Rd, Suite 880, Galleria Financial Center, Houston, TX · Horario: lunes a viernes, 9:00 a.m. a 4:00 p.m.",
+              "coords": [
+                29.74,
+                -95.464
+              ],
+              "maps": "https://maps.google.com/?q=5065+Westheimer+Rd%2C+Suite+880%2C+Galleria+Financial+Center%2C+Houston%2C+TX",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Clínica Integral San Juan Diego",
+              "direccion": "12168 Bellaire Blvd, Ste 178, Houston, TX · Horario: lunes a sábado, 9:00 a.m. a 6:00 p.m.",
+              "coords": [
+                29.674,
+                -95.61
+              ],
+              "maps": "https://maps.google.com/?q=12168+Bellaire+Blvd%2C+Ste+178%2C+Houston%2C+TX",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Esmafitness Memorial",
+              "direccion": "1322 S Dairy Ashford Rd, Houston, TX 77077 · Horario: lunes a viernes, 7:00 a.m. a 7:00 p.m.",
+              "coords": [
+                29.74,
+                -95.619
+              ],
+              "maps": "https://maps.google.com/?q=1322+S+Dairy+Ashford+Rd%2C+Houston%2C+TX+77077",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "QSTT Logistics",
+              "direccion": "15945 Morales Rd, Bldg. C, Ste. 200, Houston, TX · Horario: lunes a viernes, 9:00 a.m. a 5:00 p.m.",
+              "coords": [
+                29.76,
+                -95.65
+              ],
+              "maps": "https://maps.google.com/?q=15945+Morales+Rd%2C+Bldg.+C%2C+Ste.+200%2C+Houston%2C+TX",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Principrin School",
+              "direccion": "2931 W 12th Street, Houston, TX 77008 · Horario: lunes a viernes, 7:00 a.m. a 6:00 p.m.",
+              "coords": [
+                29.799,
+                -95.428
+              ],
+              "maps": "https://maps.google.com/?q=2931+W+12th+Street%2C+Houston%2C+TX+77008",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            },
+            {
+              "nombre": "Advanced Rehabilitation Clinics of Texas",
+              "direccion": "2600 South Gessner Rd, Ste 111, Houston, TX 77063 · Horario: lunes a viernes, 9:00 a.m. a 6:00 p.m.",
+              "coords": [
+                29.737,
+                -95.552
+              ],
+              "maps": "https://maps.google.com/?q=2600+South+Gessner+Rd%2C+Ste+111%2C+Houston%2C+TX+77063",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            }
+          ]
+        },
+        {
+          "nombre": "Dickinson (TX)",
+          "centros": [
+            {
+              "nombre": "Pa' Que Maru",
+              "direccion": "4410 42nd St, Dickinson, TX 77639 · Horario: lunes a domingo, 9:00 a.m. a 5:00 p.m.",
+              "coords": [
+                29.46,
+                -95.051
+              ],
+              "maps": "https://maps.google.com/?q=4410+42nd+St%2C+Dickinson%2C+TX+77639",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            }
+          ]
+        },
+        {
+          "nombre": "Spring (TX)",
+          "centros": [
+            {
+              "nombre": "Metabox Cargo — Spring",
+              "direccion": "25115 Gosling Rd, Suite 108, Spring, TX 77389 · Horario: lunes a domingo, 12:00 p.m. a 6:00 p.m.",
+              "coords": [
+                30.1,
+                -95.47
+              ],
+              "maps": "https://maps.google.com/?q=25115+Gosling+Rd%2C+Suite+108%2C+Spring%2C+TX+77389",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            }
+          ]
+        },
+        {
+          "nombre": "Kingwood (TX)",
+          "centros": [
+            {
+              "nombre": "Porter Tax Multiservices",
+              "direccion": "22323 SH-494 Loop, Unit 1A, Kingwood, TX · Horario: lunes a jueves, 10:00 a.m. a 3:00 p.m.",
+              "coords": [
+                30.047,
+                -95.227
+              ],
+              "maps": "https://maps.google.com/?q=22323+SH-494+Loop%2C+Unit+1A%2C+Kingwood%2C+TX",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
+            }
+          ]
+        },
+        {
+          "nombre": "Tomball (TX)",
+          "centros": [
+            {
+              "nombre": "Jump and Play",
+              "direccion": "27620 TX-249, Ste A6, Tomball, TX 77375 · Horario: lunes a sábado, 9:00 a.m. a 8:00 p.m. · Domingo 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                30.089,
+                -95.644
+              ],
+              "maps": "https://maps.google.com/?q=27620+TX-249%2C+Ste+A6%2C+Tomball%2C+TX+77375",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "alimentos no perecederos",
+                "pañales de bebé",
+                "artículos para niños",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Flyer @dana.vzla — Centros de Acopio en Texas"
             }
           ]
         }
