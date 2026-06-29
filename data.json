@@ -1825,6 +1825,72 @@
               "fuente": "Reporte comunitario verificado",
               "instagram": "ciaclab",
               "telefono": "+584124110422"
+            },
+            {
+              "nombre": "Fundación Huellas al Corazón",
+              "direccion": "San Bernardino, Calle Blanco, Quinta María, Caracas · Horario: 9:00 a.m. a 7:00 p.m.",
+              "coords": [
+                10.488,
+                -66.879
+              ],
+              "maps": "https://maps.google.com/?q=San+Bernardino+Calle+Blanco+Caracas",
+              "recibe": [
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "mantas y cobijas",
+                "artículos de limpieza",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "telefono": "+584124136901"
+            },
+            {
+              "nombre": "Colegio Champagnat",
+              "direccion": "Caurimare, Calle A con Calle 1, por la subida de la Metropolitana, Caracas · Horario: lunes 29/6 y martes 30/6",
+              "coords": [
+                10.488,
+                -66.879
+              ],
+              "maps": "https://maps.app.goo.gl/E7MyMvKTeGawxkTZ8",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "champagnatccs"
+            },
+            {
+              "nombre": "Apoyo Chamos Solidarios",
+              "direccion": "Radio Negro Primero, C. Real Los Cortijos de Sarría, Caracas · Horario: 9:30 a.m. a 7:00 p.m.",
+              "coords": [
+                10.49,
+                -66.835
+              ],
+              "maps": "https://maps.app.goo.gl/Uc7xUL9AYrkvNrC39",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "mantas y cobijas",
+                "materiales para refugio",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "nota": "Recibe también recreadores, artistas, cirqueros y apoyo emocional. Coordinación por WhatsApp: chat.whatsapp.com/EbJyCBVNdKtAzWXFBAHM6K"
             }
           ]
         }
@@ -2454,7 +2520,31 @@
     },
     {
       "nombre": "La Guaira",
-      "ciudades": []
+      "ciudades": [
+        {
+          "nombre": "Catia",
+          "centros": [
+            {
+              "nombre": "Parque del Oeste Alí Primera",
+              "direccion": "Av. Sucre, Catia, Caracas",
+              "coords": [
+                10.505,
+                -66.932
+              ],
+              "maps": "https://maps.google.com/?q=Parque+del+Oeste+Catia+Caracas",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "ropa en buen estado"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            }
+          ]
+        }
+      ]
     },
     {
       "nombre": "Lara",
@@ -3833,6 +3923,180 @@
                 "linternas, pilas y cargadores portátiles"
               ],
               "fuente": "Post del rector de la universidad en instagram"
+            },
+            {
+              "nombre": "Colegio San Ignacio — Casa Loyola",
+              "direccion": "Av. Santa Teresa de Jesús, Colegio San Ignacio, Caracas · Horario: lunes a viernes, 9:00 a.m. a 5:00 p.m.",
+              "coords": [
+                10.497,
+                -66.847
+              ],
+              "maps": "https://maps.app.goo.gl/zugcgz1ULwCMiHyx9",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "unidosenlamision",
+              "telefono": "+584127022495"
+            }
+          ]
+        },
+        {
+          "nombre": "Los Teques",
+          "centros": [
+            {
+              "nombre": "C.E.N \"Vicente Salias\"",
+              "direccion": "Liceo Vicente Salias, Calle Roscio, Los Teques 1201, Miranda · Horario: desde 8:00 a.m.",
+              "coords": [
+                10.345,
+                -67.042
+              ],
+              "maps": "https://maps.google.com/?q=Liceo+Vicente+Salias+Los+Teques",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "Diócesis de Los Teques — Vicaría Santa Eulalia",
+              "direccion": "Vicaría de Santa Eulalia, cerca del Cabotaje, Centro de Los Teques, Miranda",
+              "coords": [
+                10.345,
+                -67.042
+              ],
+              "maps": "https://maps.google.com/?q=Vicar%C3%ADa+Santa+Eulalia+Los+Teques",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "materiales para refugio",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "vicaria_santaeulalia",
+              "telefono": "+584123702440"
+            },
+            {
+              "nombre": "I.E.E.E. \"Francisco de Miranda\"",
+              "direccion": "Al lado de la parada de autobús de Las Cuatro Esquinas, Los Teques, Miranda",
+              "coords": [
+                10.345,
+                -67.042
+              ],
+              "maps": "https://maps.google.com/?q=Cuatro+Esquinas+Los+Teques",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "telefono": "+584122591996"
+            },
+            {
+              "nombre": "E.T.I. \"Roque Pinto\"",
+              "direccion": "Escuela Técnica Industrial Roque Pinto, Av. Víctor Batista, Los Teques 1201, Miranda",
+              "coords": [
+                10.345,
+                -67.042
+              ],
+              "maps": "https://maps.google.com/?q=Escuela+T%C3%A9cnica+Roque+Pinto+Los+Teques",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "ropa en buen estado"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            }
+          ]
+        },
+        {
+          "nombre": "Carrizal",
+          "centros": [
+            {
+              "nombre": "Protección Civil — Carrizal",
+              "direccion": "Carretera Panamericana, Kilómetro 20, Montaña Alta, Carrizal, Miranda",
+              "coords": [
+                10.338,
+                -67.027
+              ],
+              "maps": "https://maps.google.com/?q=Panamericana+Km+20+Carrizal",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            }
+          ]
+        },
+        {
+          "nombre": "Petare",
+          "centros": [
+            {
+              "nombre": "Centro Comercial El Líder",
+              "direccion": "CC El Líder, Av. Francisco de Miranda entre Calle Santa Ana y Capitolio, Urbanización La California, Caracas · Horario: lunes a domingo, 10:00 a.m. a 6:00 p.m.",
+              "coords": [
+                10.476,
+                -66.812
+              ],
+              "maps": "https://maps.app.goo.gl/kfJCA1NEdxsnxdSa7",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "zonadedescargaoficial"
             }
           ]
         }
@@ -4610,6 +4874,712 @@
                 "mantas y cobijas",
                 "linternas, pilas y cargadores portátiles",
                 "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "TMS",
+              "direccion": "Calle Córdova, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://share.google/pIGOYGdrhfOUlb7Jj",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "tmsvenezuela"
+            },
+            {
+              "nombre": "Medisonrisa",
+              "direccion": "Calle Farías, Centro Comercial Plaza Mayor, Local 5, Ciudad Ojeda 4019, Zulia",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://share.google/pIGOYGdrhfOUlb7Jj",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "medisonrisa"
+            },
+            {
+              "nombre": "Fundación Anticancerosa — Ciudad Ojeda",
+              "direccion": "C. Santa Mónica con Carretera N, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/TVoWNMVvbJoPn8VS7",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "fundacionanticancerosa"
+            },
+            {
+              "nombre": "Fundación Divino Niño",
+              "direccion": "Av. 44 con Calle Vargas, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/kMffXDbN2VDvT7Cd9",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "fundaciondivinonino"
+            },
+            {
+              "nombre": "Club de Leones — Ciudad Ojeda",
+              "direccion": "Carretera N, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/mbmvEbJxueHc7GKL8",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "clubdeleonesciudadojeda"
+            },
+            {
+              "nombre": "Colegio San Agustín — Ciudad Ojeda",
+              "direccion": "Carretera N, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/kPhvX559UwU7cksU9",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "uepsanagustin"
+            },
+            {
+              "nombre": "Instituto San José — Lagunillas",
+              "direccion": "Lagunillas, Ciudad Ojeda, Zulia",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/uk3BT74sErFS3tYK8",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "institutosanjoselags"
+            },
+            {
+              "nombre": "Politécnico Santiago Mariño — Ciudad Ojeda",
+              "direccion": "Calle Cardón, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/FsPPjsBN5WRiV58n9",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "psmciudadojeda"
+            },
+            {
+              "nombre": "TEALCA — Ciudad Ojeda",
+              "direccion": "Av. Intercomunal, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/5FqeWHqRDJL5WiLq9",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "tealcaciudadojeda8406"
+            },
+            {
+              "nombre": "SIZUCA",
+              "direccion": "Carretera N, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/YdTz2XprLhX4xtxE9",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "sizucave"
+            },
+            {
+              "nombre": "CC Las Américas — Ciudad Ojeda",
+              "direccion": "Calle Trujillo, Casco Central, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/VGcYzC9STkzGGFN9A",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "Club Árabe — Ciudad Ojeda",
+              "direccion": "Av. 33, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/rG8pe2vyHjCjW8LS6",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "telefono": "+584146045079"
+            },
+            {
+              "nombre": "Inversiones Kely",
+              "direccion": "Ciudad Urdaneta, El Danto, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/34MxznjBZkSjzQuA9",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "Whatever Cosmetics",
+              "direccion": "Casco Central, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/RnVq47N328pCbQzE6",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "whatever.cosmetics"
+            },
+            {
+              "nombre": "Nilo Home",
+              "direccion": "Calle Vargas, frente a la Plaza Bolívar, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/fPNBigJBENwZwa8F6",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "nilohome_"
+            },
+            {
+              "nombre": "Colnetwork",
+              "direccion": "Av. Alonso con Calle Trujillo, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/8RWvT8q5isH8m5Pf8",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "colnetwork"
+            },
+            {
+              "nombre": "Lubritodo",
+              "direccion": "Avenida Bolívar, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/oXbJns7B65Srnzbp7",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "lubritodo.ca"
+            },
+            {
+              "nombre": "Frutería Don Víctor",
+              "direccion": "Ciudad Ojeda, Zulia",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/VdrdEV5oMaDjmdjc7",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "Papichys — todas sus sedes",
+              "direccion": "Todas las sedes de Papichys, Ciudad Ojeda y alrededores",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/eefisxTfDZ5hSVw56",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "papichyszulia"
+            },
+            {
+              "nombre": "Tito Grill",
+              "direccion": "Barrio Libertad, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/3aP6AS7yHfuL3PUq7",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "Eduardo Burguer",
+              "direccion": "Carretera N, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://share.google/pIGOYGdrhfOUlb7Jj",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "La Pizzería Ve",
+              "direccion": "Urbanización Libertad, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/UdnhPdcgvZV9tpXFA",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "la_pizzeria.ve"
+            },
+            {
+              "nombre": "Bocados Burguers",
+              "direccion": "Lagunillas, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/yrt1gdCg5hH8Wqdf6",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "bocados.burguers"
+            },
+            {
+              "nombre": "Sanoa",
+              "direccion": "Calle Nueva Esparta, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/NNUad9jfjYKmUnYVA",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "sanoa.ve"
+            },
+            {
+              "nombre": "Tottys Pets",
+              "direccion": "Detrás de la bomba Millenium, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.app.goo.gl/naNyu8uQnGphemD2A",
+              "recibe": [
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "tottyspets"
+            },
+            {
+              "nombre": "Rutas Sin Límites",
+              "direccion": "Casco Central, Ciudad Ojeda",
+              "coords": [
+                10.1968,
+                -71.3151
+              ],
+              "maps": "https://maps.google.com/?q=Casco+Central+Ciudad+Ojeda",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "mantas y cobijas",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
               ],
               "fuente": "Reporte comunitario verificado"
             }
@@ -5669,6 +6639,36 @@
               ],
               "fuente": "Reporte comunitario verificado",
               "instagram": "ue_antoniorosmini"
+            },
+            {
+              "nombre": "Iglesia San Pedro Apóstol",
+              "direccion": "Haticos por arriba, Sector El Progreso, Maracaibo",
+              "coords": [
+                10.674,
+                -71.62
+              ],
+              "maps": "https://maps.app.goo.gl/wWx8CcyhYAwKtYpH7",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "sanpedro_iglesia"
             }
           ]
         },
@@ -5786,6 +6786,34 @@
               "fuente": "Reporte comunitario verificado",
               "instagram": "u.e.colegiojavier",
               "telefono": "+584264555828"
+            },
+            {
+              "nombre": "Nodo Sur Fitness",
+              "direccion": "Calle 12 entre avenida 17 y 18, San Francisco, Zulia · Horario: lunes a sábado, 6:00 a.m. a 8:00 p.m.",
+              "coords": [
+                10.575,
+                -71.64
+              ],
+              "maps": "https://maps.app.goo.gl/zKmheFPRVWaukmZ56",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "cascos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "nodosurfitness"
             }
           ]
         },
@@ -8885,8 +9913,8 @@
               "nombre": "Embajada de Venezuela en Uruguay — Sección Consular",
               "direccion": "Sección Consular de la Embajada de Venezuela, Rincón 745 esquina Ciudadela, Montevideo · Horario: lunes a viernes, 9:00 a 16:30 · Sábado y domingo, 10:00 a 15:00",
               "coords": [
-                -34.9070,
-                -56.2050
+                -34.907,
+                -56.205
               ],
               "maps": "https://maps.google.com/?q=Rinc%C3%B3n+745+Ciudadela+Montevideo",
               "recibe": [
