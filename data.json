@@ -1226,6 +1226,30 @@
           "nombre": "Valencia",
           "centros": [
             {
+              "nombre": "Turisto × Arcadia × Viajesnova — Torre Majay",
+              "direccion": "Torre Majay, Av. Bolívar Norte, Local Principal, Planta Baja, Valencia",
+              "coords": [
+                10.2070,
+                -67.9970
+              ],
+              "maps": "https://maps.google.com/?q=Torre+Majay+Av+Bol%C3%ADvar+Norte+Valencia",
+              "instagram": "turisto.ve",
+              "telefono": "+584244188048",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "pañales de bebé",
+                "artículos para niños",
+                "linternas, pilas y cargadores portátiles"
+              ],
+              "nota": "Iniciativa “Valencia se une por La Guaira”. Llamadas: 0424-418-8048 · WhatsApp: 0424-419-1927. Si no puedes acercarte, los organizadores coordinan retiro de la donación.",
+              "fuente": "Flyer @turisto.ve · @arcadia · @viajesnova"
+            },
+            {
               "nombre": "Cuerpo de Bomberos Universidad de Carabobo",
               "direccion": "Sede del Cuerpo de Bomberos, Universidad de Carabobo, Valencia",
               "coords": [
