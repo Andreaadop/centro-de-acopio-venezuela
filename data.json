@@ -10384,6 +10384,43 @@
               ],
               "nota": "🇦🇷 Enviamos a Venezuela. Reciben: higiene personal (jabón, shampoo, pasta y cepillos de dientes, desodorante, toallas femeninas, papel higiénico); alimentos enlatados, arroz, pasta seca, atún, sardinas; medicamentos y primeros auxilios (gasas, vendas, alcohol, curitas, guantes descartables); ropa en buen estado, calzado, mantas, camperas, ropa para niños; linternas, pilas, velas y guantes resistentes.",
               "fuente": "Flyer comunitario Buenos Aires · Enviamos a Venezuela"
+            },
+            {
+              "nombre": "Casa Venezuela Argentina",
+              "direccion": "Combate de los Pozos 1055, CABA, Buenos Aires",
+              "coords": [
+                -34.623,
+                -58.392
+              ],
+              "maps": "https://maps.google.com/?q=Combate+de+los+Pozos+1055+CABA",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "fuente": "Hora de Informarse · horadeinformarse.com.ar/2026/06/27/puntos-en-buenos-aires-que-reciben-donaciones-para-el-pueblo-venezolano"
+            },
+            {
+              "nombre": "Alianza por Venezuela — Centro Venezolano Argentino (Proyecto Araguaney)",
+              "direccion": "Julián Álvarez 866, Villa Crespo, CABA, Buenos Aires",
+              "coords": [
+                -34.599,
+                -58.435
+              ],
+              "maps": "https://maps.google.com/?q=Juli%C3%A1n+%C3%81lvarez+866+Villa+Crespo+CABA",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "fuente": "Hora de Informarse · horadeinformarse.com.ar/2026/06/27/puntos-en-buenos-aires-que-reciben-donaciones-para-el-pueblo-venezolano",
+              "nota": "Iniciativa “Alianza por Venezuela” a través del Proyecto Araguaney."
             }
           ]
         },
@@ -11186,6 +11223,68 @@
                 "pañales de bebé"
               ],
               "fuente": "Flyer diáspora"
+            }
+          ]
+        },
+        {
+          "nombre": "Temuco",
+          "centros": [
+            {
+              "nombre": "Las Mil Bendiciones",
+              "direccion": "Arquímedes 01885, Temuco, La Araucanía",
+              "coords": [
+                -38.74,
+                -72.59
+              ],
+              "maps": "https://maps.google.com/?q=Arqu%C3%ADmedes+01885+Temuco",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "linternas, pilas y cargadores portátiles",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "BioBioChile · biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/06/26/comunidad-venezolana-en-temuco-habilita-centro-de-acopio",
+              "instagram": "venezolanosenaraucania",
+              "nota": "Centro habilitado por la Agrupación Social y Cultural de Venezolanos en La Araucanía. Solicitan enlatados con larga fecha de vencimiento, linternas, pilas y medicinas básicas."
+            },
+            {
+              "nombre": "Venemarket",
+              "direccion": "Los Pablos 1999, Temuco, La Araucanía",
+              "coords": [
+                -38.735,
+                -72.595
+              ],
+              "maps": "https://maps.google.com/?q=Los+Pablos+1999+Temuco",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "linternas, pilas y cargadores portátiles",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "BioBioChile · biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/06/26/comunidad-venezolana-en-temuco-habilita-centro-de-acopio",
+              "instagram": "venezolanosenaraucania",
+              "nota": "Centro habilitado por la Agrupación Social y Cultural de Venezolanos en La Araucanía."
+            },
+            {
+              "nombre": "Sabe Venezuela",
+              "direccion": "Luis Durand 01635, Local 1, Temuco, La Araucanía",
+              "coords": [
+                -38.744,
+                -72.605
+              ],
+              "maps": "https://maps.google.com/?q=Luis+Durand+01635+Temuco",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "linternas, pilas y cargadores portátiles",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "BioBioChile · biobiochile.cl/noticias/nacional/region-de-la-araucania/2026/06/26/comunidad-venezolana-en-temuco-habilita-centro-de-acopio",
+              "instagram": "venezolanosenaraucania",
+              "nota": "Centro habilitado por la Agrupación Social y Cultural de Venezolanos en La Araucanía."
             }
           ]
         }
