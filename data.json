@@ -6814,6 +6814,31 @@
               ],
               "fuente": "Reporte comunitario verificado",
               "instagram": "nodosurfitness"
+            },
+            {
+              "nombre": "I.C.C.E. Aposento Alto",
+              "direccion": "Sector El Manzanillo, Av. 24 entre calle 12 y 13, frente a la antena Digitel, San Francisco, Zulia · Horario: 8:00 a.m. a 5:00 p.m.",
+              "coords": [
+                10.574,
+                -71.643
+              ],
+              "maps": "https://maps.app.goo.gl/yjaL5YBithMLAwBE6",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
             }
           ]
         },
@@ -8431,6 +8456,34 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Unidos en la Misión Inc.",
+              "direccion": "800 Brickell Avenue, 4th Floor, Miami, FL 33131 · Horario: lunes a viernes, 8:00 a.m. a 5:00 p.m.",
+              "coords": [
+                25.766,
+                -80.19
+              ],
+              "maps": "https://maps.google.com/?q=800+Brickell+Avenue+4th+Floor+Miami+FL+33131",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado",
+              "instagram": "unidosenlamision",
+              "telefono": "+584122112199",
+              "nota": "También recibe donaciones monetarias."
             }
           ]
         },
