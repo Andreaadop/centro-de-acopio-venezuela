@@ -1229,8 +1229,8 @@
               "nombre": "Turisto × Arcadia × Viajesnova — Torre Majay",
               "direccion": "Torre Majay, Av. Bolívar Norte, Local Principal, Planta Baja, Valencia",
               "coords": [
-                10.2070,
-                -67.9970
+                10.207,
+                -67.997
               ],
               "maps": "https://maps.google.com/?q=Torre+Majay+Av+Bol%C3%ADvar+Norte+Valencia",
               "instagram": "turisto.ve",
@@ -10407,6 +10407,110 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Brigada de Rescate Topos Tlatelolco — Sede 2 (Cuauhtémoc)",
+              "direccion": "Isabel La Católica #247, Obrera, Cuauhtémoc, 06800 Ciudad de México · Horario: lunes a viernes, 7:00 a.m. a 7:00 p.m. · Sábado y domingo, 11:00 a.m. a 5:00 p.m.",
+              "coords": [
+                19.415,
+                -99.141
+              ],
+              "maps": "https://maps.google.com/?q=Isabel+La+Cat%C3%B3lica+247+Obrera+CDMX",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios"
+              ],
+              "fuente": "Infobae México · infobae.com/mexico/2026/06/28/los-centros-de-acopio-mas-seguros-para-donar-a-venezuela-desde-mexico",
+              "instagram": "topos.mx",
+              "nota": "⚠️ Recibe EXCLUSIVAMENTE insumos médicos. Abierto a partir del 29 de junio."
+            },
+            {
+              "nombre": "Brigada de Rescate Topos Tlatelolco — Sede 3 (Benito Juárez)",
+              "direccion": "Isabel La Católica #542, Álamos, Benito Juárez, 03400 Ciudad de México · Horario: lunes a viernes, 11:00 a.m. a 5:00 p.m.",
+              "coords": [
+                19.395,
+                -99.142
+              ],
+              "maps": "https://maps.google.com/?q=Isabel+La+Cat%C3%B3lica+542+%C3%81lamos+CDMX",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos"
+              ],
+              "fuente": "Infobae México · infobae.com/mexico/2026/06/28/los-centros-de-acopio-mas-seguros-para-donar-a-venezuela-desde-mexico",
+              "instagram": "topos.mx",
+              "nota": "⚠️ Recibe EXCLUSIVAMENTE alimentos y bebidas."
+            },
+            {
+              "nombre": "Centro de Acopio UNAM — Estadio Olímpico Universitario",
+              "direccion": "Estacionamiento 8 del Estadio Olímpico Universitario, adelante de las astas bandera, Ciudad Universitaria, CDMX · Horario: lunes 29 de junio a jueves 2 de julio, 10:00 a 18:00",
+              "coords": [
+                19.3325,
+                -99.1944
+              ],
+              "maps": "https://maps.google.com/?q=Estadio+Ol%C3%ADmpico+Universitario+CDMX",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "kits de primeros auxilios",
+                "pañales de bebé",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "El Heraldo de México · heraldodemexico.com.mx/nacional/2026/6/29/terremotos-en-venezuela-que-donar-en-los-centros-de-acopio-para-venezuela",
+              "instagram": "CulturaUNAM",
+              "nota": "Reciben agua embotellada, alimentos enlatados, granos, semillas, aceites, leche en polvo, productos de limpieza e higiene personal (jabón, pasta, cepillos, papel higiénico), toallas sanitarias, pañales, insumos de primeros auxilios y herramientas de mano para remoción de escombros (barretas, palas y picos)."
+            },
+            {
+              "nombre": "Cámara de Diputados — San Lázaro",
+              "direccion": "Cámara de Diputados, Palacio Legislativo de San Lázaro, Av. Congreso de la Unión 66, El Parque, Venustiano Carranza, CDMX",
+              "coords": [
+                19.436,
+                -99.113
+              ],
+              "maps": "https://maps.google.com/?q=C%C3%A1mara+de+Diputados+San+L%C3%A1zaro",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Heraldo de México · heraldodemexico.com.mx/nacional/2026/6/29/terremotos-en-venezuela-que-donar-en-los-centros-de-acopio-para-venezuela",
+              "nota": "Centro habilitado por la Cámara de Diputados. Abierto a legisladores, trabajadores y ciudadanía. Reciben víveres, medicamentos, material de curación, antibióticos e insumos básicos."
+            },
+            {
+              "nombre": "Embajada de Venezuela en México — Polanco",
+              "direccion": "Embajada de la República Bolivariana de Venezuela, Calle Schiller 326, Polanco, CDMX · Horario: todos los días, 10:00 a.m. a 5:00 p.m.",
+              "coords": [
+                19.435,
+                -99.199
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Schiller+326+Polanco+CDMX",
+              "recibe": [
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal"
+              ],
+              "fuente": "El Heraldo de México · heraldodemexico.com.mx/nacional/2026/6/29/terremotos-en-venezuela-que-donar-en-los-centros-de-acopio-para-venezuela",
+              "nota": "Reciben comida enlatada (preferentemente con abre fácil), arroz, frijoles, leche en polvo, material de curación, gasas, vendas y analgésicos."
+            },
+            {
+              "nombre": "Pasticho Express — Centro de Acopio Solidario",
+              "direccion": "Pasticho Express, Centro Comercial Parques Polanco, CDMX",
+              "coords": [
+                19.438,
+                -99.182
+              ],
+              "maps": "https://maps.google.com/?q=Pasticho+Express+Parques+Polanco+CDMX",
+              "recibe": [
+                "alimentos no perecederos",
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal"
+              ],
+              "fuente": "Infobae México · infobae.com/mexico/2026/06/28/los-centros-de-acopio-mas-seguros-para-donar-a-venezuela-desde-mexico",
+              "nota": "Restaurante venezolano en CC Parques Polanco habilitado como “Centro de Acopio Solidario”."
             }
           ]
         },
@@ -10722,6 +10826,35 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Base Aérea de San Isidro (MIDE)",
+              "direccion": "Base Aérea de San Isidro, Santo Domingo · Horario: desde el sábado 27 de junio, todos los días, 8:00 a.m. a 5:00 p.m.",
+              "coords": [
+                18.565,
+                -69.767
+              ],
+              "maps": "https://maps.google.com/?q=Base+A%C3%A9rea+San+Isidro+Santo+Domingo",
+              "recibe": [
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/gobierno-habilita-centros-de-acopio-para-venezuela-tras-terremoto",
+              "nota": "Centro habilitado por el Ministerio de Defensa (MIDE). Recibe EXCLUSIVAMENTE medicamentos, evaluados y clasificados por personal médico de las Fuerzas Armadas. Las ayudas se trasladan a Venezuela por vía marítima."
+            },
+            {
+              "nombre": "Base Naval 27 de Febrero — Sans Soucí (MIDE)",
+              "direccion": "Base Naval \"27 de Febrero\", Sans Soucí, Santo Domingo · Horario: desde el sábado 27 de junio, todos los días, 8:00 a.m. a 5:00 p.m.",
+              "coords": [
+                18.469,
+                -69.865
+              ],
+              "maps": "https://maps.google.com/?q=Base+Naval+Sans+Souc%C3%AD+Santo+Domingo",
+              "recibe": [
+                "alimentos no perecederos",
+                "agua potable"
+              ],
+              "fuente": "Diario Libre · diariolibre.com/actualidad/nacional/2026/06/26/gobierno-habilita-centros-de-acopio-para-venezuela-tras-terremoto",
+              "nota": "Centro habilitado por el MIDE. Recibe alimentos no perecederos, productos secos y enlatados, agua, bebidas e insumos para hidratación. Las ayudas se trasladan a Venezuela por vía marítima."
             }
           ]
         },
@@ -11115,8 +11248,8 @@
               "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
             },
             {
-              "nombre": "Alcaldía de Panamá",
-              "direccion": "Teatro Gladys Vidal, planta baja del Edificio Hatillo.",
+              "nombre": "Alcaldía de Panamá — Teatro Gladys Vidal",
+              "direccion": "Teatro Gladys Vidal, planta baja del Edificio Hatillo, Ciudad de Panamá · Horario: jueves y viernes, 8:00 a.m. a 4:00 p.m.",
               "coords": [
                 8.9824,
                 -79.5199
@@ -11126,9 +11259,31 @@
               "recibe": [
                 "alimentos no perecederos",
                 "ropa en buen estado",
-                "artículos de higiene personal"
+                "artículos de higiene personal",
+                "linternas, pilas y cargadores portátiles",
+                "artículos para niños"
               ],
-              "fuente": "Lista colaborativa de @marielozadab y @nathaliesayago"
+              "nota": "Reciben enlatados, arroz, pasta, avena, leche en polvo, barras de cereal, linternas, pilas, cargadores portátiles, bolsas resistentes, productos de higiene personal y sanitaria, ropa en buen estado, mochilas y útiles escolares.",
+              "fuente": "EcoTV Panamá · ecotvpanama.com/nacionales/habilitan-panama-centros-acopio-ayuda-humanitaria-venezuela"
+            },
+            {
+              "nombre": "Casa Club del Parque Omar",
+              "direccion": "Casa Club, Parque Omar, Ciudad de Panamá · Horario: jueves y viernes, 8:00 a.m. a 8:00 p.m. · Sábado, 8:00 a.m. a 2:00 p.m.",
+              "coords": [
+                9.007,
+                -79.507
+              ],
+              "maps": "https://maps.google.com/?q=Casa+Club+Parque+Omar+Panam%C3%A1",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "artículos para niños",
+                "materiales para refugio"
+              ],
+              "nota": "🚨 IMPORTANTE: NO se acepta ropa ni calzado. Solo donaciones nuevas y sin uso. Reciben: agua embotellada, enlatados, leche en polvo, cereales, galletas, barras energéticas, fórmula o comida para bebés, aseo personal, primeros auxilios, carpas y colchonetas. Parte de la Jornada Nacional de Ayuda Humanitaria (Decreto Ejecutivo Nº 42 del 25 de junio).",
+              "fuente": "EcoTV Panamá · ecotvpanama.com/nacionales/habilitan-panama-centros-acopio-ayuda-humanitaria-venezuela"
             }
           ]
         }
@@ -11307,6 +11462,25 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Universidad Andina Simón Bolívar",
+              "direccion": "Universidad Andina Simón Bolívar, Quito, Pichincha · Horario: todos los días, 8:00 a 18:00 (desde el 28 de junio)",
+              "coords": [
+                -0.18,
+                -78.466
+              ],
+              "maps": "https://maps.google.com/?q=Universidad+Andina+Sim%C3%B3n+Bol%C3%ADvar+Quito",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "mantas y cobijas",
+                "materiales para refugio"
+              ],
+              "fuente": "El Oriente · eloriente.com/articulo/ecuador-habilita-centros-de-acopio-para-enviar-ayuda-humanitaria-a-venezuela",
+              "nota": "Parte de la red oficial del Gobierno de Ecuador (Secretaría Nacional de Gestión de Riesgos). Horario: todos los días, 8:00 a 18:00, desde el 28 de junio. Reciben agua embotellada, carpas familiares, colchones/colchonetas, mosquiteros, sábanas, jabón, cepillos y pasta dental, toallas, pañales, recipientes para agua, tabletas potabilizadoras, ollas/sartenes/cubiertos. Donaciones en cajas resistentes y rotuladas. NO se aceptan productos en envases de vidrio."
             }
           ]
         },
@@ -11497,6 +11671,25 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            },
+            {
+              "nombre": "Universidad de las Fuerzas Armadas (ESPE)",
+              "direccion": "Universidad de las Fuerzas Armadas ESPE, Sangolquí, Pichincha · Horario: todos los días, 8:00 a 18:00 (desde el 28 de junio)",
+              "coords": [
+                -0.314,
+                -78.448
+              ],
+              "maps": "https://maps.google.com/?q=Universidad+de+las+Fuerzas+Armadas+ESPE+Sangolqu%C3%AD",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "mantas y cobijas",
+                "materiales para refugio"
+              ],
+              "fuente": "El Oriente · eloriente.com/articulo/ecuador-habilita-centros-de-acopio-para-enviar-ayuda-humanitaria-a-venezuela",
+              "nota": "Parte de la red oficial del Gobierno de Ecuador (Secretaría Nacional de Gestión de Riesgos). Horario: todos los días, 8:00 a 18:00, desde el 28 de junio. Reciben agua embotellada, carpas familiares, colchones/colchonetas, mosquiteros, sábanas, jabón, cepillos y pasta dental, toallas, pañales, recipientes para agua, tabletas potabilizadoras, ollas/sartenes/cubiertos. Donaciones en cajas resistentes y rotuladas. NO se aceptan productos en envases de vidrio."
             }
           ]
         },
@@ -12466,6 +12659,121 @@
                 "ropa en buen estado"
               ],
               "fuente": "Flyer comunitario — directorio de puntos de recolección internacionales"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Bolivia",
+      "ciudades": [
+        {
+          "nombre": "La Paz",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio Max Paredes",
+              "direccion": "Zona Max Paredes, La Paz · Prioridad: medicinas para adultos y pediátricas, insumos y equipos médicos, artículos de aseo personal, fórmulas y artículos para bebés",
+              "coords": [
+                -16.499,
+                -68.145
+              ],
+              "maps": "https://maps.google.com/?q=Zona+Max+Paredes+La+Paz",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "artículos para niños"
+              ],
+              "fuente": "Urgente.bo · urgente.bo/noticia/habilitan-centros-de-acopio-en-4-departamentos-para-ayuda-humanitaria-venezuela",
+              "nota": "Coordinación de ciudadanos venezolanos en La Paz junto con parroquias y fundaciones."
+            },
+            {
+              "nombre": "Centro de Acopio para Mascotas — Los Pinos",
+              "direccion": "Calle Arturo Fortún, Pasaje A 25 de Los Pinos, N°200, La Paz",
+              "coords": [
+                -16.518,
+                -68.085
+              ],
+              "maps": "https://maps.google.com/?q=Calle+Arturo+Fort%C3%BAn+Los+Pinos+La+Paz",
+              "recibe": [
+                "alimentos para mascotas",
+                "medicamentos e insumos médicos"
+              ],
+              "fuente": "Urgente.bo · urgente.bo/noticia/habilitan-centros-de-acopio-en-4-departamentos-para-ayuda-humanitaria-venezuela",
+              "nota": "Solo recolección para animales: alimento seco y húmedo para gatos y perros, arena sanitaria y medicamentos veterinarios."
+            }
+          ]
+        },
+        {
+          "nombre": "Santa Cruz",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio Sede Principal — Av. Suárez Arana",
+              "direccion": "Av. Suárez Arana N°604, a dos cuadras del segundo anillo (antiguo colegio con rejas azules), Santa Cruz de la Sierra",
+              "coords": [
+                -17.795,
+                -63.17
+              ],
+              "maps": "https://maps.google.com/?q=Av+Su%C3%A1rez+Arana+604+Santa+Cruz+de+la+Sierra",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "ropa en buen estado",
+                "mantas y cobijas"
+              ],
+              "fuente": "Urgente.bo · urgente.bo/noticia/habilitan-centros-de-acopio-en-4-departamentos-para-ayuda-humanitaria-venezuela"
+            }
+          ]
+        },
+        {
+          "nombre": "Cochabamba",
+          "centros": [
+            {
+              "nombre": "Fundación Equipo Solidario — Cochabamba",
+              "direccion": "Coordinación: Omayrú Hernández, Fundación Equipo Solidario, Cochabamba · Contactar para coordinar entrega",
+              "coords": [
+                -17.39,
+                -66.157
+              ],
+              "maps": "https://maps.google.com/?q=Cochabamba+Bolivia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "fuente": "Urgente.bo · urgente.bo/noticia/habilitan-centros-de-acopio-en-4-departamentos-para-ayuda-humanitaria-venezuela",
+              "telefono": "+59162177790",
+              "nota": "Contactar a Omayrú Hernández (Fundación Equipo Solidario) al +591 62177790 para coordinar el punto de acopio en Cochabamba."
+            }
+          ]
+        },
+        {
+          "nombre": "Tarija",
+          "centros": [
+            {
+              "nombre": "Fundación Equipo Solidario — Tarija",
+              "direccion": "Coordinación: Omayrú Hernández, Fundación Equipo Solidario, Tarija · Contactar para coordinar entrega",
+              "coords": [
+                -21.535,
+                -64.729
+              ],
+              "maps": "https://maps.google.com/?q=Tarija+Bolivia",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé"
+              ],
+              "fuente": "Urgente.bo · urgente.bo/noticia/habilitan-centros-de-acopio-en-4-departamentos-para-ayuda-humanitaria-venezuela",
+              "telefono": "+59162177790",
+              "nota": "Contactar a Omayrú Hernández (Fundación Equipo Solidario) al +591 62177790 para coordinar el punto de acopio en Tarija."
             }
           ]
         }
