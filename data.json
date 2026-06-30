@@ -5648,6 +5648,21 @@
           "nombre": "Maracaibo",
           "centros": [
             {
+              "nombre": "Voluntarios Santa Bárbara — Hotel Santa Bárbara",
+              "direccion": "Hotel Santa Bárbara, Av. 3G entre calle 71 y 72, Maracaibo · Horario: 9:00 a.m. a 6:00 p.m. (horario estricto permitido por las instalaciones)",
+              "coords": [
+                10.676,
+                -71.609
+              ],
+              "maps": "https://maps.google.com/?q=Hotel+Santa+B%C3%A1rbara+Av+3G+Maracaibo",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios"
+              ],
+              "nota": "🚨 URGENTE — Lista específica de necesidades: Losartán, Betametasona, Soluhex, Carbamazepina (para paciente epiléptico), Bolsa de colostomía 38ml, Caladril, Bacitracina, Triple antibiótico, Zometa, Faja lumbar con barra talla M, Sales de rehidratación oral, Ampollas, Salbutamol, 3 párales de solución móviles, Tabla espinal, Un par de muletas, Andadera, Tiras reactivas suma para glucómetro, Protectores solares, Bolsas para cadáveres, Gasoil, Buses para transportar, Uniformes médicos, Collarines (varias tallas), Concentradores de oxígeno.",
+              "fuente": "Flyer Voluntarios Santa Bárbara"
+            },
+            {
               "nombre": "Colegio de Médicos del Zulia",
               "direccion": "Av. 16 con Calle 56, Maracaibo 4005",
               "coords": [
@@ -9583,6 +9598,489 @@
               "contacto": "francia@ayudahumanitariavenezuela.org — Coordinadora: Vivianne Costa-Denais",
               "nota": "💌 Centro de contacto regional. Escribe a francia@ayudahumanitariavenezuela.org para coordinar dónde y cómo entregar tus donaciones. Forma parte de la red de Ayuda Humanitaria Venezuela.",
               "fuente": "Ayuda Humanitaria Venezuela · ayudahumanitariavenezuela.org/centrosdeacopio"
+            }
+          ]
+        },
+        {
+          "nombre": "Bordeaux",
+          "centros": [
+            {
+              "nombre": "Association Vénézuéliens en France — Place Charles de Gaulle (Mérignac)",
+              "direccion": "Place Charles de Gaulle, 33700 Mérignac · Horario: sábados, 9:00 a 15:00",
+              "coords": [
+                44.842,
+                -0.711
+              ],
+              "maps": "https://maps.google.com/?q=44.842,-0.711",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Association Vénézuéliens en France — Place Pey Berland (Bordeaux)",
+              "direccion": "Place Pey Berland, 33000 Bordeaux · Horario: miércoles y domingos, 9:00 a 15:00",
+              "coords": [
+                44.8378,
+                -0.579
+              ],
+              "maps": "https://maps.google.com/?q=44.8378,-0.579",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Macondo Restaurant",
+              "direccion": "Macondo Restaurant, Bordeaux",
+              "coords": [
+                44.8378,
+                -0.579
+              ],
+              "maps": "https://maps.google.com/?q=44.8378,-0.579",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Maison de Pérou — Bordeaux",
+              "direccion": "Maison de Pérou, Bordeaux",
+              "coords": [
+                44.8378,
+                -0.579
+              ],
+              "maps": "https://maps.google.com/?q=44.8378,-0.579",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Luminosa — Bordeaux",
+              "direccion": "Luminosa, Bordeaux",
+              "coords": [
+                44.8378,
+                -0.579
+              ],
+              "maps": "https://maps.google.com/?q=44.8378,-0.579",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Carcassonne",
+          "centros": [
+            {
+              "nombre": "La Grande Pharmacie de la Gare",
+              "direccion": "La Grande Pharmacie de la Gare, 9 Boulevard Omer Sarraut, 11000 Carcassonne",
+              "coords": [
+                43.216,
+                2.353
+              ],
+              "maps": "https://maps.google.com/?q=43.216,2.353",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "L'Haÿ-les-Roses",
+          "centros": [
+            {
+              "nombre": "Asociación de Mujeres Unidas por la Libertad y la Paz — Église de Dieu Vivant",
+              "direccion": "Église de Dieu Vivant “La Luz del Mundo”, 14 Avenue du Général de Gaulle, 94240 L'Haÿ-les-Roses",
+              "coords": [
+                48.78,
+                2.337
+              ],
+              "maps": "https://maps.google.com/?q=48.78,2.337",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Lyon",
+          "centros": [
+            {
+              "nombre": "Canaima — Villeurbanne",
+              "direccion": "Canaima, 105B Rue Léon Blum, 69100 Villeurbanne · Horario: miércoles y sábado, 12:00 a 22:00",
+              "coords": [
+                45.77,
+                4.881
+              ],
+              "maps": "https://maps.google.com/?q=45.77,4.881",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Arepazo — Made in Shina (Lyon)",
+              "direccion": "Made in Shina, Lyon · Horario: 4 de julio",
+              "coords": [
+                45.764,
+                4.835
+              ],
+              "maps": "https://maps.google.com/?q=45.764,4.835",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Arepazo — Restaurant Canaima (Villeurbanne)",
+              "direccion": "Restaurant Canaima, Villeurbanne · Horario: 5 de julio",
+              "coords": [
+                45.77,
+                4.881
+              ],
+              "maps": "https://maps.google.com/?q=45.77,4.881",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Metz",
+          "centros": [
+            {
+              "nombre": "Association HENKO",
+              "direccion": "1 Rue de Normandie, 57070 Metz · Horario: lunes a viernes, 9:00 a 17:00",
+              "coords": [
+                49.131,
+                6.188
+              ],
+              "maps": "https://maps.google.com/?q=49.131,6.188",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Nîmes",
+          "centros": [
+            {
+              "nombre": "Hérault por Venezuela — Nîmes",
+              "direccion": "Hérault por Venezuela, Nîmes · Contactar a la asociación para coordinar el punto de acopio",
+              "coords": [
+                43.837,
+                4.36
+              ],
+              "maps": "https://maps.google.com/?q=43.837,4.36",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Montauban",
+          "centros": [
+            {
+              "nombre": "Centro de Acopio Montauban",
+              "direccion": "16 Rue Mary Lafon, 82000 Montauban",
+              "coords": [
+                44.015,
+                1.355
+              ],
+              "maps": "https://maps.google.com/?q=44.015,1.355",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Paris",
+          "centros": [
+            {
+              "nombre": "Caracas Bar y Tapas",
+              "direccion": "31 Rue Henri Barbusse, 75005 París · Horario: martes a sábado, 12:00 a 15:00 y 19:00 a 00:00 · Domingo, 12:00 a 18:00",
+              "coords": [
+                48.845,
+                2.343
+              ],
+              "maps": "https://maps.google.com/?q=48.845,2.343",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Venezuela te Necesita",
+              "direccion": "22 Rue Robert Houdin, 75011 París",
+              "coords": [
+                48.868,
+                2.377
+              ],
+              "maps": "https://maps.google.com/?q=48.868,2.377",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Cachatpa",
+              "direccion": "Cachatpa, 49 Avenue de Versailles, 75016 París",
+              "coords": [
+                48.847,
+                2.278
+              ],
+              "maps": "https://maps.google.com/?q=48.847,2.278",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            },
+            {
+              "nombre": "Asociación de Mujeres Unidas por la Libertad y la Paz — Restaurante Bocamexa",
+              "direccion": "Restaurante Bocamexa, 95 Rue Oberkampf, 75011 París",
+              "coords": [
+                48.865,
+                2.378
+              ],
+              "maps": "https://maps.google.com/?q=48.865,2.378",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Montpellier",
+          "centros": [
+            {
+              "nombre": "Hérault por Venezuela — Port Marianne",
+              "direccion": "240 Rue Brumaire, Port Marianne, Montpellier · Horario: viernes a domingo, 10:00 a 15:00 y 18:00 a 21:00 · Lunes, 17:00 a 22:00",
+              "coords": [
+                43.601,
+                3.902
+              ],
+              "maps": "https://maps.google.com/?q=43.601,3.902",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Perpignan",
+          "centros": [
+            {
+              "nombre": "Hérault por Venezuela — Perpignan",
+              "direccion": "Hérault por Venezuela, Perpignan · Contactar a la asociación para coordinar el punto de acopio",
+              "coords": [
+                42.689,
+                2.895
+              ],
+              "maps": "https://maps.google.com/?q=42.689,2.895",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Strasbourg",
+          "centros": [
+            {
+              "nombre": "Voluntarios de la Comunidad Venezolana — La Robertsau",
+              "direccion": "31 Rue Mélanie, La Robertsau, Strasbourg (Tram E — Arrêt Mélanie) · Horario: lunes a viernes, 10:00 a 12:30 y 16:00 a 19:00",
+              "coords": [
+                48.608,
+                7.779
+              ],
+              "maps": "https://maps.google.com/?q=48.608,7.779",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Toulouse",
+          "centros": [
+            {
+              "nombre": "Restaurant Caracas",
+              "direccion": "Restaurant Caracas, 9 Avenue de Castres, 31500 Toulouse",
+              "coords": [
+                43.601,
+                1.463
+              ],
+              "maps": "https://maps.google.com/?q=43.601,1.463",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Pontarlier",
+          "centros": [
+            {
+              "nombre": "MJC des Capucins",
+              "direccion": "MJC des Capucins, Pontarlier",
+              "coords": [
+                46.905,
+                6.354
+              ],
+              "maps": "https://maps.google.com/?q=46.905,6.354",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Villeneuve-Loubet",
+          "centros": [
+            {
+              "nombre": "Mi Boutique Latina",
+              "direccion": "Mi Boutique Latina, 1624 RN 7, 06270 Villeneuve-Loubet",
+              "coords": [
+                43.658,
+                7.124
+              ],
+              "maps": "https://maps.google.com/?q=43.658,7.124",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
+            }
+          ]
+        },
+        {
+          "nombre": "Marseille",
+          "centros": [
+            {
+              "nombre": "Les Lumières",
+              "direccion": "Les Lumières, 34 Grand Rue, 13002 Marseille",
+              "coords": [
+                43.298,
+                5.369
+              ],
+              "maps": "https://maps.google.com/?q=43.298,5.369",
+              "recibe": [
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "alimentos no perecederos",
+                "artículos de higiene personal"
+              ],
+              "nota": "Iniciativa “Centres de collecte en France”. ⚠️ Ya NO están recibiendo ropa — prioridad: materiales de rescate e insumos médicos.",
+              "fuente": "Flyer @yadamandres · @venezolanos_en_francia — Centros de Acopio en Francia"
             }
           ]
         }
