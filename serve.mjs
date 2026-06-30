@@ -30,6 +30,23 @@ const MIME = {
 const server = createServer(async (req, res) => {
   try {
     const urlPath = decodeURIComponent((req.url || "/").split("?")[0]);
+    // Local dev: invoke the Vercel-style serverless function for /api/zulia
+    if (urlPath === "/api/zulia") {
+      try {
+        const mod = await import(`./api/zulia.js?_=${Date.now()}`);
+        const handler = mod.default;
+        const wrap = {
+          status(code) { res.statusCode = code; return wrap; },
+          setHeader(k, v) { res.setHeader(k, v); return wrap; },
+          json(obj) { res.setHeader("Content-Type", "application/json"); res.end(JSON.stringify(obj)); return wrap; },
+          send(body) { res.end(body); return wrap; },
+        };
+        await handler(req, wrap);
+      } catch (err) {
+        res.writeHead(500, { "Content-Type": "application/json" }).end(JSON.stringify({ error: String(err) }));
+      }
+      return;
+    }
     let filePath = normalize(join(ROOT, urlPath));
     if (!filePath.startsWith(ROOT)) {
       res.writeHead(403).end("Forbidden");

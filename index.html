@@ -1517,6 +1517,36 @@
         });
       }
 
+      // Merge live Zulia data from /api/zulia into state.data.
+      // Strategy: live ciudades replace data.json/Zulia, but any manual entries (form reports)
+      // whose direccion doesn't match a live one are preserved per city.
+      function mergeZuliaLive(dataObj, live) {
+        if (!live || !Array.isArray(live.ciudades)) return;
+        const zulia = (dataObj.estados || []).find((e) => e.nombre === 'Zulia');
+        if (!zulia) return;
+        const norm = (s) => (s || '').toString().toLowerCase().replace(/\s+/g, ' ').trim();
+        const liveByCity = new Map();
+        for (const c of live.ciudades) liveByCity.set(norm(c.nombre), c);
+
+        // For each existing city, find live counterpart; preserve manual centros not present live.
+        const mergedCities = [];
+        for (const livCity of live.ciudades) {
+          const key = norm(livCity.nombre);
+          const existing = zulia.ciudades.find((cc) => norm(cc.nombre) === key);
+          const seen = new Set();
+          for (const lc of livCity.centros) seen.add(norm(lc.nombre) + '|' + norm(lc.direccion).slice(0, 80));
+          const preserved = existing
+            ? existing.centros.filter((mc) => !seen.has(norm(mc.nombre) + '|' + norm(mc.direccion).slice(0, 80)))
+            : [];
+          mergedCities.push({ nombre: livCity.nombre, centros: [...livCity.centros, ...preserved] });
+        }
+        // Any data.json/Zulia cities not in live (e.g. tiny ones) → keep entirely
+        for (const cc of zulia.ciudades) {
+          if (!liveByCity.has(norm(cc.nombre))) mergedCities.push(cc);
+        }
+        zulia.ciudades = mergedCities;
+      }
+
       async function init() {
         try {
           const res = await fetch('./data.json', { cache: 'no-store' });
@@ -1526,6 +1556,15 @@
           $('#results').innerHTML = `<p class="text-coral2">Error al cargar los datos: ${e.message}</p>`;
           return;
         }
+
+        // Merge Zulia centros from /api/zulia (live data). If fetch fails, keep data.json values.
+        try {
+          const zres = await fetch('/api/zulia', { cache: 'no-store' });
+          if (zres.ok) {
+            const zuliaLive = await zres.json();
+            mergeZuliaLive(state.data, zuliaLive);
+          }
+        } catch {}
 
         state.flat = flatten(state.data);
         populateSelect();
