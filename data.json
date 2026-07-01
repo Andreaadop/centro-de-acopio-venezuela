@@ -52,7 +52,7 @@
   "donaciones_monetarias_fuente": {
     "nombre": "AJE Venezuela",
     "url": "https://ajevenezuela.org/ayuda-venezuela/donaciones",
-    "descripcion": "La mayoría de las organizaciones aquí publicadas han sido revisadas y confirmadas por el equipo de AJE Venezuela (verás el badge \"Confirmado por AJE\"). Las demás provienen de portales oficiales de cada institución (Cruz Roja Española, Cruz Roja Colombiana). Antes de donar, verifica siempre que estés usando los canales oficiales de cada organización."
+    "descripcion": "La mayoría de las organizaciones aquí publicadas han sido revisadas y confirmadas por el equipo de AJE Venezuela (verás el badge \"Confirmado por AJE\"). Las demás provienen de portales oficiales de cada institución. Antes de donar, verifica siempre que estés usando los canales oficiales de cada organización."
   },
   "donaciones_monetarias": [
     {
@@ -163,55 +163,6 @@
       "descripcion": "Donaciones para la respuesta de UNICEF ante el terremoto en Venezuela.",
       "tipo_ayuda": "Ayuda humanitaria a la niñez",
       "web": "https://www.unicef.es/colabora/dona/emergencia-terremoto-en-venezuela"
-    },
-    {
-      "nombre": "Cruz Roja Española",
-      "alcance": "internacional",
-      "aje_confirmed": false,
-      "fuente": "Cruz Roja Española · cruzroja.es",
-      "descripcion": "Cruz Roja Española activó una campaña específica para el terremoto en Venezuela. Puedes donar con tarjeta, Bizum, PayPal o transferencia bancaria desde España.",
-      "tipo_ayuda": "Ayuda humanitaria internacional",
-      "web": "https://www.cruzroja.es/colabora/haz-un-donativo",
-      "nota": "En la portada de cruzroja.es aparece el banner \"Ayuda Emergencia Terremoto Venezuela\". Acepta tarjeta, Bizum, PayPal y transferencia bancaria."
-    },
-    {
-      "nombre": "Cruz Roja Colombiana",
-      "alcance": "internacional",
-      "aje_confirmed": false,
-      "fuente": "Cruz Roja Colombiana · cruzrojacolombiana.org",
-      "descripcion": "Cruz Roja Colombiana habilitó su portal de donaciones nacional y el programa \"Accionistas Humanitarios\" para destinar recursos a los afectados por los sismos en Venezuela.",
-      "tipo_ayuda": "Ayuda humanitaria internacional",
-      "web": "https://dona.cruzrojacolombiana.org/",
-      "metodos": [
-        {
-          "tipo": "Donación online",
-          "banco": "Portal oficial",
-          "campos": [
-            {
-              "etiqueta": "Sitio principal",
-              "valor": "dona.cruzrojacolombiana.org"
-            },
-            {
-              "etiqueta": "Programa Accionistas Humanitarios",
-              "valor": "accionistashumanitarios.org"
-            }
-          ]
-        },
-        {
-          "tipo": "Transferencia bancaria directa",
-          "banco": "Davivienda (Colombia)",
-          "campos": [
-            {
-              "etiqueta": "Titular",
-              "valor": "Sociedad Nacional de la Cruz Roja Colombiana"
-            },
-            {
-              "etiqueta": "Cuenta Corriente",
-              "valor": "455-069996904"
-            }
-          ]
-        }
-      ]
     },
     {
       "nombre": "Save the Children",
