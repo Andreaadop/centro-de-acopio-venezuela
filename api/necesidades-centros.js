@@ -16,7 +16,13 @@ const CAT_MAP = {
   agua: "agua potable",
   higiene: "artículos de higiene personal",
   ropa: "ropa en buen estado",
-  herramientas: "materiales para refugio",
+  herramientas: "herramientas de rescate (palas, picos, martillos)",
+  epp: "equipos de protección personal (guantes, mascarillas, botas, cascos)",
+  veterinario: "insumos veterinarios (correas, arneses, medicinas)",
+  mascotas: "alimentos para mascotas",
+  bebes: "fórmula infantil y comida para bebé",
+  refugio: "materiales para refugio",
+  limpieza: "artículos de limpieza",
 };
 
 // Approximate coords per Venezuelan capital / major city, for map thumbnails
