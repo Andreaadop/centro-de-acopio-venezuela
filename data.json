@@ -2923,26 +2923,6 @@
               "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
             },
             {
-              "nombre": "Sede Protección Civil — Mérida",
-              "direccion": "Sede de Protección Civil del Estado Mérida, Mérida",
-              "coords": [
-                8.5905,
-                -71.146
-              ],
-              "maps": "https://maps.google.com/?q=Sede+de+Protección+Civil+del+Estado+Mérida%2C+Mérida",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "kits de primeros auxilios",
-                "artículos de higiene personal",
-                "ropa en buen estado",
-                "mantas y cobijas"
-              ],
-              "nota": "Punto reportado en el listado consolidado de @meridaaldia. Reciben insumos para los afectados por el terremoto.",
-              "fuente": "Lista @meridaaldia · @imjenn.i.fer — Principales centros de acopio Mérida"
-            },
-            {
               "nombre": "Tealca — Av. Universidad",
               "direccion": "Tealca, Av. Universidad, Mérida",
               "coords": [
@@ -3495,32 +3475,6 @@
           ]
         },
         {
-          "nombre": "Carrizal",
-          "centros": [
-            {
-              "nombre": "Protección Civil — Carrizal",
-              "direccion": "Carretera Panamericana, Kilómetro 20, Montaña Alta, Carrizal, Miranda",
-              "coords": [
-                10.338,
-                -67.027
-              ],
-              "maps": "https://maps.google.com/?q=Panamericana+Km+20+Carrizal",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "kits de primeros auxilios",
-                "artículos de higiene personal",
-                "pañales de bebé",
-                "pañales de adulto",
-                "artículos para niños",
-                "ropa en buen estado",
-                "mantas y cobijas"
-              ],
-              "fuente": "Reporte comunitario verificado"
-            }
-          ]
-        },
-        {
           "nombre": "Petare",
           "centros": [
             {
@@ -3780,25 +3734,6 @@
               "fuente": "Flyer Centro de Acopio Sucre"
             },
             {
-              "nombre": "Cruz Roja Venezolana — Sucre",
-              "direccion": "Sede de la Cruz Roja Venezolana, Municipio Sucre, Cumaná",
-              "coords": [
-                10.456,
-                -64.172
-              ],
-              "maps": "https://maps.google.com/?q=Cruz+Roja+Venezolana+Cuman%C3%A1",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado",
-                "mantas y cobijas",
-                "artículos de higiene personal"
-              ],
-              "nota": "Reconocido oficialmente por la Alcaldía de Cumaná como uno de los únicos centros de acopio oficiales del Municipio Sucre.",
-              "fuente": "Comunicado oficial Alcaldía de Cumaná · Protección Civil y Administración de Desastres Estado Sucre"
-            },
-            {
               "nombre": "E/S Virgen del Valle 2",
               "direccion": "Estación de Servicio Virgen del Valle 2, Cumaná",
               "maps": "https://maps.google.com/?q=Estaci%C3%B3n+de+Servicio+Virgen+del+Valle+2+Cuman%C3%A1",
@@ -3813,25 +3748,6 @@
               ],
               "nota": "Recolecta destinada a las víctimas del sismo en Caracas. Alimentos: enlatados, arroz, pasta, granos, harina, leche en polvo. Ropa y sábanas deben entregarse limpias y clasificadas.",
               "fuente": "Flyer ¡Manos a la obra por Caracas!"
-            },
-            {
-              "nombre": "Protección Civil Sucre — Sedes oficiales",
-              "direccion": "Sedes de Protección Civil y Administración de Desastres, Municipio Sucre, Cumaná",
-              "coords": [
-                10.4548,
-                -64.171
-              ],
-              "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+Cuman%C3%A1+Sucre",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado",
-                "mantas y cobijas",
-                "artículos de higiene personal"
-              ],
-              "nota": "Reconocido oficialmente por la Alcaldía de Cumaná como uno de los únicos centros de acopio oficiales del Municipio Sucre.",
-              "fuente": "Comunicado oficial Alcaldía de Cumaná · Protección Civil y Administración de Desastres Estado Sucre"
             },
             {
               "nombre": "UNESR — Núcleo Mariscal Antonio José de Sucre",
@@ -5037,65 +4953,6 @@
           ]
         },
         {
-          "nombre": "Cabimas",
-          "centros": [
-            {
-              "nombre": "Acopio Cabimas - Punto 1 (frente Hotel Costa Sol)",
-              "direccion": "Carretera H, frente al Hotel Costa Sol (antiguo El Remanso), Cabimas",
-              "coords": [
-                10.395,
-                -71.445
-              ],
-              "maps": "https://maps.google.com/?q=10.395,-71.445",
-              "instagram": "alcaldiabcabimas_",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado",
-                "artículos de higiene personal"
-              ],
-              "fuente": "Flyer Alcaldía Bolivariana de Cabimas"
-            },
-            {
-              "nombre": "Acopio Cabimas - Punto 2 (frente Corpoelec)",
-              "direccion": "Avenida 32 con Carretera H, frente a las oficinas de Corpoelec, Cabimas",
-              "coords": [
-                10.39,
-                -71.447
-              ],
-              "maps": "https://maps.google.com/?q=10.39,-71.447",
-              "instagram": "alcaldiabcabimas_",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado",
-                "artículos de higiene personal"
-              ],
-              "fuente": "Flyer Alcaldía Bolivariana de Cabimas"
-            },
-            {
-              "nombre": "Acopio Cabimas - Punto 3 (CC Borjas, Xtrema 98.9FM)",
-              "direccion": "Carretera H, Centro Comercial Borjas, estación radial Xtrema 98.9FM, Cabimas",
-              "coords": [
-                10.385,
-                -71.449
-              ],
-              "maps": "https://maps.google.com/?q=10.385,-71.449",
-              "instagram": "alcaldiabcabimas_",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado",
-                "artículos de higiene personal"
-              ],
-              "fuente": "Flyer Alcaldía Bolivariana de Cabimas"
-            }
-          ]
-        },
-        {
           "nombre": "Maracaibo",
           "centros": [
             {
@@ -5688,27 +5545,6 @@
                 "alimentos para mascotas"
               ],
               "fuente": "Reportes verificados de @imagolab.ve · Flyer comunitario centros de acopio Maracaibo"
-            },
-            {
-              "nombre": "Protección Civil Maracaibo",
-              "direccion": "Av. 15 Delicias con Av. 16 Los Haticos, al lado de Terminal Terrestre Maracaibo",
-              "coords": [
-                10.63,
-                -71.65
-              ],
-              "maps": "https://maps.google.com/?q=Protecci%C3%B3n+Civil+Maracaibo+Terminal+Terrestre",
-              "whatsapp": "+584141479763",
-              "recibe": [
-                "agua potable",
-                "alimentos no perecederos",
-                "medicamentos e insumos médicos",
-                "ropa en buen estado",
-                "mantas y cobijas",
-                "artículos de higiene personal",
-                "linternas, pilas y cargadores portátiles",
-                "colchones, almohadas y colchones inflables"
-              ],
-              "fuente": "Flyer comunitario centros de acopio Maracaibo"
             },
             {
               "nombre": "CAFI",
