@@ -30,10 +30,11 @@ const MIME = {
 const server = createServer(async (req, res) => {
   try {
     const urlPath = decodeURIComponent((req.url || "/").split("?")[0]);
-    // Local dev: invoke the Vercel-style serverless function for /api/zulia
-    if (urlPath === "/api/zulia") {
+    // Local dev: invoke Vercel-style serverless functions
+    const apiRoute = urlPath.match(/^\/api\/(zulia|necesidades-centros)$/);
+    if (apiRoute) {
       try {
-        const mod = await import(`./api/zulia.js?_=${Date.now()}`);
+        const mod = await import(`./api/${apiRoute[1]}.js?_=${Date.now()}`);
         const handler = mod.default;
         const wrap = {
           status(code) { res.statusCode = code; return wrap; },

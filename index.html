@@ -1547,6 +1547,34 @@
         zulia.ciudades = mergedCities;
       }
 
+      // Merge Ayuda en Camino organizations into the main directory (not Zulia).
+      // Dedup by direccion+nombre so we don't duplicate entries already in data.json.
+      function mergeNecesidadesCentros(dataObj, payload) {
+        if (!payload || !payload.byState) return;
+        const norm = (s) => (s || '').toString().toLowerCase().replace(/\s+/g, ' ').trim();
+        for (const [stateName, cities] of Object.entries(payload.byState)) {
+          const state = (dataObj.estados || []).find((e) => e.nombre === stateName);
+          if (!state) continue; // skip unknown states silently
+          for (const [cityName, centros] of Object.entries(cities)) {
+            let city = state.ciudades.find((c) => norm(c.nombre) === norm(cityName));
+            if (!city) {
+              city = { nombre: cityName, centros: [] };
+              state.ciudades.push(city);
+            }
+            const existingKeys = new Set(city.centros.map((c) =>
+              norm(c.nombre) + '|' + norm(c.direccion).slice(0, 80)
+            ));
+            for (const centro of centros) {
+              const k = norm(centro.nombre) + '|' + norm(centro.direccion).slice(0, 80);
+              if (!existingKeys.has(k)) {
+                city.centros.push(centro);
+                existingKeys.add(k);
+              }
+            }
+          }
+        }
+      }
+
       async function init() {
         try {
           const res = await fetch('./data.json', { cache: 'no-store' });
@@ -1563,6 +1591,15 @@
           if (zres.ok) {
             const zuliaLive = await zres.json();
             mergeZuliaLive(state.data, zuliaLive);
+          }
+        } catch {}
+
+        // Merge Ayuda en Camino urgent-needs orgs into main directory (all states except Zulia).
+        try {
+          const nres = await fetch('/api/necesidades-centros', { cache: 'no-store' });
+          if (nres.ok) {
+            const needsCentros = await nres.json();
+            mergeNecesidadesCentros(state.data, needsCentros);
           }
         } catch {}
 
