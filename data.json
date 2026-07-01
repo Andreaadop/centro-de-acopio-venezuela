@@ -7719,20 +7719,39 @@
               "fuente": "Flyer @americargo · americargomiami.com"
             },
             {
-              "nombre": "Miami Team Store — Nu Stadium",
-              "direccion": "Nu Stadium, 1000 Stadium Drive, Miami, FL · Horario: 26 jun – 3 jul, 9:00 a.m. a 3:00 p.m. · Domingo 28 jun horario especial 6:00 p.m. a 8:30 p.m. (concierto Carín León)",
+              "nombre": "Inter Miami CF Foundation — Nu Stadium",
+              "direccion": "Nu Stadium, 1000 Stadium Dr, Miami, FL 33125 · Horario: miércoles 1 de julio, 9:00 a.m. a 7:00 p.m. (drive-thru: permanezca en su vehículo, coloque las donaciones en el maletero o el asiento trasero, voluntarios descargan por usted) · Entrada por NW 27th Ave y NW 14th St · Salida por NW 14th St",
               "coords": [
                 25.958,
                 -80.2389
               ],
-              "maps": "https://maps.google.com/?q=Hard+Rock+Stadium+Miami",
+              "maps": "https://maps.google.com/?q=1000+Stadium+Dr+Miami+FL+33125",
               "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "antibióticos",
                 "kits de primeros auxilios",
-                "linternas, pilas y cargadores portátiles",
+                "equipos de protección personal (guantes, mascarillas, botas, cascos)",
+                "herramientas de rescate (palas, picos, martillos)",
+                "artículos de higiene personal",
+                "insumos de gestión menstrual (toallas sanitarias, tampones)",
                 "pañales de bebé",
-                "artículos para niños"
+                "fórmula infantil y comida para bebé",
+                "artículos para niños",
+                "abrigos y otros implementos de protección",
+                "materiales para refugio",
+                "cobijas",
+                "almohadas",
+                "colchonetas",
+                "linternas, pilas y cargadores portátiles",
+                "power banks",
+                "alimentos para mascotas",
+                "insumos veterinarios (correas, arneses, medicinas)",
+                "cinta plástica y adhesiva"
               ],
-              "fuente": "Diario Las Américas · diariolasamericas.com/florida/doral-activa-cuatro-puntos-acopio-damnificados-terremotos-venezuela"
+              "nota": "Colecta comunitaria organizada por la Inter Miami CF Foundation × GEM (Global Empowerment Mission). Formato drive-thru: no se baja del carro. Lista específica: proteínas enlatadas (pollo, res, atún, salchichas, sardinas), frutas y vegetales enlatados, frutas y vegetales deshidratados, snacks (barras de proteína, crackers, chips, beef jerky), frijoles y vegetales enlatados, ramen, MRE, cases de agua. Sleeping bags nuevos, carpas nuevas, cots nuevos, colchones inflables nuevos, maletas nuevas, cobijas y almohadas nuevas, mochilas nuevas, guantes de trabajo nuevos, palas y rastrillos nuevos, botas de trabajo nuevas, trajes hazmat, mascarillas N95 con respiradores, calentadores de manos y pies, bolsas industriales grandes, lonas, duct tape, linternas, pilas AA/AAA/D, radios portátiles, botiquines de primeros auxilios, filtros de agua LifeStraw, lámparas solares y packables, power banks solares. Higiene: cepillos y pasta dental, desodorante, productos de higiene femenina, papel higiénico, toallitas húmedas. Bebés/niños: pañales, wipes, teteros nuevos, productos de higiene infantil, ropa nueva. Mascotas: comida enlatada perros/gatos, water bowls, correas.",
+              "fuente": "Flyer Inter Miami CF Foundation × GEM"
             },
             {
               "nombre": "Bonjour Bistro — Kendall",
