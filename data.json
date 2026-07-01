@@ -1362,6 +1362,28 @@
           "nombre": "Caracas",
           "centros": [
             {
+              "nombre": "Amor por Venezuela — Altamira",
+              "direccion": "Av. Luis Roche con 3ra Transversal de Los Palos Grandes, detrás del Celarg, Altamira, Caracas · Horario: 9:00 a.m. a 8:00 p.m. (desde el miércoles 1 de julio)",
+              "coords": [
+                10.4970,
+                -66.8470
+              ],
+              "maps": "https://maps.google.com/?q=Av+Luis+Roche+3ra+Transversal+Los+Palos+Grandes+Caracas",
+              "instagram": "amomiciudadcaracas",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones, almohadas y colchones inflables"
+              ],
+              "nota": "🚨 Lista específica de medicamentos: Dermabate/Dermasol, Metronidazol 500mg, Acetaminofén, Loperan, Enterogermina, Cetirizina, Antialérgico pediátrico, Cicatrizante, Azitromicina pediátrico, Inhalador Salbutamol, Inhalador Berudual, Antibiótico Amoxicilina, Asaprol, Losartán, Amlodipino, Valsartán y Candesartán, Hidroclorotiazida, Bisoprolol y Carvedilol. Otros insumos: agua, tapabocas, bolsas negras, linterna, colchonetas, carpas, kits de higiene personal, productos de desinfección.",
+              "fuente": "Flyer @amomiciudadcaracas — Amor por Venezuela"
+            },
+            {
               "nombre": "Cáritas Venezuela",
               "direccion": "Sede de la Conferencia Episcopal Venezolana, Avenida Teherán, a 200 metros de la Universidad Católica Andrés Bello (UCAB), frente a la Urbanización Juan Pablo II, sector Montalbán",
               "coords": [
