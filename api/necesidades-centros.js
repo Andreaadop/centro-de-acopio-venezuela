@@ -119,11 +119,27 @@ export default async function handler(req, res) {
     if (!upstream.ok) throw new Error("upstream " + upstream.status);
     const needs = await upstream.json();
 
+    // Filter out govt-run orgs (alcaldía, gobernación, PC, GNB, etc.)
+    const GOVT = [
+      /\balcald[íi]a\b/i,
+      /\bgobernaci[óo]n\b/i,
+      /\bprotecci[óo]n civil\b/i,
+      /\bguardia nacional\b|\bgnb\b/i,
+      /gobierno bolivariano/i,
+      /polic[íi]a (?:nacional |del estado|estadal|municipal)/i,
+      /ministerio\b/i,
+    ];
+    const isGovtOrg = (org) => {
+      const blob = [org.nombre, org.tipo, org.direccion].filter(Boolean).join(" ");
+      return GOVT.some((p) => p.test(blob));
+    };
+
     // Group needs by orgId
     const byOrg = new Map();
     for (const n of needs) {
       if (!n || n.status !== "activa" || !n.organizacion) continue;
       if (EXCLUDE_STATES.has(n.organizacion.estado)) continue;
+      if (isGovtOrg(n.organizacion)) continue;
       const key = n.orgId || n.organizacion.id;
       if (!byOrg.has(key)) byOrg.set(key, { org: n.organizacion, needs: [] });
       byOrg.get(key).needs.push(n);

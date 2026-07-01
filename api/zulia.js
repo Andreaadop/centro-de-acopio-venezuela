@@ -83,15 +83,30 @@ function buildCentro(c) {
   return centro;
 }
 
+// Filter out any centro run by alcaldía / gobernación / protección civil / GNB.
+const GOVT_PATTERNS = [
+  /\balcald[íi]a\b/i,
+  /\bgobernaci[óo]n\b/i,
+  /\bprotecci[óo]n civil\b/i,
+  /\bguardia nacional\b|\bgnb\b/i,
+  /gobierno bolivariano/i,
+  /polic[íi]a (?:nacional |del estado|estadal|municipal)/i,
+  /ministerio\b/i,
+];
+function isGovt(c) {
+  const blob = [c.nombre, c.fuente, c.tipo, c.direccion].filter(Boolean).join(" ");
+  return GOVT_PATTERNS.some((p) => p.test(blob));
+}
+
 export default async function handler(req, res) {
   try {
     const upstream = await fetch(UPSTREAM, { headers: { "User-Agent": "centrosdeacopiovzla.com proxy" } });
     if (!upstream.ok) throw new Error("upstream " + upstream.status);
     const data = await upstream.json();
 
-    // Filter: estado activo, no oculto, verificado true
+    // Filter: estado activo, no oculto, verificado, y NO gubernamental
     const items = (Array.isArray(data) ? data : []).filter(
-      (c) => c && c.estado === "activo" && !c.oculto && c.verificado !== false
+      (c) => c && c.estado === "activo" && !c.oculto && c.verificado !== false && !isGovt(c)
     );
 
     // Group by municipio
