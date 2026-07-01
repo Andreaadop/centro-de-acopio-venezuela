@@ -85,13 +85,46 @@
     </script>
 
     <style>
-      :root { color-scheme: light; }
+      :root { color-scheme: light; --marquee-h: 34px; }
       html, body { background: #FFFFFF; }
       body {
         font-family: 'Funnel Sans', system-ui, sans-serif;
         color: #0B1220;
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
+        padding-top: var(--marquee-h);
+      }
+
+      /* Alert marquee (fixed top) */
+      #alert-marquee {
+        position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+        height: var(--marquee-h);
+        background: #B0301A;
+        color: #FFFFFF;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #7A2010;
+        box-shadow: 0 2px 8px -3px rgba(176,48,26,0.4);
+      }
+      #alert-marquee .marquee-track {
+        display: flex;
+        gap: 3rem;
+        white-space: nowrap;
+        animation: marqueeSlide 42s linear infinite;
+        padding-left: 100%;
+      }
+      #alert-marquee .marquee-item {
+        display: inline-flex; align-items: center; gap: 8px;
+        font-size: 0.82rem; font-weight: 500; letter-spacing: 0.005em;
+      }
+      #alert-marquee .marquee-icon { font-size: 0.95rem; }
+      @keyframes marqueeSlide {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #alert-marquee .marquee-track { animation-duration: 90s; }
       }
 
       .display { font-weight: 800; letter-spacing: -0.04em; line-height: 0.92; }
@@ -532,6 +565,20 @@
   <body>
     <a href="#contenido" class="skip-link">Saltar al contenido</a>
 
+    <!-- Alerta fija marquee -->
+    <div id="alert-marquee" role="alert" aria-live="polite">
+      <div class="marquee-track">
+        <span class="marquee-item">
+          <span class="marquee-icon" aria-hidden="true">⚠️</span>
+          <span data-i18n="alert.marquee">NO entregues donaciones a policías, Guardia Nacional ni funcionarios del gobierno venezolano. Se han reportado decomisos en centros de acopio que luego no llegan a los damnificados. Entrega SOLO a los centros comunitarios verificados de este directorio.</span>
+        </span>
+        <span class="marquee-item" aria-hidden="true">
+          <span class="marquee-icon">⚠️</span>
+          <span data-i18n="alert.marquee">NO entregues donaciones a policías, Guardia Nacional ni funcionarios del gobierno venezolano. Se han reportado decomisos en centros de acopio que luego no llegan a los damnificados. Entrega SOLO a los centros comunitarios verificados de este directorio.</span>
+        </span>
+      </div>
+    </div>
+
     <!-- Top bar -->
     <div class="border-b border-line">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 h-12 flex items-center justify-between gap-4">
@@ -874,6 +921,7 @@
           'topbar.share': 'Compartir este directorio',
           'topbar.story': 'Compartir imagen',
           'notice.priority': '<strong>Aviso:</strong> varios centros ya han recibido <strong>mucha ropa</strong>. Si puedes, prioriza <strong>agua, alimentos no perecederos, medicamentos e insumos médicos, kits de primeros auxilios e higiene</strong>. Revisa la lista específica de cada centro antes de llevar tu donación.',
+          'alert.marquee': 'NO entregues donaciones a policías, Guardia Nacional ni funcionarios del gobierno venezolano. Se han reportado decomisos en centros de acopio que luego no llegan a los damnificados. Entrega SOLO a los centros comunitarios verificados de este directorio.',
           'needs.eyebrow': 'En vivo · solo dentro de Venezuela',
           'needs.eyebrow2': 'En vivo · solo dentro de Venezuela',
           'needs.title': '¿Quieres ayudar de manera más directa?',
@@ -979,6 +1027,7 @@
           'topbar.share': 'Share this directory',
           'topbar.story': 'Share image',
           'notice.priority': '<strong>Heads up:</strong> several centers have already received <strong>plenty of clothing</strong>. If you can, prioritize <strong>water, non-perishable food, medicine, first aid kits, and hygiene supplies</strong>. Check each center’s specific list before bringing your donation.',
+          'alert.marquee': 'DO NOT hand donations to police, National Guard or Venezuelan government officials. Confiscations have been reported at collection centers, with donations never reaching the affected people. Deliver ONLY to the verified community centers in this directory.',
           'needs.eyebrow': 'Live · inside Venezuela only',
           'needs.eyebrow2': 'Live · inside Venezuela only',
           'needs.title': 'Want to help in a more direct way?',
