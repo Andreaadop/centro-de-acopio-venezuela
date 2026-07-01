@@ -198,51 +198,6 @@
       ]
     },
     {
-      "nombre": "Cruz Roja Venezolana",
-      "alcance": "nacional",
-      "descripcion": "La Sociedad Venezolana de la Cruz Roja se encuentra brindando asistencia humanitaria a las personas afectadas por el terremoto. Puedes realizar tu donación a través de sus cuentas oficiales en bolívares o dólares.",
-      "tipo_ayuda": "Respuesta humanitaria",
-      "web": "https://www.cruzrojavenezolana.org/",
-      "metodos": [
-        {
-          "tipo": "Transferencia bolívares (VES)",
-          "banco": "Banco Banesco",
-          "campos": [
-            {
-              "etiqueta": "Titular",
-              "valor": "Sociedad Venezolana de la Cruz Roja"
-            },
-            {
-              "etiqueta": "RIF",
-              "valor": "J-00235031-8"
-            },
-            {
-              "etiqueta": "Cuenta",
-              "valor": "0134-0224-82-2243028658"
-            }
-          ]
-        },
-        {
-          "tipo": "Transferencia dólares (USD) en Venezuela",
-          "banco": "Banco Banesco",
-          "campos": [
-            {
-              "etiqueta": "Titular",
-              "valor": "Sociedad Venezolana de la Cruz Roja"
-            },
-            {
-              "etiqueta": "RIF",
-              "valor": "J-00235031-8"
-            },
-            {
-              "etiqueta": "Cuenta",
-              "valor": "0134-1736-99-0001006051"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "nombre": "Save the Children",
       "alcance": "internacional",
       "descripcion": "Organización internacional que protege a la niñez en emergencias humanitarias.",
