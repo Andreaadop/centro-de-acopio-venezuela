@@ -1074,6 +1074,7 @@
           'form.errorSend': 'No pudimos enviar. Revisa tu conexión o escribe a <strong>andrea@mainpups.com</strong>.',
           'card.directions': 'Cómo llegar',
           'card.receives': 'Recibe',
+          'card.needsList': 'Necesitan urgentemente',
           'card.important': 'Importante:',
           'card.web': 'Sitio web',
           'card.contact': 'Contacto:',
@@ -1185,6 +1186,7 @@
           'form.errorSend': 'Could not send. Check your connection or write to <strong>andrea@mainpups.com</strong>.',
           'card.directions': 'Get directions',
           'card.receives': 'Receives',
+          'card.needsList': 'Urgently needed',
           'card.important': 'Important:',
           'card.web': 'Website',
           'card.contact': 'Contact:',
@@ -1360,8 +1362,10 @@
         </svg>`;
 
       function centroDetail(c) {
-        const tags = (c.recibe || []).map((t) => `<span class="tag">${t}</span>`).join('');
-        const notaBlock = c.nota ? `
+        // Ayuda en Camino orgs → skip tag chips, show the needs list inline instead
+        const isDirectHelp = /ayuda en camino/i.test(c.fuente || '');
+        const tags = isDirectHelp ? '' : (c.recibe || []).map((t) => `<span class="tag">${t}</span>`).join('');
+        const notaBlock = (c.nota && !isDirectHelp) ? `
           <div class="mt-3 mb-4 flex items-start gap-2 px-3 py-2.5 bg-surface border-l-2 border-coral rounded-r">
             <svg class="mt-0.5 shrink-0 text-coral" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
             <p class="text-sm text-ink"><strong class="text-coral font-semibold">${t('card.important')}</strong> ${c.nota}</p>
@@ -1384,11 +1388,15 @@
             </a>
           </div>` : '';
 
-        const recibeBlock = tags ? `
+        const recibeBlock = isDirectHelp && c.nota ? `
+          <div class="flex-1 min-w-0">
+            <p class="eyebrow text-coral mb-2">${t('card.needsList')}</p>
+            <p class="text-sm text-ink leading-relaxed">${c.nota}</p>
+          </div>` : (tags ? `
           <div class="flex-1 min-w-0">
             <p class="eyebrow text-muted mb-2">${t('card.receives')}</p>
             <div class="flex flex-wrap gap-1.5">${tags}</div>
-          </div>` : '';
+          </div>` : '');
 
         const horarioBlock = c.horario ? `
           <div class="mt-1 mb-4 flex items-start gap-2">
