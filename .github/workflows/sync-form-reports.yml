@@ -1,0 +1,42 @@
+name: Sync form reports daily
+
+on:
+  schedule:
+    # 12:00 UTC = 08:00 VE (UTC-4)
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run sync script
+        run: node scripts/sync-form-reports.mjs
+
+      - name: Commit and push if changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet data.json; then
+            echo "No hay cambios."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          COUNT=$(git diff --cached data.json | grep -c '^+.*"nombre":' || true)
+          git commit -m "chore: sync ${COUNT} nuevo(s) reporte(s) del form
+
+          Corrida automática del workflow sync-form-reports."
+          git push
