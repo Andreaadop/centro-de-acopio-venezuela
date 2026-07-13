@@ -736,7 +736,7 @@
       </div>
     </div>
 
-    <!-- Ayuda en Camino — link externo -->
+    <!-- Ayuda en Camino — dos CTAs (link externo + filtro directo) -->
     <section id="needs-teaser-section" class="border-b border-line bg-surface/40">
       <div class="mx-auto max-w-6xl px-5 sm:px-8 py-6 flex flex-col gap-3">
         <a href="https://ayudaencamino.com/" target="_blank" rel="noopener" class="needs-card group w-full" id="needs-open">
@@ -751,17 +751,17 @@
           </span>
         </a>
 
-        <a href="https://ayudaencamino.com/" target="_blank" rel="noopener" class="direct-card group w-full" id="direct-filter">
+        <button type="button" class="direct-card group w-full text-left" id="direct-filter">
           <span class="direct-icon" aria-hidden="true">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg>
           </span>
           <div class="direct-text">
             <p class="eyebrow text-navy" data-i18n="direct.eyebrow">Caracas · Miranda · La Guaira</p>
             <p class="direct-title" data-i18n="direct.title">Ayuda directamente a personas y organizaciones que lo necesitan</p>
-            <p class="direct-sub" data-i18n="direct.sub">Contacta a las personas por WhatsApp desde donde estés — no necesitas estar en Venezuela para ayudar. Te llevamos a Ayuda en Camino.</p>
+            <p class="direct-sub" data-i18n="direct.sub">Filtra el directorio para ver solo los pedidos de las zonas más afectadas. Los contactas por WhatsApp — no necesitas estar en Venezuela para ayudar.</p>
           </div>
-          <span class="direct-badge" data-i18n="direct.cta">Ir al sitio</span>
-        </a>
+          <span class="direct-badge" id="direct-badge" data-i18n="direct.cta">Ver ahora</span>
+        </button>
       </div>
     </section>
 
@@ -1209,6 +1209,7 @@
         filtered: [],
         estado: '',
         query: '',
+        directHelp: false,
         sortMode: 'alfabético',
       };
 
@@ -1422,11 +1423,18 @@
         `;
       }
 
+      const DIRECT_HELP_STATES = new Set(['Distrito Capital', 'Miranda', 'La Guaira']);
+      const DIRECT_HELP_SOURCE = /ayuda en camino/i;
+
       function render() {
         const q = state.query.trim();
-        let filtered = state.flat.filter((c) =>
-          (!state.estado || c.estado === state.estado) && matches(c, q)
-        );
+        let filtered = state.flat.filter((c) => {
+          if (!matches(c, q)) return false;
+          if (state.directHelp) {
+            return DIRECT_HELP_STATES.has(c.estado) && DIRECT_HELP_SOURCE.test(c.fuente || '');
+          }
+          return !state.estado || c.estado === state.estado;
+        });
 
         filtered.sort((a, b) => {
           const ax = EXTERIOR.has(a.estado) ? 1 : 0;
@@ -1679,6 +1687,14 @@
           }
         } catch {}
 
+        // Merge Ayuda en Camino urgent-needs orgs into main directory (except Zulia)
+        try {
+          const nres = await fetch('/api/necesidades-centros', { cache: 'no-store' });
+          if (nres.ok) {
+            const needsCentros = await nres.json();
+            mergeNecesidadesCentros(state.data, needsCentros);
+          }
+        } catch {}
 
         state.flat = flatten(state.data);
         populateSelect();
@@ -1687,6 +1703,11 @@
 
         $('#estado-select').addEventListener('change', (e) => {
           state.estado = e.target.value;
+          if (state.directHelp) {
+            state.directHelp = false;
+            document.getElementById('direct-filter').classList.remove('direct-active');
+            document.getElementById('direct-badge').textContent = t('direct.cta');
+          }
           render();
           track('filter_estado', { estado: state.estado || '(todos)', results: state.filtered.length });
           if (state.estado) {
@@ -1807,8 +1828,22 @@
           track('notice_priority_close');
         });
 
-        // Track outbound clicks a Ayuda en Camino
-        document.getElementById('direct-filter').addEventListener('click', () => track('direct_help_click'));
+        // Ayuda directa — filtra el directorio a solo las orgs de ayudaencamino en Caracas/Miranda/La Guaira
+        document.getElementById('direct-filter').addEventListener('click', () => {
+          state.directHelp = !state.directHelp;
+          const btn = document.getElementById('direct-filter');
+          const badge = document.getElementById('direct-badge');
+          btn.classList.toggle('direct-active', state.directHelp);
+          badge.textContent = state.directHelp ? t('direct.ctaClear') : t('direct.cta');
+          if (state.directHelp) {
+            state.estado = '';
+            const sel = document.getElementById('estado-select');
+            if (sel) sel.value = '';
+            document.getElementById('contenido').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+          render();
+          track(state.directHelp ? 'direct_help_enable' : 'direct_help_disable');
+        });
         document.getElementById('needs-open').addEventListener('click', () => track('needs_link_click'));
       }
 

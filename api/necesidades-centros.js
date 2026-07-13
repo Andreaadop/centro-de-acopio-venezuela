@@ -5,9 +5,41 @@
 // - Excluye Zulia (ya viene de acopiozulia)
 // - Normaliza al esquema de data.json
 
-const UPSTREAM = "https://ayudaencamino.com/api/needs";
+const UPSTREAM = "https://ayudaencamino.com/api/needs?status=activa";
+const HOMEPAGE = "https://ayudaencamino.com/";
 const MIN_NEEDS = 2;
 const EXCLUDE_STATES = new Set(["Zulia"]);
+// Site key extraído del bundle JS público de ayudaencamino.com; se auto-refresca si vuelve 401.
+let SITE_KEY_CACHE = "5699fbbdf439677b8825e84d826742eb82211d5c3f4491a7";
+
+async function discoverSiteKey() {
+  try {
+    const html = await fetch(HOMEPAGE, { headers: { "User-Agent": "centrosdeacopiovzla proxy" } }).then((r) => r.text());
+    const match = html.match(/\/assets\/index-[a-zA-Z0-9_-]+\.js/);
+    if (!match) return null;
+    const js = await fetch("https://ayudaencamino.com" + match[0]).then((r) => r.text());
+    const km = js.match(/"([a-f0-9]{40,64})"[^;]{0,80}x-site-key/i)
+            || js.match(/x-site-key[^"]{0,20}"([a-f0-9]{40,64})"/i);
+    if (km && km[1]) {
+      SITE_KEY_CACHE = km[1];
+      return km[1];
+    }
+  } catch {}
+  return null;
+}
+
+async function fetchNeeds() {
+  const doFetch = () => fetch(UPSTREAM, {
+    headers: { "x-site-key": SITE_KEY_CACHE, "User-Agent": "centrosdeacopiovzla proxy" },
+  });
+  let res = await doFetch();
+  if (res.status === 401) {
+    await discoverSiteKey();
+    res = await doFetch();
+  }
+  if (!res.ok) throw new Error("upstream " + res.status);
+  return res.json();
+}
 
 // Category → recibe label
 const CAT_MAP = {
@@ -115,9 +147,7 @@ function buildCentro(org, needs) {
 
 export default async function handler(req, res) {
   try {
-    const upstream = await fetch(UPSTREAM, { headers: { "User-Agent": "centrosdeacopiovzla.com proxy" } });
-    if (!upstream.ok) throw new Error("upstream " + upstream.status);
-    const needs = await upstream.json();
+    const needs = await fetchNeeds();
 
     // Filter out govt-run orgs (alcaldía, gobernación, PC, GNB, etc.)
     const GOVT = [
