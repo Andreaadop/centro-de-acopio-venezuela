@@ -308,7 +308,43 @@
     },
     {
       "nombre": "Apure",
-      "ciudades": []
+      "ciudades": [
+        {
+          "nombre": "Achaguas",
+          "centros": [
+            {
+              "nombre": "FerreBent’z",
+              "direccion": "Calle Sucre Cruce con 5 de Julio - Sector centro · Horario: 02:00 Pm a 09:00 Pm",
+              "coords": [
+                7.889,
+                -67.472
+              ],
+              "maps": "https://maps.apple/p/9nuo5nh0.UKIN7",
+              "instagram": "kilometrorosa",
+              "telefono": "+584242730550",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "artículos de limpieza",
+                "materiales para refugio",
+                "linternas, pilas y cargadores portátiles",
+                "colchones y colchones inflables",
+                "colchonetas",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            }
+          ]
+        }
+      ]
     },
     {
       "nombre": "Aragua",
@@ -3497,6 +3533,40 @@
               ],
               "fuente": "Reporte comunitario verificado",
               "instagram": "zonadedescargaoficial"
+            }
+          ]
+        },
+        {
+          "nombre": "Cartanal",
+          "centros": [
+            {
+              "nombre": "Bendecido para bendecir",
+              "direccion": "Cartanal sector 7 calle 4 casa número 13 ubicación del todo de recepción doble vía de cartanal · Horario: Días posibles",
+              "coords": [
+                10.345,
+                -67.042
+              ],
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "abrigos y otros implementos de protección",
+                "equipos de protección personal (guantes, mascarillas, botas, cascos)",
+                "artículos de limpieza",
+                "linternas, pilas y cargadores portátiles",
+                "power banks",
+                "colchones y colchones inflables",
+                "colchonetas",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
             }
           ]
         }
@@ -11296,6 +11366,22 @@
                 "pañales de bebé"
               ],
               "fuente": "Flyer diáspora"
+            },
+            {
+              "nombre": "zenteno",
+              "direccion": "Zenteno 183",
+              "coords": [
+                10.5,
+                -66.9
+              ],
+              "maps": "https://maps.google.com/?q=Zenteno+183+Santiago+Centro+Chile",
+              "instagram": "rumbosur.cl",
+              "recibe": [
+                "artículos de higiene personal",
+                "artículos para niños",
+                "ropa en buen estado"
+              ],
+              "fuente": "Reporte comunitario verificado"
             }
           ]
         },
