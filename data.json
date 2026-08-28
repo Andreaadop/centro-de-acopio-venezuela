@@ -2040,6 +2040,37 @@
               "fuente": "Reporte comunitario verificado"
             }
           ]
+        },
+        {
+          "nombre": "Caraballeda",
+          "centros": [
+            {
+              "nombre": "Voluntarios Por la Guaira",
+              "direccion": "Calle rada, Sector la gallera · Horario: Lunes a lunes",
+              "coords": [
+                10.6,
+                -66.933
+              ],
+              "maps": "https://www.google.com/maps/place/10.607207,-66.851848/data=!4m6!3m5!1s0!7e2!8m2!3d10.6072069!4d-66.85184819999999!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM0LjQYACD67A0qqQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsMTAwODExOTYwLDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE4NjUzLDk0MjI5ODM5LDk0Mjc1MTY4LDk0Mjc5NjE5LDEwMDgxNTYzNSwxMDA4MjAyMzcsMTAwODIyNDk0QgJWRQ%3D%3D&skid=ef8c05c1-f296-467b-a5ef-8b43a3c57090",
+              "instagram": "voluntariosporlaguaira2026",
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "equipos de protección personal (guantes, mascarillas, botas, cascos)",
+                "power banks",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            }
+          ]
         }
       ]
     },
