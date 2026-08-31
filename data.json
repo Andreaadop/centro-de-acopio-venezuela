@@ -2071,6 +2071,28 @@
               "fuente": "Reporte comunitario verificado"
             }
           ]
+        },
+        {
+          "nombre": "Catia La Mar",
+          "centros": [
+            {
+              "nombre": "Punto de recepción de insumos – Residencias Oasis Beach",
+              "direccion": "Residencias Oasis Beach, Avenida 1, Playa Grande, cerca del Hotel Marriott · Horario: Lunes a Sábado de 11am a 3 pm",
+              "coords": [
+                10.6,
+                -66.933
+              ],
+              "maps": "https://www.google.com/maps/@10.61048,-67.01145,17z?authuser=0&entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+              "instagram": "vicarom",
+              "recibe": [
+                "agua potable",
+                "medicamentos e insumos médicos",
+                "artículos de higiene personal",
+                "equipos de protección personal (guantes, mascarillas, botas, cascos)"
+              ],
+              "fuente": "Reporte comunitario verificado"
+            }
+          ]
         }
       ]
     },
