@@ -2091,6 +2091,33 @@
                 "equipos de protección personal (guantes, mascarillas, botas, cascos)"
               ],
               "fuente": "Reporte comunitario verificado"
+            },
+            {
+              "nombre": "Centro de acopio Katherine",
+              "direccion": "Calle principal vista al mar arrecifes sector la cruz  punto de referencia Abasto supermercado Katherine Catia la mar La guaira.Venezuela · Horario: 9 am a 6 Pm",
+              "coords": [
+                10.6,
+                -66.933
+              ],
+              "recibe": [
+                "agua potable",
+                "alimentos no perecederos",
+                "medicamentos e insumos médicos",
+                "kits de primeros auxilios",
+                "artículos de higiene personal",
+                "pañales de bebé",
+                "pañales de adulto",
+                "artículos para niños",
+                "ropa en buen estado",
+                "mantas y cobijas",
+                "artículos de limpieza",
+                "linternas, pilas y cargadores portátiles",
+                "power banks",
+                "colchones y colchones inflables",
+                "colchonetas",
+                "alimentos para mascotas"
+              ],
+              "fuente": "Reporte comunitario verificado"
             }
           ]
         }
